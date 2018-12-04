@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name hexastormhat-rescue)(type Legacy)(uri ${KIPRJMOD}/hexastormhat-rescue.lib)(options "")(descr ""))
+)
