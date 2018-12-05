@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name hexastormhat-rescue)(type Legacy)(uri ${KIPRJMOD}/hexastormhat-rescue.lib)(options "")(descr ""))
-  (lib (name hexastorm)(type Legacy)(uri ${KIPRJMOD}/libraries/hexastorm.lib)(options "")(descr ""))
-)
