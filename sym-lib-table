@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name hexastormhat-rescue)(type Legacy)(uri ${KIPRJMOD}/hexastormhat-rescue.lib)(options "")(descr ""))
+  (lib (name pwr_BeagleBone)(type Legacy)(uri ${KIPRJMOD}/pwr_BeagleBone.lib)(options "")(descr ""))
+  (lib (name firestarter_library)(type Legacy)(uri "/home/starmans/Documents/Hexastorm/Projects/ongoing projects/PCB Design/BeagleBone-Black-Cape/firestarter_library.lib")(options "")(descr ""))
 )
