@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:BeagleBone-Black-Cape-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -339,9 +340,9 @@ Text GLabel 4450 4950 0    50   Input ~ 0
 Y_ENABLE
 Text GLabel 5450 5150 2    50   Input ~ 0
 Y_2B
-Text GLabel 4400 5650 0    50   Input ~ 0
+Text GLabel 4450 5650 0    50   Input ~ 0
 Y_DIR
-Text GLabel 4400 5550 0    50   Input ~ 0
+Text GLabel 4450 5550 0    50   Input ~ 0
 Y_STEP
 $Comp
 L firestarter_library:TMC2130_STEPPER U?
@@ -360,4 +361,29 @@ Text GLabel 5450 5350 2    50   Input ~ 0
 Y_1A
 Text GLabel 5450 5450 2    50   Input ~ 0
 Y_1B
+$Comp
+L firestarter_library:TMC2130_STEPPER U?
+U 1 1 5C290C2A
+P 4950 6000
+F 0 "U?" H 4950 6165 50  0000 C CNN
+F 1 "MS3_MD_STEPPER" H 4950 6074 50  0000 C CNN
+F 2 "" H 4950 6000 50  0001 C CNN
+F 3 "" H 4950 6000 50  0001 C CNN
+	1    4950 6000
+	1    0    0    -1  
+$EndComp
+Text GLabel 4450 6100 0    50   Input ~ 0
+Z_ENABLE
+Text GLabel 5450 6300 2    50   Input ~ 0
+Z_2B
+Text GLabel 5450 6400 2    50   Input ~ 0
+Z_2A
+Text GLabel 5450 6500 2    50   Input ~ 0
+Z_1A
+Text GLabel 5450 6600 2    50   Input ~ 0
+Z_1B
+Text GLabel 4450 6700 0    50   Input ~ 0
+Z_STEP
+Text GLabel 4450 6800 0    50   Input ~ 0
+Z_DIR
 $EndSCHEMATC
