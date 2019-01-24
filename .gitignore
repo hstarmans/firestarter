@@ -21,6 +21,10 @@ _autosave-*
 *.dsn
 *.ses
 
+# BOM Files / Notes in Libre office
+*.ods
+*.odt
+
 # Exported BOM files
 *.xml
 *.csv
