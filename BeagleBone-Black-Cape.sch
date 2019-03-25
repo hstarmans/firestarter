@@ -617,9 +617,9 @@ L Connector_Generic:Conn_01x05 J?
 U 1 1 5C925808
 P 7400 1150
 F 0 "J?" H 7480 1192 50  0000 L CNN
-F 1 "Conn_01x05" H 7480 1101 50  0000 L CNN
+F 1 "MOLEX_2051" H 7480 1101 50  0000 L CNN
 F 2 "" H 7400 1150 50  0001 C CNN
-F 3 "~" H 7400 1150 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2695359.pdf" H 7400 1150 50  0001 C CNN
 	1    7400 1150
 	1    0    0    -1  
 $EndComp
@@ -664,9 +664,9 @@ L Connector_Generic:Conn_01x03 J?
 U 1 1 5C9292B6
 P 7400 1750
 F 0 "J?" H 7480 1792 50  0000 L CNN
-F 1 "Conn_01x03" H 7480 1701 50  0000 L CNN
+F 1 "MOLEX_2031" H 7480 1701 50  0000 L CNN
 F 2 "" H 7400 1750 50  0001 C CNN
-F 3 "~" H 7400 1750 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1861684.pdf" H 7400 1750 50  0001 C CNN
 	1    7400 1750
 	1    0    0    -1  
 $EndComp
@@ -725,9 +725,9 @@ L Connector_Generic:Conn_01x02 J?
 U 1 1 5C934B3F
 P 7400 2350
 F 0 "J?" H 7480 2342 50  0000 L CNN
-F 1 "Conn_01x02" H 7480 2251 50  0000 L CNN
+F 1 "MOLEX_2021" H 7480 2251 50  0000 L CNN
 F 2 "" H 7400 2350 50  0001 C CNN
-F 3 "~" H 7400 2350 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1860119.pdf" H 7400 2350 50  0001 C CNN
 	1    7400 2350
 	1    0    0    -1  
 $EndComp
@@ -780,9 +780,9 @@ L Connector_Generic:Conn_01x02 J?
 U 1 1 5C9447C1
 P 10250 2550
 F 0 "J?" H 10330 2542 50  0000 L CNN
-F 1 "Conn_01x02" H 10330 2451 50  0000 L CNN
+F 1 "MOLEX_2021" H 10330 2451 50  0000 L CNN
 F 2 "" H 10250 2550 50  0001 C CNN
-F 3 "~" H 10250 2550 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1860119.pdf" H 10250 2550 50  0001 C CNN
 	1    10250 2550
 	1    0    0    -1  
 $EndComp
@@ -815,9 +815,9 @@ L Connector_Generic:Conn_01x04 J?
 U 1 1 5C9461C7
 P 7450 2850
 F 0 "J?" H 7530 2842 50  0000 L CNN
-F 1 "Conn_01x04" H 7530 2751 50  0000 L CNN
+F 1 "MOLEX_2041" H 7530 2751 50  0000 L CNN
 F 2 "" H 7450 2850 50  0001 C CNN
-F 3 "~" H 7450 2850 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2695358.pdf" H 7450 2850 50  0001 C CNN
 	1    7450 2850
 	1    0    0    -1  
 $EndComp
@@ -834,9 +834,9 @@ L Connector_Generic:Conn_01x03 J?
 U 1 1 5C9463E0
 P 7450 3450
 F 0 "J?" H 7530 3492 50  0000 L CNN
-F 1 "Conn_01x03" H 7530 3401 50  0000 L CNN
+F 1 "MOLEX_2031" H 7530 3401 50  0000 L CNN
 F 2 "" H 7450 3450 50  0001 C CNN
-F 3 "~" H 7450 3450 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1861684.pdf" H 7450 3450 50  0001 C CNN
 	1    7450 3450
 	1    0    0    -1  
 $EndComp
@@ -912,9 +912,9 @@ L Connector_Generic:Conn_01x04 J?
 U 1 1 5C95278A
 P 7450 4100
 F 0 "J?" H 7530 4092 50  0000 L CNN
-F 1 "Conn_01x04" H 7530 4001 50  0000 L CNN
+F 1 "MOLEX_2041" H 7530 4001 50  0000 L CNN
 F 2 "" H 7450 4100 50  0001 C CNN
-F 3 "~" H 7450 4100 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2695358.pdf" H 7450 4100 50  0001 C CNN
 	1    7450 4100
 	1    0    0    -1  
 $EndComp
@@ -931,9 +931,9 @@ L Connector_Generic:Conn_01x03 J?
 U 1 1 5C952794
 P 7450 4700
 F 0 "J?" H 7530 4742 50  0000 L CNN
-F 1 "Conn_01x03" H 7530 4651 50  0000 L CNN
+F 1 "MOLEX_2031" H 7530 4651 50  0000 L CNN
 F 2 "" H 7450 4700 50  0001 C CNN
-F 3 "~" H 7450 4700 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1861684.pdf" H 7450 4700 50  0001 C CNN
 	1    7450 4700
 	1    0    0    -1  
 $EndComp
@@ -1009,9 +1009,9 @@ L Connector_Generic:Conn_01x04 J?
 U 1 1 5C958529
 P 7450 5300
 F 0 "J?" H 7530 5292 50  0000 L CNN
-F 1 "Conn_01x04" H 7530 5201 50  0000 L CNN
+F 1 "MOLEX_2041" H 7530 5201 50  0000 L CNN
 F 2 "" H 7450 5300 50  0001 C CNN
-F 3 "~" H 7450 5300 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2695358.pdf" H 7450 5300 50  0001 C CNN
 	1    7450 5300
 	1    0    0    -1  
 $EndComp
@@ -1028,9 +1028,9 @@ L Connector_Generic:Conn_01x03 J?
 U 1 1 5C958533
 P 7450 5900
 F 0 "J?" H 7530 5942 50  0000 L CNN
-F 1 "Conn_01x03" H 7530 5851 50  0000 L CNN
+F 1 "MOLEX_2031" H 7530 5851 50  0000 L CNN
 F 2 "" H 7450 5900 50  0001 C CNN
-F 3 "~" H 7450 5900 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1861684.pdf" H 7450 5900 50  0001 C CNN
 	1    7450 5900
 	1    0    0    -1  
 $EndComp
@@ -1106,9 +1106,9 @@ L Connector_Generic:Conn_01x02 J?
 U 1 1 5C95C126
 P 10300 1150
 F 0 "J?" H 10380 1142 50  0000 L CNN
-F 1 "Conn_01x02" H 10380 1051 50  0000 L CNN
+F 1 "CTB9300/2A " H 10380 1051 50  0000 L CNN
 F 2 "" H 10300 1150 50  0001 C CNN
-F 3 "~" H 10300 1150 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1708040.pdf" H 10300 1150 50  0001 C CNN
 	1    10300 1150
 	1    0    0    -1  
 $EndComp
@@ -1130,9 +1130,9 @@ L Connector_Generic:Conn_01x04 J?
 U 1 1 5C92C074
 P 1050 3900
 F 0 "J?" H 1050 4250 50  0000 C CNN
-F 1 "Conn_01x04" H 1050 4150 50  0000 C CNN
+F 1 "MC000052" H 1050 4150 50  0000 C CNN
 F 2 "" H 1050 3900 50  0001 C CNN
-F 3 "~" H 1050 3900 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1708040.pdf" H 1050 3900 50  0001 C CNN
 	1    1050 3900
 	-1   0    0    -1  
 $EndComp
@@ -1191,7 +1191,7 @@ P 1450 4100
 F 0 "D?" H 1550 4050 50  0000 L CNN
 F 1 "100V_1A" H 1050 4050 50  0000 L CNN
 F 2 "" H 1450 4100 50  0001 C CNN
-F 3 "~" H 1450 4100 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2300053.pdf" H 1450 4100 50  0001 C CNN
 	1    1450 4100
 	-1   0    0    1   
 $EndComp
@@ -1202,7 +1202,7 @@ P 1450 4250
 F 0 "D?" H 1550 4200 50  0000 L CNN
 F 1 "100V_1A" H 1050 4200 50  0000 L CNN
 F 2 "" H 1450 4250 50  0001 C CNN
-F 3 "~" H 1450 4250 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2300053.pdf" H 1450 4250 50  0001 C CNN
 	1    1450 4250
 	-1   0    0    1   
 $EndComp
@@ -1213,7 +1213,7 @@ P 1450 4400
 F 0 "D?" H 1550 4350 50  0000 L CNN
 F 1 "100V_1A" H 1050 4350 50  0000 L CNN
 F 2 "" H 1450 4400 50  0001 C CNN
-F 3 "~" H 1450 4400 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2300053.pdf" H 1450 4400 50  0001 C CNN
 	1    1450 4400
 	-1   0    0    1   
 $EndComp
@@ -1297,7 +1297,7 @@ P 650 5700
 F 0 "U?" V 1000 5000 50  0000 L CNN
 F 1 "DIGIPOT_50K" V 850 4650 50  0000 L CNN
 F 2 "" H 650 5700 50  0001 C CNN
-F 3 "" H 650 5700 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2297485.pdf" H 650 5700 50  0001 C CNN
 	1    650  5700
 	0    -1   -1   0   
 $EndComp
@@ -1308,7 +1308,7 @@ P 2450 6900
 F 0 "U?" H 2100 7200 50  0000 R CNN
 F 1 "U_IC-HKB" H 2650 6900 50  0000 R CNN
 F 2 "" H 2450 6900 50  0001 C CNN
-F 3 "" H 2450 6900 50  0001 C CNN
+F 3 "https://www.ichaus.de/upload/pdf/HK_datasheet_F2en.pdf" H 2450 6900 50  0001 C CNN
 	1    2450 6900
 	1    0    0    -1  
 $EndComp
@@ -1588,7 +1588,7 @@ P 9900 1100
 F 0 "D?" V 9850 750 50  0000 L CNN
 F 1 "STPS1545D" V 9950 600 50  0000 L CNN
 F 2 "" H 9900 1100 50  0001 C CNN
-F 3 "~" H 9900 1100 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2309896.pdf" H 9900 1100 50  0001 C CNN
 	1    9900 1100
 	0    1    1    0   
 $EndComp
@@ -1603,7 +1603,7 @@ P 9800 2850
 F 0 "Q?" H 10006 2896 50  0000 L CNN
 F 1 "IRFML8244" H 10006 2805 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 10000 2775 50  0001 L CIN
-F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 9800 2850 50  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/1911843.pdf" H 9800 2850 50  0001 L CNN
 	1    9800 2850
 	1    0    0    -1  
 $EndComp
@@ -1641,7 +1641,7 @@ P 9900 2500
 F 0 "D?" V 10000 2350 50  0000 L CNN
 F 1 "100V_1A" V 9800 2150 50  0000 L CNN
 F 2 "" H 9900 2500 50  0001 C CNN
-F 3 "~" H 9900 2500 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2300053.pdf" H 9900 2500 50  0001 C CNN
 	1    9900 2500
 	0    1    1    0   
 $EndComp
