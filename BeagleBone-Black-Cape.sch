@@ -618,7 +618,7 @@ U 1 1 5C925808
 P 7400 1150
 F 0 "J?" H 7480 1192 50  0000 L CNN
 F 1 "MOLEX_2051" H 7480 1101 50  0000 L CNN
-F 2 "" H 7400 1150 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_KK-6410-05_05x2.54mm_Straight" H 7400 1150 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2695359.pdf" H 7400 1150 50  0001 C CNN
 	1    7400 1150
 	1    0    0    -1  
@@ -665,7 +665,7 @@ U 1 1 5C9292B6
 P 7400 1750
 F 0 "J?" H 7480 1792 50  0000 L CNN
 F 1 "MOLEX_2031" H 7480 1701 50  0000 L CNN
-F 2 "" H 7400 1750 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_KK-6410-03_03x2.54mm_Straight" H 7400 1750 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1861684.pdf" H 7400 1750 50  0001 C CNN
 	1    7400 1750
 	1    0    0    -1  
@@ -714,9 +714,9 @@ L Device:R R?
 U 1 1 5C931174
 P 6850 1850
 F 0 "R?" V 6950 1850 50  0000 C CNN
-F 1 "xK" V 6850 1850 50  0000 C CNN
-F 2 "" V 6780 1850 50  0001 C CNN
-F 3 "~" H 6850 1850 50  0001 C CNN
+F 1 "340K" V 6850 1850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6780 1850 50  0001 C CNN
+F 3 "https://nl.farnell.com/panasonic/erj6enf3403v/res-340k-1-0-125w-0805-thick-film/dp/2303820" H 6850 1850 50  0001 C CNN
 	1    6850 1850
 	0    1    1    0   
 $EndComp
@@ -726,7 +726,7 @@ U 1 1 5C934B3F
 P 7400 2350
 F 0 "J?" H 7480 2342 50  0000 L CNN
 F 1 "MOLEX_2021" H 7480 2251 50  0000 L CNN
-F 2 "" H 7400 2350 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 7400 2350 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1860119.pdf" H 7400 2350 50  0001 C CNN
 	1    7400 2350
 	1    0    0    -1  
@@ -781,7 +781,7 @@ U 1 1 5C9447C1
 P 10250 2550
 F 0 "J?" H 10330 2542 50  0000 L CNN
 F 1 "MOLEX_2021" H 10330 2451 50  0000 L CNN
-F 2 "" H 10250 2550 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 10250 2550 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1860119.pdf" H 10250 2550 50  0001 C CNN
 	1    10250 2550
 	1    0    0    -1  
@@ -816,7 +816,7 @@ U 1 1 5C9461C7
 P 7450 2850
 F 0 "J?" H 7530 2842 50  0000 L CNN
 F 1 "MOLEX_2041" H 7530 2751 50  0000 L CNN
-F 2 "" H 7450 2850 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_KK-6410-04_04x2.54mm_Straight" H 7450 2850 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2695358.pdf" H 7450 2850 50  0001 C CNN
 	1    7450 2850
 	1    0    0    -1  
@@ -835,7 +835,7 @@ U 1 1 5C9463E0
 P 7450 3450
 F 0 "J?" H 7530 3492 50  0000 L CNN
 F 1 "MOLEX_2031" H 7530 3401 50  0000 L CNN
-F 2 "" H 7450 3450 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_KK-6410-03_03x2.54mm_Straight" H 7450 3450 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1861684.pdf" H 7450 3450 50  0001 C CNN
 	1    7450 3450
 	1    0    0    -1  
@@ -898,7 +898,7 @@ P 7100 3350
 F 0 "R?" V 7000 3350 50  0000 C CNN
 F 1 "10K" V 7100 3350 50  0000 C CNN
 F 2 "" V 7030 3350 50  0001 C CNN
-F 3 "~" H 7100 3350 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2310790.pdf" H 7100 3350 50  0001 C CNN
 	1    7100 3350
 	0    1    1    0   
 $EndComp
@@ -913,7 +913,7 @@ U 1 1 5C95278A
 P 7450 4100
 F 0 "J?" H 7530 4092 50  0000 L CNN
 F 1 "MOLEX_2041" H 7530 4001 50  0000 L CNN
-F 2 "" H 7450 4100 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_KK-6410-04_04x2.54mm_Straight" H 7450 4100 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2695358.pdf" H 7450 4100 50  0001 C CNN
 	1    7450 4100
 	1    0    0    -1  
@@ -932,7 +932,7 @@ U 1 1 5C952794
 P 7450 4700
 F 0 "J?" H 7530 4742 50  0000 L CNN
 F 1 "MOLEX_2031" H 7530 4651 50  0000 L CNN
-F 2 "" H 7450 4700 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_KK-6410-03_03x2.54mm_Straight" H 7450 4700 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1861684.pdf" H 7450 4700 50  0001 C CNN
 	1    7450 4700
 	1    0    0    -1  
@@ -994,8 +994,8 @@ U 1 1 5C9527B6
 P 7100 4600
 F 0 "R?" V 7000 4600 50  0000 C CNN
 F 1 "10K" V 7100 4600 50  0000 C CNN
-F 2 "" V 7030 4600 50  0001 C CNN
-F 3 "~" H 7100 4600 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7030 4600 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2310790.pdf" H 7100 4600 50  0001 C CNN
 	1    7100 4600
 	0    1    1    0   
 $EndComp
@@ -1010,7 +1010,7 @@ U 1 1 5C958529
 P 7450 5300
 F 0 "J?" H 7530 5292 50  0000 L CNN
 F 1 "MOLEX_2041" H 7530 5201 50  0000 L CNN
-F 2 "" H 7450 5300 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_KK-6410-04_04x2.54mm_Straight" H 7450 5300 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2695358.pdf" H 7450 5300 50  0001 C CNN
 	1    7450 5300
 	1    0    0    -1  
@@ -1029,7 +1029,7 @@ U 1 1 5C958533
 P 7450 5900
 F 0 "J?" H 7530 5942 50  0000 L CNN
 F 1 "MOLEX_2031" H 7530 5851 50  0000 L CNN
-F 2 "" H 7450 5900 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_KK-6410-03_03x2.54mm_Straight" H 7450 5900 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1861684.pdf" H 7450 5900 50  0001 C CNN
 	1    7450 5900
 	1    0    0    -1  
@@ -1089,8 +1089,8 @@ U 1 1 5C958554
 P 7100 5800
 F 0 "R?" V 7000 5800 50  0000 C CNN
 F 1 "10K" V 7100 5800 50  0000 C CNN
-F 2 "" V 7030 5800 50  0001 C CNN
-F 3 "~" H 7100 5800 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7030 5800 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2310790.pdf" H 7100 5800 50  0001 C CNN
 	1    7100 5800
 	0    1    1    0   
 $EndComp
@@ -1459,8 +1459,8 @@ U 1 1 5C99F7B2
 P 3250 6650
 F 0 "R?" V 3150 6650 50  0000 C CNN
 F 1 "10K" V 3250 6650 50  0000 C CNN
-F 2 "" V 3180 6650 50  0001 C CNN
-F 3 "~" H 3250 6650 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3180 6650 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2310790.pdf" H 3250 6650 50  0001 C CNN
 	1    3250 6650
 	-1   0    0    1   
 $EndComp
@@ -1473,8 +1473,8 @@ U 1 1 5C9B1605
 P 3250 7150
 F 0 "R?" V 3150 7150 50  0000 C CNN
 F 1 "10K" V 3250 7150 50  0000 C CNN
-F 2 "" V 3180 7150 50  0001 C CNN
-F 3 "~" H 3250 7150 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3180 7150 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2310790.pdf" H 3250 7150 50  0001 C CNN
 	1    3250 7150
 	-1   0    0    1   
 $EndComp
@@ -1566,8 +1566,8 @@ U 1 1 5CA070A9
 P 9500 1600
 F 0 "R?" V 9400 1600 50  0000 C CNN
 F 1 "10K" V 9500 1600 50  0000 C CNN
-F 2 "" V 9430 1600 50  0001 C CNN
-F 3 "~" H 9500 1600 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9430 1600 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2310790.pdf" H 9500 1600 50  0001 C CNN
 	1    9500 1600
 	-1   0    0    1   
 $EndComp
@@ -1613,8 +1613,8 @@ U 1 1 5CA72FF3
 P 9450 3050
 F 0 "R?" V 9350 3050 50  0000 C CNN
 F 1 "10K" V 9450 3050 50  0000 C CNN
-F 2 "" V 9380 3050 50  0001 C CNN
-F 3 "~" H 9450 3050 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9380 3050 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2310790.pdf" H 9450 3050 50  0001 C CNN
 	1    9450 3050
 	-1   0    0    1   
 $EndComp
