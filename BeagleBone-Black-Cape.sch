@@ -5,11 +5,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Firestarter"
 Date ""
 Rev ""
-Comp ""
-Comment1 ""
+Comp "Hexastorm"
+Comment1 "Author Rik Starmans"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -286,7 +286,7 @@ U 1 1 5C072099
 P 4950 3700
 F 0 "U?" H 4975 3815 50  0000 C CNN
 F 1 "X_STEPPER" H 4975 3724 50  0000 C BNN
-F 2 "" H 4950 3700 50  0001 C CNN
+F 2 "Socket_BeagleBone_Black:Pololu_Breakout_1mmhole-16_15.2x20.3mm" H 4950 3700 50  0001 C CNN
 F 3 "" H 4950 3700 50  0001 C CNN
 	1    4950 3700
 	1    0    0    -1  
@@ -319,7 +319,7 @@ U 1 1 5C083433
 P 4950 5000
 F 0 "U?" H 4950 5165 50  0000 C CNN
 F 1 "Y_STEPPER" H 4950 5074 50  0000 C CNN
-F 2 "" H 4950 5000 50  0001 C CNN
+F 2 "Socket_BeagleBone_Black:Pololu_Breakout_1mmhole-16_15.2x20.3mm" H 4950 5000 50  0001 C CNN
 F 3 "" H 4950 5000 50  0001 C CNN
 	1    4950 5000
 	1    0    0    -1  
@@ -336,7 +336,7 @@ U 1 1 5C290C2A
 P 4950 6250
 F 0 "U?" H 4950 6415 50  0000 C CNN
 F 1 "Z_STEPPER" H 4950 6324 50  0000 C CNN
-F 2 "" H 4950 6250 50  0001 C CNN
+F 2 "Socket_BeagleBone_Black:Pololu_Breakout_1mmhole-16_15.2x20.3mm" H 4950 6250 50  0001 C CNN
 F 3 "" H 4950 6250 50  0001 C CNN
 	1    4950 6250
 	1    0    0    -1  
@@ -561,8 +561,8 @@ U 1 1 5C914EED
 P 5700 3800
 F 0 "C?" V 5955 3800 50  0000 C CNN
 F 1 "100uF" V 5864 3800 50  0000 C CNN
-F 2 "" H 5738 3650 50  0001 C CNN
-F 3 "~" H 5700 3800 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D6.3mm_P2.50mm" H 5738 3650 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2129994.pdf" H 5700 3800 50  0001 C CNN
 	1    5700 3800
 	0    -1   -1   0   
 $EndComp
@@ -575,8 +575,8 @@ U 1 1 5C91A2FB
 P 5700 5100
 F 0 "CP_?" V 5955 5100 50  0000 C CNN
 F 1 "100uF" V 5864 5100 50  0000 C CNN
-F 2 "" H 5738 4950 50  0001 C CNN
-F 3 "~" H 5700 5100 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D6.3mm_P2.50mm" H 5738 4950 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2129994.pdf" H 5700 5100 50  0001 C CNN
 	1    5700 5100
 	0    -1   -1   0   
 $EndComp
@@ -589,8 +589,8 @@ U 1 1 5C91C5ED
 P 5750 6350
 F 0 "C?" V 6005 6350 50  0000 C CNN
 F 1 "100uF" V 5914 6350 50  0000 C CNN
-F 2 "" H 5788 6200 50  0001 C CNN
-F 3 "~" H 5750 6350 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D6.3mm_P2.50mm" H 5788 6200 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2129994.pdf" H 5750 6350 50  0001 C CNN
 	1    5750 6350
 	0    -1   -1   0   
 $EndComp
@@ -761,8 +761,8 @@ U 1 1 5C941EB3
 P 6900 2250
 F 0 "C?" V 6671 2250 50  0000 C CNN
 F 1 "1uF" V 6762 2250 50  0000 C CNN
-F 2 "" H 6900 2250 50  0001 C CNN
-F 3 "~" H 6900 2250 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6900 2250 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2237835.pdf" H 6900 2250 50  0001 C CNN
 	1    6900 2250
 	0    1    1    0   
 $EndComp
@@ -872,8 +872,8 @@ U 1 1 5C94C2A4
 P 6900 3550
 F 0 "C?" H 7000 3550 50  0000 L CNN
 F 1 "0.1uF" H 6600 3550 50  0000 L CNN
-F 2 "" H 6900 3550 50  0001 C CNN
-F 3 "~" H 6900 3550 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6900 3550 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1901289.pdf" H 6900 3550 50  0001 C CNN
 	1    6900 3550
 	1    0    0    -1  
 $EndComp
@@ -897,7 +897,7 @@ U 1 1 5C9508E2
 P 7100 3350
 F 0 "R?" V 7000 3350 50  0000 C CNN
 F 1 "10K" V 7100 3350 50  0000 C CNN
-F 2 "" V 7030 3350 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7030 3350 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2310790.pdf" H 7100 3350 50  0001 C CNN
 	1    7100 3350
 	0    1    1    0   
@@ -969,8 +969,8 @@ U 1 1 5C9527A8
 P 6900 4800
 F 0 "C?" H 7000 4800 50  0000 L CNN
 F 1 "0.1uF" H 6600 4800 50  0000 L CNN
-F 2 "" H 6900 4800 50  0001 C CNN
-F 3 "~" H 6900 4800 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6900 4800 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1901289.pdf" H 6900 4800 50  0001 C CNN
 	1    6900 4800
 	1    0    0    -1  
 $EndComp
@@ -1066,8 +1066,8 @@ U 1 1 5C958547
 P 6900 6000
 F 0 "C?" H 7000 6000 50  0000 L CNN
 F 1 "0.1uF" H 6600 6000 50  0000 L CNN
-F 2 "" H 6900 6000 50  0001 C CNN
-F 3 "~" H 6900 6000 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6900 6000 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1901289.pdf" H 6900 6000 50  0001 C CNN
 	1    6900 6000
 	1    0    0    -1  
 $EndComp
@@ -1106,9 +1106,9 @@ L Connector_Generic:Conn_01x02 J?
 U 1 1 5C95C126
 P 10300 1150
 F 0 "J?" H 10380 1142 50  0000 L CNN
-F 1 "CTB9300/2A " H 10380 1051 50  0000 L CNN
-F 2 "" H 10300 1150 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1708040.pdf" H 10300 1150 50  0001 C CNN
+F 1 "EBV-02-D" H 10380 1051 50  0000 L CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 10300 1150 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1524355.pdf" H 10300 1150 50  0001 C CNN
 	1    10300 1150
 	1    0    0    -1  
 $EndComp
@@ -1190,7 +1190,7 @@ U 1 1 5C937735
 P 1450 4100
 F 0 "D?" H 1550 4050 50  0000 L CNN
 F 1 "100V_1A" H 1050 4050 50  0000 L CNN
-F 2 "" H 1450 4100 50  0001 C CNN
+F 2 "Diodes_SMD:D_SMA_Handsoldering" H 1450 4100 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2300053.pdf" H 1450 4100 50  0001 C CNN
 	1    1450 4100
 	-1   0    0    1   
@@ -1201,7 +1201,7 @@ U 1 1 5C93AA51
 P 1450 4250
 F 0 "D?" H 1550 4200 50  0000 L CNN
 F 1 "100V_1A" H 1050 4200 50  0000 L CNN
-F 2 "" H 1450 4250 50  0001 C CNN
+F 2 "Diodes_SMD:D_SMA_Handsoldering" H 1450 4250 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2300053.pdf" H 1450 4250 50  0001 C CNN
 	1    1450 4250
 	-1   0    0    1   
@@ -1212,7 +1212,7 @@ U 1 1 5C93AB35
 P 1450 4400
 F 0 "D?" H 1550 4350 50  0000 L CNN
 F 1 "100V_1A" H 1050 4350 50  0000 L CNN
-F 2 "" H 1450 4400 50  0001 C CNN
+F 2 "Diodes_SMD:D_SMA_Handsoldering" H 1450 4400 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2300053.pdf" H 1450 4400 50  0001 C CNN
 	1    1450 4400
 	-1   0    0    1   
@@ -1416,8 +1416,8 @@ U 1 1 5C99189E
 P 2900 6300
 F 0 "C?" V 2800 6250 50  0000 C CNN
 F 1 "1uF" V 2800 6400 50  0000 C CNN
-F 2 "" H 2900 6300 50  0001 C CNN
-F 3 "~" H 2900 6300 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2900 6300 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2237835.pdf" H 2900 6300 50  0001 C CNN
 	1    2900 6300
 	0    1    1    0   
 $EndComp
@@ -1427,8 +1427,8 @@ U 1 1 5C994CFA
 P 2900 6450
 F 0 "C?" V 3000 6400 50  0000 C CNN
 F 1 "0.1uF" V 3000 6550 50  0000 C CNN
-F 2 "" H 2900 6450 50  0001 C CNN
-F 3 "~" H 2900 6450 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2900 6450 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1901289.pdf" H 2900 6450 50  0001 C CNN
 	1    2900 6450
 	0    1    1    0   
 $EndComp
@@ -1506,8 +1506,8 @@ U 1 1 5C9CA9EE
 P 1700 7150
 F 0 "C?" H 1550 7150 50  0000 C CNN
 F 1 "47nF" H 1850 7150 50  0000 C CNN
-F 2 "" H 1700 7150 50  0001 C CNN
-F 3 "~" H 1700 7150 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1700 7150 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2237835.pdf" H 1700 7150 50  0001 C CNN
 	1    1700 7150
 	-1   0    0    1   
 $EndComp
@@ -1640,7 +1640,7 @@ U 1 1 5CA93BFD
 P 9900 2500
 F 0 "D?" V 10000 2350 50  0000 L CNN
 F 1 "100V_1A" V 9800 2150 50  0000 L CNN
-F 2 "" H 9900 2500 50  0001 C CNN
+F 2 "Diodes_SMD:D_SMA_Handsoldering" H 9900 2500 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2300053.pdf" H 9900 2500 50  0001 C CNN
 	1    9900 2500
 	0    1    1    0   
