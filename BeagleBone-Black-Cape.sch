@@ -286,7 +286,7 @@ U 1 1 5C072099
 P 4950 3700
 F 0 "U?" H 4975 3815 50  0000 C CNN
 F 1 "X_STEPPER" H 4975 3724 50  0000 C BNN
-F 2 "Socket_BeagleBone_Black:Pololu_Breakout_1mmhole-16_15.2x20.3mm" H 4950 3700 50  0001 C CNN
+F 2 "Socket_BeagleBone_Black:TMC2130" H 4950 3700 50  0001 C CNN
 F 3 "" H 4950 3700 50  0001 C CNN
 	1    4950 3700
 	1    0    0    -1  
@@ -319,7 +319,7 @@ U 1 1 5C083433
 P 4950 5000
 F 0 "U?" H 4950 5165 50  0000 C CNN
 F 1 "Y_STEPPER" H 4950 5074 50  0000 C CNN
-F 2 "Socket_BeagleBone_Black:Pololu_Breakout_1mmhole-16_15.2x20.3mm" H 4950 5000 50  0001 C CNN
+F 2 "Socket_BeagleBone_Black:TMC2130" H 4950 5000 50  0001 C CNN
 F 3 "" H 4950 5000 50  0001 C CNN
 	1    4950 5000
 	1    0    0    -1  
@@ -336,7 +336,7 @@ U 1 1 5C290C2A
 P 4950 6250
 F 0 "U?" H 4950 6415 50  0000 C CNN
 F 1 "Z_STEPPER" H 4950 6324 50  0000 C CNN
-F 2 "Socket_BeagleBone_Black:Pololu_Breakout_1mmhole-16_15.2x20.3mm" H 4950 6250 50  0001 C CNN
+F 2 "Socket_BeagleBone_Black:TMC2130" H 4950 6250 50  0001 C CNN
 F 3 "" H 4950 6250 50  0001 C CNN
 	1    4950 6250
 	1    0    0    -1  
@@ -1296,7 +1296,7 @@ U 1 1 5C991DE0
 P 650 5700
 F 0 "U?" V 1000 5000 50  0000 L CNN
 F 1 "DIGIPOT_50K" V 850 4650 50  0000 L CNN
-F 2 "" H 650 5700 50  0001 C CNN
+F 2 "Socket_BeagleBone_Black:Pololu_Breakout_1mmhole-16_15.2x20.3mm" H 650 5700 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2297485.pdf" H 650 5700 50  0001 C CNN
 	1    650  5700
 	0    -1   -1   0   
@@ -1307,7 +1307,7 @@ U 1 1 5C9A0850
 P 2450 6900
 F 0 "U?" H 2100 7200 50  0000 R CNN
 F 1 "U_IC-HKB" H 2650 6900 50  0000 R CNN
-F 2 "" H 2450 6900 50  0001 C CNN
+F 2 "Socket_BeagleBone_Black:ICHKB" H 2450 6900 50  0001 C CNN
 F 3 "https://www.ichaus.de/upload/pdf/HK_datasheet_F2en.pdf" H 2450 6900 50  0001 C CNN
 	1    2450 6900
 	1    0    0    -1  
