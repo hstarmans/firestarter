@@ -1138,23 +1138,12 @@ F 3 "http://www.farnell.com/datasheets/1708040.pdf" H 1050 3900 50  0001 C CNN
 $EndComp
 $Comp
 L Device:Fuse F?
-U 1 1 5C92F8EC
-P 1400 3800
-F 0 "F?" V 1300 3800 50  0000 C CNN
-F 1 "30A" V 1400 3800 50  0000 C CNN
-F 2 "" V 1330 3800 50  0001 C CNN
-F 3 "~" H 1400 3800 50  0001 C CNN
-	1    1400 3800
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:Fuse F?
 U 1 1 5C931119
 P 1700 3900
-F 0 "F?" V 1550 3900 50  0000 C CNN
+F 0 "F?" V 1650 3750 50  0000 C CNN
 F 1 "2A" V 1700 3900 50  0000 C CNN
-F 2 "" V 1630 3900 50  0001 C CNN
-F 3 "~" H 1700 3900 50  0001 C CNN
+F 2 "Socket_BeagleBone_Black:littlefuse_448" V 1630 3900 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/719023.pdf" H 1700 3900 50  0001 C CNN
 	1    1700 3900
 	0    1    1    0   
 $EndComp
@@ -1162,10 +1151,10 @@ $Comp
 L Device:Fuse F?
 U 1 1 5C932CEB
 P 2000 4000
-F 0 "F?" V 1850 4000 50  0000 C CNN
-F 1 "3A" V 2000 4000 50  0000 C CNN
-F 2 "" V 1930 4000 50  0001 C CNN
-F 3 "~" H 2000 4000 50  0001 C CNN
+F 0 "F?" V 1950 3900 50  0000 C CNN
+F 1 "4A" V 2000 4000 50  0000 C CNN
+F 2 "Socket_BeagleBone_Black:littlefuse_448" V 1930 4000 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1792947.pdf" H 2000 4000 50  0001 C CNN
 	1    2000 4000
 	0    1    1    0   
 $EndComp
@@ -1220,12 +1209,12 @@ $EndComp
 $Comp
 L power:+24V #PWR?
 U 1 1 5C94161F
-P 2300 3800
-F 0 "#PWR?" H 2300 3650 50  0001 C CNN
-F 1 "+24V" V 2300 4050 50  0000 C CNN
-F 2 "" H 2300 3800 60  0000 C CNN
-F 3 "" H 2300 3800 60  0000 C CNN
-	1    2300 3800
+P 2300 3750
+F 0 "#PWR?" H 2300 3600 50  0001 C CNN
+F 1 "+24V" V 2300 4000 50  0000 C CNN
+F 2 "" H 2300 3750 60  0000 C CNN
+F 3 "" H 2300 3750 60  0000 C CNN
+	1    2300 3750
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1265,11 +1254,7 @@ Wire Wire Line
 Wire Wire Line
 	1250 4400 1300 4400
 Wire Wire Line
-	1550 3800 2200 3800
-Wire Wire Line
 	1600 4100 2200 4100
-Wire Wire Line
-	2200 4100 2200 3800
 Wire Wire Line
 	1850 3900 2250 3900
 Wire Wire Line
@@ -1284,9 +1269,6 @@ Connection ~ 2300 4000
 Wire Wire Line
 	2250 3900 2300 3900
 Connection ~ 2250 3900
-Wire Wire Line
-	2200 3800 2300 3800
-Connection ~ 2200 3800
 Wire Wire Line
 	1250 4500 1250 4400
 Connection ~ 1250 4400
@@ -1657,4 +1639,35 @@ Connection ~ 9900 1250
 Wire Wire Line
 	9900 950  10100 950 
 Connection ~ 10100 950 
+Wire Wire Line
+	1250 3800 1250 3750
+Wire Wire Line
+	1250 3750 1350 3750
+Wire Wire Line
+	1250 3750 1250 3650
+Wire Wire Line
+	1250 3650 1350 3650
+Connection ~ 1250 3750
+Wire Wire Line
+	2150 3750 2200 3750
+Wire Wire Line
+	2150 3650 2200 3650
+Wire Wire Line
+	2200 3650 2200 3750
+Connection ~ 2200 3750
+Wire Wire Line
+	2200 3750 2200 4100
+Wire Wire Line
+	2300 3750 2200 3750
+$Comp
+L firestarter_library:30A F?
+U 1 1 5CACE4D4
+P 1750 3850
+F 0 "F?" H 1600 4150 50  0000 C CNN
+F 1 "30A" H 1750 4000 50  0000 C CNN
+F 2 "Socket_BeagleBone_Black:MCCQ-121" H 1600 4100 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/MCCQ-121-Multicomp-datasheet-12472958.pdf" H 1600 4100 50  0001 C CNN
+	1    1750 3850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
