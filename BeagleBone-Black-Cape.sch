@@ -204,17 +204,15 @@ Wire Wire Line
 	3700 3350 3300 3350
 Text GLabel 3450 1650 0    50   Input ~ 0
 X_ENABLE
-Text GLabel 1250 1550 0    50   Input ~ 0
+Text GLabel 1250 1750 0    50   Input ~ 0
 Y_ENABLE
 Text GLabel 3450 2150 0    50   Input ~ 0
 POLY_EN
 Text GLabel 3450 2250 0    50   Input ~ 0
 POLY_PWM
-Text GLabel 3950 2050 2    50   Input ~ 0
-IC_HB_PWM1
 Text GLabel 3950 2350 2    50   Input ~ 0
 IC_HB_PWM2
-Text GLabel 3450 2950 0    50   Input ~ 0
+Text GLabel 3950 2050 2    50   Input ~ 0
 PH_DIODE
 Text GLabel 3950 1450 2    50   Input ~ 0
 X_DIR
@@ -388,7 +386,7 @@ Text GLabel 1750 1650 2    50   Input ~ 0
 Z_STEP
 Text GLabel 1750 1550 2    50   Input ~ 0
 Z_ENABLE
-Text GLabel 1250 1750 0    50   Input ~ 0
+Text GLabel 1250 1550 0    50   Input ~ 0
 SPINDLE_PWM
 $Comp
 L power:+3.3V #PWR?
@@ -1131,8 +1129,8 @@ U 1 1 5C92C074
 P 1050 3900
 F 0 "J?" H 1050 4250 50  0000 C CNN
 F 1 "MC000052" H 1050 4150 50  0000 C CNN
-F 2 "" H 1050 3900 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1708040.pdf" H 1050 3900 50  0001 C CNN
+F 2 "Socket_BeagleBone_Black:MC000052" H 1050 3900 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1493501.pdf" H 1050 3900 50  0001 C CNN
 	1    1050 3900
 	-1   0    0    -1  
 $EndComp
@@ -1151,7 +1149,7 @@ $Comp
 L Device:Fuse F?
 U 1 1 5C932CEB
 P 2000 4000
-F 0 "F?" V 1950 3900 50  0000 C CNN
+F 0 "F?" V 1950 3850 50  0000 C CNN
 F 1 "4A" V 2000 4000 50  0000 C CNN
 F 2 "Socket_BeagleBone_Black:littlefuse_448" V 1930 4000 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1792947.pdf" H 2000 4000 50  0001 C CNN
@@ -1177,8 +1175,8 @@ $Comp
 L Device:D_Schottky D?
 U 1 1 5C937735
 P 1450 4100
-F 0 "D?" H 1550 4050 50  0000 L CNN
-F 1 "100V_1A" H 1050 4050 50  0000 L CNN
+F 0 "D?" H 1550 4150 50  0000 L CNN
+F 1 "50V_1A" H 1100 4150 50  0000 L CNN
 F 2 "Diodes_SMD:D_SMA_Handsoldering" H 1450 4100 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2300053.pdf" H 1450 4100 50  0001 C CNN
 	1    1450 4100
@@ -1188,8 +1186,8 @@ $Comp
 L Device:D_Schottky D?
 U 1 1 5C93AA51
 P 1450 4250
-F 0 "D?" H 1550 4200 50  0000 L CNN
-F 1 "100V_1A" H 1050 4200 50  0000 L CNN
+F 0 "D?" H 1550 4300 50  0000 L CNN
+F 1 "50V_1A" H 1100 4300 50  0000 L CNN
 F 2 "Diodes_SMD:D_SMA_Handsoldering" H 1450 4250 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2300053.pdf" H 1450 4250 50  0001 C CNN
 	1    1450 4250
@@ -1199,8 +1197,8 @@ $Comp
 L Device:D_Schottky D?
 U 1 1 5C93AB35
 P 1450 4400
-F 0 "D?" H 1550 4350 50  0000 L CNN
-F 1 "100V_1A" H 1050 4350 50  0000 L CNN
+F 0 "D?" H 1550 4450 50  0000 L CNN
+F 1 "50V_1A" H 1100 4450 50  0000 L CNN
 F 2 "Diodes_SMD:D_SMA_Handsoldering" H 1450 4400 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2300053.pdf" H 1450 4400 50  0001 C CNN
 	1    1450 4400
@@ -1278,7 +1276,7 @@ U 1 1 5C991DE0
 P 650 5700
 F 0 "U?" V 1000 5000 50  0000 L CNN
 F 1 "DIGIPOT_50K" V 850 4650 50  0000 L CNN
-F 2 "Socket_BeagleBone_Black:Pololu_Breakout_1mmhole-16_15.2x20.3mm" H 650 5700 50  0001 C CNN
+F 2 "Socket_BeagleBone_Black:TDFN-8-1EP" H 650 5700 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2297485.pdf" H 650 5700 50  0001 C CNN
 	1    650  5700
 	0    -1   -1   0   
@@ -1569,7 +1567,7 @@ U 1 1 5CA36CB4
 P 9900 1100
 F 0 "D?" V 9850 750 50  0000 L CNN
 F 1 "STPS1545D" V 9950 600 50  0000 L CNN
-F 2 "" H 9900 1100 50  0001 C CNN
+F 2 "TO_SOT_Packages_THT:TO-220-2_Vertical" H 9900 1100 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2309896.pdf" H 9900 1100 50  0001 C CNN
 	1    9900 1100
 	0    1    1    0   
@@ -1579,12 +1577,12 @@ Wire Wire Line
 Text GLabel 1250 1850 0    50   Input ~ 0
 FAN_PWM
 $Comp
-L Transistor_FET:IRLML6402 Q?
+L Transistor_FET:IRLZ34N Q?
 U 1 1 5CA6405F
 P 9800 2850
 F 0 "Q?" H 10006 2896 50  0000 L CNN
 F 1 "IRFML8244" H 10006 2805 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 10000 2775 50  0001 L CIN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 10000 2775 50  0001 L CIN
 F 3 "http://www.farnell.com/datasheets/1911843.pdf" H 9800 2850 50  0001 L CNN
 	1    9800 2850
 	1    0    0    -1  
@@ -1621,7 +1619,7 @@ L Device:D_Schottky D?
 U 1 1 5CA93BFD
 P 9900 2500
 F 0 "D?" V 10000 2350 50  0000 L CNN
-F 1 "100V_1A" V 9800 2150 50  0000 L CNN
+F 1 "50V_1A" V 9800 2150 50  0000 L CNN
 F 2 "Diodes_SMD:D_SMA_Handsoldering" H 9900 2500 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2300053.pdf" H 9900 2500 50  0001 C CNN
 	1    9900 2500
@@ -1670,4 +1668,6 @@ F 3 "https://datasheet.octopart.com/MCCQ-121-Multicomp-datasheet-12472958.pdf" H
 	1    1750 3850
 	1    0    0    -1  
 $EndComp
+Text GLabel 3450 2950 0    50   Input ~ 0
+IC_HB_PWM1
 $EndSCHEMATC
