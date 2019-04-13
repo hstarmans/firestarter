@@ -1,4 +1,4 @@
-(module TDFN-8-1EP (layer F.Cu) (tedit 59D28E6E)
+(module TDFN-8-1EP (layer F.Cu) (tedit 5CB209B5)
   (descr "file:///C:/Users/alex_wegscheid/Downloads/EST02896_MR25H256-MR25H256A_Combined%20Datasheet_Rev1.4%20020117%20(5).pdf")
   (fp_text reference REF** (at 0 -4.25) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -21,7 +21,7 @@
   (fp_line (start -3.2 -2.25) (end -3.35 -2.25) (layer F.SilkS) (width 0.1))
   (fp_line (start -3.05 2.55) (end -3.05 -2.25) (layer F.Fab) (width 0.1))
   (fp_line (start 3.05 -2.55) (end -2.75 -2.55) (layer F.Fab) (width 0.1))
-  (fp_text user %R (at 0 0) (layer F.Fab)
+  (fp_text user %R (at 0.0254 5.7785 180) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -3.05 -2.25) (end -2.75 -2.55) (layer F.Fab) (width 0.1))
@@ -35,5 +35,5 @@
   (pad 6 smd rect (at 2.7 0.635) (size 1.25 0.6) (layers F.Cu F.Paste F.Mask))
   (pad 7 smd rect (at 2.7 -0.635) (size 1.25 0.6) (layers F.Cu F.Paste F.Mask))
   (pad 8 smd rect (at 2.7 -1.905) (size 1.25 0.6) (layers F.Cu F.Paste F.Mask))
+  (pad 9 smd rect (at 0 0) (size 2.5 3.5) (layers F.Cu F.Paste F.Mask))
 )
-
