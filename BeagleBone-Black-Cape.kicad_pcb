@@ -317,7 +317,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 58AA84A8) (tstamp 5CB239F7)
-    (at 134.790841 126.003621)
+    (at 149.47392 79.50708)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /5C99189E)
@@ -353,7 +353,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 58AA84A8) (tstamp 5CB239E6)
-    (at 163.740841 97.073621)
+    (at 154.9654 88.24722)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /5C994CFA)
@@ -389,7 +389,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 58AA84A8) (tstamp 5CB239D5)
-    (at 174.190841 86.883621)
+    (at 140.86078 82.56778)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /5C9CA9EE)
@@ -425,7 +425,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 58AA84A8) (tstamp 5CB239C4)
-    (at 154.100841 107.663621)
+    (at 52.5145 90.05316)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /5C958547)
@@ -497,7 +497,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 58AA84A8) (tstamp 5CB239A2)
-    (at 154.100841 105.843621)
+    (at 214.33282 84.46262)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /5C94C2A4)
@@ -533,7 +533,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 58AA84A8) (tstamp 5CB23991)
-    (at 129.700841 109.973621)
+    (at 215.84412 16.89862)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /5C9527A8)
@@ -569,7 +569,7 @@
   )
 
   (module Capacitors_THT:CP_Radial_D6.3mm_P2.50mm (layer F.Cu) (tedit 597BC7C2) (tstamp 5CB23980)
-    (at 181.440841 76.938621)
+    (at 50.91176 131.96062)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor")
     (path /5C91C5ED)
@@ -736,7 +736,7 @@
   )
 
   (module Capacitors_THT:CP_Radial_D6.3mm_P2.50mm (layer F.Cu) (tedit 597BC7C2) (tstamp 5CB238EB)
-    (at 127.740841 126.508621)
+    (at 210.39328 111.35106)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor")
     (path /5C914EED)
@@ -903,7 +903,7 @@
   )
 
   (module Capacitors_THT:CP_Radial_D6.3mm_P2.50mm (layer F.Cu) (tedit 597BC7C2) (tstamp 5CB23856)
-    (at 134.950841 119.688621)
+    (at 197.80504 54.9656)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor")
     (path /5C91A2FB)
@@ -1070,7 +1070,7 @@
   )
 
   (module Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight (layer F.Cu) (tedit 58EE6EE4) (tstamp 5CB237C1)
-    (at 147.350841 108.508621)
+    (at 154.4193 125.86462)
     (descr "Connector Headers with Friction Lock, 22-27-2021, http://www.molex.com/pdm_docs/sd/022272021_sd.pdf")
     (tags "connector molex kk_6410 22-27-2021")
     (path /5C9447C1)
@@ -1172,7 +1172,7 @@
   )
 
   (module Connectors_Molex:Molex_KK-6410-03_03x2.54mm_Straight (layer F.Cu) (tedit 58EE6EE6) (tstamp 5CB2377F)
-    (at 125.650841 119.458621)
+    (at 117.22862 79.92364)
     (descr "Connector Headers with Friction Lock, 22-27-2031, http://www.molex.com/pdm_docs/sd/022272021_sd.pdf")
     (tags "connector molex kk_6410 22-27-2031")
     (path /5C9292B6)
@@ -1228,7 +1228,7 @@
   )
 
   (module Connectors_Molex:Molex_KK-6410-03_03x2.54mm_Straight (layer F.Cu) (tedit 58EE6EE6) (tstamp 5CB2375A)
-    (at 136.200841 112.638621)
+    (at 219.63888 77.0763)
     (descr "Connector Headers with Friction Lock, 22-27-2031, http://www.molex.com/pdm_docs/sd/022272021_sd.pdf")
     (tags "connector molex kk_6410 22-27-2031")
     (path /5C9463E0)
@@ -1284,7 +1284,7 @@
   )
 
   (module Connectors_Molex:Molex_KK-6410-03_03x2.54mm_Straight (layer F.Cu) (tedit 58EE6EE6) (tstamp 5CB23735)
-    (at 138.400841 104.958621)
+    (at 204.20076 12.61872)
     (descr "Connector Headers with Friction Lock, 22-27-2031, http://www.molex.com/pdm_docs/sd/022272021_sd.pdf")
     (tags "connector molex kk_6410 22-27-2031")
     (path /5C952794)
@@ -1340,7 +1340,7 @@
   )
 
   (module Connectors_Molex:Molex_KK-6410-03_03x2.54mm_Straight (layer F.Cu) (tedit 58EE6EE6) (tstamp 5CB23710)
-    (at 147.940841 101.408621)
+    (at 43.32986 97.42932)
     (descr "Connector Headers with Friction Lock, 22-27-2031, http://www.molex.com/pdm_docs/sd/022272021_sd.pdf")
     (tags "connector molex kk_6410 22-27-2031")
     (path /5C958533)
@@ -1396,7 +1396,7 @@
   )
 
   (module Connectors_Molex:Molex_KK-6410-04_04x2.54mm_Straight (layer F.Cu) (tedit 58EE6EE8) (tstamp 5CB236EB)
-    (at 127.440841 97.028621)
+    (at 240.07064 81.20634)
     (descr "Connector Headers with Friction Lock, 22-27-2041, http://www.molex.com/pdm_docs/sd/022272021_sd.pdf")
     (tags "connector molex kk_6410 22-27-2041")
     (path /5C9461C7)
@@ -1457,7 +1457,7 @@
   )
 
   (module Connectors_Molex:Molex_KK-6410-04_04x2.54mm_Straight (layer F.Cu) (tedit 58EE6EE8) (tstamp 5CB236C2)
-    (at 127.440841 89.928621)
+    (at 41.74998 118.0338)
     (descr "Connector Headers with Friction Lock, 22-27-2041, http://www.molex.com/pdm_docs/sd/022272021_sd.pdf")
     (tags "connector molex kk_6410 22-27-2041")
     (path /5C958529)
@@ -1518,7 +1518,7 @@
   )
 
   (module Connectors_Molex:Molex_KK-6410-04_04x2.54mm_Straight (layer F.Cu) (tedit 58EE6EE8) (tstamp 5CB23699)
-    (at 111.650841 121.598621)
+    (at 192.7352 28.72994)
     (descr "Connector Headers with Friction Lock, 22-27-2041, http://www.molex.com/pdm_docs/sd/022272021_sd.pdf")
     (tags "connector molex kk_6410 22-27-2041")
     (path /5C95278A)
@@ -1645,7 +1645,7 @@
   )
 
   (module Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm (layer F.Cu) (tedit 59FF03AB) (tstamp 5CB23643)
-    (at 112.460841 129.148621)
+    (at 122.07494 143.8148)
     (descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
     (tags "terminal block bornier2")
     (path /5C95C126)
@@ -1684,7 +1684,7 @@
   )
 
   (module Diodes_SMD:D_SMA_Handsoldering (layer F.Cu) (tedit 58643398) (tstamp 5CB2362E)
-    (at 141.490841 99.608621)
+    (at 178.99634 61.33846)
     (descr "Diode SMA (DO-214AC) Handsoldering")
     (tags "Diode SMA (DO-214AC) Handsoldering")
     (path /5C93AA51)
@@ -1727,7 +1727,7 @@
   )
 
   (module Diodes_SMD:D_SMA_Handsoldering (layer F.Cu) (tedit 58643398) (tstamp 5CB23616)
-    (at 141.490841 96.058621)
+    (at 155.8036 116.86032)
     (descr "Diode SMA (DO-214AC) Handsoldering")
     (tags "Diode SMA (DO-214AC) Handsoldering")
     (path /5CA93BFD)
@@ -1770,7 +1770,7 @@
   )
 
   (module Diodes_SMD:D_SMA_Handsoldering (layer F.Cu) (tedit 58643398) (tstamp 5CB235FE)
-    (at 150.540841 96.058621)
+    (at 183.96712 67.47764)
     (descr "Diode SMA (DO-214AC) Handsoldering")
     (tags "Diode SMA (DO-214AC) Handsoldering")
     (path /5C93AB35)
@@ -1813,7 +1813,7 @@
   )
 
   (module Diodes_SMD:D_SMA_Handsoldering (layer F.Cu) (tedit 58643398) (tstamp 5CB235E6)
-    (at 131.950841 107.288621)
+    (at 170.46448 66.18986)
     (descr "Diode SMA (DO-214AC) Handsoldering")
     (tags "Diode SMA (DO-214AC) Handsoldering")
     (path /5C937735)
@@ -1856,7 +1856,7 @@
   )
 
   (module Measurement_Points:Measurement_Point_Round-TH_Small (layer F.Cu) (tedit 56C35F63) (tstamp 5CB235CE)
-    (at 137.990841 87.378621)
+    (at 147.30222 78.95336)
     (descr "Mesurement Point, Square, Trough Hole,  DM 1.5mm, Drill 0.8mm,")
     (tags "Mesurement Point Round Trough Hole 1.5mm Drill 0.8mm")
     (path /5C9E0158)
@@ -1873,7 +1873,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 5CB235C8)
-    (at 174.290841 83.153621)
+    (at 151.0665 134.2009)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /5CA72FF3)
@@ -1909,7 +1909,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 5CB235B7)
-    (at 142.100841 117.103621)
+    (at 44.07408 81.69148)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /5C958554)
@@ -1945,7 +1945,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 5CB235A6)
-    (at 134.890841 124.153621)
+    (at 204.27442 3.79476)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /5C9527B6)
@@ -1981,7 +1981,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 5CB23595)
-    (at 127.840841 130.973621)
+    (at 220.2688 67.20586)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /5C9508E2)
@@ -2017,7 +2017,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 5CB23584)
-    (at 163.840841 95.223621)
+    (at 121.95302 88.95334)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /5C931174)
@@ -2053,7 +2053,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 5CB23573)
-    (at 145.600841 112.973621)
+    (at 153.38552 84.1375)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /5C9B1605)
@@ -2089,12 +2089,12 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 5CB23562)
-    (at 174.290841 85.033621)
+    (at 147.6629 91.65336)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /5C99F7B2)
     (attr smd)
-    (fp_text reference R1 (at 0 -1.7) (layer F.SilkS)
+    (fp_text reference R1 (at -0.610721 -2.054361) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 10K (at 0 1.75) (layer F.Fab)
@@ -2125,7 +2125,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 5CB23551)
-    (at 145.600841 114.853621)
+    (at 133.52272 161.14522)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /5CA070A9)
@@ -2161,7 +2161,7 @@
   )
 
   (module Socket_BeagleBone_Black:ICHKB (layer F.Cu) (tedit 5CA3C5FA) (tstamp 5CB23540)
-    (at 122.874261 128.77362)
+    (at 148.87448 85.18144)
     (path /5C9A0850)
     (attr smd)
     (fp_text reference U2 (at 0 0) (layer F.Fab)
@@ -2199,7 +2199,7 @@
   )
 
   (module Socket_BeagleBone_Black:MC000052 (layer F.Cu) (tedit 5CABA9DE) (tstamp 5CB23530)
-    (at 113.624341 78.150321)
+    (at 134.00278 69.46646)
     (descr "simple 4-pin terminal block, pitch 5.08mm, revamped version of bornier4")
     (tags "terminal block bornier4")
     (path /5CE85762)
@@ -2240,7 +2240,7 @@
   )
 
   (module Socket_BeagleBone_Black:MCCQ-121 (layer F.Cu) (tedit 5CA6763C) (tstamp 5CB2351B)
-    (at 118.57584 109.07362)
+    (at 169.54754 55.98414)
     (path /5CACE4D4)
     (fp_text reference F2 (at 0 4.826) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2259,7 +2259,7 @@
   )
 
   (module Socket_BeagleBone_Black:Socket_BeagleBone_Black (layer F.Cu) (tedit 0) (tstamp 5CB23513)
-    (at 99.300841 75.188621)
+    (at 101.64318 52.25796)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /55DF7DBA)
@@ -2381,7 +2381,7 @@
   )
 
   (module Socket_BeagleBone_Black:Socket_BeagleBone_Black (layer F.Cu) (tedit 0) (tstamp 5CB234D5)
-    (at 105.400841 75.188621)
+    (at 200.56856 70.16242)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /55DF7DE1)
@@ -2503,7 +2503,7 @@
   )
 
   (module Socket_BeagleBone_Black:TDFN-8-1EP (layer F.Cu) (tedit 5CB209B5) (tstamp 5CB23497)
-    (at 175.540841 76.238621)
+    (at 158.64078 81.4197)
     (descr "file:///C:/Users/alex_wegscheid/Downloads/EST02896_MR25H256-MR25H256A_Combined%20Datasheet_Rev1.4%20020117%20(5).pdf")
     (path /5C991DE0)
     (fp_text reference U1 (at 0 -4.25) (layer F.SilkS)
@@ -2554,7 +2554,7 @@
   )
 
   (module Socket_BeagleBone_Black:TMC2130 (layer F.Cu) (tedit 5CABC973) (tstamp 5CB23477)
-    (at 141.890841 74.958621)
+    (at 219.14104 90.17254)
     (descr "Pololu Breakout 16-pin 15.2x20.3mm 0.6x0.8\\")
     (path /5C072099)
     (fp_text reference U3 (at 6.35 -2.54) (layer F.SilkS)
@@ -2620,7 +2620,7 @@
   )
 
   (module Socket_BeagleBone_Black:TMC2130 (layer F.Cu) (tedit 5CABC973) (tstamp 5CB2344F)
-    (at 157.680841 74.958621)
+    (at 207.44942 28.07462)
     (descr "Pololu Breakout 16-pin 15.2x20.3mm 0.6x0.8\\")
     (path /5C083433)
     (fp_text reference U4 (at 6.35 -2.54) (layer F.SilkS)
@@ -2686,7 +2686,7 @@
   )
 
   (module Socket_BeagleBone_Black:TMC2130 (layer F.Cu) (tedit 5CABC973) (tstamp 5CB23427)
-    (at 111.280841 87.898621)
+    (at 61.39688 114.43208)
     (descr "Pololu Breakout 16-pin 15.2x20.3mm 0.6x0.8\\")
     (path /5C290C2A)
     (fp_text reference U5 (at 6.35 -2.54) (layer F.SilkS)
@@ -2752,7 +2752,7 @@
   )
 
   (module Socket_BeagleBone_Black:littlefuse_448 (layer F.Cu) (tedit 5CA68210) (tstamp 5CB233FF)
-    (at 158.48584 102.95862)
+    (at 177.98542 73.7235)
     (path /5C931119)
     (fp_text reference F1 (at 0.4318 3.4036) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2767,7 +2767,7 @@
   )
 
   (module Socket_BeagleBone_Black:littlefuse_448 (layer F.Cu) (tedit 5CA68210) (tstamp 5CB233F9)
-    (at 175.43584 80.63862)
+    (at 167.31598 72.53224)
     (path /5C932CEB)
     (fp_text reference F3 (at 0.4318 3.4036) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2782,7 +2782,7 @@
   )
 
   (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 58CE4E7E) (tstamp 5CB233F3)
-    (at 141.450841 119.818621)
+    (at 149.89302 125.83668)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /5CA6405F)
@@ -2823,7 +2823,7 @@
   )
 
   (module TO_SOT_Packages_THT:TO-220-2_Vertical (layer F.Cu) (tedit 58CE52AD) (tstamp 5CB233DE)
-    (at 126.460841 113.698621)
+    (at 112.395 156.36748)
     (descr "TO-220-2, Vertical, RM 5.08mm")
     (tags "TO-220-2 Vertical RM 5.08mm")
     (path /5CA36CB4)
@@ -2866,7 +2866,7 @@
   )
 
   (module TO_SOT_Packages_THT:TO-220-3_Vertical (layer F.Cu) (tedit 58CE52AD) (tstamp 5CB233C5)
-    (at 128.250841 103.328621)
+    (at 131.08178 153.07056)
     (descr "TO-220-3, Vertical, RM 2.54mm")
     (tags "TO-220-3 Vertical RM 2.54mm")
     (path /5C9E5E6E)
