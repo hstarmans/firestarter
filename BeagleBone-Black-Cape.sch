@@ -1292,17 +1292,15 @@ Wire Wire Line
 Wire Wire Line
 	1250 3650 1350 3650
 Connection ~ 1250 3750
-Wire Wire Line
-	2150 3750 2200 3750
 $Comp
 L firestarter_library:30A F2
 U 1 1 5CACE4D4
-P 1750 3850
-F 0 "F2" H 1600 4150 50  0000 C CNN
-F 1 "30A" H 1750 4000 50  0000 C CNN
-F 2 "Socket_BeagleBone_Black:MCCQ-121" H 1600 4100 50  0001 C CNN
-F 3 "https://datasheet.octopart.com/MCCQ-121-Multicomp-datasheet-12472958.pdf" H 1600 4100 50  0001 C CNN
-	1    1750 3850
+P 1650 3700
+F 0 "F2" H 1650 3850 50  0000 C CNN
+F 1 "30A" H 1650 3700 50  0000 C CNN
+F 2 "Socket_BeagleBone_Black:MCCQ-121" H 1500 3950 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/MCCQ-121-Multicomp-datasheet-12472958.pdf" H 1500 3950 50  0001 C CNN
+	1    1650 3700
 	1    0    0    -1  
 $EndComp
 Text GLabel 3450 2950 0    50   Input ~ 0
@@ -1332,8 +1330,6 @@ Wire Wire Line
 Wire Wire Line
 	2300 4000 2350 4000
 Connection ~ 2300 4000
-Wire Wire Line
-	2150 3650 2200 3650
 Wire Wire Line
 	2200 3750 2200 4100
 Wire Wire Line
@@ -1700,7 +1696,6 @@ F 3 "http://www.farnell.com/datasheets/1493501.pdf" H 1050 4000 50  0001 C CNN
 	1    1050 4000
 	-1   0    0    1   
 $EndComp
-Connection ~ 1250 4100
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5CE98190
@@ -1713,4 +1708,9 @@ F 3 "~" H 1250 4500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 1250 4500
+Wire Wire Line
+	1950 3650 2200 3650
+Wire Wire Line
+	1950 3750 2200 3750
+Connection ~ 1250 4100
 $EndSCHEMATC
