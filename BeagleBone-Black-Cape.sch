@@ -288,7 +288,7 @@ Z_STEP
 Text GLabel 1750 1550 2    50   Input ~ 0
 Z_ENABLE
 Text GLabel 1250 1550 0    50   Input ~ 0
-SPINDLE_PWM
+FAN_PWM
 $Comp
 L power:+3.3V #PWR027
 U 1 1 5C89C392
@@ -579,11 +579,11 @@ F 3 "http://www.farnell.com/datasheets/1860119.pdf" H 10250 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR047
+L power:+24V #PWR047
 U 1 1 5C94484F
 P 10050 2350
 F 0 "#PWR047" H 10050 2200 50  0001 C CNN
-F 1 "+12V" H 10050 2500 50  0000 C CNN
+F 1 "+24V" H 10050 2500 50  0000 C CNN
 F 2 "" H 10050 2350 60  0000 C CNN
 F 3 "" H 10050 2350 60  0000 C CNN
 	1    10050 2350
@@ -603,13 +603,13 @@ F 3 "http://www.farnell.com/datasheets/2695358.pdf" H 7450 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 7250 2750 0    50   Input ~ 0
-X_1A
-Text GLabel 7250 2850 0    50   Input ~ 0
-X_1B
-Text GLabel 7250 2950 0    50   Input ~ 0
-X_2A
-Text GLabel 7250 3050 0    50   Input ~ 0
 X_2B
+Text GLabel 7250 2850 0    50   Input ~ 0
+X_2A
+Text GLabel 7250 2950 0    50   Input ~ 0
+X_1A
+Text GLabel 7250 3050 0    50   Input ~ 0
+X_1B
 $Comp
 L Connector_Generic:Conn_01x03 J6
 U 1 1 5C9463E0
@@ -688,13 +688,13 @@ F 3 "http://www.farnell.com/datasheets/2695358.pdf" H 7450 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 7250 4000 0    50   Input ~ 0
-Y_1A
-Text GLabel 7250 4100 0    50   Input ~ 0
-Y_1B
-Text GLabel 7250 4200 0    50   Input ~ 0
-Y_2A
-Text GLabel 7250 4300 0    50   Input ~ 0
 Y_2B
+Text GLabel 7250 4100 0    50   Input ~ 0
+Y_2A
+Text GLabel 7250 4200 0    50   Input ~ 0
+Y_1A
+Text GLabel 7250 4300 0    50   Input ~ 0
+Y_1B
 $Comp
 L Connector_Generic:Conn_01x03 J8
 U 1 1 5C952794
@@ -773,13 +773,13 @@ F 3 "http://www.farnell.com/datasheets/2695358.pdf" H 7450 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 7250 5200 0    50   Input ~ 0
-Z_1A
-Text GLabel 7250 5300 0    50   Input ~ 0
-Z_1B
-Text GLabel 7250 5400 0    50   Input ~ 0
-Z_2A
-Text GLabel 7250 5500 0    50   Input ~ 0
 Z_2B
+Text GLabel 7250 5300 0    50   Input ~ 0
+Z_2A
+Text GLabel 7250 5400 0    50   Input ~ 0
+Z_1A
+Text GLabel 7250 5500 0    50   Input ~ 0
+Z_1B
 $Comp
 L Connector_Generic:Conn_01x03 J10
 U 1 1 5C958533
@@ -1222,7 +1222,7 @@ $EndComp
 Wire Wire Line
 	10100 950  10100 1150
 Text GLabel 1250 1850 0    50   Input ~ 0
-FAN_PWM
+SPINDLE_PWM
 $Comp
 L Transistor_FET:IRLZ34N Q2
 U 1 1 5CA6405F
