@@ -120,27 +120,27 @@ Wire Wire Line
 Wire Wire Line
 	3700 3350 3300 3350
 Text GLabel 3450 1650 0    50   Input ~ 0
-X_ENABLE
+X_PO
 Text GLabel 1250 1750 0    50   Input ~ 0
-Y_ENABLE
+Z_DIR
 Text GLabel 3450 2150 0    50   Input ~ 0
-POLY_EN
+IC_HB_PWM1
 Text GLabel 3450 2250 0    50   Input ~ 0
-POLY_PWM
-Text GLabel 3950 2350 2    50   Input ~ 0
 IC_HB_PWM2
+Text GLabel 3950 2350 2    50   Input ~ 0
+POLY_PWM
 Text GLabel 3950 2050 2    50   Input ~ 0
 PH_DIODE
 Text GLabel 3950 1450 2    50   Input ~ 0
-X_DIR
+X_ENABLE
 Text GLabel 3950 1550 2    50   Input ~ 0
-X_PO
-Text GLabel 3950 1650 2    50   Input ~ 0
 Y_PO
+Text GLabel 3950 1650 2    50   Input ~ 0
+Z_PO
 Text GLabel 3950 2150 2    50   Input ~ 0
 POLY_READY
 Text GLabel 1250 1450 0    50   Input ~ 0
-Y_DIR
+Y_ENABLE
 Text GLabel 3450 1850 0    50   Input ~ 0
 POT_SCL
 Text GLabel 3950 1850 2    50   Input ~ 0
@@ -280,9 +280,9 @@ SPIO_SCL
 Text GLabel 3450 1450 0    50   Input ~ 0
 SPIO_CSY
 Text GLabel 3450 2050 0    50   Input ~ 0
-SPIO_CSZ
+X_DIR
 Text GLabel 1250 1650 0    50   Input ~ 0
-Z_DIR
+Y_DIR
 Text GLabel 1750 1650 2    50   Input ~ 0
 Z_STEP
 Text GLabel 1750 1550 2    50   Input ~ 0
@@ -363,7 +363,6 @@ F 3 "" H 5450 6350 60  0000 C CNN
 $EndComp
 NoConn ~ 4450 6850
 NoConn ~ 4450 5600
-NoConn ~ 4450 4300
 Text GLabel 4450 4100 0    50   Input ~ 0
 SPI0_CSX
 Text GLabel 4450 5400 0    50   Input ~ 0
@@ -1304,11 +1303,11 @@ F 3 "https://datasheet.octopart.com/MCCQ-121-Multicomp-datasheet-12472958.pdf" H
 	1    0    0    -1  
 $EndComp
 Text GLabel 3450 2950 0    50   Input ~ 0
-IC_HB_PWM1
+POLY_EN
 NoConn ~ 1750 1950
 NoConn ~ 1250 1950
 Text GLabel 1750 1750 2    50   Input ~ 0
-Z_PO
+SPIO_CSZ
 Text GLabel 4450 5500 0    50   Input ~ 0
 SPIO_DO
 Text GLabel 4450 4200 0    50   Input ~ 0
@@ -1713,4 +1712,21 @@ Wire Wire Line
 Wire Wire Line
 	1950 3750 2200 3750
 Connection ~ 1250 4100
+$Comp
+L power:GND #PWR?
+U 1 1 5CBB0406
+P 3900 4350
+F 0 "#PWR?" H 3900 4100 50  0001 C CNN
+F 1 "GND" H 3905 4177 50  0000 C CNN
+F 2 "" H 3900 4350 50  0001 C CNN
+F 3 "" H 3900 4350 50  0001 C CNN
+	1    3900 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 4350 3900 4300
+Wire Wire Line
+	3900 4300 4450 4300
+Text Notes 3000 4400 0    50   ~ 0
+ground fix on board\n
 $EndSCHEMATC
