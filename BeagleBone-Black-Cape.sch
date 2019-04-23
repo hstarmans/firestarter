@@ -1713,4 +1713,15 @@ Wire Wire Line
 	1950 3750 2200 3750
 Connection ~ 1250 4100
 NoConn ~ 4450 4300
+$Comp
+L Graphic:Logo_Open_Hardware_Small G1
+U 1 1 5CC2105D
+P 10700 6250
+F 0 "G1" H 10700 6525 50  0001 C CNN
+F 1 "hexastorm" H 10700 6025 50  0001 C CNN
+F 2 "Socket_BeagleBone_Black:hexastorm" H 10700 6250 50  0001 C CNN
+F 3 "www.hexastorm.com" H 10700 6250 50  0001 C CNN
+	1    10700 6250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
