@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "Firestarter"
 Date ""
-Rev ""
+Rev "0.2"
 Comp "Hexastorm"
 Comment1 "Author Rik Starmans"
 Comment2 ""
@@ -146,7 +146,7 @@ POT_SCL
 Text GLabel 3950 1850 2    50   Input ~ 0
 POT_SDA
 Text GLabel 3950 2950 2    50   Input ~ 0
-X_STEP
+X_DIR
 Text GLabel 1750 1450 2    50   Input ~ 0
 Y_STEP
 NoConn ~ 1750 1050
@@ -280,13 +280,13 @@ SPIO_SCL
 Text GLabel 3450 1450 0    50   Input ~ 0
 SPIO_CSY
 Text GLabel 3450 2050 0    50   Input ~ 0
-X_DIR
+POLY_EN
 Text GLabel 1250 1650 0    50   Input ~ 0
 Y_DIR
 Text GLabel 1750 1650 2    50   Input ~ 0
 Z_STEP
 Text GLabel 1750 1550 2    50   Input ~ 0
-Z_ENABLE
+SPIO_CSZ
 Text GLabel 1250 1550 0    50   Input ~ 0
 FAN_PWM
 $Comp
@@ -1303,11 +1303,11 @@ F 3 "https://datasheet.octopart.com/MCCQ-121-Multicomp-datasheet-12472958.pdf" H
 	1    0    0    -1  
 $EndComp
 Text GLabel 3450 2950 0    50   Input ~ 0
-POLY_EN
+X_STEP
 NoConn ~ 1750 1950
 NoConn ~ 1250 1950
 Text GLabel 1750 1750 2    50   Input ~ 0
-SPIO_CSZ
+Z_ENABLE
 Text GLabel 4450 5500 0    50   Input ~ 0
 SPIO_DO
 Text GLabel 4450 4200 0    50   Input ~ 0
@@ -1712,21 +1712,5 @@ Wire Wire Line
 Wire Wire Line
 	1950 3750 2200 3750
 Connection ~ 1250 4100
-$Comp
-L power:GND #PWR?
-U 1 1 5CBB0406
-P 3900 4350
-F 0 "#PWR?" H 3900 4100 50  0001 C CNN
-F 1 "GND" H 3905 4177 50  0000 C CNN
-F 2 "" H 3900 4350 50  0001 C CNN
-F 3 "" H 3900 4350 50  0001 C CNN
-	1    3900 4350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3900 4350 3900 4300
-Wire Wire Line
-	3900 4300 4450 4300
-Text Notes 3000 4400 0    50   ~ 0
-ground fix on board\n
+NoConn ~ 4450 4300
 $EndSCHEMATC
