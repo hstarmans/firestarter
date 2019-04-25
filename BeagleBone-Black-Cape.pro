@@ -1,4 +1,4 @@
-update=zo 14 apr 2019 17:05:40 CEST
+update=25-04-2019 14:25:54
 version=1
 last_client=kicad
 [pcbnew]
@@ -31,7 +31,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=/home/starmans/Downloads/
+PlotDirectoryName=images/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
