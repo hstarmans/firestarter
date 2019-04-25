@@ -1,5 +1,5 @@
 # Firestarter
-This is a cape for the Beaglebone. It enables one to write a pattern to the board with a UV laser and CNC a board with a spindle.
+This is a cape for the Beaglebone. It enables one to write a pattern to the board with a UV laser and cut boards with spindles.
 The cape is inspired by the Altium board of Salvatore Puglisi, the firestarter v0.1.
 
 The cape has the following improvements;
