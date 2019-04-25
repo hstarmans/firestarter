@@ -1,4 +1,23 @@
 # Firestarter
 
-The goal of this repository is to create a PCB of the firestarter.
-The firestarter will consist of two boards; main board and laser board.
+This is a cape for the Beaglebone. It enables one to write a pattern to the board with a UV laser and CNC a board with a spindle.
+The board is currently in production and untested. The cape is inspired by the Altium board of Salvatore Puglisi, the firestarter v0.1.
+
+The cape has the following improvements;
+ - PWM control of spindle and fan
+ - added spindle
+ - TMC2130 motors can now be configured via SPI
+ - added third stepper motor for z-axis
+ - board is now made with Kicad and not Altium.
+ - hdmi pins are free, screen can be added if beaglebone black is acquird.
+
+# Considerations
+Ease of soldering was set as a top priority. The board does not contain a photodiode amp and a Schmitt trigger. Hamamatsu selss dedicated IC's like the S9684 series which have these circuits integrated. As such, it is not really required and it would be more logical to bring this circuit on a seperate board. In the meantime, one could use a voltage divider; ugly but works.
+The laser driver could also have been brought closer to the laser. In practice, this works fine on the board.
+The board is really inteded as an easy DIY board.
+
+
+
+
+
+
