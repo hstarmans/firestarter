@@ -18,6 +18,9 @@ Ease of soldering was set as a top priority. The board does not contain a photod
 The laser driver could also have been brought closer to the laser. In practice, this works fine on the board.
 The board is really inteded as an easy DIY board.
 
+# Schema
+![](/images/BeagleBone-Black-Cape.svg)
+
 
 
 
