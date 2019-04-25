@@ -16,7 +16,7 @@ The board is currently in production and untested. It can still contain mistakes
 # Considerations
 Ease of soldering was set as a top priority. The board does not contain a photodiode amp and a Schmitt trigger. Hamamatsu selss dedicated IC's like the S9684 series which have these circuits integrated. As such, it is not really required and it would be more logical to bring this circuit on a seperate board. In the meantime, one could use a voltage divider; ugly but works.
 The laser driver could also have been brought closer to the laser. In practice, this works fine on the board.
-The board is really inteded as an easy DIY board.
+The board is really intended as an easy DIY board.
 
 # Schema
 ![](/images/BeagleBone-Black-Cape.svg)
