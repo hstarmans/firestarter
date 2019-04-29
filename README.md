@@ -15,7 +15,7 @@ The board is currently in production and untested. It can still contain mistakes
 
 # Costs
 Building 3 boards will cost you at least 210 euro's. A lot of components can only be bought in bulk and you need some spares.
-Buying a single PCB is only slightly cheaper than buying 5 PCBs.
+Buying a single PCB is only slightly cheaper than buying 5 PCBs. I paid around 70 euro for 5 PCBs, excluding shipping. They were delivered within 5 days.
 
 # Considerations
 Ease of soldering was set as a top priority. The board does not contain a photodiode amp and a Schmitt trigger. Hamamatsu selss dedicated IC's like the S9684 series which have these circuits integrated. As such, it is not really required and it would be more logical to bring this circuit on a seperate board. In the meantime, one could use a voltage divider; ugly but works.
