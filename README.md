@@ -7,18 +7,17 @@ The cape has the following improvements;
  - added spindle
  - TMC2130 motors can now be configured via SPI
  - added third stepper motor for z-axis
- - board is now made with Kicad and not Altium.
- - hdmi pins are free, screen can be added if beaglebone black is acquird.
+ - board is now made with Kicad and not Altium
+ - hdmi pins are free enabling HDMI on a BeagleBone black
  
 # Status
 The board is currently in production and untested. It can still contain mistakes!!
 
 # Costs
-Building 3 boards will cost you at least 210 euro's. A lot of components can only be bought in bulk and you need some spares.
-Buying a single PCB is only slightly cheaper than buying 5 PCBs. I paid around 70 euro for 5 PCBs, excluding shipping. They were delivered within 5 days.
+Building 3 boards cost me around 174 euro's The components cost is 104 euro's at Farnell. I paid around 70 euro for 5 PCBs made by Eurocircuits. These had a gold finish and a delivery time of a couple of days. A cheaper option would have been PCBway at around 26 dollar and a lead time of 5 days.
 
 # Considerations
-Ease of soldering was set as a top priority. The board does not contain a photodiode amp and a Schmitt trigger. Hamamatsu selss dedicated IC's like the S9684 series which have these circuits integrated. As such, it is not really required and it would be more logical to bring this circuit on a seperate board. In the meantime, one could use a voltage divider; ugly but works.
+Ease of soldering was set as a top priority. The board does not contain a photodiode amp and a Schmitt trigger. Hamamatsu sells dedicated IC's like the S9684 series which have these circuits integrated. As such, it is not really required and it would be more logical to bring this circuit on a seperate board. In the meantime, one could use a voltage divider; ugly but works.
 The laser driver could also have been brought closer to the laser. In practice, this works fine on the board.
 The board is really intended as an easy DIY board.
 
