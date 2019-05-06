@@ -11,7 +11,7 @@ The cape has the following improvements;
  - hdmi pins are free enabling HDMI on a BeagleBone black
  
 # Status
-The board is currently in production and untested. It can still contain mistakes!!
+The board is still untested. It can still contain mistakes!!
 
 # Costs
 Building 3 boards cost me around 174 euro's The components cost is 104 euro's at Farnell. I paid around 70 euro for 5 PCBs made by Eurocircuits. These had a gold finish and a delivery time of a couple of days. A cheaper option would have been PCBway at around 26 dollar and a lead time of 5 days.
@@ -21,8 +21,15 @@ Ease of soldering was set as a top priority. The board does not contain a photod
 The laser driver could also have been brought closer to the laser. In practice, this works fine on the board.
 The board is really intended as an easy DIY board.
 
+# Build notes
+Components are best placed with solder paste and hot air or hot plate. I used the following; lynx stereo vision, oki dispenser, JBC hot air and JCB solder iron. The sterio vision was used to check the pins of the digipot, which is the hardest component to solder.
+
 # Schema
+
 ![](/images/BeagleBone-Black-Cape.svg)
+
+# Image
+![](/images/pcbboard_populated.jpg)
 
 
 
