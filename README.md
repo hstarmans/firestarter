@@ -11,18 +11,24 @@ The cape has the following improvements;
  - hdmi pins are free enabling HDMI on a BeagleBone black
  
 # Status
-The board is still untested. It can still contain mistakes!!
+The board is partially tested. The following functions work;
+ - power on beaglebone
+ - digipot
+ 
+# Improvements
+mosfet and fly-back diode are too close to spindle output
+holes of power supply are a bit tight
 
 # Costs
 Building 3 boards cost me around 174 euro's The components cost is 104 euro's at Farnell. I paid around 70 euro for 5 PCBs made by Eurocircuits. These had a gold finish and a delivery time of a couple of days. A cheaper option would have been PCBway at around 26 dollar and a lead time of 5 days.
 
 # Considerations
-Ease of soldering was set as a top priority. The board does not contain a photodiode amp and a Schmitt trigger. Hamamatsu sells dedicated IC's like the S9684 series which have these circuits integrated. As such, it is not really required and it would be more logical to bring this circuit on a seperate board. In the meantime, one could use a voltage divider; ugly but works.
+Ease of soldering was set as a top priority. The board does not contain a photodiode amp and a Schmitt trigger. Hamamatsu sells dedicated IC's like the S9684 series which have these circuits integrated. As such, it is not really required and it would be more logical to bring this circuit on a seperate board. In the meantime, I use a voltage divider; ugly but works.
 The laser driver could also have been brought closer to the laser. In practice, this works fine on the board.
 The board is really intended as an easy DIY board.
 
 # Build notes
-Components are best placed with solder paste and hot air or hot plate. I used the following; lynx stereo vision, oki dispenser, JBC hot air and JCB solder iron. The sterio vision was used to check the pins of the digipot, which is the hardest component to solder.
+Components are best placed with solder paste and hot air or hot plate. I used the following; lynx stereo vision, oki dispenser, JBC hot air and JCB solder iron. The stereo vision was used to check the pins of the digipot, which is the hardest component to solder.
 
 # Schema
 
