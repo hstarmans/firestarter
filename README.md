@@ -16,8 +16,8 @@ The board is partially tested. The following functions work;
  - digipot
  
 # Improvements
-mosfet and fly-back diode are too close to spindle output
-holes of power supply are a bit tight
+- mosfet and fly-back diode are too close to spindle output
+- holes of power supply are a bit tight
 
 # Costs
 Building 3 boards cost me around 174 euro's The components cost is 104 euro's at Farnell. I paid around 70 euro for 5 PCBs made by Eurocircuits. These had a gold finish and a delivery time of a couple of days. A cheaper option would have been PCBway at around 26 dollar and a lead time of 5 days.
