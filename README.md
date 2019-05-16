@@ -15,6 +15,7 @@ The board is partially tested. The following functions work;
  - power on beaglebone
  - digipot
  - write and read registers via spi on stepper boards
+ - pwm pin spindle
  
 # Improvements
 - mosfet and fly-back diode are too close to spindle output
