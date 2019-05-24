@@ -16,6 +16,7 @@ The board is partially tested. The following functions work;
  - digipot
  - write and read registers via spi on stepper boards
  - pwm pin spindle
+You can find code to play around with the board [here](https://github.com/hstarmans/ldgraphy)
  
 # Improvements
 - mosfet and fly-back diode are too close to spindle output
