@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name scanhead_library)(type Legacy)(uri ${KIPRJMOD}/scanhead_library.lib)(options "")(descr ""))
+)
