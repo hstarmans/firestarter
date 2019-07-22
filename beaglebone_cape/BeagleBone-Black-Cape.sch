@@ -132,15 +132,13 @@ POLY_PWM
 Text GLabel 3950 2050 2    50   Input ~ 0
 PH_DIODE
 Text GLabel 3950 1450 2    50   Input ~ 0
-X_ENABLE
+ENABLE
 Text GLabel 3950 1550 2    50   Input ~ 0
 Y_PO
 Text GLabel 3950 1650 2    50   Input ~ 0
 Z_PO
 Text GLabel 3950 2150 2    50   Input ~ 0
 POLY_READY
-Text GLabel 1250 1450 0    50   Input ~ 0
-Y_ENABLE
 Text GLabel 3450 1850 0    50   Input ~ 0
 POT_SCL
 Text GLabel 3950 1850 2    50   Input ~ 0
@@ -197,66 +195,66 @@ NoConn ~ 3450 1350
 $Comp
 L firestarter_library:TMC2130_STEPPER U3
 U 1 1 5C072099
-P 4950 3700
-F 0 "U3" H 4975 3815 50  0000 C CNN
-F 1 "X_STEPPER" H 4975 3724 50  0000 C BNN
-F 2 "Socket_BeagleBone_Black:TMC2130" H 4950 3700 50  0001 C CNN
-F 3 "" H 4950 3700 50  0001 C CNN
-	1    4950 3700
+P 1600 4950
+F 0 "U3" H 1625 5065 50  0000 C CNN
+F 1 "X_STEPPER" H 1625 4974 50  0000 C BNN
+F 2 "Socket_BeagleBone_Black:TMC2130" H 1600 4950 50  0001 C CNN
+F 3 "" H 1600 4950 50  0001 C CNN
+	1    1600 4950
 	1    0    0    -1  
 $EndComp
-Text GLabel 4450 3800 0    50   Input ~ 0
-X_ENABLE
-Text GLabel 4450 4500 0    50   Input ~ 0
+Text GLabel 1100 5050 0    50   Input ~ 0
+ENABLE
+Text GLabel 1100 5750 0    50   Input ~ 0
 X_DIR
-Text GLabel 4450 4400 0    50   Input ~ 0
+Text GLabel 1100 5650 0    50   Input ~ 0
 X_STEP
-Text GLabel 5450 4000 2    50   Input ~ 0
+Text GLabel 2100 5250 2    50   Input ~ 0
 X_2B
-Text GLabel 5450 4100 2    50   Input ~ 0
+Text GLabel 2100 5350 2    50   Input ~ 0
 X_2A
-Text GLabel 5450 4200 2    50   Input ~ 0
+Text GLabel 2100 5450 2    50   Input ~ 0
 X_1A
-Text GLabel 5450 4300 2    50   Input ~ 0
+Text GLabel 2100 5550 2    50   Input ~ 0
 X_1B
-Text GLabel 4450 5100 0    50   Input ~ 0
-Y_ENABLE
-Text GLabel 5450 5300 2    50   Input ~ 0
+Text GLabel 3200 5100 0    50   Input ~ 0
+ENABLE
+Text GLabel 4200 5300 2    50   Input ~ 0
 Y_2B
-Text GLabel 4450 5800 0    50   Input ~ 0
+Text GLabel 3200 5800 0    50   Input ~ 0
 Y_DIR
-Text GLabel 4450 5700 0    50   Input ~ 0
+Text GLabel 3200 5700 0    50   Input ~ 0
 Y_STEP
 $Comp
 L firestarter_library:TMC2130_STEPPER U4
 U 1 1 5C083433
-P 4950 5000
-F 0 "U4" H 4950 5165 50  0000 C CNN
-F 1 "Y_STEPPER" H 4950 5074 50  0000 C CNN
-F 2 "Socket_BeagleBone_Black:TMC2130" H 4950 5000 50  0001 C CNN
-F 3 "" H 4950 5000 50  0001 C CNN
-	1    4950 5000
+P 3700 5000
+F 0 "U4" H 3700 5165 50  0000 C CNN
+F 1 "Y_STEPPER" H 3700 5074 50  0000 C CNN
+F 2 "Socket_BeagleBone_Black:TMC2130" H 3700 5000 50  0001 C CNN
+F 3 "" H 3700 5000 50  0001 C CNN
+	1    3700 5000
 	1    0    0    -1  
 $EndComp
-Text GLabel 5450 5400 2    50   Input ~ 0
+Text GLabel 4200 5400 2    50   Input ~ 0
 Y_2A
-Text GLabel 5450 5500 2    50   Input ~ 0
+Text GLabel 4200 5500 2    50   Input ~ 0
 Y_1A
-Text GLabel 5450 5600 2    50   Input ~ 0
+Text GLabel 4200 5600 2    50   Input ~ 0
 Y_1B
-Text GLabel 4450 6350 0    50   Input ~ 0
-Z_ENABLE
-Text GLabel 5450 6550 2    50   Input ~ 0
+Text GLabel 1100 6600 0    50   Input ~ 0
+ENABLE
+Text GLabel 2100 6800 2    50   Input ~ 0
 Z_2B
-Text GLabel 5450 6650 2    50   Input ~ 0
+Text GLabel 2100 6900 2    50   Input ~ 0
 Z_2A
-Text GLabel 5450 6750 2    50   Input ~ 0
+Text GLabel 2100 7000 2    50   Input ~ 0
 Z_1A
-Text GLabel 5450 6850 2    50   Input ~ 0
+Text GLabel 2100 7100 2    50   Input ~ 0
 Z_1B
-Text GLabel 4450 6950 0    50   Input ~ 0
+Text GLabel 1100 7200 0    50   Input ~ 0
 Z_STEP
-Text GLabel 4450 7050 0    50   Input ~ 0
+Text GLabel 1100 7300 0    50   Input ~ 0
 Z_DIR
 Wire Wire Line
 	3300 3050 3450 3050
@@ -292,581 +290,435 @@ FAN_PWM
 $Comp
 L power:+3.3V #PWR027
 U 1 1 5C89C392
-P 5650 4400
-F 0 "#PWR027" H 5650 4250 50  0001 C CNN
-F 1 "+3.3V" H 5650 4540 50  0000 C CNN
-F 2 "" H 5650 4400 60  0000 C CNN
-F 3 "" H 5650 4400 60  0000 C CNN
-	1    5650 4400
+P 2300 5650
+F 0 "#PWR027" H 2300 5500 50  0001 C CNN
+F 1 "+3.3V" H 2300 5790 50  0000 C CNN
+F 2 "" H 2300 5650 60  0000 C CNN
+F 3 "" H 2300 5650 60  0000 C CNN
+	1    2300 5650
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5650 4400 5450 4400
+	2300 5650 2100 5650
 $Comp
 L power:+3.3V #PWR028
 U 1 1 5C89CD17
-P 5650 5700
-F 0 "#PWR028" H 5650 5550 50  0001 C CNN
-F 1 "+3.3V" H 5650 5840 50  0000 C CNN
-F 2 "" H 5650 5700 60  0000 C CNN
-F 3 "" H 5650 5700 60  0000 C CNN
-	1    5650 5700
+P 4400 5700
+F 0 "#PWR028" H 4400 5550 50  0001 C CNN
+F 1 "+3.3V" H 4400 5840 50  0000 C CNN
+F 2 "" H 4400 5700 60  0000 C CNN
+F 3 "" H 4400 5700 60  0000 C CNN
+	1    4400 5700
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5650 5700 5450 5700
+	4400 5700 4200 5700
 $Comp
 L power:+3.3V #PWR029
 U 1 1 5C89D17A
-P 5700 6950
-F 0 "#PWR029" H 5700 6800 50  0001 C CNN
-F 1 "+3.3V" H 5700 7090 50  0000 C CNN
-F 2 "" H 5700 6950 60  0000 C CNN
-F 3 "" H 5700 6950 60  0000 C CNN
-	1    5700 6950
+P 2350 7200
+F 0 "#PWR029" H 2350 7050 50  0001 C CNN
+F 1 "+3.3V" H 2350 7340 50  0000 C CNN
+F 2 "" H 2350 7200 60  0000 C CNN
+F 3 "" H 2350 7200 60  0000 C CNN
+	1    2350 7200
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5700 6950 5450 6950
+	2350 7200 2100 7200
 $Comp
 L power:+24V #PWR021
 U 1 1 5C8A0632
-P 5450 3800
-F 0 "#PWR021" H 5450 3650 50  0001 C CNN
-F 1 "+24V" H 5450 3940 50  0000 C CNN
-F 2 "" H 5450 3800 60  0000 C CNN
-F 3 "" H 5450 3800 60  0000 C CNN
-	1    5450 3800
+P 2100 5050
+F 0 "#PWR021" H 2100 4900 50  0001 C CNN
+F 1 "+24V" H 2100 5190 50  0000 C CNN
+F 2 "" H 2100 5050 60  0000 C CNN
+F 3 "" H 2100 5050 60  0000 C CNN
+	1    2100 5050
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+24V #PWR023
 U 1 1 5C8A06D1
-P 5450 5100
-F 0 "#PWR023" H 5450 4950 50  0001 C CNN
-F 1 "+24V" H 5450 5240 50  0000 C CNN
-F 2 "" H 5450 5100 60  0000 C CNN
-F 3 "" H 5450 5100 60  0000 C CNN
-	1    5450 5100
+P 4200 5100
+F 0 "#PWR023" H 4200 4950 50  0001 C CNN
+F 1 "+24V" H 4200 5240 50  0000 C CNN
+F 2 "" H 4200 5100 60  0000 C CNN
+F 3 "" H 4200 5100 60  0000 C CNN
+	1    4200 5100
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+24V #PWR025
 U 1 1 5C8A06FF
-P 5450 6350
-F 0 "#PWR025" H 5450 6200 50  0001 C CNN
-F 1 "+24V" H 5450 6490 50  0000 C CNN
-F 2 "" H 5450 6350 60  0000 C CNN
-F 3 "" H 5450 6350 60  0000 C CNN
-	1    5450 6350
+P 2100 6600
+F 0 "#PWR025" H 2100 6450 50  0001 C CNN
+F 1 "+24V" H 2100 6740 50  0000 C CNN
+F 2 "" H 2100 6600 60  0000 C CNN
+F 3 "" H 2100 6600 60  0000 C CNN
+	1    2100 6600
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4450 6850
-NoConn ~ 4450 5600
-Text GLabel 4450 4100 0    50   Input ~ 0
+NoConn ~ 1100 7100
+NoConn ~ 3200 5600
+Text GLabel 1100 5350 0    50   Input ~ 0
 SPI0_CSX
-Text GLabel 4450 5400 0    50   Input ~ 0
+Text GLabel 3200 5400 0    50   Input ~ 0
 SPIO_CSY
-Text GLabel 4450 6650 0    50   Input ~ 0
+Text GLabel 1100 6900 0    50   Input ~ 0
 SPIO_CSZ
-Text GLabel 4450 4000 0    50   Input ~ 0
+Text GLabel 1100 5250 0    50   Input ~ 0
 SPIO_SCL
-Text GLabel 4450 5300 0    50   Input ~ 0
+Text GLabel 3200 5300 0    50   Input ~ 0
 SPIO_SCL
-Text GLabel 4450 3900 0    50   Input ~ 0
+Text GLabel 1100 5150 0    50   Input ~ 0
 SPIO_DI
-Text GLabel 4450 6750 0    50   Input ~ 0
+Text GLabel 1100 7000 0    50   Input ~ 0
 SPIO_DO
-Text GLabel 4450 5200 0    50   Input ~ 0
+Text GLabel 3200 5200 0    50   Input ~ 0
 SPIO_DI
-Text GLabel 4450 6450 0    50   Input ~ 0
+Text GLabel 1100 6700 0    50   Input ~ 0
 SPIO_DI
-Text GLabel 4450 6550 0    50   Input ~ 0
+Text GLabel 1100 6800 0    50   Input ~ 0
 SPIO_SCL
 $Comp
 L Device:CP C4
 U 1 1 5C914EED
-P 5700 3800
-F 0 "C4" V 5955 3800 50  0000 C CNN
-F 1 "100uF" V 5864 3800 50  0000 C CNN
-F 2 "Capacitors_THT:CP_Radial_D6.3mm_P2.50mm" H 5738 3650 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2129994.pdf" H 5700 3800 50  0001 C CNN
-	1    5700 3800
+P 2350 5050
+F 0 "C4" V 2605 5050 50  0000 C CNN
+F 1 "100uF" V 2514 5050 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 2388 4900 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2129994.pdf" H 2350 5050 50  0001 C CNN
+	1    2350 5050
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5850 3800 5850 3900
+	2500 5050 2500 5150
 $Comp
 L Device:CP CP_1
 U 1 1 5C91A2FB
-P 5700 5100
-F 0 "CP_1" V 5955 5100 50  0000 C CNN
-F 1 "100uF" V 5864 5100 50  0000 C CNN
-F 2 "Capacitors_THT:CP_Radial_D6.3mm_P2.50mm" H 5738 4950 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2129994.pdf" H 5700 5100 50  0001 C CNN
-	1    5700 5100
+P 4450 5100
+F 0 "CP_1" V 4705 5100 50  0000 C CNN
+F 1 "100uF" V 4614 5100 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 4488 4950 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2129994.pdf" H 4450 5100 50  0001 C CNN
+	1    4450 5100
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5850 5100 5850 5200
+	4600 5100 4600 5200
 $Comp
 L Device:CP C5
 U 1 1 5C91C5ED
-P 5750 6350
-F 0 "C5" V 6005 6350 50  0000 C CNN
-F 1 "100uF" V 5914 6350 50  0000 C CNN
-F 2 "Capacitors_THT:CP_Radial_D6.3mm_P2.50mm" H 5788 6200 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2129994.pdf" H 5750 6350 50  0001 C CNN
-	1    5750 6350
+P 2400 6600
+F 0 "C5" V 2655 6600 50  0000 C CNN
+F 1 "100uF" V 2564 6600 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 2438 6450 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2129994.pdf" H 2400 6600 50  0001 C CNN
+	1    2400 6600
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5900 6350 5900 6450
+	2550 6600 2550 6700
 Wire Wire Line
-	5450 5200 5850 5200
+	4200 5200 4600 5200
 Wire Wire Line
-	5450 5100 5550 5100
-Connection ~ 5450 5100
+	4200 5100 4300 5100
+Connection ~ 4200 5100
 Wire Wire Line
-	5450 3900 5850 3900
+	2100 5150 2500 5150
 Wire Wire Line
-	5450 3800 5550 3800
-Connection ~ 5450 3800
+	2100 5050 2200 5050
+Connection ~ 2100 5050
 Wire Wire Line
-	5450 6450 5900 6450
+	2100 6700 2550 6700
 Wire Wire Line
-	5450 6350 5600 6350
-$Comp
-L Connector_Generic:Conn_01x05 J2
-U 1 1 5C925808
-P 7400 1150
-F 0 "J2" H 7480 1192 50  0000 L CNN
-F 1 "MOLEX_2051" H 7480 1101 50  0000 L CNN
-F 2 "Connectors_Molex:Molex_KK-6410-05_05x2.54mm_Straight" H 7400 1150 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2695359.pdf" H 7400 1150 50  0001 C CNN
-	1    7400 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+24V #PWR039
-U 1 1 5C926062
-P 7200 950
-F 0 "#PWR039" H 7200 800 50  0001 C CNN
-F 1 "+24V" H 7200 1090 50  0000 C CNN
-F 2 "" H 7200 950 60  0000 C CNN
-F 3 "" H 7200 950 60  0000 C CNN
-	1    7200 950 
-	1    0    0    -1  
-$EndComp
-Text GLabel 6900 1150 0    50   Input ~ 0
+	2100 6600 2250 6600
+Text GLabel 6050 6200 0    50   Input ~ 0
 POLY_EN
-Text GLabel 6900 1250 0    50   Input ~ 0
+Text GLabel 6050 6300 0    50   Input ~ 0
 POLY_READY
-Text GLabel 6900 1350 0    50   Input ~ 0
+Text GLabel 6050 6400 0    50   Input ~ 0
 POLY_PWM
-Wire Wire Line
-	6900 1150 7200 1150
-Wire Wire Line
-	6900 1250 7200 1250
-Wire Wire Line
-	6900 1350 7200 1350
-Text Notes 8000 900  2    50   ~ 0
-Polygon Motor
-$Comp
-L Connector_Generic:Conn_01x03 J3
-U 1 1 5C9292B6
-P 7400 1750
-F 0 "J3" H 7480 1792 50  0000 L CNN
-F 1 "MOLEX_2031" H 7480 1701 50  0000 L CNN
-F 2 "Connectors_Molex:Molex_KK-6410-03_03x2.54mm_Straight" H 7400 1750 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1861684.pdf" H 7400 1750 50  0001 C CNN
-	1    7400 1750
-	1    0    0    -1  
-$EndComp
-Text GLabel 6600 1750 0    50   Input ~ 0
+Text GLabel 6050 6600 0    50   Input ~ 0
 PH_DIODE
-Text Notes 7900 1600 2    50   ~ 0
-Photodiode
-Wire Wire Line
-	7200 1850 7150 1850
-Wire Wire Line
-	7150 1850 7150 1950
-$Comp
-L power:+3.3V #PWR041
-U 1 1 5C92BC34
-P 7200 1600
-F 0 "#PWR041" H 7200 1450 50  0001 C CNN
-F 1 "+3V3" H 7200 1740 50  0000 C CNN
-F 2 "" H 7200 1600 60  0000 C CNN
-F 3 "" H 7200 1600 60  0000 C CNN
-	1    7200 1600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7000 1850 7150 1850
-Connection ~ 7150 1850
-Wire Wire Line
-	6600 1850 6700 1850
-Wire Wire Line
-	6600 1750 7200 1750
-Wire Wire Line
-	6600 1750 6600 1850
-$Comp
-L Device:R R3
-U 1 1 5C931174
-P 6850 1850
-F 0 "R3" V 6950 1850 50  0000 C CNN
-F 1 "340K" V 6850 1850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 6780 1850 50  0001 C CNN
-F 3 "https://nl.farnell.com/panasonic/erj6enf3403v/res-340k-1-0-125w-0805-thick-film/dp/2303820" H 6850 1850 50  0001 C CNN
-	1    6850 1850
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J4
-U 1 1 5C934B3F
-P 7400 2350
-F 0 "J4" H 7480 2342 50  0000 L CNN
-F 1 "MOLEX_2021" H 7480 2251 50  0000 L CNN
-F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 7400 2350 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1860119.pdf" H 7400 2350 50  0001 C CNN
-	1    7400 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR034
-U 1 1 5C934C41
-P 6800 2350
-F 0 "#PWR034" H 6800 2200 50  0001 C CNN
-F 1 "+12V" V 6800 2600 50  0000 C CNN
-F 2 "" H 6800 2350 60  0000 C CNN
-F 3 "" H 6800 2350 60  0000 C CNN
-	1    6800 2350
-	0    -1   -1   0   
-$EndComp
-Text GLabel 7200 2450 0    50   Input ~ 0
-LDK
-$Comp
-L Device:C_Small C6
-U 1 1 5C941EB3
-P 6900 2250
-F 0 "C6" V 6671 2250 50  0000 C CNN
-F 1 "1uF" V 6762 2250 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6900 2250 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2237835.pdf" H 6900 2250 50  0001 C CNN
-	1    6900 2250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6800 2350 7000 2350
-Connection ~ 7000 2350
-Wire Wire Line
-	7000 2350 7200 2350
-Wire Wire Line
-	7000 2250 7000 2350
-Text Notes 7850 2250 2    50   ~ 0
-Laserdiode
-$Comp
-L Connector_Generic:Conn_01x02 J11
-U 1 1 5C9447C1
-P 10250 2550
-F 0 "J11" H 10330 2542 50  0000 L CNN
-F 1 "MOLEX_2021" H 10330 2451 50  0000 L CNN
-F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 10250 2550 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1860119.pdf" H 10250 2550 50  0001 C CNN
-	1    10250 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+24V #PWR047
-U 1 1 5C94484F
-P 10050 2350
-F 0 "#PWR047" H 10050 2200 50  0001 C CNN
-F 1 "+24V" H 10050 2500 50  0000 C CNN
-F 2 "" H 10050 2350 60  0000 C CNN
-F 3 "" H 10050 2350 60  0000 C CNN
-	1    10050 2350
-	1    0    0    -1  
-$EndComp
-Text Notes 10450 2500 2    50   ~ 0
-Fan
 $Comp
 L Connector_Generic:Conn_01x04 J5
 U 1 1 5C9461C7
-P 7450 2850
-F 0 "J5" H 7530 2842 50  0000 L CNN
-F 1 "MOLEX_2041" H 7530 2751 50  0000 L CNN
-F 2 "Connectors_Molex:Molex_KK-6410-04_04x2.54mm_Straight" H 7450 2850 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2695358.pdf" H 7450 2850 50  0001 C CNN
-	1    7450 2850
+P 6250 2450
+F 0 "J5" H 6330 2442 50  0000 L CNN
+F 1 "MOLEX_2041" H 6330 2351 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" H 6250 2450 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2695358.pdf" H 6250 2450 50  0001 C CNN
+	1    6250 2450
 	1    0    0    -1  
 $EndComp
-Text GLabel 7250 2750 0    50   Input ~ 0
+Text GLabel 6050 2350 0    50   Input ~ 0
 X_2B
-Text GLabel 7250 2850 0    50   Input ~ 0
+Text GLabel 6050 2450 0    50   Input ~ 0
 X_2A
-Text GLabel 7250 2950 0    50   Input ~ 0
+Text GLabel 6050 2550 0    50   Input ~ 0
 X_1A
-Text GLabel 7250 3050 0    50   Input ~ 0
+Text GLabel 6050 2650 0    50   Input ~ 0
 X_1B
 $Comp
 L Connector_Generic:Conn_01x03 J6
 U 1 1 5C9463E0
-P 7450 3450
-F 0 "J6" H 7530 3492 50  0000 L CNN
-F 1 "MOLEX_2031" H 7530 3401 50  0000 L CNN
-F 2 "Connectors_Molex:Molex_KK-6410-03_03x2.54mm_Straight" H 7450 3450 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1861684.pdf" H 7450 3450 50  0001 C CNN
-	1    7450 3450
+P 6250 3050
+F 0 "J6" H 6330 3092 50  0000 L CNN
+F 1 "MOLEX_2031" H 6330 3001 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 6250 3050 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1861684.pdf" H 6250 3050 50  0001 C CNN
+	1    6250 3050
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR042
 U 1 1 5C946498
-P 7250 3350
-F 0 "#PWR042" H 7250 3200 50  0001 C CNN
-F 1 "+3V3" H 7350 3500 50  0000 C CNN
-F 2 "" H 7250 3350 60  0000 C CNN
-F 3 "" H 7250 3350 60  0000 C CNN
-	1    7250 3350
+P 6050 2950
+F 0 "#PWR042" H 6050 2800 50  0001 C CNN
+F 1 "+3V3" H 6150 3100 50  0000 C CNN
+F 2 "" H 6050 2950 60  0000 C CNN
+F 3 "" H 6050 2950 60  0000 C CNN
+	1    6050 2950
 	1    0    0    -1  
 $EndComp
-Text Notes 7550 2650 0    50   ~ 0
+Text Notes 6350 2250 0    50   ~ 0
 Motor_X
-Text Notes 7500 3300 0    50   ~ 0
+Text Notes 6300 2900 0    50   ~ 0
 Switch_X
 $Comp
 L Device:C_Small C7
 U 1 1 5C94C2A4
-P 6900 3550
-F 0 "C7" H 7000 3550 50  0000 L CNN
-F 1 "0.1uF" H 6600 3550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6900 3550 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1901289.pdf" H 6900 3550 50  0001 C CNN
-	1    6900 3550
+P 5700 3150
+F 0 "C7" H 5800 3150 50  0000 L CNN
+F 1 "0.1uF" H 5400 3150 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5700 3150 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1901289.pdf" H 5700 3150 50  0001 C CNN
+	1    5700 3150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7250 3450 6900 3450
+	6050 3050 5700 3050
 Wire Wire Line
-	7250 3550 7150 3550
+	6050 3150 5950 3150
 Wire Wire Line
-	7150 3550 7150 3650
+	5950 3150 5950 3250
 Wire Wire Line
-	7150 3650 6900 3650
-Text GLabel 6600 3450 0    50   Input ~ 0
+	5950 3250 5700 3250
+Text GLabel 5400 3050 0    50   Input ~ 0
 X_PO
 Wire Wire Line
-	6600 3450 6900 3450
-Connection ~ 6900 3450
+	5400 3050 5700 3050
+Connection ~ 5700 3050
 $Comp
 L Device:R R4
 U 1 1 5C9508E2
-P 7100 3350
-F 0 "R4" V 7000 3350 50  0000 C CNN
-F 1 "10K" V 7100 3350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 7030 3350 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2310790.pdf" H 7100 3350 50  0001 C CNN
-	1    7100 3350
+P 5900 2950
+F 0 "R4" V 5800 2950 50  0000 C CNN
+F 1 "10K" V 5900 2950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5830 2950 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2310790.pdf" H 5900 2950 50  0001 C CNN
+	1    5900 2950
 	0    1    1    0   
 $EndComp
-Connection ~ 7250 3350
+Connection ~ 6050 2950
 Wire Wire Line
-	6900 3450 6900 3350
+	5700 3050 5700 2950
 Wire Wire Line
-	6900 3350 6950 3350
+	5700 2950 5750 2950
 $Comp
 L Connector_Generic:Conn_01x04 J7
 U 1 1 5C95278A
-P 7450 4100
-F 0 "J7" H 7530 4092 50  0000 L CNN
-F 1 "MOLEX_2041" H 7530 4001 50  0000 L CNN
-F 2 "Connectors_Molex:Molex_KK-6410-04_04x2.54mm_Straight" H 7450 4100 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2695358.pdf" H 7450 4100 50  0001 C CNN
-	1    7450 4100
+P 6250 3700
+F 0 "J7" H 6330 3692 50  0000 L CNN
+F 1 "MOLEX_2041" H 6330 3601 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" H 6250 3700 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2695358.pdf" H 6250 3700 50  0001 C CNN
+	1    6250 3700
 	1    0    0    -1  
 $EndComp
-Text GLabel 7250 4000 0    50   Input ~ 0
+Text GLabel 6050 3600 0    50   Input ~ 0
 Y_2B
-Text GLabel 7250 4100 0    50   Input ~ 0
+Text GLabel 6050 3700 0    50   Input ~ 0
 Y_2A
-Text GLabel 7250 4200 0    50   Input ~ 0
+Text GLabel 6050 3800 0    50   Input ~ 0
 Y_1A
-Text GLabel 7250 4300 0    50   Input ~ 0
+Text GLabel 6050 3900 0    50   Input ~ 0
 Y_1B
 $Comp
 L Connector_Generic:Conn_01x03 J8
 U 1 1 5C952794
-P 7450 4700
-F 0 "J8" H 7530 4742 50  0000 L CNN
-F 1 "MOLEX_2031" H 7530 4651 50  0000 L CNN
-F 2 "Connectors_Molex:Molex_KK-6410-03_03x2.54mm_Straight" H 7450 4700 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1861684.pdf" H 7450 4700 50  0001 C CNN
-	1    7450 4700
+P 6250 4300
+F 0 "J8" H 6330 4342 50  0000 L CNN
+F 1 "MOLEX_2031" H 6330 4251 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 6250 4300 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1861684.pdf" H 6250 4300 50  0001 C CNN
+	1    6250 4300
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR043
 U 1 1 5C95279A
-P 7250 4600
-F 0 "#PWR043" H 7250 4450 50  0001 C CNN
-F 1 "+3V3" H 7350 4750 50  0000 C CNN
-F 2 "" H 7250 4600 60  0000 C CNN
-F 3 "" H 7250 4600 60  0000 C CNN
-	1    7250 4600
+P 6050 4200
+F 0 "#PWR043" H 6050 4050 50  0001 C CNN
+F 1 "+3V3" H 6150 4350 50  0000 C CNN
+F 2 "" H 6050 4200 60  0000 C CNN
+F 3 "" H 6050 4200 60  0000 C CNN
+	1    6050 4200
 	1    0    0    -1  
 $EndComp
-Text Notes 7500 3950 0    50   ~ 0
+Text Notes 6300 3550 0    50   ~ 0
 Motor_Y
-Text Notes 7500 4550 0    50   ~ 0
+Text Notes 6300 4150 0    50   ~ 0
 Switch_Y
 $Comp
 L Device:C_Small C8
 U 1 1 5C9527A8
-P 6900 4800
-F 0 "C8" H 7000 4800 50  0000 L CNN
-F 1 "0.1uF" H 6600 4800 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6900 4800 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1901289.pdf" H 6900 4800 50  0001 C CNN
-	1    6900 4800
+P 5700 4400
+F 0 "C8" H 5800 4400 50  0000 L CNN
+F 1 "0.1uF" H 5400 4400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5700 4400 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1901289.pdf" H 5700 4400 50  0001 C CNN
+	1    5700 4400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7250 4700 6900 4700
+	6050 4300 5700 4300
 Wire Wire Line
-	7250 4800 7150 4800
+	6050 4400 5950 4400
 Wire Wire Line
-	7150 4800 7150 4900
+	5950 4400 5950 4500
 Wire Wire Line
-	7150 4900 6900 4900
-Text GLabel 6600 4700 0    50   Input ~ 0
+	5950 4500 5700 4500
+Text GLabel 5400 4300 0    50   Input ~ 0
 Y_PO
 Wire Wire Line
-	6600 4700 6900 4700
-Connection ~ 6900 4700
+	5400 4300 5700 4300
+Connection ~ 5700 4300
 $Comp
 L Device:R R5
 U 1 1 5C9527B6
-P 7100 4600
-F 0 "R5" V 7000 4600 50  0000 C CNN
-F 1 "10K" V 7100 4600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 7030 4600 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2310790.pdf" H 7100 4600 50  0001 C CNN
-	1    7100 4600
+P 5900 4200
+F 0 "R5" V 5800 4200 50  0000 C CNN
+F 1 "10K" V 5900 4200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5830 4200 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2310790.pdf" H 5900 4200 50  0001 C CNN
+	1    5900 4200
 	0    1    1    0   
 $EndComp
-Connection ~ 7250 4600
+Connection ~ 6050 4200
 Wire Wire Line
-	6900 4700 6900 4600
+	5700 4300 5700 4200
 Wire Wire Line
-	6900 4600 6950 4600
+	5700 4200 5750 4200
 $Comp
 L Connector_Generic:Conn_01x04 J9
 U 1 1 5C958529
-P 7450 5300
-F 0 "J9" H 7530 5292 50  0000 L CNN
-F 1 "MOLEX_2041" H 7530 5201 50  0000 L CNN
-F 2 "Connectors_Molex:Molex_KK-6410-04_04x2.54mm_Straight" H 7450 5300 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2695358.pdf" H 7450 5300 50  0001 C CNN
-	1    7450 5300
+P 6250 4900
+F 0 "J9" H 6330 4892 50  0000 L CNN
+F 1 "MOLEX_2041" H 6330 4801 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" H 6250 4900 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2695358.pdf" H 6250 4900 50  0001 C CNN
+	1    6250 4900
 	1    0    0    -1  
 $EndComp
-Text GLabel 7250 5200 0    50   Input ~ 0
+Text GLabel 6050 4800 0    50   Input ~ 0
 Z_2B
-Text GLabel 7250 5300 0    50   Input ~ 0
+Text GLabel 6050 4900 0    50   Input ~ 0
 Z_2A
-Text GLabel 7250 5400 0    50   Input ~ 0
+Text GLabel 6050 5000 0    50   Input ~ 0
 Z_1A
-Text GLabel 7250 5500 0    50   Input ~ 0
+Text GLabel 6050 5100 0    50   Input ~ 0
 Z_1B
 $Comp
 L Connector_Generic:Conn_01x03 J10
 U 1 1 5C958533
-P 7450 5900
-F 0 "J10" H 7530 5942 50  0000 L CNN
-F 1 "MOLEX_2031" H 7530 5851 50  0000 L CNN
-F 2 "Connectors_Molex:Molex_KK-6410-03_03x2.54mm_Straight" H 7450 5900 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1861684.pdf" H 7450 5900 50  0001 C CNN
-	1    7450 5900
+P 6250 5500
+F 0 "J10" H 6330 5542 50  0000 L CNN
+F 1 "MOLEX_2031" H 6330 5451 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 6250 5500 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1861684.pdf" H 6250 5500 50  0001 C CNN
+	1    6250 5500
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR044
 U 1 1 5C958539
-P 7250 5800
-F 0 "#PWR044" H 7250 5650 50  0001 C CNN
-F 1 "+3V3" H 7350 5950 50  0000 C CNN
-F 2 "" H 7250 5800 60  0000 C CNN
-F 3 "" H 7250 5800 60  0000 C CNN
-	1    7250 5800
+P 6050 5400
+F 0 "#PWR044" H 6050 5250 50  0001 C CNN
+F 1 "+3V3" H 6150 5550 50  0000 C CNN
+F 2 "" H 6050 5400 60  0000 C CNN
+F 3 "" H 6050 5400 60  0000 C CNN
+	1    6050 5400
 	1    0    0    -1  
 $EndComp
-Text Notes 7500 5150 0    50   ~ 0
+Text Notes 6300 4750 0    50   ~ 0
 Motor_Z
-Text Notes 7500 5750 0    50   ~ 0
+Text Notes 6300 5350 0    50   ~ 0
 Switch_Z
 $Comp
 L Device:C_Small C9
 U 1 1 5C958547
-P 6900 6000
-F 0 "C9" H 7000 6000 50  0000 L CNN
-F 1 "0.1uF" H 6600 6000 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6900 6000 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1901289.pdf" H 6900 6000 50  0001 C CNN
-	1    6900 6000
+P 5700 5600
+F 0 "C9" H 5800 5600 50  0000 L CNN
+F 1 "0.1uF" H 5400 5600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5700 5600 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1901289.pdf" H 5700 5600 50  0001 C CNN
+	1    5700 5600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7250 5900 6900 5900
+	6050 5500 5700 5500
 Wire Wire Line
-	7250 6000 7150 6000
+	6050 5600 5950 5600
 Wire Wire Line
-	7150 6000 7150 6100
+	5950 5600 5950 5700
 Wire Wire Line
-	7150 6100 6900 6100
+	5950 5700 5700 5700
 Wire Wire Line
-	6600 5900 6900 5900
-Connection ~ 6900 5900
+	5400 5500 5700 5500
+Connection ~ 5700 5500
 $Comp
 L Device:R R6
 U 1 1 5C958554
-P 7100 5800
-F 0 "R6" V 7000 5800 50  0000 C CNN
-F 1 "10K" V 7100 5800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 7030 5800 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2310790.pdf" H 7100 5800 50  0001 C CNN
-	1    7100 5800
+P 5900 5400
+F 0 "R6" V 5800 5400 50  0000 C CNN
+F 1 "10K" V 5900 5400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5830 5400 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2310790.pdf" H 5900 5400 50  0001 C CNN
+	1    5900 5400
 	0    1    1    0   
 $EndComp
-Connection ~ 7250 5800
+Connection ~ 6050 5400
 Wire Wire Line
-	6900 5900 6900 5800
+	5700 5500 5700 5400
 Wire Wire Line
-	6900 5800 6950 5800
-Text GLabel 6600 5900 0    50   Input ~ 0
+	5700 5400 5750 5400
+Text GLabel 5400 5500 0    50   Input ~ 0
 Z_PO
 $Comp
 L Connector_Generic:Conn_01x02 J12
 U 1 1 5C95C126
-P 10300 1150
-F 0 "J12" H 10380 1142 50  0000 L CNN
-F 1 "EBV-02-D" H 10380 1051 50  0000 L CNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 10300 1150 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1524355.pdf" H 10300 1150 50  0001 C CNN
-	1    10300 1150
+P 6250 1300
+F 0 "J12" H 6330 1292 50  0000 L CNN
+F 1 "EBV-02-D" H 6330 1201 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 6250 1300 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1524355.pdf" H 6250 1300 50  0001 C CNN
+	1    6250 1300
 	1    0    0    -1  
 $EndComp
-Text Notes 10350 1100 0    50   ~ 0
+Text Notes 6300 1250 0    50   ~ 0
 Spindle
 $Comp
 L power:+24V #PWR048
 U 1 1 5C95C3D5
-P 10100 950
-F 0 "#PWR048" H 10100 800 50  0001 C CNN
-F 1 "+24V" H 10100 1090 50  0000 C CNN
-F 2 "" H 10100 950 60  0000 C CNN
-F 3 "" H 10100 950 60  0000 C CNN
-	1    10100 950 
+P 6050 1100
+F 0 "#PWR048" H 6050 950 50  0001 C CNN
+F 1 "+24V" H 6050 1240 50  0000 C CNN
+F 2 "" H 6050 1100 60  0000 C CNN
+F 3 "" H 6050 1100 60  0000 C CNN
+	1    6050 1100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -901,7 +753,7 @@ U 1 1 5C937735
 P 1450 4100
 F 0 "D1" H 1550 4150 50  0000 L CNN
 F 1 "50V_1A" H 1100 4150 50  0000 L CNN
-F 2 "Diodes_SMD:D_SMA_Handsoldering" H 1450 4100 50  0001 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 1450 4100 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2300053.pdf" H 1450 4100 50  0001 C CNN
 	1    1450 4100
 	-1   0    0    1   
@@ -912,7 +764,7 @@ U 1 1 5C93AA51
 P 1450 4250
 F 0 "D2" H 1550 4300 50  0000 L CNN
 F 1 "50V_1A" H 1100 4300 50  0000 L CNN
-F 2 "Diodes_SMD:D_SMA_Handsoldering" H 1450 4250 50  0001 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 1450 4250 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2300053.pdf" H 1450 4250 50  0001 C CNN
 	1    1450 4250
 	-1   0    0    1   
@@ -923,7 +775,7 @@ U 1 1 5C93AB35
 P 1450 4400
 F 0 "D3" H 1550 4450 50  0000 L CNN
 F 1 "50V_1A" H 1100 4450 50  0000 L CNN
-F 2 "Diodes_SMD:D_SMA_Handsoldering" H 1450 4400 50  0001 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 1450 4400 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2300053.pdf" H 1450 4400 50  0001 C CNN
 	1    1450 4400
 	-1   0    0    1   
@@ -988,300 +840,48 @@ Wire Wire Line
 	2300 4400 2300 4000
 Connection ~ 2250 3900
 Connection ~ 1250 4400
-$Comp
-L firestarter_library:DIGIPOT_50K U1
-U 1 1 5C991DE0
-P 650 5700
-F 0 "U1" V 1000 5000 50  0000 L CNN
-F 1 "DIGIPOT_50K" V 850 4650 50  0000 L CNN
-F 2 "Socket_BeagleBone_Black:TDFN-8-1EP" H 650 5700 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2297485.pdf" H 650 5700 50  0001 C CNN
-	1    650  5700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L firestarter_library:U_IC-HKB U2
-U 1 1 5C9A0850
-P 2450 6900
-F 0 "U2" H 2100 7200 50  0000 R CNN
-F 1 "U_IC-HKB" H 2650 6900 50  0000 R CNN
-F 2 "Socket_BeagleBone_Black:ICHKB" H 2450 6900 50  0001 C CNN
-F 3 "https://www.ichaus.de/upload/pdf/HK_datasheet_F2en.pdf" H 2450 6900 50  0001 C CNN
-	1    2450 6900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	750  6200 850  6200
-Connection ~ 850  6200
-Wire Wire Line
-	850  6200 950  6200
-Text GLabel 1050 6200 3    50   Input ~ 0
-POT_SDA
-Text GLabel 1050 5200 1    50   Input ~ 0
-POT_SCL
-Text GLabel 850  5200 1    50   Input ~ 0
-POT_W
-$Comp
-L power:+5V #PWR01
-U 1 1 5C97ACB8
-P 750 5200
-F 0 "#PWR01" H 750 5050 50  0001 C CNN
-F 1 "+5V" H 650 5350 50  0000 C CNN
-F 2 "" H 750 5200 60  0000 C CNN
-F 3 "" H 750 5200 60  0000 C CNN
-	1    750  5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR03
-U 1 1 5C97DD4C
-P 950 4900
-F 0 "#PWR03" H 950 4750 50  0001 C CNN
-F 1 "+3.3V" H 850 5000 50  0000 C CNN
-F 2 "" H 950 4900 60  0000 C CNN
-F 3 "" H 950 4900 60  0000 C CNN
-	1    950  4900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	950  4900 950  5200
-Text GLabel 3400 6800 2    50   Input ~ 0
-IC_HB_PWM1
-Text GLabel 3400 7000 2    50   Input ~ 0
-IC_HB_PWM2
-Wire Wire Line
-	2100 7450 2250 7450
-Connection ~ 2250 7450
-Connection ~ 2550 7450
-Wire Wire Line
-	2550 7450 2700 7450
-Text GLabel 1550 6900 0    50   Input ~ 0
-POT_W
-Text GLabel 2200 6450 1    50   Input ~ 0
-LDK
-$Comp
-L power:+5V #PWR012
-U 1 1 5C990723
-P 2600 6300
-F 0 "#PWR012" H 2600 6150 50  0001 C CNN
-F 1 "+5V" H 2600 6450 50  0000 C CNN
-F 2 "" H 2600 6300 60  0000 C CNN
-F 3 "" H 2600 6300 60  0000 C CNN
-	1    2600 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C2
-U 1 1 5C99189E
-P 2900 6300
-F 0 "C2" V 2800 6250 50  0000 C CNN
-F 1 "1uF" V 2800 6400 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2900 6300 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2237835.pdf" H 2900 6300 50  0001 C CNN
-	1    2900 6300
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C3
-U 1 1 5C994CFA
-P 2900 6450
-F 0 "C3" V 3000 6400 50  0000 C CNN
-F 1 "0.1uF" V 3000 6550 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2900 6450 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1901289.pdf" H 2900 6450 50  0001 C CNN
-	1    2900 6450
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2800 6450 2750 6450
-$Comp
-L Device:R R1
-U 1 1 5C99F7B2
-P 3250 6650
-F 0 "R1" V 3150 6650 50  0000 C CNN
-F 1 "10K" V 3250 6650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 3180 6650 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2310790.pdf" H 3250 6650 50  0001 C CNN
-	1    3250 6650
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3000 6300 3000 6450
-Connection ~ 3000 6450
-$Comp
-L Device:R R2
-U 1 1 5C9B1605
-P 3250 7150
-F 0 "R2" V 3150 7150 50  0000 C CNN
-F 1 "10K" V 3250 7150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 3180 7150 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2310790.pdf" H 3250 7150 50  0001 C CNN
-	1    3250 7150
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2700 7450 3250 7450
-Wire Wire Line
-	3250 7450 3250 7300
-Connection ~ 2700 7450
-Wire Wire Line
-	3400 7000 3250 7000
-Connection ~ 3250 7000
-Wire Wire Line
-	3250 7000 3100 7000
-Connection ~ 3250 6800
-Wire Wire Line
-	3250 6800 3400 6800
-Wire Wire Line
-	3100 6800 3250 6800
-Wire Wire Line
-	3000 6450 3250 6450
-Wire Wire Line
-	3250 6450 3250 6500
-$Comp
-L Device:C_Small C1
-U 1 1 5C9CA9EE
-P 1700 7150
-F 0 "C1" H 1550 7150 50  0000 C CNN
-F 1 "47nF" H 1850 7150 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1700 7150 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2237835.pdf" H 1700 7150 50  0001 C CNN
-	1    1700 7150
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1700 7250 1700 7450
-Wire Wire Line
-	1700 7450 2100 7450
-Connection ~ 2100 7450
-Wire Wire Line
-	1550 6900 1700 6900
-Wire Wire Line
-	1700 6900 1700 7050
-Connection ~ 1700 6900
-Wire Wire Line
-	1700 6900 1800 6900
-$Comp
-L Connector:TestPoint TP1
-U 1 1 5C9E0158
-P 1700 6500
-F 0 "TP1" H 1758 6620 50  0000 L CNN
-F 1 "TestPoint" H 1758 6529 50  0000 L CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 1900 6500 50  0001 C CNN
-F 3 "~" H 1900 6500 50  0001 C CNN
-	1    1700 6500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1700 6500 1700 6900
-$Comp
-L Transistor_FET:IRLB8721PBF Q1
-U 1 1 5C9E5E6E
-P 9800 1450
-F 0 "Q1" H 10005 1496 50  0000 L CNN
-F 1 "IRLB8721PBF" H 10005 1405 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 10050 1375 50  0001 L CIN
-F 3 "http://www.infineon.com/dgdl/irlb8721pbf.pdf?fileId=5546d462533600a40153566056732591" H 9800 1450 50  0001 L CNN
-	1    9800 1450
-	1    0    0    -1  
-$EndComp
-Text GLabel 9400 1450 0    50   Input ~ 0
+Text GLabel 5350 1600 0    50   Input ~ 0
 SPINDLE_PWM
 $Comp
 L Device:R R8
 U 1 1 5CA070A9
-P 9500 1600
-F 0 "R8" V 9400 1600 50  0000 C CNN
-F 1 "10K" V 9500 1600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 9430 1600 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2310790.pdf" H 9500 1600 50  0001 C CNN
-	1    9500 1600
+P 5450 1750
+F 0 "R8" V 5350 1750 50  0000 C CNN
+F 1 "10K" V 5450 1750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5380 1750 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2310790.pdf" H 5450 1750 50  0001 C CNN
+	1    5450 1750
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	9400 1450 9500 1450
-Connection ~ 9500 1450
+	5350 1600 5450 1600
+Connection ~ 5450 1600
 Wire Wire Line
-	9500 1450 9600 1450
+	5450 1600 5550 1600
 Wire Wire Line
-	9500 1750 9900 1750
+	5450 1900 5850 1900
 Wire Wire Line
-	9900 1650 9900 1750
+	5850 1800 5850 1900
 $Comp
 L Device:D_Schottky D4
 U 1 1 5CA36CB4
-P 9900 1100
-F 0 "D4" V 9850 750 50  0000 L CNN
-F 1 "STPS1545D" V 9950 600 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-220-2_Vertical" H 9900 1100 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2309896.pdf" H 9900 1100 50  0001 C CNN
-	1    9900 1100
+P 5850 1250
+F 0 "D4" V 5800 900 50  0000 L CNN
+F 1 "STPS1545D" V 5900 750 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-2_Vertical" H 5850 1250 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2309896.pdf" H 5850 1250 50  0001 C CNN
+	1    5850 1250
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	10100 950  10100 1150
+	6050 1100 6050 1300
 Text GLabel 1250 1850 0    50   Input ~ 0
 SPINDLE_PWM
-$Comp
-L Transistor_FET:IRLZ34N Q2
-U 1 1 5CA6405F
-P 9800 2850
-F 0 "Q2" H 10006 2896 50  0000 L CNN
-F 1 "IRFML8244" H 10006 2805 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 10000 2775 50  0001 L CIN
-F 3 "http://www.farnell.com/datasheets/1911843.pdf" H 9800 2850 50  0001 L CNN
-	1    9800 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R7
-U 1 1 5CA72FF3
-P 9450 3050
-F 0 "R7" V 9350 3050 50  0000 C CNN
-F 1 "10K" V 9450 3050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 9380 3050 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2310790.pdf" H 9450 3050 50  0001 C CNN
-	1    9450 3050
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
-	9450 3200 9900 3200
+	5850 1400 6050 1400
 Wire Wire Line
-	9900 3050 9900 3200
-Text GLabel 9350 2850 0    50   Input ~ 0
-FAN_PWM
-Wire Wire Line
-	9350 2850 9450 2850
-Wire Wire Line
-	9450 2900 9450 2850
-Connection ~ 9450 2850
-Wire Wire Line
-	9450 2850 9600 2850
-Wire Wire Line
-	9900 2650 10050 2650
-$Comp
-L Device:D_Schottky D5
-U 1 1 5CA93BFD
-P 9900 2500
-F 0 "D5" V 10000 2350 50  0000 L CNN
-F 1 "50V_1A" V 9800 2150 50  0000 L CNN
-F 2 "Diodes_SMD:D_SMA_Handsoldering" H 9900 2500 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2300053.pdf" H 9900 2500 50  0001 C CNN
-	1    9900 2500
-	0    1    1    0   
-$EndComp
-Connection ~ 9900 2650
-Wire Wire Line
-	9900 2350 10050 2350
-Wire Wire Line
-	10050 2350 10050 2550
-Connection ~ 10050 2350
-Wire Wire Line
-	9900 1250 10100 1250
-Connection ~ 9900 1250
-Wire Wire Line
-	9900 950  10100 950 
-Connection ~ 10100 950 
+	5850 1100 6050 1100
+Connection ~ 6050 1100
 Wire Wire Line
 	1250 3800 1250 3750
 Wire Wire Line
@@ -1306,24 +906,12 @@ Text GLabel 3450 2950 0    50   Input ~ 0
 X_STEP
 NoConn ~ 1750 1950
 NoConn ~ 1250 1950
-Text GLabel 1750 1750 2    50   Input ~ 0
-Z_ENABLE
-Text GLabel 4450 5500 0    50   Input ~ 0
+Text GLabel 3200 5500 0    50   Input ~ 0
 SPIO_DO
-Text GLabel 4450 4200 0    50   Input ~ 0
+Text GLabel 1100 5450 0    50   Input ~ 0
 SPIO_DO
 Text GLabel 3450 1950 0    50   Input ~ 0
 SPIO_DO
-Wire Wire Line
-	2800 6300 2750 6300
-Wire Wire Line
-	2750 6300 2750 6450
-Connection ~ 2750 6450
-Wire Wire Line
-	2750 6450 2600 6450
-Wire Wire Line
-	2600 6450 2600 6300
-Connection ~ 2600 6450
 Wire Wire Line
 	2250 3900 2350 3900
 Wire Wire Line
@@ -1335,8 +923,6 @@ Wire Wire Line
 	2200 3750 2200 3650
 Connection ~ 2200 3750
 Connection ~ 2200 3650
-Wire Wire Line
-	7200 1600 7200 1650
 $Comp
 L power:PWR_FLAG #FLG01
 U 1 1 5CC5FB64
@@ -1374,7 +960,6 @@ $EndComp
 Connection ~ 2300 4400
 Wire Wire Line
 	1250 4400 1250 4500
-Connection ~ 3250 6450
 $Comp
 L power:PWR_FLAG #FLG04
 U 1 1 5CCC3AF5
@@ -1407,217 +992,134 @@ F 3 "" H 1250 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR02
-U 1 1 5CD260C2
-P 850 6200
-F 0 "#PWR02" H 850 5950 50  0001 C CNN
-F 1 "GND" H 855 6027 50  0000 C CNN
-F 2 "" H 850 6200 50  0001 C CNN
-F 3 "" H 850 6200 50  0001 C CNN
-	1    850  6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR06
-U 1 1 5CD3DB5F
-P 1350 5700
-F 0 "#PWR06" H 1350 5450 50  0001 C CNN
-F 1 "GND" V 1355 5572 50  0000 R CNN
-F 2 "" H 1350 5700 50  0001 C CNN
-F 3 "" H 1350 5700 50  0001 C CNN
-	1    1350 5700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR015
-U 1 1 5CD4F6D3
-P 3250 6450
-F 0 "#PWR015" H 3250 6200 50  0001 C CNN
-F 1 "GND" V 3255 6322 50  0000 R CNN
-F 2 "" H 3250 6450 50  0001 C CNN
-F 3 "" H 3250 6450 50  0001 C CNN
-	1    3250 6450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR011
-U 1 1 5CD4F992
-P 2400 7450
-F 0 "#PWR011" H 2400 7200 50  0001 C CNN
-F 1 "GND" H 2405 7277 50  0000 C CNN
-F 2 "" H 2400 7450 50  0001 C CNN
-F 3 "" H 2400 7450 50  0001 C CNN
-	1    2400 7450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2250 7450 2400 7450
-Connection ~ 2400 7450
-Wire Wire Line
-	2400 7450 2550 7450
-$Comp
 L power:GND #PWR026
 U 1 1 5CD613B9
-P 5450 7050
-F 0 "#PWR026" H 5450 6800 50  0001 C CNN
-F 1 "GND" H 5455 6877 50  0000 C CNN
-F 2 "" H 5450 7050 50  0001 C CNN
-F 3 "" H 5450 7050 50  0001 C CNN
-	1    5450 7050
+P 2100 7300
+F 0 "#PWR026" H 2100 7050 50  0001 C CNN
+F 1 "GND" H 2105 7127 50  0000 C CNN
+F 2 "" H 2100 7300 50  0001 C CNN
+F 3 "" H 2100 7300 50  0001 C CNN
+	1    2100 7300
 	1    0    0    -1  
 $EndComp
-Connection ~ 5450 6350
+Connection ~ 2100 6600
 $Comp
 L firestarter_library:TMC2130_STEPPER U5
 U 1 1 5C290C2A
-P 4950 6250
-F 0 "U5" H 4950 6415 50  0000 C CNN
-F 1 "Z_STEPPER" H 4950 6324 50  0000 C CNN
-F 2 "Socket_BeagleBone_Black:TMC2130" H 4950 6250 50  0001 C CNN
-F 3 "" H 4950 6250 50  0001 C CNN
-	1    4950 6250
+P 1600 6500
+F 0 "U5" H 1600 6665 50  0000 C CNN
+F 1 "Z_STEPPER" H 1600 6574 50  0000 C CNN
+F 2 "Socket_BeagleBone_Black:TMC2130" H 1600 6500 50  0001 C CNN
+F 3 "" H 1600 6500 50  0001 C CNN
+	1    1600 6500
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR032
 U 1 1 5CD78F18
-P 5900 6450
-F 0 "#PWR032" H 5900 6200 50  0001 C CNN
-F 1 "GND" V 5905 6322 50  0000 R CNN
-F 2 "" H 5900 6450 50  0001 C CNN
-F 3 "" H 5900 6450 50  0001 C CNN
-	1    5900 6450
+P 2550 6700
+F 0 "#PWR032" H 2550 6450 50  0001 C CNN
+F 1 "GND" V 2555 6572 50  0000 R CNN
+F 2 "" H 2550 6700 50  0001 C CNN
+F 3 "" H 2550 6700 50  0001 C CNN
+	1    2550 6700
 	0    -1   -1   0   
 $EndComp
-Connection ~ 5900 6450
+Connection ~ 2550 6700
 $Comp
 L power:GND #PWR031
 U 1 1 5CD909D6
-P 5850 5200
-F 0 "#PWR031" H 5850 4950 50  0001 C CNN
-F 1 "GND" V 5855 5072 50  0000 R CNN
-F 2 "" H 5850 5200 50  0001 C CNN
-F 3 "" H 5850 5200 50  0001 C CNN
-	1    5850 5200
+P 4600 5200
+F 0 "#PWR031" H 4600 4950 50  0001 C CNN
+F 1 "GND" V 4605 5072 50  0000 R CNN
+F 2 "" H 4600 5200 50  0001 C CNN
+F 3 "" H 4600 5200 50  0001 C CNN
+	1    4600 5200
 	0    -1   -1   0   
 $EndComp
-Connection ~ 5850 5200
+Connection ~ 4600 5200
 $Comp
 L power:GND #PWR030
 U 1 1 5CDA2530
-P 5850 3900
-F 0 "#PWR030" H 5850 3650 50  0001 C CNN
-F 1 "GND" V 5855 3772 50  0000 R CNN
-F 2 "" H 5850 3900 50  0001 C CNN
-F 3 "" H 5850 3900 50  0001 C CNN
-	1    5850 3900
+P 2500 5150
+F 0 "#PWR030" H 2500 4900 50  0001 C CNN
+F 1 "GND" V 2505 5022 50  0000 R CNN
+F 2 "" H 2500 5150 50  0001 C CNN
+F 3 "" H 2500 5150 50  0001 C CNN
+	1    2500 5150
 	0    -1   -1   0   
 $EndComp
-Connection ~ 5850 3900
+Connection ~ 2500 5150
 $Comp
 L power:GND #PWR022
 U 1 1 5CDB42FA
-P 5450 4500
-F 0 "#PWR022" H 5450 4250 50  0001 C CNN
-F 1 "GND" H 5455 4327 50  0000 C CNN
-F 2 "" H 5450 4500 50  0001 C CNN
-F 3 "" H 5450 4500 50  0001 C CNN
-	1    5450 4500
+P 2100 5750
+F 0 "#PWR022" H 2100 5500 50  0001 C CNN
+F 1 "GND" H 2105 5577 50  0000 C CNN
+F 2 "" H 2100 5750 50  0001 C CNN
+F 3 "" H 2100 5750 50  0001 C CNN
+	1    2100 5750
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR024
 U 1 1 5CDC013E
-P 5450 5800
-F 0 "#PWR024" H 5450 5550 50  0001 C CNN
-F 1 "GND" H 5455 5627 50  0000 C CNN
-F 2 "" H 5450 5800 50  0001 C CNN
-F 3 "" H 5450 5800 50  0001 C CNN
-	1    5450 5800
+P 4200 5800
+F 0 "#PWR024" H 4200 5550 50  0001 C CNN
+F 1 "GND" H 4205 5627 50  0000 C CNN
+F 2 "" H 4200 5800 50  0001 C CNN
+F 3 "" H 4200 5800 50  0001 C CNN
+	1    4200 5800
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR036
 U 1 1 5CDCBEE6
-P 7150 3650
-F 0 "#PWR036" H 7150 3400 50  0001 C CNN
-F 1 "GND" H 7155 3477 50  0000 C CNN
-F 2 "" H 7150 3650 50  0001 C CNN
-F 3 "" H 7150 3650 50  0001 C CNN
-	1    7150 3650
+P 5950 3250
+F 0 "#PWR036" H 5950 3000 50  0001 C CNN
+F 1 "GND" H 5955 3077 50  0000 C CNN
+F 2 "" H 5950 3250 50  0001 C CNN
+F 3 "" H 5950 3250 50  0001 C CNN
+	1    5950 3250
 	1    0    0    -1  
 $EndComp
-Connection ~ 7150 3650
+Connection ~ 5950 3250
 $Comp
 L power:GND #PWR037
 U 1 1 5CDD1F88
-P 7150 4900
-F 0 "#PWR037" H 7150 4650 50  0001 C CNN
-F 1 "GND" H 7155 4727 50  0000 C CNN
-F 2 "" H 7150 4900 50  0001 C CNN
-F 3 "" H 7150 4900 50  0001 C CNN
-	1    7150 4900
+P 5950 4500
+F 0 "#PWR037" H 5950 4250 50  0001 C CNN
+F 1 "GND" H 5955 4327 50  0000 C CNN
+F 2 "" H 5950 4500 50  0001 C CNN
+F 3 "" H 5950 4500 50  0001 C CNN
+	1    5950 4500
 	1    0    0    -1  
 $EndComp
-Connection ~ 7150 4900
+Connection ~ 5950 4500
 $Comp
 L power:GND #PWR038
 U 1 1 5CDD80EA
-P 7150 6100
-F 0 "#PWR038" H 7150 5850 50  0001 C CNN
-F 1 "GND" H 7155 5927 50  0000 C CNN
-F 2 "" H 7150 6100 50  0001 C CNN
-F 3 "" H 7150 6100 50  0001 C CNN
-	1    7150 6100
+P 5950 5700
+F 0 "#PWR038" H 5950 5450 50  0001 C CNN
+F 1 "GND" H 5955 5527 50  0000 C CNN
+F 2 "" H 5950 5700 50  0001 C CNN
+F 3 "" H 5950 5700 50  0001 C CNN
+	1    5950 5700
 	1    0    0    -1  
 $EndComp
-Connection ~ 7150 6100
-$Comp
-L power:GND #PWR046
-U 1 1 5CDDE45C
-P 9900 3200
-F 0 "#PWR046" H 9900 2950 50  0001 C CNN
-F 1 "GND" H 9905 3027 50  0000 C CNN
-F 2 "" H 9900 3200 50  0001 C CNN
-F 3 "" H 9900 3200 50  0001 C CNN
-	1    9900 3200
-	1    0    0    -1  
-$EndComp
-Connection ~ 9900 3200
+Connection ~ 5950 5700
 $Comp
 L power:GND #PWR045
 U 1 1 5CDEFFE6
-P 9900 1750
-F 0 "#PWR045" H 9900 1500 50  0001 C CNN
-F 1 "GND" H 9905 1577 50  0000 C CNN
-F 2 "" H 9900 1750 50  0001 C CNN
-F 3 "" H 9900 1750 50  0001 C CNN
-	1    9900 1750
+P 5850 1900
+F 0 "#PWR045" H 5850 1650 50  0001 C CNN
+F 1 "GND" H 5855 1727 50  0000 C CNN
+F 2 "" H 5850 1900 50  0001 C CNN
+F 3 "" H 5850 1900 50  0001 C CNN
+	1    5850 1900
 	1    0    0    -1  
 $EndComp
-Connection ~ 9900 1750
-$Comp
-L power:GND #PWR035
-U 1 1 5CE07901
-P 7150 1950
-F 0 "#PWR035" H 7150 1700 50  0001 C CNN
-F 1 "GND" H 7155 1777 50  0000 C CNN
-F 2 "" H 7150 1950 50  0001 C CNN
-F 3 "" H 7150 1950 50  0001 C CNN
-	1    7150 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR040
-U 1 1 5CE0E004
-P 7200 1050
-F 0 "#PWR040" H 7200 800 50  0001 C CNN
-F 1 "GND" V 7205 922 50  0000 R CNN
-F 2 "" H 7200 1050 50  0001 C CNN
-F 3 "" H 7200 1050 50  0001 C CNN
-	1    7200 1050
-	0    1    1    0   
-$EndComp
+Connection ~ 5850 1900
 $Comp
 L power:GND #PWR020
 U 1 1 5CE19F67
@@ -1674,17 +1176,6 @@ F 3 "" H 3700 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR033
-U 1 1 5CE79313
-P 6800 2250
-F 0 "#PWR033" H 6800 2000 50  0001 C CNN
-F 1 "GND" V 6805 2122 50  0000 R CNN
-F 2 "" H 6800 2250 50  0001 C CNN
-F 3 "" H 6800 2250 50  0001 C CNN
-	1    6800 2250
-	0    1    1    0   
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x04 J1
 U 1 1 5CE85762
 P 1050 4000
@@ -1712,7 +1203,7 @@ Wire Wire Line
 Wire Wire Line
 	1950 3750 2200 3750
 Connection ~ 1250 4100
-NoConn ~ 4450 4300
+NoConn ~ 1100 5550
 $Comp
 L Graphic:Logo_Open_Hardware_Small G1
 U 1 1 5CC2105D
@@ -1724,4 +1215,84 @@ F 3 "www.hexastorm.com" H 10700 6250 50  0001 C CNN
 	1    10700 6250
 	1    0    0    -1  
 $EndComp
+Text GLabel 6050 6500 0    50   Input ~ 0
+FAN_PWM
+Text GLabel 6050 6700 0    50   Input ~ 0
+POT_SCL
+Text GLabel 6050 6800 0    50   Input ~ 0
+POT_SDA
+Text GLabel 6050 6900 0    50   Input ~ 0
+IC_HB_PWM2
+Text GLabel 6050 7000 0    50   Input ~ 0
+IC_HB_PWM1
+$Comp
+L Connector_Generic:Conn_01x10 J2
+U 1 1 5D432707
+P 6250 6500
+F 0 "J2" H 6330 6492 50  0000 L CNN
+F 1 "10pinIDC" H 6330 6401 50  0000 L CNN
+F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 6250 6500 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2602723.pdf" H 6250 6500 50  0001 C CNN
+	1    6250 6500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6050 6100
+$Comp
+L Connector_Generic:Conn_01x03 J3
+U 1 1 5D43F7C5
+P 6250 7400
+F 0 "J3" H 6330 7442 50  0000 L CNN
+F 1 "MOLEX_2031" H 6330 7351 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 6250 7400 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1861684.pdf" H 6250 7400 50  0001 C CNN
+	1    6250 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L ldgraphy-cape-cache:GND #PWR03
+U 1 1 5D44130E
+P 6050 7500
+F 0 "#PWR03" H 6050 7250 50  0001 C CNN
+F 1 "GND" V 6055 7372 50  0000 R CNN
+F 2 "" H 6050 7500 50  0001 C CNN
+F 3 "" H 6050 7500 50  0001 C CNN
+	1    6050 7500
+	0    1    1    0   
+$EndComp
+$Comp
+L ldgraphy-cape-cache:+12V #PWR01
+U 1 1 5D4449A8
+P 6050 7300
+F 0 "#PWR01" H 6050 7150 50  0001 C CNN
+F 1 "+12V" V 6065 7428 50  0000 L CNN
+F 2 "" H 6050 7300 50  0001 C CNN
+F 3 "" H 6050 7300 50  0001 C CNN
+	1    6050 7300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR02
+U 1 1 5D4458ED
+P 6050 7400
+F 0 "#PWR02" H 6050 7250 50  0001 C CNN
+F 1 "+5V" V 6065 7528 50  0000 L CNN
+F 2 "" H 6050 7400 50  0001 C CNN
+F 3 "" H 6050 7400 50  0001 C CNN
+	1    6050 7400
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5850 1400
+$Comp
+L Transistor_FET:IRLB8721PBF Q1
+U 1 1 5C9E5E6E
+P 5750 1600
+F 0 "Q1" H 5955 1646 50  0000 L CNN
+F 1 "IRLB8721PBF" H 5955 1555 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 6000 1525 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/irlb8721pbf.pdf?fileId=5546d462533600a40153566056732591" H 5750 1600 50  0001 L CNN
+	1    5750 1600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1250 1450
+NoConn ~ 1750 1750
 $EndSCHEMATC
