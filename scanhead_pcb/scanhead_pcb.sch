@@ -77,9 +77,9 @@ Text Notes 3900 700  0    50   ~ 0
 photodiode
 Text Notes 3950 2000 0    50   ~ 0
 fan
-Text GLabel 1950 2050 0    50   Input ~ 0
-POT_SCL
 Text GLabel 1950 2150 0    50   Input ~ 0
+POT_SCL
+Text GLabel 1950 2350 0    50   Input ~ 0
 POT_SDA
 $Comp
 L power:GND #PWR05
@@ -105,9 +105,9 @@ F 3 "" H 950 1850 50  0001 C CNN
 	1    950  1850
 	0    -1   -1   0   
 $EndComp
-Text GLabel 1950 2350 0    50   Input ~ 0
-IC_HB_PWM1
 Text GLabel 1950 2250 0    50   Input ~ 0
+IC_HB_PWM1
+Text GLabel 1950 2050 0    50   Input ~ 0
 IC_HB_PWM2
 Text GLabel 3600 3650 2    50   Input ~ 0
 IC_HB_PWM2
@@ -574,11 +574,21 @@ F 3 "http://www.farnell.com/datasheets/2602723.pdf" H 2150 1850 50  0001 C CNN
 	1    2150 1850
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1950 1450
 Text GLabel 1800 1000 0    50   Input ~ 0
 POLY_EN
 Text GLabel 1800 1100 0    50   Input ~ 0
 POLY_READY
 Text GLabel 1800 1200 0    50   Input ~ 0
 POLY_PWM
+$Comp
+L ldgraphy-cape-cache:GND #PWR?
+U 1 1 5D46E392
+P 1950 1450
+F 0 "#PWR?" H 1950 1200 50  0001 C CNN
+F 1 "GND" V 1955 1322 50  0000 R CNN
+F 2 "" H 1950 1450 50  0001 C CNN
+F 3 "" H 1950 1450 50  0001 C CNN
+	1    1950 1450
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

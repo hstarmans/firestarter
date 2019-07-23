@@ -1217,13 +1217,13 @@ F 3 "www.hexastorm.com" H 10700 6250 50  0001 C CNN
 $EndComp
 Text GLabel 6050 6500 0    50   Input ~ 0
 FAN_PWM
-Text GLabel 6050 6700 0    50   Input ~ 0
-POT_SCL
 Text GLabel 6050 6800 0    50   Input ~ 0
-POT_SDA
-Text GLabel 6050 6900 0    50   Input ~ 0
-IC_HB_PWM2
+POT_SCL
 Text GLabel 6050 7000 0    50   Input ~ 0
+POT_SDA
+Text GLabel 6050 6700 0    50   Input ~ 0
+IC_HB_PWM2
+Text GLabel 6050 6900 0    50   Input ~ 0
 IC_HB_PWM1
 $Comp
 L Connector_Generic:Conn_01x10 J2
@@ -1236,7 +1236,6 @@ F 3 "http://www.farnell.com/datasheets/2602723.pdf" H 6250 6500 50  0001 C CNN
 	1    6250 6500
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6050 6100
 $Comp
 L Connector_Generic:Conn_01x03 J3
 U 1 1 5D43F7C5
@@ -1295,4 +1294,15 @@ F 3 "http://www.infineon.com/dgdl/irlb8721pbf.pdf?fileId=5546d462533600a40153566
 $EndComp
 NoConn ~ 1250 1450
 NoConn ~ 1750 1750
+$Comp
+L ldgraphy-cape-cache:GND #PWR0101
+U 1 1 5D37904C
+P 6050 6100
+F 0 "#PWR0101" H 6050 5850 50  0001 C CNN
+F 1 "GND" V 6055 5972 50  0000 R CNN
+F 2 "" H 6050 6100 50  0001 C CNN
+F 3 "" H 6050 6100 50  0001 C CNN
+	1    6050 6100
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
