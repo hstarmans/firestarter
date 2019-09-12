@@ -21,6 +21,11 @@ _autosave-*
 # Autorouter files (exported from Pcbnew)
 *.dsn
 *.ses
+*.gb*
+*.gt*
+*.gm*
+*.rar
+*.drl
 
 # BOM Files / Notes in Libre office
 
