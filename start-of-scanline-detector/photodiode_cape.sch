@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L photodiode-cape-cache:MIC920 U2
+L photodiode-cape:MIC920 U2
 U 1 1 5D2FBC30
 P 2600 1150
 F 0 "U2" H 2650 1000 50  0000 L CNN
@@ -119,7 +119,6 @@ Wire Wire Line
 	2600 800  2300 800 
 Wire Wire Line
 	2300 800  2300 1050
-Connection ~ 2900 1150
 Wire Wire Line
 	3200 1650 3200 1150
 Wire Wire Line
@@ -159,7 +158,6 @@ Wire Wire Line
 Wire Wire Line
 	1750 1350 1750 1150
 Connection ~ 1750 1350
-Connection ~ 1750 1150
 Wire Wire Line
 	1450 1500 1150 1500
 Wire Wire Line
@@ -202,7 +200,6 @@ Wire Wire Line
 	850  1650 850  1250
 Wire Wire Line
 	850  1250 1150 1250
-Connection ~ 1150 1250
 Wire Wire Line
 	700  1250 700  1050
 Wire Wire Line
@@ -212,7 +209,6 @@ Wire Wire Line
 	1350 750  700  750 
 Wire Wire Line
 	2300 1050 2100 1050
-Connection ~ 2300 1050
 Connection ~ 2100 1050
 $Comp
 L Connector:TestPoint TP1
@@ -291,7 +287,7 @@ F 3 "http://www.farnell.com/datasheets/2237835.pdf" H 2000 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L photodiode-cape-cache:MIC920 U1
+L photodiode-cape:MIC920 U1
 U 1 1 5D2FBB8F
 P 1450 1150
 F 0 "U1" H 1400 1350 50  0000 L CNN
