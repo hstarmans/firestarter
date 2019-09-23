@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:BeagleBone-Black-Cape-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1248,28 +1247,6 @@ F 3 "http://www.farnell.com/datasheets/1861684.pdf" H 6250 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ldgraphy-cape-cache:GND #PWR03
-U 1 1 5D44130E
-P 6050 7500
-F 0 "#PWR03" H 6050 7250 50  0001 C CNN
-F 1 "GND" V 6055 7372 50  0000 R CNN
-F 2 "" H 6050 7500 50  0001 C CNN
-F 3 "" H 6050 7500 50  0001 C CNN
-	1    6050 7500
-	0    1    1    0   
-$EndComp
-$Comp
-L ldgraphy-cape-cache:+12V #PWR01
-U 1 1 5D4449A8
-P 6050 7300
-F 0 "#PWR01" H 6050 7150 50  0001 C CNN
-F 1 "+12V" V 6065 7428 50  0000 L CNN
-F 2 "" H 6050 7300 50  0001 C CNN
-F 3 "" H 6050 7300 50  0001 C CNN
-	1    6050 7300
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:+5V #PWR02
 U 1 1 5D4458ED
 P 6050 7400
@@ -1295,11 +1272,33 @@ $EndComp
 NoConn ~ 1250 1450
 NoConn ~ 1750 1750
 $Comp
-L ldgraphy-cape-cache:GND #PWR0101
-U 1 1 5D37904C
+L power:GND #PWR?
+U 1 1 5D890336
+P 6050 7500
+F 0 "#PWR?" H 6050 7250 50  0001 C CNN
+F 1 "GND" V 6055 7327 50  0000 C CNN
+F 2 "" H 6050 7500 50  0001 C CNN
+F 3 "" H 6050 7500 50  0001 C CNN
+	1    6050 7500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5D892E11
+P 6050 7300
+F 0 "#PWR?" H 6050 7150 50  0001 C CNN
+F 1 "+12V" V 6050 7550 50  0000 C CNN
+F 2 "" H 6050 7300 60  0000 C CNN
+F 3 "" H 6050 7300 60  0000 C CNN
+	1    6050 7300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D89D3E4
 P 6050 6100
-F 0 "#PWR0101" H 6050 5850 50  0001 C CNN
-F 1 "GND" V 6055 5972 50  0000 R CNN
+F 0 "#PWR?" H 6050 5850 50  0001 C CNN
+F 1 "GND" V 6055 5927 50  0000 C CNN
 F 2 "" H 6050 6100 50  0001 C CNN
 F 3 "" H 6050 6100 50  0001 C CNN
 	1    6050 6100
