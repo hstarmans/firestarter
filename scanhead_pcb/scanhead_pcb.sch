@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:scanhead_pcb-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -94,17 +94,6 @@ F 3 "" H 950 2050 50  0001 C CNN
 $EndComp
 Text GLabel 1950 1850 0    50   Input ~ 0
 FAN_PWM
-$Comp
-L ldgraphy-cape-cache:+12V #PWR03
-U 1 1 5D3703A3
-P 950 1850
-F 0 "#PWR03" H 950 1700 50  0001 C CNN
-F 1 "+12V" V 965 1978 50  0000 L CNN
-F 2 "" H 950 1850 50  0001 C CNN
-F 3 "" H 950 1850 50  0001 C CNN
-	1    950  1850
-	0    -1   -1   0   
-$EndComp
 Text GLabel 1950 2250 0    50   Input ~ 0
 IC_HB_PWM1
 Text GLabel 1950 2050 0    50   Input ~ 0
@@ -287,18 +276,6 @@ F 3 "" H 3600 3050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 3600 3050
-$Comp
-L ldgraphy-cape-cache:+5V #PWR011
-U 1 1 5D397356
-P 3100 3050
-F 0 "#PWR011" H 3100 2900 50  0001 C CNN
-F 1 "+5V" H 3115 3223 50  0000 C CNN
-F 2 "" H 3100 3050 50  0001 C CNN
-F 3 "" H 3100 3050 50  0001 C CNN
-	1    3100 3050
-	1    0    0    -1  
-$EndComp
-Connection ~ 3100 3050
 Text GLabel 1000 3100 1    50   Input ~ 0
 POT_W
 Text GLabel 1200 3100 1    50   Input ~ 0
@@ -332,41 +309,8 @@ F 3 "" H 1500 3600 50  0001 C CNN
 	1    1500 3600
 	0    -1   -1   0   
 $EndComp
-$Comp
-L ldgraphy-cape-cache:+5V #PWR04
-U 1 1 5D3A1F49
-P 950 1950
-F 0 "#PWR04" H 950 1800 50  0001 C CNN
-F 1 "+5V" V 965 2078 50  0000 L CNN
-F 2 "" H 950 1950 50  0001 C CNN
-F 3 "" H 950 1950 50  0001 C CNN
-	1    950  1950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L ldgraphy-cape-cache:+5V #PWR01
-U 1 1 5D3A8F09
-P 900 2650
-F 0 "#PWR01" H 900 2500 50  0001 C CNN
-F 1 "+5V" H 850 2800 50  0000 C CNN
-F 2 "" H 900 2650 50  0001 C CNN
-F 3 "" H 900 2650 50  0001 C CNN
-	1    900  2650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1100 2800 1100 3100
-$Comp
-L ldgraphy-cape-cache:+5V #PWR014
-U 1 1 5D3ADEB8
-P 3550 700
-F 0 "#PWR014" H 3550 550 50  0001 C CNN
-F 1 "+5V" V 3565 828 50  0000 L CNN
-F 2 "" H 3550 700 50  0001 C CNN
-F 3 "" H 3550 700 50  0001 C CNN
-	1    3550 700 
-	0    -1   -1   0   
-$EndComp
 Text GLabel 3550 800  0    50   Input ~ 0
 PH_DIODE
 $Comp
@@ -384,17 +328,6 @@ Text GLabel 1950 1950 0    50   Input ~ 0
 PH_DIODE
 Text GLabel 3550 1500 0    50   Input ~ 0
 LDK
-$Comp
-L ldgraphy-cape-cache:+12V #PWR012
-U 1 1 5D3B489F
-P 3400 1400
-F 0 "#PWR012" H 3400 1250 50  0001 C CNN
-F 1 "+12V" V 3415 1528 50  0000 L CNN
-F 2 "" H 3400 1400 50  0001 C CNN
-F 3 "" H 3400 1400 50  0001 C CNN
-	1    3400 1400
-	0    -1   -1   0   
-$EndComp
 $Comp
 L power:GND #PWR010
 U 1 1 5D3B5EE3
@@ -421,7 +354,6 @@ Wire Wire Line
 	3400 1250 3400 1400
 Wire Wire Line
 	3550 1400 3400 1400
-Connection ~ 3400 1400
 Wire Wire Line
 	3400 2100 3550 2100
 Wire Wire Line
@@ -500,17 +432,6 @@ Wire Wire Line
 	1800 1100 1950 1100
 Wire Wire Line
 	1800 1000 1950 1000
-$Comp
-L ldgraphy-cape-cache:+12V #PWR06
-U 1 1 5D426DFE
-P 1750 800
-F 0 "#PWR06" H 1750 650 50  0001 C CNN
-F 1 "+12V" V 1765 928 50  0000 L CNN
-F 2 "" H 1750 800 50  0001 C CNN
-F 3 "" H 1750 800 50  0001 C CNN
-	1    1750 800 
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	1750 800  1950 800 
 $Comp
@@ -524,18 +445,6 @@ F 3 "" H 1950 900 50  0001 C CNN
 	1    1950 900 
 	0    1    1    0   
 $EndComp
-$Comp
-L ldgraphy-cape-cache:+12V #PWR016
-U 1 1 5D43DAC5
-P 3550 1800
-F 0 "#PWR016" H 3550 1650 50  0001 C CNN
-F 1 "+12V" H 3565 1973 50  0000 C CNN
-F 2 "" H 3550 1800 50  0001 C CNN
-F 3 "" H 3550 1800 50  0001 C CNN
-	1    3550 1800
-	1    0    0    -1  
-$EndComp
-Connection ~ 3550 1800
 Wire Wire Line
 	900  2650 900  2800
 Wire Wire Line
@@ -554,8 +463,6 @@ F 3 "http://www.farnell.com/datasheets/1861684.pdf" H 1150 1950 50  0001 C CNN
 	1    1150 1950
 	1    0    0    -1  
 $EndComp
-Connection ~ 950  1850
-Connection ~ 950  1950
 Connection ~ 950  2050
 Text GLabel 1950 1750 0    50   Input ~ 0
 POLY_PWM
@@ -581,8 +488,66 @@ POLY_READY
 Text GLabel 1800 1200 0    50   Input ~ 0
 POLY_PWM
 $Comp
-L ldgraphy-cape-cache:GND #PWR?
-U 1 1 5D46E392
+L power:+5V #PWR?
+U 1 1 5D88D3C6
+P 3550 700
+F 0 "#PWR?" H 3550 550 50  0001 C CNN
+F 1 "+5V" V 3565 828 50  0000 L CNN
+F 2 "" H 3550 700 50  0001 C CNN
+F 3 "" H 3550 700 50  0001 C CNN
+	1    3550 700 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5D88F072
+P 3400 1400
+F 0 "#PWR?" H 3400 1250 50  0001 C CNN
+F 1 "+12V" V 3415 1528 50  0000 L CNN
+F 2 "" H 3400 1400 50  0001 C CNN
+F 3 "" H 3400 1400 50  0001 C CNN
+	1    3400 1400
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3400 1400
+$Comp
+L power:+12V #PWR?
+U 1 1 5D8913CD
+P 3550 1800
+F 0 "#PWR?" H 3550 1650 50  0001 C CNN
+F 1 "+12V" H 3565 1973 50  0000 C CNN
+F 2 "" H 3550 1800 50  0001 C CNN
+F 3 "" H 3550 1800 50  0001 C CNN
+	1    3550 1800
+	1    0    0    -1  
+$EndComp
+Connection ~ 3550 1800
+$Comp
+L power:+12V #PWR?
+U 1 1 5D891C07
+P 1750 800
+F 0 "#PWR?" H 1750 650 50  0001 C CNN
+F 1 "+12V" V 1765 928 50  0000 L CNN
+F 2 "" H 1750 800 50  0001 C CNN
+F 3 "" H 1750 800 50  0001 C CNN
+	1    1750 800 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5D8932A8
+P 950 1850
+F 0 "#PWR?" H 950 1700 50  0001 C CNN
+F 1 "+12V" V 965 1978 50  0000 L CNN
+F 2 "" H 950 1850 50  0001 C CNN
+F 3 "" H 950 1850 50  0001 C CNN
+	1    950  1850
+	0    -1   -1   0   
+$EndComp
+Connection ~ 950  1850
+$Comp
+L power:GND #PWR?
+U 1 1 5D893367
 P 1950 1450
 F 0 "#PWR?" H 1950 1200 50  0001 C CNN
 F 1 "GND" V 1955 1322 50  0000 R CNN
@@ -591,4 +556,39 @@ F 3 "" H 1950 1450 50  0001 C CNN
 	1    1950 1450
 	0    1    1    0   
 $EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D893D14
+P 3100 3050
+F 0 "#PWR?" H 3100 2900 50  0001 C CNN
+F 1 "+5V" H 3115 3223 50  0000 C CNN
+F 2 "" H 3100 3050 50  0001 C CNN
+F 3 "" H 3100 3050 50  0001 C CNN
+	1    3100 3050
+	1    0    0    -1  
+$EndComp
+Connection ~ 3100 3050
+$Comp
+L power:+5V #PWR?
+U 1 1 5D895292
+P 900 2650
+F 0 "#PWR?" H 900 2500 50  0001 C CNN
+F 1 "+5V" H 915 2823 50  0000 C CNN
+F 2 "" H 900 2650 50  0001 C CNN
+F 3 "" H 900 2650 50  0001 C CNN
+	1    900  2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D88D6C8
+P 950 1950
+F 0 "#PWR?" H 950 1800 50  0001 C CNN
+F 1 "+5V" V 950 2200 50  0000 C CNN
+F 2 "" H 950 1950 50  0001 C CNN
+F 3 "" H 950 1950 50  0001 C CNN
+	1    950  1950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 950  1950
 $EndSCHEMATC
