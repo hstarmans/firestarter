@@ -9,5 +9,5 @@ All boards have been verified and work. Controlling a spindle with the board has
 It is unknown if the board can handle the current required for moving a spindle.
 The bill of materials for each board can be found in their subfolder.
 
-
-
+# Costs
+Building 3 boards cost me around 174 euro's The components cost is 104 euro's at Farnell. I paid around 70 euro for 5 PCBs made by Eurocircuits. These had a gold finish and a delivery time of a couple of days. Later, I used PCBway at around 26 dollars and a lead time of 5 day
