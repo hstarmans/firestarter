@@ -23,7 +23,7 @@ Building 3 boards cost me around 174 euro's The components cost is 104 euro's at
 Components are best placed with solder paste and hot air or hot plate. I used the following; lynx stereo vision, oki dispenser, JBC hot air and JCB solder iron. The stereo vision was used to check the pins of the digipot, which is the hardest component to solder.
 
 # Schema
-
+![](./images/BeagleBone-Black-Cape.svg)
 
 
 # Image
