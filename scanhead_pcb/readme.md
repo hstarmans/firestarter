@@ -10,7 +10,7 @@ There are components on both sides of the board.
 The board has been fully tested. 
 
 # Schema
-![](/images/photodiode_cape.svg)
+![](./images/scanhead_pcb.svg)
 # Front Image
 ![](https://cdn.hackaday.io/images/8236961564575928556.jpg)
 # Back Image
