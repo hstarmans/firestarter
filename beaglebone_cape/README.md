@@ -16,9 +16,6 @@ You can find code to play around with the board [here](https://github.com/hstarm
 - organizations of components on the board is still quite ugly
 - mosfet and fly-back diode are too close to spindle output
 
-# Costs
-Building 3 boards cost me around 174 euro's The components cost is 104 euro's at Farnell. I paid around 70 euro for 5 PCBs made by Eurocircuits. These had a gold finish and a delivery time of a couple of days. Later, I used PCBway at around 26 dollars and a lead time of 5 days. 
-
 # Build notes
 Components are best placed with solder paste and hot air or hot plate. I used the following; lynx stereo vision, oki dispenser, JBC hot air and JCB solder iron. The stereo vision was used to check the pins of the digipot, which is the hardest component to solder.
 
