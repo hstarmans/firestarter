@@ -11,7 +11,7 @@ The two holes in the board are intented for surrounding the photodiode with a ca
 The board has bene fully tested. [Hamamatsu](https://www.hamamatsu.com) sells dedicated IC's like the S9684 series which have these circuits integrated.
 
 # Schema
-![](/images/photodiode_cape.svg)
+![](./images/photodiode_cape.svg)
 # Image
 ![](https://cdn.hackaday.io/images/4840941564576132738.jpg)
 
