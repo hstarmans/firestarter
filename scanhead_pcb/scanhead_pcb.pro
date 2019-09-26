@@ -1,4 +1,4 @@
-update=ma 23 sep 2019 16:02:42 CEST
+update=26-09-2019 13:45:08
 version=1
 last_client=kicad
 [general]
@@ -62,7 +62,7 @@ SolderPasteRatio=-0
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=images/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
