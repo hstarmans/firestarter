@@ -3,8 +3,8 @@ This repository provides three pcbs for the hexastorm; a cape for the beaglebone
 The cape is inspired by the Altium board of Salvatore Puglisi, the firestarter v0.1, and the board of Henner Zeller.
 
 # Status
-The board is undergoing some major revisions.
-
+All boards have been verified and work. Controlling a spindle with the board has not been widely tested.
+It is unknown if the board can handle the current required for moving a spindle.
 
 
 
