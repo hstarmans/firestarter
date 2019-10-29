@@ -9,6 +9,7 @@ The two holes in the board are intented for surrounding the photodiode with a ca
 
 # Status
 The board has bene fully tested. [Hamamatsu](https://www.hamamatsu.com) sells dedicated IC's like the S9684 series which have these circuits integrated.
+The op amp needs as the stock for MIC920YC5-TR is no longer replenished at Farnell.
 
 # Schema
 ![](./images/photodiode_cape.svg)
