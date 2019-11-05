@@ -7,10 +7,7 @@ PCB for a laser head. The pcb is connected to a cape on the beaglebone and the p
 There are components on both sides of the board.
 
 # Status
-The board has been fully tested. All functions work but there is cross talk between the laser and prism motor.
-This can be deduced from the noise produced by the polygon motor.
-Caps should be added to the board over the anode of the laser diode and the ground of the laserdiode driver.
-There are already capacitors on the polygon motor board.
+The board has been fully tested. All functions work.
 
 # Pinout mirror motor
 The polygon motor is a modified Ricoh AF-1027/270 with a NBC3111 chip. The motor operates at
