@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name raspberrypi-gpio-40pin-rescue)(type Legacy)(uri ${KIPRJMOD}/raspberrypi-gpio-40pin-rescue.lib)(options "")(descr ""))
+  (lib (name beagle-wire)(type Legacy)(uri ${KIPRJMOD}/beagle-wire.lib)(options "")(descr ""))
+  (lib (name firestarter_library)(type Legacy)(uri ${KIPRJMOD}/firestarter_library.lib)(options "")(descr ""))
+)
