@@ -1,4 +1,4 @@
-16934820847252502
+16944345197805500
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -283,6 +283,48 @@ Battery
 Battery_Panasonic_CR3032-VCN_Vertical_CircularHoles
 Panasonic CR-3032/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
 battery CR-3032 coin cell vertical
+0
+2
+2
+BeagleWire_elements_package
+2_DIP_SWITCH
+
+
+0
+4
+4
+BeagleWire_elements_package
+ASDMB-100.000MHZ-XY-T
+
+
+0
+4
+4
+BeagleWire_elements_package
+BEAGLEBONE-SOCKET-SMT
+SMT stacking header
+pin header
+0
+92
+46
+BeagleWire_elements_package
+Fiducial_1mm_Dia_2.00mm_Outer_CopperTop
+Circular Fiducial, 1mm bare copper top; 2.00mm keepout
+marker
+0
+2
+1
+BeagleWire_elements_package
+GroveP4
+
+
+0
+4
+4
+BeagleWire_elements_package
+LED-0603
+LED 0603 smd package
+LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED
 0
 2
 2
