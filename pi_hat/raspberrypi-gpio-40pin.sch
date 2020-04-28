@@ -83,23 +83,7 @@ Wire Wire Line
 	1650 1300 1750 1300
 Connection ~ 1650 2100
 Wire Wire Line
-	1750 1000 600  1000
-Wire Wire Line
-	600  1100 1750 1100
-Wire Wire Line
 	600  1200 1750 1200
-Wire Wire Line
-	1750 1400 600  1400
-Wire Wire Line
-	600  1500 1750 1500
-Wire Wire Line
-	600  1600 1750 1600
-Wire Wire Line
-	1750 1800 600  1800
-Wire Wire Line
-	600  1900 1750 1900
-Wire Wire Line
-	600  2000 1750 2000
 Wire Wire Line
 	1750 2200 600  2200
 Wire Wire Line
@@ -109,11 +93,7 @@ Wire Wire Line
 Wire Wire Line
 	1750 2500 600  2500
 Wire Wire Line
-	600  2600 1750 2600
-Wire Wire Line
 	600  2700 1750 2700
-Wire Wire Line
-	2250 2700 3300 2700
 Wire Wire Line
 	2250 2100 3300 2100
 Wire Wire Line
@@ -134,60 +114,6 @@ Wire Wire Line
 	2250 1200 3300 1200
 Wire Wire Line
 	2250 2400 3300 2400
-Text Label 600  1000 0    50   ~ 0
-GPIO2(SDA1)
-Text Label 600  1100 0    50   ~ 0
-GPIO3(SCL1)
-Text Label 600  1200 0    50   ~ 0
-GPIO4(GCLK)
-Text Label 600  1400 0    50   ~ 0
-GPIO17(GEN0)
-Text Label 600  1500 0    50   ~ 0
-GPIO27(GEN2)
-Text Label 600  1600 0    50   ~ 0
-GPIO22(GEN3)
-Text Label 600  1800 0    50   ~ 0
-GPIO10(SPI0_MOSI)
-Text Label 600  1900 0    50   ~ 0
-GPIO9(SPI0_MISO)
-Text Label 600  2000 0    50   ~ 0
-GPIO11(SPI0_SCK)
-Text Label 600  2200 0    50   ~ 0
-ID_SD
-Text Label 600  2300 0    50   ~ 0
-GPIO5
-Text Label 600  2400 0    50   ~ 0
-GPIO6
-Text Label 600  2500 0    50   ~ 0
-GPIO13(PWM1)
-Text Label 600  2600 0    50   ~ 0
-GPIO19(SPI1_MISO)
-Text Label 600  2700 0    50   ~ 0
-GPIO26
-Text Label 3300 2700 2    50   ~ 0
-GPIO20(SPI1_MOSI)
-Text Label 3300 2600 2    50   ~ 0
-GPIO16
-Text Label 3300 2400 2    50   ~ 0
-GPIO12(PWM0)
-Text Label 3300 2200 2    50   ~ 0
-ID_SC
-Text Label 3300 2100 2    50   ~ 0
-GPIO7(SPI1_CE_N)
-Text Label 3300 2000 2    50   ~ 0
-GPIO8(SPI0_CE_N)
-Text Label 3300 1900 2    50   ~ 0
-GPIO25(GEN6)
-Text Label 3300 1700 2    50   ~ 0
-GPIO24(GEN5)
-Text Label 3300 1600 2    50   ~ 0
-GPIO23(GEN4)
-Text Label 3300 1400 2    50   ~ 0
-GPIO18(GEN1)(PWM0)
-Text Label 3300 1300 2    50   ~ 0
-GPIO15(RXD0)
-Text Label 3300 1200 2    50   ~ 0
-GPIO14(TXD0)
 Wire Wire Line
 	2350 1100 2250 1100
 Connection ~ 2350 1500
@@ -250,8 +176,6 @@ F 3 "" H -2900 850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2250 2800 3300 2800
-Text Label 3300 2800 2    50   ~ 0
-GPIO21(SPI1_SCK)
 Wire Wire Line
 	2450 900  2450 1000
 Wire Wire Line
@@ -302,12 +226,12 @@ $EndComp
 $Comp
 L beagle-wire:iCE40-HX4K-TQ144 U?
 U 4 1 5EA43EF3
-P 4000 800
-F 0 "U?" H 5031 -197 60  0000 L CNN
-F 1 "iCE40-HX4K-TQ144" H 4200 1000 60  0000 L CNN
-F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 4000 800 60  0001 C CNN
-F 3 "https://nl.mouser.com/ProductDetail/Lattice/iCE40HX4K-TQ144" H 4000 800 60  0001 C CNN
-	4    4000 800 
+P 4300 800
+F 0 "U?" H 5331 -197 60  0000 L CNN
+F 1 "iCE40-HX4K-TQ144" H 4500 1000 60  0000 L CNN
+F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 4300 800 60  0001 C CNN
+F 3 "https://nl.mouser.com/ProductDetail/Lattice/iCE40HX4K-TQ144" H 4300 800 60  0001 C CNN
+	4    4300 800 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -644,23 +568,16 @@ $EndComp
 $Comp
 L beagle-wire:C_Small C?
 U 1 1 5EA21A87
-P 10100 4200
-F 0 "C?" V 10000 4050 50  0000 L CNN
-F 1 "0.1uF" V 10000 4300 50  0000 L CNN
-F 2 "" H 10100 4200 50  0001 C CNN
-F 3 "" H 10100 4200 50  0001 C CNN
-	1    10100 4200
+P 10250 4200
+F 0 "C?" V 10300 4050 50  0000 L CNN
+F 1 "0.1uF" V 10100 4150 50  0000 L CNN
+F 2 "" H 10250 4200 50  0001 C CNN
+F 3 "" H 10250 4200 50  0001 C CNN
+	1    10250 4200
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	10400 4200 10200 4200
-Connection ~ 10400 4200
-Text GLabel 10000 4100 0    50   Input ~ 0
+Text GLabel 10100 4100 0    50   Input ~ 0
 Z_PO
-Wire Wire Line
-	10400 4100 10000 4100
-Wire Wire Line
-	10000 4100 10000 4200
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5EA29E11
@@ -684,11 +601,6 @@ F 3 "~" H 10250 4000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Connection ~ 10400 4000
-Wire Wire Line
-	10000 4100 10000 4000
-Wire Wire Line
-	10000 4000 10100 4000
-Connection ~ 10000 4100
 Text GLabel 10400 3500 0    50   Input ~ 0
 Z_2B
 Text GLabel 10400 3600 0    50   Input ~ 0
@@ -771,7 +683,7 @@ X_1A
 Text GLabel 10400 1800 0    50   Input ~ 0
 X_1B
 Text GLabel 10100 2150 0    50   Input ~ 0
-Y_PO
+X_PO
 $Comp
 L beagle-wire:C_Small C?
 U 1 1 5EA4F843
@@ -902,13 +814,13 @@ Connection ~ 10400 550
 Text GLabel 7850 3300 0    50   Input ~ 0
 ENABLE
 Text GLabel 7850 3400 0    50   Input ~ 0
-SPIO_DI
+SPI1_DI
 Text GLabel 7850 3500 0    50   Input ~ 0
-SPIO_SCL
+SPI1_SCL
 Text GLabel 7850 3600 0    50   Input ~ 0
-SPIO_CSZ
+SPI1_CSZ
 Text GLabel 7850 3700 0    50   Input ~ 0
-SPIO_DO
+SPI1_DO
 NoConn ~ 7850 3800
 Text GLabel 7850 3900 0    50   Input ~ 0
 Z_STEP
@@ -986,13 +898,13 @@ Connection ~ 9150 3400
 Text GLabel 7850 2100 0    50   Input ~ 0
 ENABLE
 Text GLabel 7850 2200 0    50   Input ~ 0
-SPIO_DI
+SPI1_DI
 Text GLabel 7850 2300 0    50   Input ~ 0
-SPIO_SCL
+SPI1_SCL
 Text GLabel 7850 2400 0    50   Input ~ 0
-SPIO_CSY
+SPI1_CSY
 Text GLabel 7850 2500 0    50   Input ~ 0
-SPIO_DO
+SPI1_DO
 Text GLabel 7850 2700 0    50   Input ~ 0
 Y_STEP
 Text GLabel 7850 2800 0    50   Input ~ 0
@@ -1009,13 +921,13 @@ Y_1B
 Text GLabel 7850 900  0    50   Input ~ 0
 ENABLE
 Text GLabel 7850 1000 0    50   Input ~ 0
-SPIO_DI
+SPI1_DI
 Text GLabel 7850 1100 0    50   Input ~ 0
-SPIO_SCL
+SPI1_SCL
 Text GLabel 7850 1200 0    50   Input ~ 0
-SPIO_CSX
+SPI1_CSX
 Text GLabel 7850 1300 0    50   Input ~ 0
-SPIO_DO
+SPI1_DO
 NoConn ~ 7850 1400
 Text GLabel 7850 1500 0    50   Input ~ 0
 X_STEP
@@ -1279,9 +1191,9 @@ F 3 "~" H 9200 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 5650 4000 0    50   Input ~ 0
-SPIO_DO
+SPI0_DO
 Text GLabel 5650 4100 0    50   Input ~ 0
-SPI_DI
+SPI0_DI
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5ED6A2F9
@@ -1327,7 +1239,7 @@ F 3 "" H 6900 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 5650 4200 0    50   Input ~ 0
-SPIO_SCL
+SPI0_SCL
 $Comp
 L Device:C_Small C?
 U 1 1 5EDCAAD7
@@ -1398,7 +1310,7 @@ Wire Wire Line
 Wire Wire Line
 	5850 4300 6300 4300
 Text GLabel 5650 4300 0    50   Input ~ 0
-SPI_SF
+SPI0_CE
 Wire Wire Line
 	5650 4300 5850 4300
 Connection ~ 5850 4300
@@ -1618,70 +1530,70 @@ Connection ~ 1950 6750
 Connection ~ 1950 7150
 Wire Wire Line
 	1950 6950 1950 7150
-Text GLabel 1650 4000 2    50   Input ~ 0
+Text GLabel 1850 4050 2    50   Input ~ 0
 ICE40_CRESET
 $Comp
 L Device:R R?
 U 1 1 5EF81B55
-P 950 4000
-F 0 "R?" V 850 4100 50  0000 C CNN
-F 1 "100" V 950 4000 50  0000 C CNN
-F 2 "" V 880 4000 50  0001 C CNN
-F 3 "~" H 950 4000 50  0001 C CNN
-	1    950  4000
+P 1100 4050
+F 0 "R?" V 1000 4150 50  0000 C CNN
+F 1 "100" V 1100 4050 50  0000 C CNN
+F 2 "" V 1030 4050 50  0001 C CNN
+F 3 "~" H 1100 4050 50  0001 C CNN
+	1    1100 4050
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5EF846C1
-P 800 4000
-F 0 "#PWR?" H 800 3750 50  0001 C CNN
-F 1 "GND" V 805 3872 50  0000 R CNN
-F 2 "" H 800 4000 50  0001 C CNN
-F 3 "" H 800 4000 50  0001 C CNN
-	1    800  4000
+P 950 4050
+F 0 "#PWR?" H 950 3800 50  0001 C CNN
+F 1 "GND" V 955 3922 50  0000 R CNN
+F 2 "" H 950 4050 50  0001 C CNN
+F 3 "" H 950 4050 50  0001 C CNN
+	1    950  4050
 	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_Push SW?
 U 1 1 5EF8D398
-P 1300 4000
-F 0 "SW?" H 1300 4285 50  0000 C CNN
-F 1 "SW_Push" H 1300 4194 50  0000 C CNN
-F 2 "" H 1300 4200 50  0001 C CNN
-F 3 "~" H 1300 4200 50  0001 C CNN
-	1    1300 4000
+P 1500 4050
+F 0 "SW?" H 1600 4150 50  0000 C CNN
+F 1 "SW_Push" H 1550 3950 50  0000 C CNN
+F 2 "" H 1500 4250 50  0001 C CNN
+F 3 "~" H 1500 4250 50  0001 C CNN
+	1    1500 4050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1500 4000 1550 4000
+	1700 4050 1750 4050
 $Comp
 L Device:R R?
 U 1 1 5EF93CAB
-P 1550 3600
-F 0 "R?" H 1450 3700 50  0000 C CNN
-F 1 "4.7K" V 1550 3600 50  0000 C CNN
-F 2 "" V 1480 3600 50  0001 C CNN
-F 3 "~" H 1550 3600 50  0001 C CNN
-	1    1550 3600
-	1    0    0    -1  
+P 1550 3700
+F 0 "R?" H 1700 3650 50  0000 C CNN
+F 1 "4.7K" V 1550 3700 50  0000 C CNN
+F 2 "" V 1480 3700 50  0001 C CNN
+F 3 "~" H 1550 3700 50  0001 C CNN
+	1    1550 3700
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5EF9EAE3
-P 1550 3450
-F 0 "#PWR?" H 1550 3300 50  0001 C CNN
-F 1 "+3.3V" H 1565 3623 50  0000 C CNN
-F 2 "" H 1550 3450 50  0001 C CNN
-F 3 "" H 1550 3450 50  0001 C CNN
-	1    1550 3450
-	1    0    0    -1  
+P 1900 3500
+F 0 "#PWR?" H 1900 3350 50  0001 C CNN
+F 1 "+3.3V" H 1915 3673 50  0000 C CNN
+F 2 "" H 1900 3500 50  0001 C CNN
+F 3 "" H 1900 3500 50  0001 C CNN
+	1    1900 3500
+	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1550 3750 1550 4000
-Connection ~ 1550 4000
+	1750 3800 1750 4050
+Connection ~ 1750 4050
 Wire Wire Line
-	1550 4000 1650 4000
+	1750 4050 1850 4050
 NoConn ~ 1400 6000
 $Comp
 L Device:D D?
@@ -1901,12 +1813,12 @@ $EndComp
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5F13FF09
-P 4000 2900
-F 0 "#PWR?" H 4000 2750 50  0001 C CNN
-F 1 "+3.3V" V 3900 2850 50  0000 L CNN
-F 2 "" H 4000 2900 50  0001 C CNN
-F 3 "" H 4000 2900 50  0001 C CNN
-	1    4000 2900
+P 4300 2900
+F 0 "#PWR?" H 4300 2750 50  0001 C CNN
+F 1 "+3.3V" V 4200 2850 50  0000 L CNN
+F 2 "" H 4300 2900 50  0001 C CNN
+F 3 "" H 4300 2900 50  0001 C CNN
+	1    4300 2900
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -2137,4 +2049,294 @@ Wire Wire Line
 	3250 7450 3250 7250
 Connection ~ 2950 7450
 Connection ~ 3250 7250
+Text GLabel 800  3850 1    50   Input ~ 0
+RP_CDONE
+Text GLabel 1150 4300 0    50   Input ~ 0
+RP_CRESET
+Text GLabel 1850 3850 2    50   Input ~ 0
+ICE40_CDONE
+Wire Wire Line
+	1400 3850 1550 3850
+$Comp
+L Device:R R?
+U 1 1 5EB5D671
+P 1750 3650
+F 0 "R?" H 1650 3600 50  0000 C CNN
+F 1 "4.7K" V 1750 3650 50  0000 C CNN
+F 2 "" V 1680 3650 50  0001 C CNN
+F 3 "~" H 1750 3650 50  0001 C CNN
+	1    1750 3650
+	-1   0    0    1   
+$EndComp
+Connection ~ 1550 3850
+Wire Wire Line
+	1550 3850 1850 3850
+Wire Wire Line
+	1550 3550 1550 3500
+Wire Wire Line
+	1550 3500 1750 3500
+Wire Wire Line
+	1750 3500 1900 3500
+Connection ~ 1750 3500
+Wire Wire Line
+	1750 4300 1750 4050
+$Comp
+L Device:Jumper JP?
+U 1 1 5EBF330B
+P 1450 4300
+F 0 "JP?" H 1250 4200 50  0000 C CNN
+F 1 "Jumper" H 1600 4200 50  0000 C CNN
+F 2 "" H 1450 4300 50  0001 C CNN
+F 3 "~" H 1450 4300 50  0001 C CNN
+	1    1450 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper JP?
+U 1 1 5EC1546C
+P 1100 3850
+F 0 "JP?" H 1050 3750 50  0000 C CNN
+F 1 "Jumper" H 1100 4000 50  0000 C CNN
+F 2 "" H 1100 3850 50  0001 C CNN
+F 3 "~" H 1100 3850 50  0001 C CNN
+	1    1100 3850
+	1    0    0    -1  
+$EndComp
+Text GLabel 4300 800  0    50   Input ~ 0
+ICE40_CDONE
+Text GLabel 4300 900  0    50   Input ~ 0
+ICE40_CRESET
+Text GLabel 5900 3000 0    50   Input ~ 0
+USER_LED0
+Text GLabel 5900 3100 0    50   Input ~ 0
+USER_LED1
+Text GLabel 5900 3200 0    50   Input ~ 0
+USER_LED2
+Text GLabel 5900 3300 0    50   Input ~ 0
+USER_LED3
+Text Notes 2400 2000 0    50   ~ 0
+GPIO8(SPI0_CE_N)
+Text Notes 2400 2100 0    50   ~ 0
+GPIO7(SPI1_CE_N)
+Text Notes 2400 2200 0    50   ~ 0
+ID_SC
+Text Notes 2400 2400 0    50   ~ 0
+GPIO12(PWM0)
+Text Notes 2400 2600 0    50   ~ 0
+GPIO16
+Text Notes 2400 2700 0    50   ~ 0
+GPIO20(SPI1_MOSI)
+Wire Wire Line
+	2250 2700 3300 2700
+Text Notes 2400 2800 0    50   ~ 0
+GPIO21(SPI1_SCK)
+Text Notes 2400 1900 0    50   ~ 0
+GPIO25(GEN6)
+Text Notes 2400 1700 0    50   ~ 0
+GPIO24(GEN5)
+Text Notes 2400 1600 0    50   ~ 0
+GPIO23(GEN4)
+Text Notes 2400 1400 0    50   ~ 0
+GPIO18(GEN1)(PWM0)
+Text Notes 2400 1300 0    50   ~ 0
+GPIO15(RXD0)
+Text Notes 2400 1200 0    50   ~ 0
+GPIO14(TXD0)
+Text Notes 1050 1000 0    50   ~ 0
+GPIO2(SDA1)
+Text Notes 1050 1100 0    50   ~ 0
+GPIO3(SCL1)
+Text Notes 1050 1200 0    50   ~ 0
+GPIO4(GCLK)
+Text Notes 1000 1400 0    50   ~ 0
+GPIO17(GEN0)
+Text Notes 1000 1500 0    50   ~ 0
+GPIO27(GEN2)
+Text Notes 1000 1600 0    50   ~ 0
+GPIO22(GEN3)
+Text Notes 850  1800 0    50   ~ 0
+GPIO10(SPI0_MOSI)
+Text Notes 850  1900 0    50   ~ 0
+GPIO9(SPI0_MISO)
+Text Notes 900  2000 0    50   ~ 0
+GPIO11(SPI0_SCK)
+Text Notes 1300 2200 0    50   ~ 0
+ID_SD
+Text Notes 1300 2300 0    50   ~ 0
+GPIO5
+Text Notes 1400 2400 0    50   ~ 0
+AC
+Text Notes 1000 2500 0    50   ~ 0
+GPIO13(PWM1)
+Text Notes 900  2600 0    50   ~ 0
+GPIO19(SPI1_MISO)
+Text Notes 1300 2700 0    50   ~ 0
+GPIO26
+Text GLabel 1000 1000 0    50   Input ~ 0
+POT_SDA
+Wire Wire Line
+	1000 1000 1750 1000
+Text GLabel 1000 1100 0    50   Input ~ 0
+POT_SCL
+Wire Wire Line
+	1000 1100 1750 1100
+Text GLabel 3300 2800 2    50   Input ~ 0
+SPI1_SCL
+Text GLabel 3300 2700 2    50   Input ~ 0
+SPI1_DI
+Text GLabel 850  2600 0    50   Input ~ 0
+SPI1_DO
+Wire Wire Line
+	850  2600 1750 2600
+Text GLabel 3300 2100 2    50   Input ~ 0
+SPI1_CSX
+Text GLabel 850  1800 0    50   Input ~ 0
+SPI0_DI
+Text GLabel 850  1900 0    50   Input ~ 0
+SPI0_DO
+Wire Wire Line
+	850  1800 1750 1800
+Wire Wire Line
+	1750 1900 850  1900
+Text GLabel 900  2000 0    50   Input ~ 0
+SPI0_SCL
+Wire Wire Line
+	900  2000 1750 2000
+Text GLabel 3300 2000 2    50   Input ~ 0
+SPI0_CE
+Wire Wire Line
+	10350 4200 10400 4200
+Connection ~ 10400 4200
+Wire Wire Line
+	10100 4200 10150 4200
+Wire Wire Line
+	10100 4000 10100 4200
+Text GLabel 950  1400 0    50   Input ~ 0
+ENABLE
+Wire Wire Line
+	950  1400 1750 1400
+Text GLabel 950  1500 0    50   Input ~ 0
+RP_CDONE
+Text GLabel 950  1600 0    50   Input ~ 0
+RP_CRESET
+Wire Wire Line
+	950  1500 1750 1500
+Wire Wire Line
+	950  1600 1750 1600
+Text GLabel 4300 1000 0    50   Input ~ 0
+POLY_EN
+Text GLabel 4300 1100 0    50   Input ~ 0
+POLY_READY
+Text GLabel 4300 1200 0    50   Input ~ 0
+POLY_PWM
+Text GLabel 4300 1300 0    50   Input ~ 0
+FAN_PWM
+Text GLabel 4300 1400 0    50   Input ~ 0
+PH_DIODE
+Text GLabel 4300 1500 0    50   Input ~ 0
+IC_HB_PWM2
+Text GLabel 4300 1600 0    50   Input ~ 0
+IC_HB_PWM1
+Text GLabel 4300 1700 0    50   Input ~ 0
+X_STEP
+Text GLabel 4300 1800 0    50   Input ~ 0
+X_DIR
+Text GLabel 4300 1900 0    50   Input ~ 0
+Y_STEP
+Text GLabel 4300 2000 0    50   Input ~ 0
+Y_DIR
+Text GLabel 4300 2100 0    50   Input ~ 0
+Z_STEP
+Text GLabel 4300 2200 0    50   Input ~ 0
+Z_DIR
+Text GLabel 4300 2300 0    50   Input ~ 0
+X_PO
+Text GLabel 4300 2400 0    50   Input ~ 0
+Y_PO
+Text GLabel 4300 2500 0    50   Input ~ 0
+Z_PO
+Text GLabel 4300 2600 0    50   Input ~ 0
+SPINDLE_PWM
+NoConn ~ 2550 3450
+NoConn ~ 2550 3550
+NoConn ~ 2550 3650
+NoConn ~ 2550 3750
+NoConn ~ 2550 3850
+NoConn ~ 2550 3950
+NoConn ~ 2550 4050
+NoConn ~ 2550 4150
+NoConn ~ 2550 4250
+NoConn ~ 2550 4350
+NoConn ~ 2550 4450
+NoConn ~ 2550 4550
+NoConn ~ 2550 4650
+NoConn ~ 2550 4750
+NoConn ~ 2550 6050
+NoConn ~ 2550 5950
+NoConn ~ 2550 5850
+NoConn ~ 2550 5750
+NoConn ~ 2550 5650
+NoConn ~ 2550 5550
+NoConn ~ 2550 5450
+NoConn ~ 2550 5350
+NoConn ~ 2550 5250
+NoConn ~ 2550 5150
+NoConn ~ 2550 5050
+NoConn ~ 2550 4950
+NoConn ~ 2550 4850
+NoConn ~ 4000 6250
+NoConn ~ 4000 6150
+NoConn ~ 4000 6050
+NoConn ~ 4000 5950
+NoConn ~ 4000 5850
+NoConn ~ 4000 5750
+NoConn ~ 4000 5650
+NoConn ~ 4000 5550
+NoConn ~ 4000 5450
+NoConn ~ 4000 5350
+NoConn ~ 4000 5250
+NoConn ~ 4000 5150
+NoConn ~ 4000 5050
+NoConn ~ 4000 4950
+NoConn ~ 4000 4850
+NoConn ~ 4000 4750
+NoConn ~ 4000 4650
+NoConn ~ 4000 4550
+NoConn ~ 4000 4450
+NoConn ~ 4000 4350
+NoConn ~ 4000 4250
+NoConn ~ 4000 4150
+NoConn ~ 4000 4050
+NoConn ~ 4000 3950
+NoConn ~ 4000 3850
+NoConn ~ 4000 3750
+NoConn ~ 4000 3650
+NoConn ~ 4000 3550
+NoConn ~ 4000 3450
+NoConn ~ 4300 2800
+NoConn ~ 4300 2700
+NoConn ~ 5900 3500
+NoConn ~ 5900 3400
+NoConn ~ 5900 800 
+NoConn ~ 5900 900 
+NoConn ~ 5900 1000
+NoConn ~ 5900 1100
+NoConn ~ 5900 1200
+NoConn ~ 5900 1300
+NoConn ~ 5900 1400
+NoConn ~ 5900 1500
+NoConn ~ 5900 1600
+NoConn ~ 5900 1700
+NoConn ~ 5900 1800
+NoConn ~ 5900 1900
+NoConn ~ 5900 2000
+NoConn ~ 5900 2100
+NoConn ~ 5900 2200
+NoConn ~ 5900 2300
+NoConn ~ 5900 2400
+NoConn ~ 5900 2500
+NoConn ~ 5900 2600
+NoConn ~ 5900 2700
+NoConn ~ 5900 2800
+NoConn ~ 5900 2900
 $EndSCHEMATC
