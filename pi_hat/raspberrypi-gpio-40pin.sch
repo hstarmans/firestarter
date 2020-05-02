@@ -814,13 +814,13 @@ Connection ~ 10400 550
 Text GLabel 7850 3300 0    50   Input ~ 0
 ENABLE
 Text GLabel 7850 3400 0    50   Input ~ 0
-SPI1_DI
+SPI1_YOZI
 Text GLabel 7850 3500 0    50   Input ~ 0
 SPI1_SCL
 Text GLabel 7850 3600 0    50   Input ~ 0
-SPI1_CSZ
+SPI1_CSE
 Text GLabel 7850 3700 0    50   Input ~ 0
-SPI1_DO
+SPI1_MISO
 NoConn ~ 7850 3800
 Text GLabel 7850 3900 0    50   Input ~ 0
 Z_STEP
@@ -898,13 +898,13 @@ Connection ~ 9150 3400
 Text GLabel 7850 2100 0    50   Input ~ 0
 ENABLE
 Text GLabel 7850 2200 0    50   Input ~ 0
-SPI1_DI
+SPI1_XOYI
 Text GLabel 7850 2300 0    50   Input ~ 0
 SPI1_SCL
 Text GLabel 7850 2400 0    50   Input ~ 0
-SPI1_CSY
+SPI1_CSE
 Text GLabel 7850 2500 0    50   Input ~ 0
-SPI1_DO
+SPI1_YOZI
 Text GLabel 7850 2700 0    50   Input ~ 0
 Y_STEP
 Text GLabel 7850 2800 0    50   Input ~ 0
@@ -921,13 +921,13 @@ Y_1B
 Text GLabel 7850 900  0    50   Input ~ 0
 ENABLE
 Text GLabel 7850 1000 0    50   Input ~ 0
-SPI1_DI
+SPI1_MOSI
 Text GLabel 7850 1100 0    50   Input ~ 0
 SPI1_SCL
 Text GLabel 7850 1200 0    50   Input ~ 0
-SPI1_CSX
+SPI1_CSE
 Text GLabel 7850 1300 0    50   Input ~ 0
-SPI1_DO
+SPI1_XOYI
 NoConn ~ 7850 1400
 Text GLabel 7850 1500 0    50   Input ~ 0
 X_STEP
@@ -2183,13 +2183,13 @@ Wire Wire Line
 Text GLabel 3300 2800 2    50   Input ~ 0
 SPI1_SCL
 Text GLabel 3300 2700 2    50   Input ~ 0
-SPI1_DI
+SPI1_MOSI
 Text GLabel 850  2600 0    50   Input ~ 0
-SPI1_DO
+SPI1_MISO
 Wire Wire Line
 	850  2600 1750 2600
 Text GLabel 3300 2100 2    50   Input ~ 0
-SPI1_CSX
+SPI1_CE
 Text GLabel 850  1800 0    50   Input ~ 0
 SPI0_DI
 Text GLabel 850  1900 0    50   Input ~ 0
@@ -2339,4 +2339,22 @@ NoConn ~ 5900 2600
 NoConn ~ 5900 2700
 NoConn ~ 5900 2800
 NoConn ~ 5900 2900
+Text GLabel 3300 2200 2    50   Input ~ 0
+ID_SC
+Text GLabel 3300 1200 2    50   Input ~ 0
+GPIO14
+Text GLabel 3300 1300 2    50   Input ~ 0
+GPIO15
+NoConn ~ 3300 1400
+NoConn ~ 3300 1600
+NoConn ~ 3300 1700
+NoConn ~ 3300 1900
+NoConn ~ 3300 2400
+NoConn ~ 3300 2600
+NoConn ~ 600  2200
+NoConn ~ 600  2300
+NoConn ~ 600  2400
+NoConn ~ 600  2500
+NoConn ~ 600  2700
+NoConn ~ 600  1200
 $EndSCHEMATC
