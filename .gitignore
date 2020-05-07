@@ -4,7 +4,8 @@
 # Temporary files
 *.lock*  # libre office temp files
 *.000
-*.bak
+*bak
+*cache
 *.bck
 *.kicad_pcb-bak
 *~
