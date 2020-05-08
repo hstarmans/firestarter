@@ -321,8 +321,8 @@ L Connector_Generic:Conn_01x03 SX1
 U 1 1 5ED215CF
 P 10600 2150
 F 0 "SX1" H 10680 2192 50  0000 L CNN
-F 1 "MOLEX_2041" H 10680 2101 50  0000 L CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" H 10600 2150 50  0001 C CNN
+F 1 "MOLEX_2031" H 10680 2101 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 10600 2150 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2695358.pdf" H 10600 2150 50  0001 C CNN
 	1    10600 2150
 	1    0    0    -1  
