@@ -1382,28 +1382,6 @@ Wire Wire Line
 Connection ~ 5450 5000
 Connection ~ 5300 5000
 $Comp
-L Device:R R9
-U 1 1 5EECD8E7
-P 1800 7150
-F 0 "R9" V 1700 7250 50  0000 C CNN
-F 1 "240" V 1800 7150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1730 7150 50  0001 C CNN
-F 3 "~" H 1800 7150 50  0001 C CNN
-	1    1800 7150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R8
-U 1 1 5EED97CD
-P 1800 6950
-F 0 "R8" V 1700 7050 50  0000 C CNN
-F 1 "240" V 1800 6950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1730 6950 50  0001 C CNN
-F 3 "~" H 1800 6950 50  0001 C CNN
-	1    1800 6950
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:R R7
 U 1 1 5EED9E2A
 P 1800 6750
@@ -1437,17 +1415,6 @@ F 3 "~" V 1400 6750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED_Small D4
-U 1 1 5EEFB9EC
-P 1400 6950
-F 0 "D4" H 1300 7000 50  0000 C CNN
-F 1 "BLUE" H 1550 6900 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1400 6950 50  0001 C CNN
-F 3 "~" V 1400 6950 50  0001 C CNN
-	1    1400 6950
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:LED_Small D2
 U 1 1 5EEFC8FA
 P 1400 6550
@@ -1458,41 +1425,18 @@ F 3 "~" V 1400 6550 50  0001 C CNN
 	1    1400 6550
 	-1   0    0    1   
 $EndComp
-$Comp
-L Device:LED_Small D5
-U 1 1 5EEFCCCB
-P 1400 7150
-F 0 "D5" H 1300 7200 50  0000 C CNN
-F 1 "BLUE" H 1550 7100 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1400 7150 50  0001 C CNN
-F 3 "~" V 1400 7150 50  0001 C CNN
-	1    1400 7150
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1500 6550 1650 6550
 Wire Wire Line
 	1500 6750 1650 6750
-Wire Wire Line
-	1500 6950 1650 6950
-Wire Wire Line
-	1500 7150 1650 7150
 Text GLabel 1100 6550 0    50   Input ~ 0
 USER_LED3
 Text GLabel 1100 6750 0    50   Input ~ 0
 USER_LED2
-Text GLabel 1100 6950 0    50   Input ~ 0
-USER_LED1
-Text GLabel 1100 7150 0    50   Input ~ 0
-USER_LED0
 Wire Wire Line
 	1100 6550 1300 6550
 Wire Wire Line
 	1100 6750 1300 6750
-Wire Wire Line
-	1100 6950 1300 6950
-Wire Wire Line
-	1100 7150 1300 7150
 $Comp
 L power:GND #PWR0134
 U 1 1 5EF3A9EB
@@ -1505,16 +1449,8 @@ F 3 "" H 1950 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1950 7200 1950 7150
-Wire Wire Line
-	1950 6950 1950 6750
-Connection ~ 1950 6950
-Wire Wire Line
 	1950 6750 1950 6550
 Connection ~ 1950 6750
-Connection ~ 1950 7150
-Wire Wire Line
-	1950 6950 1950 7150
 Text GLabel 1850 4050 2    50   Input ~ 0
 ICE40_CRESET
 $Comp
@@ -2080,13 +2016,9 @@ Text GLabel 4300 800  0    50   Input ~ 0
 ICE40_CDONE
 Text GLabel 4300 900  0    50   Input ~ 0
 ICE40_CRESET
-Text GLabel 5900 3000 0    50   Input ~ 0
-USER_LED0
-Text GLabel 5900 3100 0    50   Input ~ 0
-USER_LED1
-Text GLabel 5900 3200 0    50   Input ~ 0
+Text GLabel 5900 1300 0    50   Input ~ 0
 USER_LED2
-Text GLabel 5900 3300 0    50   Input ~ 0
+Text GLabel 5900 1000 0    50   Input ~ 0
 USER_LED3
 Text Notes 2400 2000 0    50   ~ 0
 GPIO8(SPI0_CE_N)
@@ -2197,43 +2129,40 @@ Wire Wire Line
 	950  1500 1750 1500
 Wire Wire Line
 	950  1600 1750 1600
-Text GLabel 4300 1000 0    50   Input ~ 0
+Text GLabel 2550 5750 0    50   Input ~ 0
 POLY_EN
-Text GLabel 4300 1100 0    50   Input ~ 0
+Text GLabel 2550 5550 0    50   Input ~ 0
 POLY_READY
-Text GLabel 4300 1200 0    50   Input ~ 0
+Text GLabel 2550 5650 0    50   Input ~ 0
 POLY_PWM
-Text GLabel 4300 1300 0    50   Input ~ 0
+Text GLabel 2550 5350 0    50   Input ~ 0
 FAN_PWM
-Text GLabel 4300 1400 0    50   Input ~ 0
+Text GLabel 2550 5450 0    50   Input ~ 0
 PH_DIODE
-Text GLabel 4300 1500 0    50   Input ~ 0
+Text GLabel 2550 5250 0    50   Input ~ 0
 IC_HB_PWM2
-Text GLabel 4300 1600 0    50   Input ~ 0
+Text GLabel 2550 5150 0    50   Input ~ 0
 IC_HB_PWM1
-Text GLabel 4300 1700 0    50   Input ~ 0
+Text GLabel 4300 1100 0    50   Input ~ 0
 X_STEP
-Text GLabel 4300 1800 0    50   Input ~ 0
+Text GLabel 4300 1000 0    50   Input ~ 0
 X_DIR
-Text GLabel 4300 1900 0    50   Input ~ 0
+Text GLabel 5900 2200 0    50   Input ~ 0
 Y_STEP
-Text GLabel 4300 2000 0    50   Input ~ 0
+Text GLabel 5900 2100 0    50   Input ~ 0
 Y_DIR
-Text GLabel 4300 2100 0    50   Input ~ 0
+Text GLabel 2550 5950 0    50   Input ~ 0
 Z_STEP
-Text GLabel 4300 2200 0    50   Input ~ 0
+Text GLabel 2550 5850 0    50   Input ~ 0
 Z_DIR
-Text GLabel 4300 2300 0    50   Input ~ 0
+Text GLabel 2550 3450 0    50   Input ~ 0
 X_PO
-Text GLabel 4300 2400 0    50   Input ~ 0
+Text GLabel 2550 4650 0    50   Input ~ 0
 Y_PO
-Text GLabel 4300 2700 0    50   Input ~ 0
+Text GLabel 2550 5050 0    50   Input ~ 0
 Z_PO
-Text GLabel 4300 2600 0    50   Input ~ 0
+Text GLabel 4300 1200 0    50   Input ~ 0
 SPINDLE_PWM
-NoConn ~ 2550 3450
-NoConn ~ 2550 3550
-NoConn ~ 2550 3650
 NoConn ~ 2550 3750
 NoConn ~ 2550 3850
 NoConn ~ 2550 3950
@@ -2243,19 +2172,8 @@ NoConn ~ 2550 4250
 NoConn ~ 2550 4350
 NoConn ~ 2550 4450
 NoConn ~ 2550 4550
-NoConn ~ 2550 4650
 NoConn ~ 2550 4750
 NoConn ~ 2550 6050
-NoConn ~ 2550 5950
-NoConn ~ 2550 5850
-NoConn ~ 2550 5750
-NoConn ~ 2550 5650
-NoConn ~ 2550 5550
-NoConn ~ 2550 5450
-NoConn ~ 2550 5350
-NoConn ~ 2550 5250
-NoConn ~ 2550 5150
-NoConn ~ 2550 5050
 NoConn ~ 2550 4950
 NoConn ~ 2550 4850
 NoConn ~ 4000 6250
@@ -2274,9 +2192,6 @@ NoConn ~ 4000 5050
 NoConn ~ 4000 4950
 NoConn ~ 4000 4850
 NoConn ~ 4000 4750
-NoConn ~ 4000 4650
-NoConn ~ 4000 4550
-NoConn ~ 4000 4450
 NoConn ~ 4000 4350
 NoConn ~ 4000 4250
 NoConn ~ 4000 4150
@@ -2290,10 +2205,8 @@ NoConn ~ 4000 3450
 NoConn ~ 4300 2800
 NoConn ~ 5900 3500
 NoConn ~ 5900 3400
-NoConn ~ 5900 1000
 NoConn ~ 5900 1100
 NoConn ~ 5900 1200
-NoConn ~ 5900 1300
 NoConn ~ 5900 1400
 NoConn ~ 5900 1500
 NoConn ~ 5900 1600
@@ -2301,8 +2214,6 @@ NoConn ~ 5900 1700
 NoConn ~ 5900 1800
 NoConn ~ 5900 1900
 NoConn ~ 5900 2000
-NoConn ~ 5900 2100
-NoConn ~ 5900 2200
 NoConn ~ 5900 2300
 NoConn ~ 5900 2400
 NoConn ~ 5900 2500
@@ -2341,17 +2252,6 @@ F 2 "Diode_SMD:D_SMA_Handsoldering" H 850 5900 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2300053.pdf" H 850 5900 50  0001 C CNN
 	1    850  5900
 	-1   0    0    1   
-$EndComp
-$Comp
-L beagle-wire:+3V3 #PWR0154
-U 1 1 5EDEFD62
-P 7900 6050
-F 0 "#PWR0154" H 7900 5900 50  0001 C CNN
-F 1 "+3V3" H 7915 6223 50  0000 C CNN
-F 2 "" H 7900 6050 50  0001 C CNN
-F 3 "" H 7900 6050 50  0001 C CNN
-	1    7900 6050
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C12
@@ -2399,7 +2299,6 @@ F 3 "~" H 8350 6150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7900 6050 8050 6050
-Connection ~ 7900 6050
 Wire Wire Line
 	8050 6050 8200 6050
 Wire Wire Line
@@ -2616,9 +2515,9 @@ $EndComp
 Connection ~ 6900 5100
 Text GLabel 4300 2500 0    50   Input ~ 0
 OSC_OUT
-Text GLabel 5900 800  0    50   Input ~ 0
+Text GLabel 4000 4550 0    50   Input ~ 0
 GPIO14
-Text GLabel 5900 900  0    50   Input ~ 0
+Text GLabel 4000 4450 0    50   Input ~ 0
 GPIO15
 Text GLabel 7850 3400 0    50   Input ~ 0
 SPI1_YOZI
@@ -2695,10 +2594,10 @@ NoConn ~ 1400 6200
 NoConn ~ 1400 6250
 NoConn ~ 1400 6300
 $Comp
-L power:+24V #PWR?
+L power:+24V #PWR0160
 U 1 1 5EC9864B
 P 8850 900
-F 0 "#PWR?" H 8850 750 50  0001 C CNN
+F 0 "#PWR0160" H 8850 750 50  0001 C CNN
 F 1 "+24V" H 8800 1050 50  0000 C CNN
 F 2 "" H 8850 900 50  0001 C CNN
 F 3 "" H 8850 900 50  0001 C CNN
@@ -2706,4 +2605,41 @@ F 3 "" H 8850 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 8850 900 
+$Comp
+L power:+1V2 #PWR0154
+U 1 1 5EC12505
+P 7900 6050
+F 0 "#PWR0154" H 7900 5900 50  0001 C CNN
+F 1 "+1V2" H 7915 6223 50  0000 C CNN
+F 2 "" H 7900 6050 50  0001 C CNN
+F 3 "" H 7900 6050 50  0001 C CNN
+	1    7900 6050
+	1    0    0    -1  
+$EndComp
+Connection ~ 7900 6050
+NoConn ~ 4300 2400
+NoConn ~ 4300 2300
+NoConn ~ 4300 2700
+NoConn ~ 4300 1600
+NoConn ~ 2550 3650
+NoConn ~ 4000 4650
+NoConn ~ 4300 1500
+NoConn ~ 2550 3550
+NoConn ~ 4300 1300
+NoConn ~ 4300 1400
+NoConn ~ 4300 1700
+NoConn ~ 4300 1800
+NoConn ~ 4300 2600
+NoConn ~ 4300 2200
+NoConn ~ 4300 2100
+NoConn ~ 5900 900 
+NoConn ~ 5900 800 
+NoConn ~ 5900 3200
+NoConn ~ 5900 3300
+Wire Wire Line
+	1950 6750 1950 7200
+NoConn ~ 5900 3000
+NoConn ~ 5900 3100
+NoConn ~ 4300 1900
+NoConn ~ 4300 2000
 $EndSCHEMATC
