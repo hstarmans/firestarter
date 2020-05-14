@@ -21,7 +21,7 @@ The board has not been tested yet.
 - 3V can probably also be drawn from Raspberry Pi 4
 
 # Schema
-![](./images/firestarter_schema.svg)
+![](./images/pihat_schema.svg)
 
 
 # Image
