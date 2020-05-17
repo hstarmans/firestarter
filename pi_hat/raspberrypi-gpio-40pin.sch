@@ -4,11 +4,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date "15 nov 2012"
+Title "Firestarter "
+Date "2020-05-17"
 Rev ""
-Comp ""
-Comment1 ""
+Comp "Hexastorm"
+Comment1 "v1"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -2642,4 +2642,15 @@ NoConn ~ 5900 3000
 NoConn ~ 5900 3100
 NoConn ~ 4300 1900
 NoConn ~ 4300 2000
+$Comp
+L Graphic:Logo_Open_Hardware_Small G1
+U 1 1 5EC469A3
+P 6600 6600
+F 0 "G1" H 6600 6875 50  0001 C CNN
+F 1 "hexastorm" H 6600 6375 50  0001 C CNN
+F 2 "footprints:hexastorm" H 6600 6600 50  0001 C CNN
+F 3 "~" H 6600 6600 50  0001 C CNN
+	1    6600 6600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
