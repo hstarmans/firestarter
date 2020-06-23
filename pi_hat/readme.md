@@ -8,13 +8,14 @@ The hat has the following features;
  - PWM control of spindle and fan
  - Control 3 stepper motors with TMC2130 driver
  - Three limit switches
- - voltage converters from 5V to 3V and 3V to 1.1V to supply FPGA with power
+ - voltage converters from 3V to 1.1V to supply FPGA with power
  - Ice40HX4K FPGA
  - Flash memory to store bitstream for FPGA
  - simple board; only two layers and no BGA components
  
 # Status
-The board has not been tested yet. 
+The board has been tested. The board could not create an extra SPI device.
+As a result, the board is redesigned. Testing of the new board still needs to be done.
  
 # Possible improvements
 - SDIO connector not connected to FPGA. This is faster than SPI.
