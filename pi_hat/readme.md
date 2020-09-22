@@ -14,8 +14,8 @@ The hat has the following features;
  - simple board; only two layers and no BGA components
  
 # Status
-The board has been tested. The board could not create an extra SPI device.
-As a result, the board is redesigned. Testing of the new board still needs to be done.
+The board has been tested. A user can upload data to the FPGA, rotate polygon, enable the laser and store data on the SRAM.
+The motor drivers and spindle have not been tested but should be working.
  
 # Possible improvements
 - SDIO connector not connected to FPGA. This is faster than SPI.
