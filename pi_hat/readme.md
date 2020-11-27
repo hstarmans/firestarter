@@ -19,7 +19,7 @@ The motor drivers and spindle have not been tested but should be working.
  
 # Possible improvements
 - SDIO connector not connected to FPGA. This is faster than SPI.
-- 3V can probably also be drawn from Raspberry Pi 4
+- zero stepper capacitor is denoted on board as 12 V
 
 # Schema
 ![](./images/pihat_schema.svg)
