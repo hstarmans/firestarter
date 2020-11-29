@@ -19,7 +19,8 @@ The motor drivers and spindle have not been tested but should be working.
  
 # Possible improvements
 - SDIO connector not connected to FPGA. This is faster than SPI.
-- zero stepper capacitor is denoted on board as 12 V
+- Ground of the stepper capacitor is denoted on board as 12 V
+- chip select SPI 1 is connected to GPIO7, this should be GPIO 18.
 
 # Schema
 ![](./images/pihat_schema.svg)
