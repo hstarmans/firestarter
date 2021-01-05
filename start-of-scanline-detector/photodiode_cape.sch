@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:photodiode_cape-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -188,7 +187,7 @@ U 1 1 5D3046B8
 P 1050 1650
 F 0 "D1" H 1000 1945 50  0000 C CNN
 F 1 "BPW34" H 1000 1854 50  0000 C CNN
-F 2 "OptoDevice:Osram_DIL2_4.3x4.65mm_P5.08mm" H 1050 1825 50  0001 C CNN
+F 2 "start-of-scanline-detector:Osram_DIL2_4.3x4.65mm_P5.08mm" H 1050 1825 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/81521/bpw34.pdf" H 1000 1650 50  0001 C CNN
 	1    1050 1650
 	1    0    0    -1  
