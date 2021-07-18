@@ -7,7 +7,8 @@ PCB for a laser head. The pcb is connected to a cape on the beaglebone and the p
 There are components on both sides of the board.
 
 # Status
-The board has been fully tested. All functions work.
+Latest version still needs testing.
+
 
 # Pinout mirror motor
 The polygon motor is a modified Ricoh AF-1027/270 with a NBC3111 chip. The motor operates at

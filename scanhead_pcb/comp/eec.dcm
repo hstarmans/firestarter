@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADS7040IRUGR
+D ADS7040IRUGR
+F http://www.ti.com/lit/ds/symlink/ads7040.pdf
+$ENDCMP
+# end doc library

@@ -20,7 +20,7 @@ P 2600 1150
 F 0 "U2" H 2650 1000 50  0000 L CNN
 F 1 "MIC920" H 2450 1150 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5_Handsoldering" H 2550 1250 50  0001 C CNN
-F 3 "" H 2650 1350 50  0000 C CNN
+F 3 "https://nl.farnell.com/microchip/mic920yc5-tr/opamp-80mhz-40-to-85deg-c/dp/2920854?st=MIC920YC5-TR" H 2650 1350 50  0001 C CNN
 	1    2600 1150
 	1    0    0    -1  
 $EndComp
@@ -132,8 +132,6 @@ Wire Wire Line
 Wire Wire Line
 	2300 1150 2300 1250
 Wire Wire Line
-	1750 1150 1950 1150
-Wire Wire Line
 	2100 750  2500 750 
 Wire Wire Line
 	1350 850  1350 750 
@@ -181,20 +179,6 @@ Wire Wire Line
 	1800 1650 2100 1650
 Connection ~ 1800 1650
 Connection ~ 2100 1650
-$Comp
-L Sensor_Optical:BPW34 D1
-U 1 1 5D3046B8
-P 1050 1650
-F 0 "D1" H 1000 1945 50  0000 C CNN
-F 1 "BPW34" H 1000 1854 50  0000 C CNN
-F 2 "start-of-scanline-detector:Osram_DIL2_4.3x4.65mm_P5.08mm" H 1050 1825 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/81521/bpw34.pdf" H 1000 1650 50  0001 C CNN
-	1    1050 1650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1150 1650 1350 1650
-Connection ~ 1350 1650
 Wire Wire Line
 	850  1650 850  1250
 Wire Wire Line
@@ -210,28 +194,12 @@ Wire Wire Line
 	2300 1050 2100 1050
 Connection ~ 2100 1050
 $Comp
-L Connector:TestPoint TP1
-U 1 1 5D3065EF
-P 1950 1050
-F 0 "TP1" H 1650 1200 50  0000 L CNN
-F 1 "vPhoto" H 1650 1100 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 2150 1050 50  0001 C CNN
-F 3 "~" H 2150 1050 50  0001 C CNN
-	1    1950 1050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1950 1050 1950 1150
-Connection ~ 1950 1150
-Wire Wire Line
-	1950 1150 2300 1150
-$Comp
 L Connector:TestPoint TP2
 U 1 1 5D306F69
 P 3000 800
 F 0 "TP2" V 2800 850 50  0000 L CNN
 F 1 "HSync" V 2900 850 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 3200 800 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3200 800 50  0001 C CNN
 F 3 "~" H 3200 800 50  0001 C CNN
 	1    3000 800 
 	0    1    1    0   
@@ -253,12 +221,12 @@ $EndComp
 $Comp
 L power:+5V #PWR0103
 U 1 1 5D30885E
-P 2000 2150
-F 0 "#PWR0103" H 2000 2000 50  0001 C CNN
-F 1 "+5V" H 2015 2323 50  0000 C CNN
-F 2 "" H 2000 2150 50  0001 C CNN
-F 3 "" H 2000 2150 50  0001 C CNN
-	1    2000 2150
+P 2200 2400
+F 0 "#PWR0103" H 2200 2250 50  0001 C CNN
+F 1 "+5V" H 2215 2573 50  0000 C CNN
+F 2 "" H 2200 2400 50  0001 C CNN
+F 3 "" H 2200 2400 50  0001 C CNN
+	1    2200 2400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -270,21 +238,109 @@ Connection ~ 1350 750
 Connection ~ 1750 750 
 Text GLabel 3200 1150 2    50   Input ~ 0
 HSync
-Text Notes 2800 1900 2    50   ~ 0
+Text Notes 2850 1850 2    50   ~ 0
 Schmitt Trigger
 Text Notes 1500 1900 2    50   ~ 0
 Photo Diode Amp
 $Comp
 L Device:C C3
 U 1 1 5D3087E5
-P 2000 2300
-F 0 "C3" H 2050 2400 50  0000 L CNN
-F 1 "1uF" H 2050 2200 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2038 2150 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2237835.pdf" H 2000 2300 50  0001 C CNN
-	1    2000 2300
+P 2200 2550
+F 0 "C3" H 2250 2650 50  0000 L CNN
+F 1 "1uF" H 2250 2450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2238 2400 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2237835.pdf" H 2200 2550 50  0001 C CNN
+	1    2200 2550
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:+5V #PWR0105
+U 1 1 5D31B98B
+P 1400 2400
+F 0 "#PWR0105" H 1400 2250 50  0001 C CNN
+F 1 "+5V" V 1400 2600 50  0000 C CNN
+F 2 "" H 1400 2400 50  0001 C CNN
+F 3 "" H 1400 2400 50  0001 C CNN
+	1    1400 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5D31C9AB
+P 1400 2700
+F 0 "#PWR0106" H 1400 2450 50  0001 C CNN
+F 1 "GND" V 1400 2500 50  0000 C CNN
+F 2 "" H 1400 2700 50  0001 C CNN
+F 3 "" H 1400 2700 50  0001 C CNN
+	1    1400 2700
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1400 2500 2    50   Input ~ 0
+HSync
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5D323131
+P 1350 2400
+F 0 "#FLG0101" H 1350 2475 50  0001 C CNN
+F 1 "PWR_FLAG" H 1600 2500 50  0000 C CNN
+F 2 "" H 1350 2400 50  0001 C CNN
+F 3 "~" H 1350 2400 50  0001 C CNN
+	1    1350 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5D324222
+P 1200 2700
+F 0 "#FLG0102" H 1200 2775 50  0001 C CNN
+F 1 "PWR_FLAG" H 1200 2873 50  0000 C CNN
+F 2 "" H 1200 2700 50  0001 C CNN
+F 3 "~" H 1200 2700 50  0001 C CNN
+	1    1200 2700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1100 2700 1200 2700
+Wire Wire Line
+	1400 2400 1350 2400
+Wire Wire Line
+	1350 2400 1100 2400
+Connection ~ 1350 2400
+Wire Wire Line
+	1100 2500 1400 2500
+Wire Wire Line
+	1200 2700 1400 2700
+$Comp
+L power:GND #PWR0104
+U 1 1 5D308A8F
+P 2200 2700
+F 0 "#PWR0104" H 2200 2450 50  0001 C CNN
+F 1 "GND" H 2205 2527 50  0000 C CNN
+F 2 "" H 2200 2700 50  0001 C CNN
+F 3 "" H 2200 2700 50  0001 C CNN
+	1    2200 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	700  1550 700  1750
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 60F4F31C
+P 900 2600
+F 0 "J1" H 818 2175 50  0000 C CNN
+F 1 "FPC molex 4 pin" H 818 2266 50  0000 C CNN
+F 2 "Connector_FFC-FPC:Molex_200528-0040_1x04-1MP_P1.00mm_Horizontal" H 900 2600 50  0001 C CNN
+F 3 "~" H 900 2600 50  0001 C CNN
+	1    900  2600
+	-1   0    0    1   
+$EndComp
+Connection ~ 1200 2700
+Text GLabel 1400 2600 2    50   Input ~ 0
+ANALOG
+Wire Wire Line
+	1100 2600 1400 2600
+Text GLabel 1900 950  0    50   Input ~ 0
+ANALOG
 $Comp
 L photodiode-cape:MIC920 U1
 U 1 1 5D2FBB8F
@@ -292,95 +348,56 @@ P 1450 1150
 F 0 "U1" H 1400 1350 50  0000 L CNN
 F 1 "MIC920" H 1300 1150 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5_Handsoldering" H 1400 1250 50  0001 C CNN
-F 3 "" H 1500 1350 50  0000 C CNN
+F 3 "https://nl.farnell.com/microchip/mic920yc5-tr/opamp-80mhz-40-to-85deg-c/dp/2920854?st=MIC920YC5-TR" H 1500 1350 50  0001 C CNN
 	1    1450 1150
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1750 1150 1900 1150
+Wire Wire Line
+	1900 950  1900 1150
+Connection ~ 1900 1150
+Wire Wire Line
+	1900 1150 2300 1150
 $Comp
-L Connector_Generic:Conn_01x03 J1
-U 1 1 5D30F0F6
-P 800 2350
-F 0 "J1" H 718 2025 50  0000 C CNN
-F 1 "S3B-PH-K-S" H 718 2116 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal" H 800 2350 50  0001 C CNN
-F 3 "~" H 800 2350 50  0001 C CNN
-	1    800  2350
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+5V #PWR0105
-U 1 1 5D31B98B
-P 1300 2250
-F 0 "#PWR0105" H 1300 2100 50  0001 C CNN
-F 1 "+5V" V 1300 2450 50  0000 C CNN
-F 2 "" H 1300 2250 50  0001 C CNN
-F 3 "" H 1300 2250 50  0001 C CNN
-	1    1300 2250
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0106
-U 1 1 5D31C9AB
-P 1300 2450
-F 0 "#PWR0106" H 1300 2200 50  0001 C CNN
-F 1 "GND" V 1300 2250 50  0000 C CNN
-F 2 "" H 1300 2450 50  0001 C CNN
-F 3 "" H 1300 2450 50  0001 C CNN
-	1    1300 2450
-	0    -1   -1   0   
-$EndComp
-Text GLabel 1300 2350 2    50   Input ~ 0
-HSync
-$Comp
-L power:PWR_FLAG #FLG0101
-U 1 1 5D323131
-P 1250 2250
-F 0 "#FLG0101" H 1250 2325 50  0001 C CNN
-F 1 "PWR_FLAG" H 1500 2350 50  0000 C CNN
-F 2 "" H 1250 2250 50  0001 C CNN
-F 3 "~" H 1250 2250 50  0001 C CNN
-	1    1250 2250
+L Mechanical:MountingHole H1
+U 1 1 60F59435
+P 3800 750
+F 0 "H1" H 3900 796 50  0000 L CNN
+F 1 "MountingHole" H 3900 705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 3800 750 50  0001 C CNN
+F 3 "~" H 3800 750 50  0001 C CNN
+	1    3800 750 
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG0102
-U 1 1 5D324222
-P 1100 2450
-F 0 "#FLG0102" H 1100 2525 50  0001 C CNN
-F 1 "PWR_FLAG" H 1100 2623 50  0000 C CNN
-F 2 "" H 1100 2450 50  0001 C CNN
-F 3 "~" H 1100 2450 50  0001 C CNN
-	1    1100 2450
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1000 2450 1100 2450
-Connection ~ 1100 2450
-Wire Wire Line
-	1300 2250 1250 2250
-Wire Wire Line
-	1250 2250 1000 2250
-Connection ~ 1250 2250
-Wire Wire Line
-	1000 2350 1300 2350
-Wire Wire Line
-	1100 2450 1300 2450
-$Comp
-L power:GND #PWR0104
-U 1 1 5D308A8F
-P 2000 2450
-F 0 "#PWR0104" H 2000 2200 50  0001 C CNN
-F 1 "GND" H 2005 2277 50  0000 C CNN
-F 2 "" H 2000 2450 50  0001 C CNN
-F 3 "" H 2000 2450 50  0001 C CNN
-	1    2000 2450
+L Mechanical:MountingHole H2
+U 1 1 60F59E31
+P 3800 1050
+F 0 "H2" H 3900 1096 50  0000 L CNN
+F 1 "MountingHole" H 3900 1005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 3800 1050 50  0001 C CNN
+F 3 "~" H 3800 1050 50  0001 C CNN
+	1    3800 1050
 	1    0    0    -1  
 $EndComp
+$Comp
+L photodiode-cape:BPW_34_S-Z D1
+U 1 1 60F4E6EC
+P 1050 1650
+F 0 "D1" H 1000 1423 50  0000 C CNN
+F 1 "BPW_34_S-Z" H 1000 1514 50  0000 C CNN
+F 2 "DIO_BPW_34_S-Z" H 1050 1650 50  0001 L BNN
+F 3 "" H 1050 1650 50  0001 L BNN
+F 4 "OSRAM" H 1050 1650 50  0001 L BNN "MANUFACTURER"
+F 5 "1.5" H 1050 1650 50  0001 L BNN "PARTREV"
+F 6 "Manufacturer Recommendations" H 1050 1650 50  0001 L BNN "STANDARD"
+	1    1050 1650
+	-1   0    0    1   
+$EndComp
+Connection ~ 1350 1650
 Wire Wire Line
-	700  1550 700  1750
+	700  1750 1350 1750
 Wire Wire Line
-	700  1750 1150 1750
-Wire Wire Line
-	1150 1750 1150 1650
-Connection ~ 1150 1650
+	1350 1750 1350 1650
 $EndSCHEMATC
