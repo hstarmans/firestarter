@@ -237,7 +237,7 @@ Wire Wire Line
 Connection ~ 1350 750 
 Connection ~ 1750 750 
 Text GLabel 3200 1150 2    50   Input ~ 0
-HSync
+DIGITAL
 Text Notes 2850 1850 2    50   ~ 0
 Schmitt Trigger
 Text Notes 1500 1900 2    50   ~ 0
@@ -276,7 +276,7 @@ F 3 "" H 1400 2700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 1400 2500 2    50   Input ~ 0
-HSync
+DIGITAL
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5D323131
@@ -329,7 +329,7 @@ U 1 1 60F4F31C
 P 900 2600
 F 0 "J1" H 818 2175 50  0000 C CNN
 F 1 "FPC molex 4 pin" H 818 2266 50  0000 C CNN
-F 2 "Connector_FFC-FPC:Molex_200528-0040_1x04-1MP_P1.00mm_Horizontal" H 900 2600 50  0001 C CNN
+F 2 "start-of-scanline-detector:Molex_200528-0040_1x04-1MP_P1.00mm_Horizontal" H 900 2600 50  0001 C CNN
 F 3 "~" H 900 2600 50  0001 C CNN
 	1    900  2600
 	-1   0    0    1   
