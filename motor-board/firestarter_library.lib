@@ -109,5 +109,83 @@ X CI 8 -650 0 200 R 50 50 1 1 I
 X GND 9 250 -550 200 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 1-1734248-5
+#
+DEF 1-1734248-5 J 0 40 Y Y 1 L N
+F0 "J" -200 825 50 H V L BNN
+F1 "1-1734248-5" -200 -900 50 H V L BNN
+F2 "TE_1-1734248-5" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Compliant" 0 0 50 H I L BNN "EU_ROHS_COMPLIANCE"
+F5 "Manufacturer Recommendations" 0 0 50 H I L BNN "STANDARD"
+F6 "https://www.te.com/usa-en/product-1-1734248-5.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" 0 0 50 H I L BNN "TE_PURCHASE_URL"
+F7 "None" 0 0 50 H I L BNN "PRICE"
+F8 "1-1734248-5" 0 0 50 H I L BNN "MP"
+F9 "Conn FPC Connector SKT 15 POS 1mm Solder ST SMD T/R" 0 0 50 H I L BNN "DESCRIPTION"
+F10 "Unavailable" 0 0 50 H I L BNN "AVAILABILITY"
+F11 "1-1734248-5" 0 0 50 H I L BNN "COMMENT"
+F12 "TE Connectivity" 0 0 50 H I L BNN "MANUFACTURER"
+F13 "E1" 0 0 50 H I L BNN "PARTREV"
+F14 "None" 0 0 50 H I L BNN "PACKAGE"
+DRAW
+S -200 -800 200 800 0 0 8 f
+X 1 1 -300 700 100 R 40 40 0 0 P 
+X 1 1_1 -300 700 100 R 40 40 0 0 P 
+X 2 2 -300 600 100 R 40 40 0 0 P 
+X 2 2_1 -300 600 100 R 40 40 0 0 P 
+X 3 3 -300 500 100 R 40 40 0 0 P 
+X 3 3_1 -300 500 100 R 40 40 0 0 P 
+X 4 4 -300 400 100 R 40 40 0 0 P 
+X 4 4_1 -300 400 100 R 40 40 0 0 P 
+X 5 5 -300 300 100 R 40 40 0 0 P 
+X 5 5_1 -300 300 100 R 40 40 0 0 P 
+X 6 6 -300 200 100 R 40 40 0 0 P 
+X 6 6_1 -300 200 100 R 40 40 0 0 P 
+X 7 7 -300 100 100 R 40 40 0 0 P 
+X 7 7_1 -300 100 100 R 40 40 0 0 P 
+X 8 8 -300 0 100 R 40 40 0 0 P 
+X 8 8_1 -300 0 100 R 40 40 0 0 P 
+X 9 9 -300 -100 100 R 40 40 0 0 P 
+X 9 9_1 -300 -100 100 R 40 40 0 0 P 
+X 10 10 -300 -200 100 R 40 40 0 0 P 
+X 10 10_1 -300 -200 100 R 40 40 0 0 P 
+X 11 11 -300 -300 100 R 40 40 0 0 P 
+X 11 11_1 -300 -300 100 R 40 40 0 0 P 
+X 12 12 -300 -400 100 R 40 40 0 0 P 
+X 12 12_1 -300 -400 100 R 40 40 0 0 P 
+X 13 13 -300 -500 100 R 40 40 0 0 P 
+X 13 13_1 -300 -500 100 R 40 40 0 0 P 
+X 14 14 -300 -600 100 R 40 40 0 0 P 
+X 14 14_1 -300 -600 100 R 40 40 0 0 P 
+X 15 15 -300 -700 100 R 40 40 0 0 P 
+X 15 15_1 -300 -700 100 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#encoding utf-8
+#SamacSys ECAD Model MCCQ-122
+#/273802/131778/2.49/4/4/Undefined or Miscellaneous
+DEF MCCQ-122 U 0 30 Y Y 1 F N
+F0 "U" 650 300 50 H V L CNN
+F1 "MCCQ-122" 650 200 50 H V L CNN
+F2 "MCCQ122" 650 100 50 H I L CNN
+F3 "https://www.digchip.com/datasheets/download_datasheet.php?id=117287&part-number=MCCQ-122&type=prod" 650 0 50 H I L CNN
+F4 "MULTICOMP - MCCQ-122 - FUSEHOLDER, PCB MOUNT, MINI BLADE" 650 -100 50 H I L CNN "Description"
+F5 "9.1" 650 -200 50 H I L CNN "Height"
+F6 "MULTICOMP" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MCCQ-122" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
 #
 #End Library
