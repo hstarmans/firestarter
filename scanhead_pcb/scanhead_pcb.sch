@@ -736,18 +736,16 @@ F 3 "~" H 1700 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x15 J2
+L scanhead_library:1-1734248-5 J2
 U 1 1 60F62029
-P 1500 2100
-F 0 "J2" H 1580 2142 50  0000 L CNN
-F 1 "FPC 15 pin molex vertical" H 1580 2051 50  0000 L CNN
-F 2 "Connector_FFC-FPC:Molex_502231-1500_1x15-1SH_P0.5mm_Vertical" H 1500 2100 50  0001 C CNN
-F 3 "~" H 1500 2100 50  0001 C CNN
-	1    1500 2100
+P 1600 2100
+F 0 "J2" H 1400 1250 50  0000 L CNN
+F 1 "FPC 15 pin molex vertical" H 1400 1150 50  0000 L CNN
+F 2 "sockets_scanhead:TE_1-1734248-5" H 1600 2100 50  0001 C CNN
+F 3 "~" H 1600 2100 50  0001 C CNN
+	1    1600 2100
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1300 2700
-NoConn ~ 1300 2800
 Wire Wire Line
 	4150 3750 4550 3750
 Connection ~ 4150 3750
@@ -786,8 +784,6 @@ F 3 "~" H 6050 1050 50  0001 C CNN
 	1    6050 1050
 	-1   0    0    1   
 $EndComp
-Connection ~ 1400 900 
-Connection ~ 1400 1000
 Connection ~ 1400 1100
 $Comp
 L Device:Fuse F2
@@ -811,7 +807,6 @@ F 3 "~" H 1550 1000 50  0001 C CNN
 	1    1550 1000
 	0    1    1    0   
 $EndComp
-NoConn ~ 1300 1400
 $Comp
 L Connector:Screw_Terminal_01x04 J1
 U 1 1 60F97277
@@ -823,7 +818,6 @@ F 3 "~" H 1200 1000 50  0001 C CNN
 	1    1200 1000
 	-1   0    0    1   
 $EndComp
-Connection ~ 1400 800 
 $Comp
 L Device:Fuse F1
 U 1 1 60F8C182
@@ -838,4 +832,11 @@ $EndComp
 Connection ~ 1700 800 
 Connection ~ 1700 900 
 Connection ~ 1700 1000
+Wire Wire Line
+	1300 2600 1300 2700
+Wire Wire Line
+	1300 2700 1300 2800
+Connection ~ 1300 2700
+Wire Wire Line
+	1300 1500 1300 1400
 $EndSCHEMATC

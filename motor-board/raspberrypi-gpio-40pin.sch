@@ -85,7 +85,7 @@ U 1 1 5ED913F2
 P 5750 2750
 F 0 "F1" H 5750 2900 50  0000 C CNN
 F 1 "30A" H 5750 2750 50  0000 C CNN
-F 2 "footprints:MCCQ-121" H 5750 2750 50  0001 C CNN
+F 2 "footprints:MCCQ122" H 5750 2750 50  0001 C CNN
 F 3 "https://datasheet.octopart.com/MCCQ-121-Multicomp-datasheet-12472958.pdf" H 5750 2750 50  0001 C CNN
 	1    5750 2750
 	1    0    0    -1  
@@ -663,7 +663,7 @@ F 3 "" H 6350 2950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Connection ~ 6350 2950
-Text GLabel 5450 900  2    50   Input ~ 0
+Text GLabel 5600 900  2    50   Input ~ 0
 SPI1_MISO
 Text GLabel 5450 1600 2    50   Input ~ 0
 X_PO
@@ -683,18 +683,6 @@ Text GLabel 5450 1200 2    50   Input ~ 0
 Z_STEP
 Text GLabel 5450 1100 2    50   Input ~ 0
 Z_DIR
-$Comp
-L Connector_Generic:Conn_01x15 J1
-U 1 1 60FC5718
-P 5250 1500
-F 0 "J1" H 5168 575 50  0000 C CNN
-F 1 "Conn_01x15" H 5168 666 50  0000 C CNN
-F 2 "Connector_FFC-FPC:Molex_502231-1500_1x15-1SH_P0.5mm_Vertical" H 5250 1500 50  0001 C CNN
-F 3 "~" H 5250 1500 50  0001 C CNN
-	1    5250 1500
-	-1   0    0    1   
-$EndComp
-NoConn ~ 5450 800 
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 60FD2943
@@ -735,9 +723,37 @@ U 1 1 5ED922DE
 P 5750 2950
 F 0 "F2" V 5700 2800 50  0000 C CNN
 F 1 "2A" V 5750 2950 50  0000 C CNN
-F 2 "footprints:littlefuse_448" V 5680 2950 50  0001 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric" V 5680 2950 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/719023.pdf" H 5750 2950 50  0001 C CNN
 	1    5750 2950
 	0    1    1    0   
 $EndComp
+$Comp
+L firestarter_library:1-1734248-5 J1
+U 1 1 6103C38F
+P 5150 1500
+F 0 "J1" H 5093 534 50  0000 C CNN
+F 1 "1-1734248-5" H 5093 625 50  0000 C CNN
+F 2 "TE_1-1734248-5" H 5150 1500 50  0001 L BNN
+F 3 "" H 5150 1500 50  0001 L BNN
+F 4 "Compliant" H 5150 1500 50  0001 L BNN "EU_ROHS_COMPLIANCE"
+F 5 "Manufacturer Recommendations" H 5150 1500 50  0001 L BNN "STANDARD"
+F 6 "https://www.te.com/usa-en/product-1-1734248-5.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" H 5150 1500 50  0001 L BNN "TE_PURCHASE_URL"
+F 7 "None" H 5150 1500 50  0001 L BNN "PRICE"
+F 8 "1-1734248-5" H 5150 1500 50  0001 L BNN "MP"
+F 9 "Conn FPC Connector SKT 15 POS 1mm Solder ST SMD T/R" H 5150 1500 50  0001 L BNN "DESCRIPTION"
+F 10 "Unavailable" H 5150 1500 50  0001 L BNN "AVAILABILITY"
+F 11 "1-1734248-5" H 5150 1500 50  0001 L BNN "COMMENT"
+F 12 "TE Connectivity" H 5150 1500 50  0001 L BNN "MANUFACTURER"
+F 13 "E1" H 5150 1500 50  0001 L BNN "PARTREV"
+F 14 "None" H 5150 1500 50  0001 L BNN "PACKAGE"
+	1    5150 1500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5600 900  5450 900 
+Wire Wire Line
+	5450 800  5600 800 
+Wire Wire Line
+	5600 800  5600 900 
 $EndSCHEMATC
