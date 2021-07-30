@@ -813,7 +813,7 @@ U 1 1 60F97277
 P 1200 1000
 F 0 "J1" H 1118 575 50  0000 C CNN
 F 1 "Screw_Terminal_01x04" H 1118 666 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal" H 1200 1000 50  0001 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" H 1200 1000 50  0001 C CNN
 F 3 "~" H 1200 1000 50  0001 C CNN
 	1    1200 1000
 	-1   0    0    1   
