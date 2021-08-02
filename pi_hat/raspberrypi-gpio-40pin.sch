@@ -153,8 +153,8 @@ L Device:Fuse F3
 U 1 1 5ED95859
 P 10050 4150
 F 0 "F3" V 10000 4000 50  0000 C CNN
-F 1 "4A" V 10050 4150 50  0000 C CNN
-F 2 "footprints:littlefuse_448" V 9980 4150 50  0001 C CNN
+F 1 "3A" V 10050 4150 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric" V 9980 4150 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/719023.pdf" H 10050 4150 50  0001 C CNN
 	1    10050 4150
 	0    1    1    0   
@@ -235,7 +235,7 @@ U 1 1 5ED872B5
 P 5100 4000
 F 0 "C11" V 5329 4000 50  0000 C CNN
 F 1 "0.1uF" V 5200 3950 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5100 4000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5100 4000 50  0001 C CNN
 F 3 "~" H 5100 4000 50  0001 C CNN
 	1    5100 4000
 	0    -1   -1   0   
@@ -699,7 +699,7 @@ U 1 1 610B9274
 P 5250 1050
 F 0 "C3" H 5000 1100 50  0000 L CNN
 F 1 "0.1u" H 5150 1250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5250 1050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5250 1050 50  0001 C CNN
 F 3 "~" H 5250 1050 50  0001 C CNN
 	1    5250 1050
 	1    0    0    -1  
@@ -710,7 +710,7 @@ U 1 1 610BAAD6
 P 5650 1050
 F 0 "C4" H 5500 1100 50  0000 L CNN
 F 1 "4.7u" H 5550 1250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5650 1050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5650 1050 50  0001 C CNN
 F 3 "~" H 5650 1050 50  0001 C CNN
 	1    5650 1050
 	1    0    0    -1  
@@ -721,7 +721,7 @@ U 1 1 610BB4FE
 P 7600 1000
 F 0 "C5" H 7400 1050 50  0000 L CNN
 F 1 "0.1u" H 7500 1200 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7600 1000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7600 1000 50  0001 C CNN
 F 3 "~" H 7600 1000 50  0001 C CNN
 	1    7600 1000
 	1    0    0    -1  
@@ -732,7 +732,7 @@ U 1 1 610BBF62
 P 7900 1000
 F 0 "C6" H 7750 1050 50  0000 L CNN
 F 1 "4.7u" H 7800 1200 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7900 1000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7900 1000 50  0001 C CNN
 F 3 "~" H 7900 1000 50  0001 C CNN
 	1    7900 1000
 	1    0    0    -1  
@@ -743,7 +743,7 @@ U 1 1 610BC9B8
 P 10500 1100
 F 0 "C7" H 10250 1150 50  0000 L CNN
 F 1 "0.1u" H 10400 1350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10500 1100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 10500 1100 50  0001 C CNN
 F 3 "~" H 10500 1100 50  0001 C CNN
 	1    10500 1100
 	1    0    0    -1  
@@ -754,7 +754,7 @@ U 1 1 610BD410
 P 10750 1100
 F 0 "C8" H 10900 1150 50  0000 L CNN
 F 1 "4.7u" H 10650 1350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10750 1100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 10750 1100 50  0001 C CNN
 F 3 "~" H 10750 1100 50  0001 C CNN
 	1    10750 1100
 	1    0    0    -1  
@@ -842,12 +842,12 @@ F 3 "" H 10350 4150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J4
+L Connector:Screw_Terminal_01x02 J4
 U 1 1 61120BB9
 P 9250 4250
 F 0 "J4" H 9168 3925 50  0000 C CNN
 F 1 "Conn_01x02" H 9168 4016 50  0000 C CNN
-F 2 "" H 9250 4250 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 9250 4250 50  0001 C CNN
 F 3 "~" H 9250 4250 50  0001 C CNN
 	1    9250 4250
 	-1   0    0    1   
@@ -922,7 +922,7 @@ U 1 1 6117D836
 P 1900 6300
 F 0 "C2" H 1950 6400 50  0000 L CNN
 F 1 "4.7u" H 1800 6500 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1900 6300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1900 6300 50  0001 C CNN
 F 3 "~" H 1900 6300 50  0001 C CNN
 	1    1900 6300
 	1    0    0    -1  
@@ -1003,7 +1003,7 @@ U 1 1 6117C90F
 P 1650 6300
 F 0 "C1" H 1450 6400 50  0000 L CNN
 F 1 "0.1u" H 1550 6500 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1650 6300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1650 6300 50  0001 C CNN
 F 3 "~" H 1650 6300 50  0001 C CNN
 	1    1650 6300
 	1    0    0    -1  
@@ -1038,8 +1038,6 @@ Text GLabel 4600 6000 0    50   Input ~ 0
 SPI1_MOSI
 Text GLabel 4600 5900 0    50   Input ~ 0
 ENABLE
-Wire Wire Line
-	4600 7200 4600 7300
 Text GLabel 6150 6000 0    50   Input ~ 0
 POLY_EN
 Text GLabel 6150 6100 0    50   Input ~ 0
@@ -1064,55 +1062,41 @@ Text GLabel 6150 7000 0    50   Input ~ 0
 SPI_OUT
 Text GLabel 6150 7100 0    50   Input ~ 0
 SPI_CSN
-Wire Wire Line
-	6150 5900 6150 6000
-Text GLabel 4400 1500 0    50   Input ~ 0
-X_DIR
-Text GLabel 4400 1600 0    50   Input ~ 0
-X_STEP
-Text GLabel 4400 1700 0    50   Input ~ 0
-X_PO
-Text GLabel 4400 1800 0    50   Input ~ 0
-Z_DIR
-Text GLabel 4400 1900 0    50   Input ~ 0
-Z_STEP
-Text GLabel 4400 2000 0    50   Input ~ 0
-Z_PO
-Text GLabel 4400 2100 0    50   Input ~ 0
-Y_DIR
-Text GLabel 4400 2200 0    50   Input ~ 0
-Y_STEP
-Text GLabel 4400 2300 0    50   Input ~ 0
-Y_PO
-Text GLabel 4400 2400 0    50   Input ~ 0
-ENABLE
-Text GLabel 4400 2500 0    50   Input ~ 0
-FAN_PWM
-Text GLabel 4400 2600 0    50   Input ~ 0
-IC_HB_PWM1
-Text GLabel 4400 2700 0    50   Input ~ 0
-IC_HB_PWM2
-Text GLabel 4400 2800 0    50   Input ~ 0
-SYNC_DIODE
 Text GLabel 6550 1750 0    50   Input ~ 0
+X_STEP
+Text GLabel 9650 2350 0    50   Input ~ 0
+X_PO
+Text GLabel 9650 1650 0    50   Input ~ 0
+Z_STEP
+Text GLabel 9650 2250 0    50   Input ~ 0
+X_DIR
+Text GLabel 9650 2150 0    50   Input ~ 0
+Y_STEP
+Text GLabel 9650 1750 0    50   Input ~ 0
+Y_PO
+Text GLabel 4400 1700 0    50   Input ~ 0
+FAN_PWM
+Text GLabel 4400 2100 0    50   Input ~ 0
+IC_HB_PWM1
+Text GLabel 4400 2000 0    50   Input ~ 0
+IC_HB_PWM2
+Text GLabel 4400 1900 0    50   Input ~ 0
+SYNC_DIODE
+Text GLabel 4400 1500 0    50   Input ~ 0
 POLY_READY
-Text GLabel 6550 1850 0    50   Input ~ 0
+Text GLabel 4400 1600 0    50   Input ~ 0
 POLY_EN
-Text GLabel 6550 2550 0    50   Input ~ 0
-POLY_PWM
-Text GLabel 6550 2050 0    50   Input ~ 0
+Text GLabel 6550 2350 0    50   Input ~ 0
 PI_SPI_CE_0
-Text GLabel 6550 2150 0    50   Input ~ 0
-PI_SPI_MISO
 Text GLabel 6550 2250 0    50   Input ~ 0
 PI_SPI_MOSI
-Text GLabel 6550 2350 0    50   Input ~ 0
+Text GLabel 6550 2650 0    50   Input ~ 0
 PI_SPI_SCK
-Text GLabel 9650 1650 0    50   Input ~ 0
+Text GLabel 4400 2200 0    50   Input ~ 0
 SPI_CLK
-Text GLabel 9650 1750 0    50   Input ~ 0
+Text GLabel 4400 2500 0    50   Input ~ 0
 SPI_OUT
-Text GLabel 9650 1850 0    50   Input ~ 0
+Text GLabel 4400 2300 0    50   Input ~ 0
 SPI_CSN
 Text GLabel 3300 4600 0    50   Input ~ 0
 SD_IO2
@@ -1141,34 +1125,23 @@ Wire Wire Line
 Connection ~ 1750 6200
 Wire Wire Line
 	1750 6200 1900 6200
-Text GLabel 9650 1950 0    50   Input ~ 0
+Text GLabel 6550 2050 0    50   Input ~ 0
 PI_UART_WI
-Text GLabel 9650 2050 0    50   Input ~ 0
+Text GLabel 6550 2150 0    50   Input ~ 0
 PI_UART_RO
-Text GLabel 9650 2150 0    50   Input ~ 0
+Text GLabel 4400 2800 0    50   Input ~ 0
 SPARE1
-Text GLabel 9650 2250 0    50   Input ~ 0
+Text GLabel 4400 2700 0    50   Input ~ 0
 SPARE2
-Text GLabel 9650 2350 0    50   Input ~ 0
+Text GLabel 6550 1850 0    50   Input ~ 0
 SPARE3
-$Comp
-L Connector_Generic:Conn_01x03 J3
-U 1 1 611EB9FE
-P 8150 5800
-F 0 "J3" H 8230 5842 50  0000 L CNN
-F 1 "Conn_01x03" H 8230 5751 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8150 5800 50  0001 C CNN
-F 3 "~" H 8150 5800 50  0001 C CNN
-	1    8150 5800
-	1    0    0    -1  
-$EndComp
-Text GLabel 7950 5700 0    50   Input ~ 0
+Text GLabel 4600 7300 0    50   Input ~ 0
 SPARE1
-Text GLabel 7950 5800 0    50   Input ~ 0
+Text GLabel 6150 7200 0    50   Input ~ 0
 SPARE2
-Text GLabel 7950 5900 0    50   Input ~ 0
+Text GLabel 6150 5900 0    50   Input ~ 0
 SPARE3
-Text GLabel 6550 2650 0    50   Input ~ 0
+Text GLabel 4400 2400 0    50   Input ~ 0
 OSC_OUT
 $Comp
 L beagle-wire:GND #PWR06
@@ -1243,7 +1216,7 @@ U 1 1 61046B8F
 P 4900 6600
 F 0 "J1" H 5128 6646 50  0000 L CNN
 F 1 "1-1734248-5" H 4600 7550 50  0000 L CNN
-F 2 "TE_1-1734248-5" H 4900 6600 50  0001 L BNN
+F 2 "BeagleWire_elements_package:TE_1-1734248-5" H 4900 6600 50  0001 L BNN
 F 3 "" H 4900 6600 50  0001 L BNN
 F 4 "Compliant" H 4900 6600 50  0001 L BNN "EU_ROHS_COMPLIANCE"
 F 5 "Manufacturer Recommendations" H 4900 6600 50  0001 L BNN "STANDARD"
@@ -1259,13 +1232,125 @@ F 14 "None" H 4900 6600 50  0001 L BNN "PACKAGE"
 	1    4900 6600
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6150 5900 6750 5900
+Wire Wire Line
+	6150 6000 6750 6000
+Wire Wire Line
+	6150 6200 6750 6200
+Wire Wire Line
+	6750 7000 6150 7000
+Wire Wire Line
+	6150 6900 6750 6900
+Wire Wire Line
+	6150 6800 6750 6800
+Wire Wire Line
+	6150 7100 6750 7100
+Wire Wire Line
+	6150 7200 6750 7200
+Wire Wire Line
+	6150 6100 6750 6100
+Wire Wire Line
+	6150 6300 6750 6300
+Wire Wire Line
+	6150 6400 6750 6400
+Wire Wire Line
+	6150 6500 6750 6500
+Wire Wire Line
+	6150 6600 6750 6600
+Wire Wire Line
+	6150 6700 6750 6700
+Wire Wire Line
+	4600 7300 5200 7300
+Wire Wire Line
+	4600 7200 5200 7200
+Wire Wire Line
+	4600 7100 5200 7100
+Wire Wire Line
+	4600 7000 5200 7000
+Wire Wire Line
+	4600 6900 5200 6900
+Wire Wire Line
+	4600 6800 5200 6800
+Wire Wire Line
+	4600 6700 5200 6700
+Wire Wire Line
+	4600 6600 5200 6600
+Wire Wire Line
+	4600 6500 5200 6500
+Wire Wire Line
+	4600 6400 5200 6400
+Wire Wire Line
+	4600 6300 5200 6300
+Wire Wire Line
+	4600 6200 5200 6200
+Wire Wire Line
+	4600 6100 5200 6100
+Wire Wire Line
+	4600 6000 5200 6000
+Wire Wire Line
+	4600 5900 5200 5900
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 612005F4
+P 8150 5850
+F 0 "H1" H 8250 5896 50  0000 L CNN
+F 1 "MountingHole" H 8250 5805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 8150 5850 50  0001 C CNN
+F 3 "~" H 8150 5850 50  0001 C CNN
+	1    8150 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 61200894
+P 8950 5850
+F 0 "H3" H 9050 5896 50  0000 L CNN
+F 1 "MountingHole" H 9050 5805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 8950 5850 50  0001 C CNN
+F 3 "~" H 8950 5850 50  0001 C CNN
+	1    8950 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 61200C05
+P 8150 6150
+F 0 "H2" H 8250 6196 50  0000 L CNN
+F 1 "MountingHole" H 8250 6105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 8150 6150 50  0001 C CNN
+F 3 "~" H 8150 6150 50  0001 C CNN
+	1    8150 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 61200E90
+P 8950 6200
+F 0 "H4" H 9050 6246 50  0000 L CNN
+F 1 "MountingHole" H 9050 6155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 8950 6200 50  0001 C CNN
+F 3 "~" H 8950 6200 50  0001 C CNN
+	1    8950 6200
+	1    0    0    -1  
+$EndComp
+Text GLabel 4400 1800 0    50   Input ~ 0
+POLY_PWM
+Text GLabel 9650 1850 0    50   Input ~ 0
+Z_PO
+Text GLabel 6550 2550 0    50   Input ~ 0
+PI_SPI_MISO
+Text GLabel 9650 2050 0    50   Input ~ 0
+Z_DIR
+Text GLabel 4400 2600 0    50   Input ~ 0
+SPARE0
 $Comp
 L firestarter_library:1-1734248-5 J2
 U 1 1 6104957C
 P 6450 6600
 F 0 "J2" H 6678 6646 50  0000 L CNN
 F 1 "1-1734248-5" H 6200 7550 50  0000 L CNN
-F 2 "TE_1-1734248-5" H 6450 6600 50  0001 L BNN
+F 2 "BeagleWire_elements_package:TE_1-1734248-5" H 6450 6600 50  0001 L BNN
 F 3 "" H 6450 6600 50  0001 L BNN
 F 4 "Compliant" H 6450 6600 50  0001 L BNN "EU_ROHS_COMPLIANCE"
 F 5 "Manufacturer Recommendations" H 6450 6600 50  0001 L BNN "STANDARD"
@@ -1281,6 +1366,10 @@ F 14 "None" H 6450 6600 50  0001 L BNN "PACKAGE"
 	1    6450 6600
 	1    0    0    -1  
 $EndComp
+Text GLabel 6150 7300 0    50   Input ~ 0
+SPARE0
 Wire Wire Line
-	6150 7200 6150 7300
+	6150 7300 6750 7300
+Text GLabel 9650 1950 0    50   Input ~ 0
+Y_DIR
 $EndSCHEMATC
