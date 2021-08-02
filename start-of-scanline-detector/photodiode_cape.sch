@@ -365,7 +365,7 @@ U 1 1 60F59435
 P 3800 750
 F 0 "H1" H 3900 796 50  0000 L CNN
 F 1 "MountingHole" H 3900 705 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 3800 750 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 3800 750 50  0001 C CNN
 F 3 "~" H 3800 750 50  0001 C CNN
 	1    3800 750 
 	1    0    0    -1  
@@ -376,7 +376,7 @@ U 1 1 60F59E31
 P 3800 1050
 F 0 "H2" H 3900 1096 50  0000 L CNN
 F 1 "MountingHole" H 3900 1005 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 3800 1050 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 3800 1050 50  0001 C CNN
 F 3 "~" H 3800 1050 50  0001 C CNN
 	1    3800 1050
 	1    0    0    -1  

@@ -663,7 +663,7 @@ F 3 "" H 6350 2950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Connection ~ 6350 2950
-Text GLabel 5600 900  2    50   Input ~ 0
+Text GLabel 5450 900  2    50   Input ~ 0
 SPI1_MISO
 Text GLabel 5450 1600 2    50   Input ~ 0
 X_PO
@@ -701,7 +701,7 @@ U 1 1 60F69E93
 P 4950 3650
 F 0 "H1" H 5050 3696 50  0000 L CNN
 F 1 "MountingHole" H 5050 3605 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 4950 3650 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 4950 3650 50  0001 C CNN
 F 3 "~" H 4950 3650 50  0001 C CNN
 	1    4950 3650
 	1    0    0    -1  
@@ -712,7 +712,7 @@ U 1 1 60F6B117
 P 4950 4000
 F 0 "H2" H 5050 4046 50  0000 L CNN
 F 1 "MountingHole" H 5050 3955 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 4950 4000 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 4950 4000 50  0001 C CNN
 F 3 "~" H 4950 4000 50  0001 C CNN
 	1    4950 4000
 	1    0    0    -1  
@@ -730,30 +730,65 @@ F 3 "http://www.farnell.com/datasheets/719023.pdf" H 5750 2950 50  0001 C CNN
 $EndComp
 $Comp
 L firestarter_library:1-1734248-5 J1
-U 1 1 6103C38F
+U 1 1 6107FC0D
 P 5150 1500
-F 0 "J1" H 5093 534 50  0000 C CNN
-F 1 "1-1734248-5" H 5093 625 50  0000 C CNN
-F 2 "TE_1-1734248-5" H 5150 1500 50  0001 L BNN
+F 0 "J1" H 5150 2466 50  0000 C CNN
+F 1 "1-1734248-5" H 5150 2375 50  0000 C CNN
+F 2 "TE_1-1734248-5" H 6000 1900 50  0001 L BNN
 F 3 "" H 5150 1500 50  0001 L BNN
-F 4 "Compliant" H 5150 1500 50  0001 L BNN "EU_ROHS_COMPLIANCE"
-F 5 "Manufacturer Recommendations" H 5150 1500 50  0001 L BNN "STANDARD"
-F 6 "https://www.te.com/usa-en/product-1-1734248-5.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" H 5150 1500 50  0001 L BNN "TE_PURCHASE_URL"
-F 7 "None" H 5150 1500 50  0001 L BNN "PRICE"
-F 8 "1-1734248-5" H 5150 1500 50  0001 L BNN "MP"
-F 9 "Conn FPC Connector SKT 15 POS 1mm Solder ST SMD T/R" H 5150 1500 50  0001 L BNN "DESCRIPTION"
-F 10 "Unavailable" H 5150 1500 50  0001 L BNN "AVAILABILITY"
-F 11 "1-1734248-5" H 5150 1500 50  0001 L BNN "COMMENT"
-F 12 "TE Connectivity" H 5150 1500 50  0001 L BNN "MANUFACTURER"
-F 13 "E1" H 5150 1500 50  0001 L BNN "PARTREV"
-F 14 "None" H 5150 1500 50  0001 L BNN "PACKAGE"
+F 4 "Compliant" H 6200 1600 50  0001 L BNN "EU_ROHS_COMPLIANCE"
+F 5 "Manufacturer Recommendations" H 6000 2050 50  0001 L BNN "STANDARD"
+F 6 "https://www.te.com/usa-en/product-1-1734248-5.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" H 6050 2250 50  0001 L BNN "TE_PURCHASE_URL"
+F 7 "None" H 6500 850 50  0001 L BNN "PRICE"
+F 8 "1-1734248-5" H 6200 1450 50  0001 L BNN "MP"
+F 9 "Conn FPC Connector SKT 15 POS 1mm Solder ST SMD T/R" H 6050 1750 50  0001 L BNN "DESCRIPTION"
+F 10 "Unavailable" H 6300 1200 50  0001 L BNN "AVAILABILITY"
+F 11 "1-1734248-5" H 6250 1000 50  0001 L BNN "COMMENT"
+F 12 "TE Connectivity" H 6350 750 50  0001 L BNN "MANUFACTURER"
+F 13 "E1" H 6700 1300 50  0001 L BNN "PARTREV"
+F 14 "None" H 6200 850 50  0001 L BNN "PACKAGE"
 	1    5150 1500
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5600 900  5450 900 
+	4850 900  5450 900 
 Wire Wire Line
-	5450 800  5600 800 
+	4850 1000 5450 1000
 Wire Wire Line
-	5600 800  5600 900 
+	4850 1100 5450 1100
+Wire Wire Line
+	4850 1200 5450 1200
+Wire Wire Line
+	4850 1300 5450 1300
+Wire Wire Line
+	4850 1400 5450 1400
+Wire Wire Line
+	4850 1500 5450 1500
+Wire Wire Line
+	4850 1600 5450 1600
+Wire Wire Line
+	4850 1700 5450 1700
+Wire Wire Line
+	4850 1800 5450 1800
+Wire Wire Line
+	4850 1900 5450 1900
+Wire Wire Line
+	4850 2000 5450 2000
+Wire Wire Line
+	4850 2100 5450 2100
+Wire Wire Line
+	4850 2200 5450 2200
+NoConn ~ 5450 800 
+NoConn ~ 4850 800 
+$Comp
+L Graphic:Logo_Open_Hardware_Small G1
+U 1 1 610848B8
+P 6300 4000
+F 0 "G1" H 6300 4275 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 6300 3775 50  0001 C CNN
+F 2 "footprints:hexastorm" H 6300 4000 50  0001 C CNN
+F 3 "~" H 6300 4000 50  0001 C CNN
+	1    6300 4000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
