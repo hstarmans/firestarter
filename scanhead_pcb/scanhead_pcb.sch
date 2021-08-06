@@ -735,17 +735,6 @@ F 3 "~" H 1700 800 50  0001 C CNN
 	1    1700 800 
 	1    0    0    -1  
 $EndComp
-$Comp
-L scanhead_library:1-1734248-5 J2
-U 1 1 60F62029
-P 1600 2100
-F 0 "J2" H 1400 1250 50  0000 L CNN
-F 1 "FPC 15 pin molex vertical" H 1400 1150 50  0000 L CNN
-F 2 "sockets_scanhead:TE_1-1734248-5" H 1600 2100 50  0001 C CNN
-F 3 "~" H 1600 2100 50  0001 C CNN
-	1    1600 2100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4150 3750 4550 3750
 Connection ~ 4150 3750
@@ -832,11 +821,45 @@ $EndComp
 Connection ~ 1700 800 
 Connection ~ 1700 900 
 Connection ~ 1700 1000
+$Comp
+L scanhead_library:1-1734248-5 J2
+U 1 1 60F62029
+P 1600 2100
+F 0 "J2" H 1400 1250 50  0000 L CNN
+F 1 "FPC 15 pin molex vertical" H 1400 1150 50  0000 L CNN
+F 2 "sockets_scanhead:TE_1-1734248-5" H 1600 2100 50  0001 C CNN
+F 3 "~" H 1600 2100 50  0001 C CNN
+	1    1600 2100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1300 2700
+NoConn ~ 1300 2800
+NoConn ~ 1900 2700
+NoConn ~ 1900 2800
+NoConn ~ 1900 1400
+NoConn ~ 1300 1400
 Wire Wire Line
-	1300 2600 1300 2700
+	1300 1500 1900 1500
 Wire Wire Line
-	1300 2700 1300 2800
-Connection ~ 1300 2700
+	1300 1600 1900 1600
 Wire Wire Line
-	1300 1500 1300 1400
+	1300 1700 1900 1700
+Wire Wire Line
+	1300 1800 1900 1800
+Wire Wire Line
+	1300 1900 1900 1900
+Wire Wire Line
+	1300 2000 1900 2000
+Wire Wire Line
+	1300 2100 1900 2100
+Wire Wire Line
+	1300 2200 1900 2200
+Wire Wire Line
+	1300 2300 1900 2300
+Wire Wire Line
+	1300 2400 1900 2400
+Wire Wire Line
+	1900 2600 1300 2600
+Wire Wire Line
+	1900 2500 1300 2500
 $EndSCHEMATC
