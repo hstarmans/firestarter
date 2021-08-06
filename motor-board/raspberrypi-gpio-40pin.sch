@@ -643,13 +643,11 @@ F 3 "https://nl.farnell.com/phoenix-contact/mkds-1-5-3/terminal-block-wire-to-br
 	1    5250 2950
 	-1   0    0    1   
 $EndComp
-Text GLabel 5450 2200 2    50   Input ~ 0
-ENABLE
-Text GLabel 5450 2100 2    50   Input ~ 0
+Text GLabel 5250 850  0    50   Input ~ 0
 SPI1_MOSI
-Text GLabel 5450 2000 2    50   Input ~ 0
+Text GLabel 5250 950  0    50   Input ~ 0
 SPI1_SCL
-Text GLabel 5450 1900 2    50   Input ~ 0
+Text GLabel 5250 1050 0    50   Input ~ 0
 SPI1_CE
 $Comp
 L beagle-wire:+3V3 #PWR02
@@ -663,25 +661,25 @@ F 3 "" H 6350 2950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Connection ~ 6350 2950
-Text GLabel 5450 900  2    50   Input ~ 0
+Text GLabel 5250 2050 0    50   Input ~ 0
 SPI1_MISO
-Text GLabel 5450 1600 2    50   Input ~ 0
+Text GLabel 5250 1350 0    50   Input ~ 0
 X_PO
-Text GLabel 5450 1800 2    50   Input ~ 0
+Text GLabel 5250 1150 0    50   Input ~ 0
 X_STEP
-Text GLabel 5450 1700 2    50   Input ~ 0
+Text GLabel 5250 1250 0    50   Input ~ 0
 X_DIR
-Text GLabel 5450 1300 2    50   Input ~ 0
+Text GLabel 5250 1650 0    50   Input ~ 0
 Y_PO
-Text GLabel 5450 1500 2    50   Input ~ 0
+Text GLabel 5250 1450 0    50   Input ~ 0
 Y_STEP
-Text GLabel 5450 1400 2    50   Input ~ 0
+Text GLabel 5250 1550 0    50   Input ~ 0
 Y_DIR
-Text GLabel 5450 1000 2    50   Input ~ 0
+Text GLabel 5250 1950 0    50   Input ~ 0
 Z_PO
-Text GLabel 5450 1200 2    50   Input ~ 0
+Text GLabel 5250 1750 0    50   Input ~ 0
 Z_STEP
-Text GLabel 5450 1100 2    50   Input ~ 0
+Text GLabel 5250 1850 0    50   Input ~ 0
 Z_DIR
 $Comp
 L power:PWR_FLAG #FLG0101
@@ -728,58 +726,32 @@ F 3 "http://www.farnell.com/datasheets/719023.pdf" H 5750 2950 50  0001 C CNN
 	1    5750 2950
 	0    1    1    0   
 $EndComp
-$Comp
-L firestarter_library:1-1734248-5 J1
-U 1 1 6107FC0D
-P 5150 1500
-F 0 "J1" H 5150 2466 50  0000 C CNN
-F 1 "1-1734248-5" H 5150 2375 50  0000 C CNN
-F 2 "TE_1-1734248-5" H 6000 1900 50  0001 L BNN
-F 3 "" H 5150 1500 50  0001 L BNN
-F 4 "Compliant" H 6200 1600 50  0001 L BNN "EU_ROHS_COMPLIANCE"
-F 5 "Manufacturer Recommendations" H 6000 2050 50  0001 L BNN "STANDARD"
-F 6 "https://www.te.com/usa-en/product-1-1734248-5.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" H 6050 2250 50  0001 L BNN "TE_PURCHASE_URL"
-F 7 "None" H 6500 850 50  0001 L BNN "PRICE"
-F 8 "1-1734248-5" H 6200 1450 50  0001 L BNN "MP"
-F 9 "Conn FPC Connector SKT 15 POS 1mm Solder ST SMD T/R" H 6050 1750 50  0001 L BNN "DESCRIPTION"
-F 10 "Unavailable" H 6300 1200 50  0001 L BNN "AVAILABILITY"
-F 11 "1-1734248-5" H 6250 1000 50  0001 L BNN "COMMENT"
-F 12 "TE Connectivity" H 6350 750 50  0001 L BNN "MANUFACTURER"
-F 13 "E1" H 6700 1300 50  0001 L BNN "PARTREV"
-F 14 "None" H 6200 850 50  0001 L BNN "PACKAGE"
-	1    5150 1500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	4850 900  5450 900 
+	5250 850  5850 850 
 Wire Wire Line
-	4850 1000 5450 1000
+	5250 950  5850 950 
 Wire Wire Line
-	4850 1100 5450 1100
+	5250 1050 5850 1050
 Wire Wire Line
-	4850 1200 5450 1200
+	5250 1150 5850 1150
 Wire Wire Line
-	4850 1300 5450 1300
+	5250 1250 5850 1250
 Wire Wire Line
-	4850 1400 5450 1400
+	5250 1350 5850 1350
 Wire Wire Line
-	4850 1500 5450 1500
+	5250 1450 5850 1450
 Wire Wire Line
-	4850 1600 5450 1600
+	5250 1550 5850 1550
 Wire Wire Line
-	4850 1700 5450 1700
+	5250 1650 5850 1650
 Wire Wire Line
-	4850 1800 5450 1800
+	5250 1750 5850 1750
 Wire Wire Line
-	4850 1900 5450 1900
+	5250 1850 5850 1850
 Wire Wire Line
-	4850 2000 5450 2000
+	5250 1950 5850 1950
 Wire Wire Line
-	4850 2100 5450 2100
-Wire Wire Line
-	4850 2200 5450 2200
-NoConn ~ 5450 800 
-NoConn ~ 4850 800 
+	5250 2050 5850 2050
 $Comp
 L Graphic:Logo_Open_Hardware_Small G1
 U 1 1 610848B8
@@ -791,4 +763,32 @@ F 3 "~" H 6300 4000 50  0001 C CNN
 	1    6300 4000
 	1    0    0    -1  
 $EndComp
+Text GLabel 5250 750  0    50   Input ~ 0
+ENABLE
+$Comp
+L firestarter_library:1-1734248-5 J1
+U 1 1 6107FC0D
+P 5550 1450
+F 0 "J1" H 5550 2416 50  0000 C CNN
+F 1 "1-1734248-5" H 5550 2325 50  0000 C CNN
+F 2 "TE_1-1734248-5" H 6400 1850 50  0001 L BNN
+F 3 "" H 5550 1450 50  0001 L BNN
+F 4 "Compliant" H 6600 1550 50  0001 L BNN "EU_ROHS_COMPLIANCE"
+F 5 "Manufacturer Recommendations" H 6400 2000 50  0001 L BNN "STANDARD"
+F 6 "https://www.te.com/usa-en/product-1-1734248-5.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" H 6450 2200 50  0001 L BNN "TE_PURCHASE_URL"
+F 7 "None" H 6900 800 50  0001 L BNN "PRICE"
+F 8 "1-1734248-5" H 6600 1400 50  0001 L BNN "MP"
+F 9 "Conn FPC Connector SKT 15 POS 1mm Solder ST SMD T/R" H 6450 1700 50  0001 L BNN "DESCRIPTION"
+F 10 "Unavailable" H 6700 1150 50  0001 L BNN "AVAILABILITY"
+F 11 "1-1734248-5" H 6650 950 50  0001 L BNN "COMMENT"
+F 12 "TE Connectivity" H 6750 700 50  0001 L BNN "MANUFACTURER"
+F 13 "E1" H 7100 1250 50  0001 L BNN "PARTREV"
+F 14 "None" H 6600 800 50  0001 L BNN "PACKAGE"
+	1    5550 1450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5250 2150
+Wire Wire Line
+	5250 750  5850 750 
+NoConn ~ 5850 2150
 $EndSCHEMATC
