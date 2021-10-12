@@ -1129,14 +1129,10 @@ Text GLabel 6550 2050 0    50   Input ~ 0
 PI_UART_WI
 Text GLabel 6550 2150 0    50   Input ~ 0
 PI_UART_RO
-Text GLabel 4400 2800 0    50   Input ~ 0
-SPARE1
 Text GLabel 4400 2700 0    50   Input ~ 0
 SPARE2
 Text GLabel 6550 1850 0    50   Input ~ 0
 SPARE3
-Text GLabel 4600 7300 0    50   Input ~ 0
-SPARE1
 Text GLabel 6150 7200 0    50   Input ~ 0
 SPARE2
 Text GLabel 6150 5900 0    50   Input ~ 0
@@ -1338,8 +1334,6 @@ Text GLabel 6550 2550 0    50   Input ~ 0
 PI_SPI_MISO
 Text GLabel 9650 2050 0    50   Input ~ 0
 Z_DIR
-Text GLabel 4400 2600 0    50   Input ~ 0
-SPARE0
 $Comp
 L firestarter_library:1-1734248-5 J2
 U 1 1 6104957C
@@ -1362,8 +1356,6 @@ F 14 "None" H 6450 6600 50  0001 L BNN "PACKAGE"
 	1    6450 6600
 	1    0    0    -1  
 $EndComp
-Text GLabel 6150 7300 0    50   Input ~ 0
-SPARE0
 Wire Wire Line
 	6150 7300 6750 7300
 Text GLabel 9650 1950 0    50   Input ~ 0
@@ -1372,4 +1364,34 @@ Text GLabel 4400 3100 0    50   Input ~ 0
 RGB2
 Text GLabel 4400 2900 0    50   Input ~ 0
 RGB0
+$Comp
+L power:+3.3V #PWR0112
+U 1 1 616583B4
+P 4600 7300
+F 0 "#PWR0112" H 4600 7150 50  0001 C CNN
+F 1 "+3.3V" H 4600 7440 50  0000 C CNN
+F 2 "" H 4600 7300 50  0000 C CNN
+F 3 "" H 4600 7300 50  0000 C CNN
+	1    4600 7300
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4600 7300
+Text Notes 4600 5500 0    50   ~ 0
+motor board
+Text Notes 6200 5500 0    50   ~ 0
+scanhead board
+$Comp
+L power:+3.3V #PWR0113
+U 1 1 6166C49F
+P 6150 7300
+F 0 "#PWR0113" H 6150 7150 50  0001 C CNN
+F 1 "+3.3V" H 6150 7440 50  0000 C CNN
+F 2 "" H 6150 7300 50  0000 C CNN
+F 3 "" H 6150 7300 50  0000 C CNN
+	1    6150 7300
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6150 7300
+NoConn ~ 4400 2600
+NoConn ~ 4400 2800
 $EndSCHEMATC

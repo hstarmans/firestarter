@@ -465,8 +465,6 @@ F 3 "" H 2600 950 50  0001 C CNN
 $EndComp
 Connection ~ 2600 950 
 Wire Wire Line
-	5450 2950 5600 2950
-Wire Wire Line
 	5450 2850 5450 2800
 Wire Wire Line
 	5450 2800 5450 2700
@@ -494,12 +492,12 @@ Wire Wire Line
 $Comp
 L power:PWR_FLAG #FLG0103
 U 1 1 5EC8736D
-P 6350 2950
-F 0 "#FLG0103" H 6350 3025 50  0001 C CNN
-F 1 "PWR_FLAG" H 6600 3050 50  0000 C CNN
-F 2 "" H 6350 2950 50  0001 C CNN
-F 3 "~" H 6350 2950 50  0001 C CNN
-	1    6350 2950
+P 6000 2150
+F 0 "#FLG0103" H 6000 2225 50  0001 C CNN
+F 1 "PWR_FLAG" H 6250 2250 50  0000 C CNN
+F 2 "" H 6000 2150 50  0001 C CNN
+F 3 "~" H 6000 2150 50  0001 C CNN
+	1    6000 2150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -619,29 +617,16 @@ $EndComp
 Connection ~ 3700 1400
 Wire Wire Line
 	3400 1400 3500 1400
-Wire Wire Line
-	5900 2950 6350 2950
 $Comp
 L beagle-wire:GND #PWR01
 U 1 1 60FA58F3
-P 5450 3050
-F 0 "#PWR01" H 5450 2800 50  0001 C CNN
-F 1 "GND" V 5455 2922 50  0000 R CNN
-F 2 "" H 5450 3050 50  0001 C CNN
-F 3 "" H 5450 3050 50  0001 C CNN
-	1    5450 3050
+P 5450 2950
+F 0 "#PWR01" H 5450 2700 50  0001 C CNN
+F 1 "GND" V 5455 2822 50  0000 R CNN
+F 2 "" H 5450 2950 50  0001 C CNN
+F 3 "" H 5450 2950 50  0001 C CNN
+	1    5450 2950
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x03 e1
-U 1 1 60FA669A
-P 5250 2950
-F 0 "e1" H 5168 2625 50  0000 C CNN
-F 1 "Screw_Terminal_01x03" H 5200 2500 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal" H 5250 2950 50  0001 C CNN
-F 3 "https://nl.farnell.com/phoenix-contact/mkds-1-5-3/terminal-block-wire-to-brd-3pos/dp/3714251?st=mkds%201,5/%203" H 5250 2950 50  0001 C CNN
-	1    5250 2950
-	-1   0    0    1   
 $EndComp
 Text GLabel 5250 850  0    50   Input ~ 0
 SPI1_MOSI
@@ -652,15 +637,14 @@ SPI1_CE
 $Comp
 L beagle-wire:+3V3 #PWR02
 U 1 1 60FADCD6
-P 6350 2950
-F 0 "#PWR02" H 6350 2800 50  0001 C CNN
-F 1 "+3V3" V 6365 3078 50  0000 L CNN
-F 2 "" H 6350 2950 50  0001 C CNN
-F 3 "" H 6350 2950 50  0001 C CNN
-	1    6350 2950
+P 6000 2150
+F 0 "#PWR02" H 6000 2000 50  0001 C CNN
+F 1 "+3V3" V 6015 2278 50  0000 L CNN
+F 2 "" H 6000 2150 50  0001 C CNN
+F 3 "" H 6000 2150 50  0001 C CNN
+	1    6000 2150
 	0    1    1    0   
 $EndComp
-Connection ~ 6350 2950
 Text GLabel 5250 2050 0    50   Input ~ 0
 SPI1_MISO
 Text GLabel 5250 1350 0    50   Input ~ 0
@@ -684,15 +668,14 @@ Z_DIR
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 60FD2943
-P 5450 3050
-F 0 "#FLG0101" H 5450 3125 50  0001 C CNN
-F 1 "PWR_FLAG" H 5400 3300 50  0000 C CNN
-F 2 "" H 5450 3050 50  0001 C CNN
-F 3 "~" H 5450 3050 50  0001 C CNN
-	1    5450 3050
+P 5450 2950
+F 0 "#FLG0101" H 5450 3025 50  0001 C CNN
+F 1 "PWR_FLAG" H 5400 3200 50  0000 C CNN
+F 2 "" H 5450 2950 50  0001 C CNN
+F 3 "~" H 5450 2950 50  0001 C CNN
+	1    5450 2950
 	-1   0    0    1   
 $EndComp
-Connection ~ 5450 3050
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 60F69E93
@@ -714,17 +697,6 @@ F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 4950 4000 50  0001 C CNN
 F 3 "~" H 4950 4000 50  0001 C CNN
 	1    4950 4000
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Fuse F2
-U 1 1 5ED922DE
-P 5750 2950
-F 0 "F2" V 5700 2800 50  0000 C CNN
-F 1 "2A" V 5750 2950 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric" V 5680 2950 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/719023.pdf" H 5750 2950 50  0001 C CNN
-	1    5750 2950
-	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5250 850  5850 850 
@@ -765,6 +737,8 @@ F 3 "~" H 6300 4000 50  0001 C CNN
 $EndComp
 Text GLabel 5250 750  0    50   Input ~ 0
 ENABLE
+Wire Wire Line
+	5250 750  5850 750 
 $Comp
 L firestarter_library:1-1734248-5 J1
 U 1 1 6107FC0D
@@ -787,8 +761,22 @@ F 14 "None" H 6600 800 50  0001 L BNN "PACKAGE"
 	1    5550 1450
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5250 2150
 Wire Wire Line
-	5250 750  5850 750 
-NoConn ~ 5850 2150
+	5850 2150 6000 2150
+Connection ~ 6000 2150
+$Comp
+L Connector:Screw_Terminal_01x02 e1
+U 1 1 60FA669A
+P 5250 2950
+F 0 "e1" H 5168 2625 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 5200 2500 50  0000 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 5250 2950 50  0001 C CNN
+F 3 "https://nl.farnell.com/phoenix-contact/mkds-1-5-3/terminal-block-wire-to-brd-3pos/dp/3714251?st=mkds%201,5/%203" H 5250 2950 50  0001 C CNN
+	1    5250 2950
+	-1   0    0    1   
+$EndComp
+Connection ~ 5450 2950
+Wire Wire Line
+	5250 2150 5850 2150
+Connection ~ 5850 2150
 $EndSCHEMATC

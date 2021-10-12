@@ -713,28 +713,6 @@ Text Notes 6350 700  2    50   ~ 0
 photodiode_digi
 NoConn ~ 6250 950 
 NoConn ~ 6300 1800
-$Comp
-L power:+3V3 #PWR0109
-U 1 1 60F54269
-P 1700 800
-F 0 "#PWR0109" H 1700 650 50  0001 C CNN
-F 1 "+3V3" V 1650 900 50  0000 L CNN
-F 2 "" H 1700 800 50  0001 C CNN
-F 3 "" H 1700 800 50  0001 C CNN
-	1    1700 800 
-	0    1    1    0   
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG0101
-U 1 1 60F56C85
-P 1700 800
-F 0 "#FLG0101" H 1700 875 50  0001 C CNN
-F 1 "PWR_FLAG" H 1700 973 50  0001 C CNN
-F 2 "" H 1700 800 50  0001 C CNN
-F 3 "~" H 1700 800 50  0001 C CNN
-	1    1700 800 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4150 3750 4550 3750
 Connection ~ 4150 3750
@@ -797,28 +775,16 @@ F 3 "~" H 1550 1000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x04 J1
+L Connector:Screw_Terminal_01x03 J1
 U 1 1 60F97277
 P 1200 1000
 F 0 "J1" H 1118 575 50  0000 C CNN
-F 1 "Screw_Terminal_01x04" H 1118 666 50  0000 C CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" H 1200 1000 50  0001 C CNN
+F 1 "Screw_Terminal_01x03" H 1118 666 50  0000 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 1200 1000 50  0001 C CNN
 F 3 "~" H 1200 1000 50  0001 C CNN
 	1    1200 1000
 	-1   0    0    1   
 $EndComp
-$Comp
-L Device:Fuse F1
-U 1 1 60F8C182
-P 1550 800
-F 0 "F1" V 1500 950 50  0000 C CNN
-F 1 "1A" V 1550 800 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric" V 1480 800 50  0001 C CNN
-F 3 "~" H 1550 800 50  0001 C CNN
-	1    1550 800 
-	0    1    1    0   
-$EndComp
-Connection ~ 1700 800 
 Connection ~ 1700 900 
 Connection ~ 1700 1000
 $Comp
@@ -833,9 +799,7 @@ F 3 "~" H 1600 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 1300 2700
-NoConn ~ 1300 2800
 NoConn ~ 1900 2700
-NoConn ~ 1900 2800
 NoConn ~ 1900 1400
 NoConn ~ 1300 1400
 Wire Wire Line
@@ -864,4 +828,31 @@ Wire Wire Line
 	1900 2500 1300 2500
 Text Notes 6550 700  0    50   ~ 0
 BUG in kicad, mirror not executed directly!! 
+$Comp
+L power:+3V3 #PWR0109
+U 1 1 616597C5
+P 1200 2800
+F 0 "#PWR0109" H 1200 2650 50  0001 C CNN
+F 1 "+3V3" V 1150 2900 50  0000 L CNN
+F 2 "" H 1200 2800 50  0001 C CNN
+F 3 "" H 1200 2800 50  0001 C CNN
+	1    1200 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 61661F53
+P 1300 2800
+F 0 "#FLG0101" H 1300 2875 50  0001 C CNN
+F 1 "PWR_FLAG" H 1300 2973 50  0001 C CNN
+F 2 "" H 1300 2800 50  0001 C CNN
+F 3 "~" H 1300 2800 50  0001 C CNN
+	1    1300 2800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1200 2800 1300 2800
+Connection ~ 1300 2800
+Wire Wire Line
+	1300 2800 1900 2800
 $EndSCHEMATC
