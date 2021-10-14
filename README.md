@@ -1,11 +1,12 @@
 # Firestarter
 This repository provides four pcbs for controlling an open hardware fast high resolution laser.
 Details can be found on [Hackaday](https://hackaday.io/project/21933-open-hardware-fast-high-resolution-laser). 
-The pcbs are; a hat for the raspberry, a cape for the beaglebone, a pcb to detect the start of the scanline and a pcb which acts as bridge between the main board and the modules in the scanhead. 
+The pcbs are; a hat for the raspberry, a pcb to detect the start of the scanline, a main board for the laser head and a board for the motors.
+The housing of the laser scanner is made from circuit boards as well. They are located in the plates folder. 
 
 # Status
 The raspberry pi hat is in development and works with a FPGA. 
-The beaglebone board works with the 200 MHz pru on the bone. 
+The beaglebone board works with the 200 MHz pru on the bone and is no longer in development.
 The bill of materials for each board can be found in their subfolder.
 
 # Costs
