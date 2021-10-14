@@ -30,7 +30,7 @@ U 1 1 5D35C8EA
 P 6250 2650
 F 0 "J6" H 6330 2642 50  0000 L CNN
 F 1 "jumper wire 2 pin" H 6330 2551 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6250 2650 50  0001 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 6250 2650 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1860119.pdf" H 6250 2650 50  0001 C CNN
 	1    6250 2650
 	1    0    0    -1  
@@ -41,7 +41,7 @@ U 1 1 5D35E669
 P 6300 3350
 F 0 "J7" H 6380 3342 50  0000 L CNN
 F 1 "jumper wire 2 pin" H 6380 3251 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6300 3350 50  0001 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 6300 3350 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1860119.pdf" H 6300 3350 50  0001 C CNN
 	1    6300 3350
 	1    0    0    -1  
@@ -356,7 +356,7 @@ U 1 1 5D421E1A
 P 6100 4750
 F 0 "J4" H 6180 4792 50  0000 L CNN
 F 1 "jumper wire 5 pin" H 6180 4701 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 6100 4750 50  0001 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-05A_1x05_P2.54mm_Vertical" H 6100 4750 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2695359.pdf" H 6100 4750 50  0001 C CNN
 	1    6100 4750
 	1    0    0    -1  
