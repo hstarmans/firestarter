@@ -1,5 +1,0 @@
-(sym_lib_table
-  (lib (name pwr_BeagleBone)(type Legacy)(uri ${KIPRJMOD}/pwr_BeagleBone.lib)(options "")(descr ""))
-  (lib (name firestarter_library)(type Legacy)(uri ${KIPRJMOD}/firestarter_library.lib)(options "")(descr ""))
-  (lib (name fuse)(type Legacy)(uri ${KIPRJMOD}/fuse.lib)(options "")(descr ""))
-)
