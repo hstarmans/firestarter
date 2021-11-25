@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name addons)(type Legacy)(uri ${KIPRJMOD}/addons.lib)(options "")(descr ""))
+  (lib (name baselib)(type Legacy)(uri ${KIPRJMOD}/baselib.lib)(options "")(descr ""))
+)
