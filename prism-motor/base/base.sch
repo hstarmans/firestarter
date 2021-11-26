@@ -259,7 +259,7 @@ F 3 "" H 2650 1800 50  0001 C CNN
 	1    2650 1800
 	0    1    1    0   
 $EndComp
-Text Notes 2900 850  2    50   ~ 0
+Text Notes 2950 1350 2    50   ~ 0
 motor
 Wire Notes Line
 	3750 800  6950 800 
@@ -269,7 +269,7 @@ Wire Notes Line
 	6950 3800 3750 3800
 Wire Notes Line
 	3750 3800 3750 800 
-Text Notes 5850 750  2    50   ~ 0
+Text Notes 6850 950  2    50   ~ 0
 BLDC motor driver
 $Comp
 L Connector_Generic:Conn_01x02 J1
@@ -369,9 +369,9 @@ F 3 "~" H 1350 3200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 NoConn ~ 1950 2300
-Text Notes 1550 1450 0    50   ~ 0
+Text Notes 1550 3400 0    50   ~ 0
 gpio
-Text Notes 1550 850  0    50   ~ 0
+Text Notes 1550 1300 0    50   ~ 0
 power
 $Comp
 L Connector_Generic:Conn_01x03 J3
@@ -395,7 +395,7 @@ F 3 "~" H 2850 1700 50  0001 C CNN
 	1    2850 1700
 	1    0    0    -1  
 $EndComp
-Text Notes 2900 1450 2    50   ~ 0
+Text Notes 3000 1950 2    50   ~ 0
 sensor
 $Comp
 L power:+5V #PWR0101
