@@ -1,9 +1,9 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.10)
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.10)-1")
 
   (general
     (thickness 1.6)
     (drawings 0)
-    (tracks 0)
+    (tracks 1)
     (zones 0)
     (modules 0)
     (nets 1)
@@ -31,13 +31,13 @@
   )
 
   (setup
-    (last_trace_width 0.25)
-    (trace_clearance 0.2)
+    (last_trace_width 0.15)
+    (trace_clearance 0.15)
     (zone_clearance 0.508)
     (zone_45_only no)
-    (trace_min 0.2)
-    (via_size 0.8)
-    (via_drill 0.4)
+    (trace_min 0.15)
+    (via_size 0.45)
+    (via_drill 0.3)
     (via_min_size 0.4)
     (via_min_drill 0.3)
     (uvia_size 0.3)
@@ -89,10 +89,10 @@
   (net 0 "")
 
   (net_class Default "This is the default net class."
-    (clearance 0.2)
-    (trace_width 0.25)
-    (via_dia 0.8)
-    (via_drill 0.4)
+    (clearance 0.15)
+    (trace_width 0.15)
+    (via_dia 0.45)
+    (via_drill 0.3)
     (uvia_dia 0.3)
     (uvia_drill 0.1)
   )
