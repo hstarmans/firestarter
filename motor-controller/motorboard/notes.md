@@ -3,8 +3,12 @@
 
 shaft ED1319-ND
 
-conrad (radiaal lager):
-https://www.conrad.nl/p/reely-miniatuur-kogellager-chroomstaal-binnendiameter-25-mm-buitendiameter-6-mm-toerental-max-82000-omwmin-221992
+bearings
+ looked at radial bearing from conrad, no guaranteed flat top top surface
+ mirror motor uses a bush bearing with shaft and 3 mm rod
+  --> moved to bronze bearing with shaft (supplimax.eu), price 0.7 euro
+      3x6x6 mm, 5099-02-0003
+  --> messing staaf RVS 3 mm
 
 breedte lager is 2.6 mm
 
