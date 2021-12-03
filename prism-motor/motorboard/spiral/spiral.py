@@ -83,11 +83,8 @@ def four_layer_coil(dct, layer_stack=['F.Cu', 'In1.Cu', 'In2.Cu', 'B.Cu']):
     pos_hole[1] -= 0.7
     res += drill_via(pos_hole)
     # vias from outer ring
-    radius = four_layer_coil_radius(dct)
+    radius = four_layer_coil_radius(dct)+0.3 # need some additional offset
     pos_hole = dct['center'].copy()
-    print(dct['connectangle'])
-    print(radius*math.sin(math.radians(dct['connectangle'])))
-    print(radius*math.cos(math.radians(dct['connectangle'])))
     pos_hole[0] += radius*math.cos(math.radians(90-dct['connectangle']))
     pos_hole[1] -= radius*math.sin(math.radians(90-dct['connectangle']))
     res += drill_via(pos_hole)
@@ -159,14 +156,21 @@ if __name__ == '__main__':
         for line in start:
             f.write(line)
 
+        top_angles = [60, 360, 300]
         for pole in range(poles):
-            x = math.cos(angle_included*pole)*radius_motor
-            y = math.sin(angle_included*pole)*radius_motor
+            angle = angle_included*pole +angle_included/2
+            x = math.cos(angle)*radius_motor
+            y = math.sin(angle)*radius_motor
             coil_center = [cntr[0]+x, cntr[1]+y]
+
+            # top poles of motor should connect to phases
+            if pole >= 3:
+                coil_settings['topangle'] = 0
+            else:
+                coil_settings['topangle'] = (math.degrees(angle_included)*(1-pole)+360)%360
             coil_settings['center'] = coil_center
-            coil_settings['topangle'] = (270-math.degrees(angle_included)*pole+360)%360
             coil_settings['connectangle'] = (45+math.degrees(angle_included)*pole + 360)%360
-            coil_settings['bottomangle'] = math.degrees(angle_included)*pole+180
+            coil_settings['bottomangle'] = (math.degrees(angle_included)*(2+pole)+360)%360
             f.write(four_layer_coil(coil_settings))
 
         for line in end:
