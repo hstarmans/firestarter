@@ -1,139 +1,183 @@
-import math
+import numpy as np
 
 def segment(start, end, width, layer, net):
+    '''draws segment from start to end
+
+        start: start point of track, list
+        end: end point of track, list
+        width: width of line
+        net: net used
+        layer: layer line is drawn upon
+    '''
     text = f"(segment (start {start[0]:6f} {start[1]:6f}) (end {end[0]:6f}  {end[1]:6f})"
     text += f" (width {width}) (layer {layer}) (net {net}))\n"
     return text
 
-def FNC_spiral (center,
-                radius,
-                segments,
-                startangle,
-                finalangle,
-                track_width,  
-                track_distance,  
-                turns,
-                spin,  # cw or ccw, +1 or -1
-                layer,
-                net, **args
-                ):
-    # abbreviations
-    segs = segments
-    cntr = center
-    tw = track_width
-    td = track_distance
-    # account for existing track in track distance
-    td += tw
 
-    STR_data = ""
-    baseX = cntr[0]
-    baseY = cntr[1]
+def arc(center, radius, startangle, finalangle, track_dct, segs=20):
+    '''draws circular arc with center radius, start- and finalangle
 
-    
+        radius: radius of arc
+        start angle: start angle of arc
+        end angle: final angle of arc
+        track_dct: width, net and layer of track, dct
+        segs: number of straight semgents used to draw arc
+    '''
+    segangle = np.radians((finalangle-startangle) / segs)
+    str_data = ""
+    for i in range(int(segs)):
+        start = center + [np.sin(segangle*i), np.cos(segangle*i)]*radius
+        end = start + [np.sin(segangle), np.cos(segangle)]*radius
+        str_data += segment(start.to_list(), end.to_list(), track_dct)
 
+
+def archimidean_spiral(center, start_radius, track_distance,
+                       start_angle, final_angle, turns, rotation,
+                       track_dct, segments=20):
+    '''draws spiral arc with center radius, start and finalangle
+
+        radius: start radius of spiral
+        track_distance: distance between tracks
+        start angle: start angle of spiral
+        final angle: final angle of spiral
+        turns: number of turns in spiral
+        rotation: rotation vector points toward screen, boolean
+        track_distance: distance between tracks
+        track_dct: settings for track
+        segs: number of straight semgents used to draw arc
+    '''
+    str_data = ""
     for j in range(turns):
         # each turn consists of more segments
         # and a smaller angle angle per segment
-        segs += 4.0
-        segangle = 360.0 / segs
-        segradius = td / segs
+        segments += 4
+        segangle = 360.0 / segments
+        segradius = track_distance / segments
 
         if j == turns-1:
-            segs = finalangle/360*segs
+            segments = int(final_angle/360*segments)
 
-        for i in range(int(segs)):
+        def spiral_formula(i):
+            angle = segangle*rotation*i + start_angle
+            return ((start_radius + segradius * i + track_distance * (j+1))
+                    *[np.sin(angle), np.cos(angle)])
+
+        for i in range(segments):
             # central rings for HV and SNS
-            startX = baseX + (radius + segradius * i + td * (j+1)) * math.sin(math.radians(segangle*spin*i + startangle))
-            startY = baseY + (radius + segradius * i + td * (j+1)) * math.cos(math.radians(segangle*spin*i + startangle))
-            endX = baseX + (radius + segradius * (i + 1.0) + td * (j+1)) * math.sin(math.radians(segangle*spin*(i + 1.0) + startangle))
-            endY = baseY + (radius + segradius * (i + 1.0) + td * (j+1)) * math.cos(math.radians(segangle*spin*(i + 1.0) + startangle))
-            STR_data += segment([startX, startY], [endX, endY], tw, layer, net)
+            start = center + spiral_formula(i)
+            end = center + spiral_formula(i+1)
+            str_data += segment(start.to_list(), end.to_list(), track_dct)
 
-    return STR_data
+    return str_data
 
 def drill_via(position, size=0.45, drill=0.3, net=0):
+    '''drill via of size with dril in net
+    '''
     posx, posy = position
     text = f"(via (at {posx:6f} {posy:6f}) (size {size})"
     text += f" (drill {drill}) (layers F.Cu B.Cu) (net {net}))\n" 
     return text
 
+def archimedian_spiral_outer_radius(turns, track_width, track_distance, start_radius):
+    ''' gives estimate of outer radius archimedian spiral 
 
-def four_layer_coil_radius(dct):
-    return (dct['turns']+1)*(dct['track_width']+dct['track_distance'])\
-            + dct['radius']
+        turns: number of turn in spiral
+        track_width: width of track
+        track_distance: distance between tracks
+        start_radius: starting radius of archimedian spiral
+    '''
+    return (turns+1)*(track_width+track_distance) + start_radius
 
 
-def four_layer_coil(dct, layer_stack=['F.Cu', 'In1.Cu', 'In2.Cu', 'B.Cu']):
-    '''Creates a four layer coil in Kicad
+def four_layer_coil(center, top_angle, connect_angle, bottom_angle,
+                    layer_stack, spiral_dct, track_dct):
+    '''draws coil in electric pcb motor
 
-        dct dictionary with coil settings
-        top layer angle 
-        bottem layer angle
-        connect angle
-        layer stack - first element is entry, last element exit
+       an electric motor consists of multiple coils in a circular pattern around
+       a center. This coil consists out of four layers.
+       Current can enter and exit the coil at the first and second layer.
+       The entry angle of the first layer is known as the top angle
+       The entry angle of the last layer is known as the bottom angle
+       The via which connects layer 2 and 3 is placed at connect angle.
 
-        returns String which can be read by Kicad PCB
+       center: center of coil, list
+       top_angle: entry angle of first layer, float
+       connect_angle: location of via between 2 and 3 layer, float
+       bottom_angle: exit angle of final layer, float
+       layer_stack: layers used to draw coils on, list
+       spiral_dct: settings for spiral
+       track_dct: settings for tracks
+
+        returns String which can be read by KiCad PCB
     '''
     # vias to connect coils
 
     # vias of inner ring
-    pos_hole = dct['center'].copy()
-    pos_hole[1] += 0.35
+    pos_hole = center + np.array([0, 0.35])
     res = drill_via(pos_hole)
-    pos_hole[1] -= 0.7
+    pos_hole -= np.array([0, 0.7])
     res += drill_via(pos_hole)
     # vias from outer ring
-    radius = four_layer_coil_radius(dct)+0.3 # need some additional offset
-    pos_hole = dct['center'].copy()
-    pos_hole[0] += radius*math.cos(math.radians(90-dct['connectangle']))
-    pos_hole[1] -= radius*math.sin(math.radians(90-dct['connectangle']))
+    radius = archimedian_spiral_outer_radius(spiral_dct['turns'],
+                                             spiral_dct['start_radius'],
+                                             track_dct['track_distance'],
+                                             track_dct['track_width'])
+    radius += 0.3
+    
+    angle = np.radians(90-connect_angle)
+    pos_hole = center + radius * [np.cos(angle), np.sin(angle)]
     res += drill_via(pos_hole)
 
-    # front copper
-    dct['startangle'] = 180
-    dct['layer'] = layer_stack[0]
-    dct['finalangle'] = dct['topangle'] 
-    dct['spin'] = 1
-    res += FNC_spiral(**dct)
-    # In1 layer
-    dct['startangle'] = 180
-    dct['finalangle'] = dct['connectangle']
-    dct['layer'] = layer_stack[1]
-    dct['spin'] = -1
-    res += FNC_spiral(**dct)
-    # In2 layer
-    dct['startangle'] = 0
-    dct['finalangle'] = (180-dct['connectangle']+360)%360
-    dct['layer'] = layer_stack[2]
-    dct['spin'] = 1
-    res += FNC_spiral(**dct)
-    # back copper
-    dct['startangle'] = 0
-    dct['finalangle'] = dct['bottomangle']
-    dct['layer'] = layer_stack[3]
-    dct['spin'] = -1
-    res += FNC_spiral(**dct)
+    # layer 0
+    spiral_dct['start_angle'] = 180
+    spiral_dct['rotation'] = 1
+    spiral_dct['final_angle'] = top_angle
+    track_dct['layer'] = layer_stack[0]
+    res += archimidean_spiral(**spiral_dct, track_dct)
+    # layer 1
+    spiral_dct['start_angle'] = 180
+    spiral_dct['rotation'] = -1
+    spiral_dct['final_angle'] = connect_angle
+    track_dct['layer'] = layer_stack[1]
+    res += archimidean_spiral(**spiral_dct, track_dct)
+    # layer 2
+    spiral_dct['start_angle'] = 0
+    spiral_dct['rotation'] = 1
+    spiral_dct['final_angle'] = (180-connect_angle+360)%360
+    track_dct['layer'] = layer_stack[2]
+    res += archimidean_spiral(**spiral_dct, track_dct)
+    # layer 3
+    spiral_dct['start_angle'] = 0
+    spiral_dct['rotation'] = -1
+    spiral_dct['final_angle'] = bottom_angle
+    track_dct['layer'] = layer_stack[3]
+    res += archimidean_spiral(**spiral_dct, track_dct)
     return res
 
 
 if __name__ == '__main__':
-    coil_settings = {
-        "center": [115.0, 105.0],
+
+    track_dct = { "layer": "F.Cu",
+                  "net": "0",
+                  "width": 0.15}
+
+    spiral_dct = {
+        "center": np.array([115.0, 105.0]),
         "radius": 0.5,  # start radius in mm
-        "segments": 20.0,
-        "topangle": 0,  # degrees
-        "bottomangle": 360,  # degrees
-        "connectangle": 45,  # degrees
-        "track_width": 0.15,   # track width
         "track_distance": 0.15,  # distance between tracks
-                        # cannot be smaller than 0.15
-                        # for basic boards pcbway
+        "startangle": 0,
+        "finalangle": 360, 
         "turns": 11,
-        "spin": -1,  # ccw = +1, cw = -1
-        "layer": "fcu",
-        "net": "0"}
-
-
+        "rotation": -1}
+    
+    coil_dct = {
+        "center": np.array([115.0, 105.0]),
+        "top_angle": 0,       # degrees
+        "connect_angle": 45,  # degrees
+        "bottom_angle": 360,  # degrees
+        "layer_stack": ['F.Cu', 'In1.Cu', 'In2.Cu', 'B.Cu']
+    }
+       
     # open base file
     start = None
     end = None
@@ -142,15 +186,19 @@ if __name__ == '__main__':
         start = lines[:99]
         end = lines[99:]
    
-    # https://math.stackexchange.com/questions/134606/distance-between-any-two-points-on-a-unit-circle
+    
     # included angle
-    
-    
     poles = 6              # poles of motor
-    cntr = [115.0, 105.0]  # center of motor
-    angle_included = 2*math.pi/poles
-    outer_radius = four_layer_coil_radius(coil_settings)+coil_settings['track_distance']/2
-    radius_motor = (2*outer_radius)/(2*math.sin(angle_included/2))
+    cntr = np.array([115.0, 105.0])  # center of motor
+    angle_included = 2*np.pi/poles
+    outer_radius = archimedian_spiral_outer_radius(spiral_dct['turns'],
+                                                   spiral_dct['start_radius'],
+                                                   track_dct['track_distance'],
+                                                   track_dct['track_width'])
+    # safety margin
+    outer_radius += coil_dct['track_distance']/2
+    # https://math.stackexchange.com/questions/134606/distance-between-any-two-points-on-a-unit-circle
+    radius_motor = (2*outer_radius)/(2*np.sin(angle_included/2))
 
     with open('spiral.kicad_pcb', 'w') as f:
         for line in start:
@@ -159,19 +207,16 @@ if __name__ == '__main__':
         top_angles = [60, 360, 300]
         for pole in range(poles):
             angle = angle_included*pole +angle_included/2
-            x = math.cos(angle)*radius_motor
-            y = math.sin(angle)*radius_motor
-            coil_center = [cntr[0]+x, cntr[1]+y]
-
+            coil_center = cntr + np.array([np.cos(angle), np.sin(angle)])*radius_motor
             # top poles of motor should connect to phases
             if pole >= 3:
-                coil_settings['topangle'] = 0
+                coil_dct['top_angle'] = 0
             else:
-                coil_settings['topangle'] = (math.degrees(angle_included)*(1-pole)+360)%360
-            coil_settings['center'] = coil_center
-            coil_settings['connectangle'] = (45+math.degrees(angle_included)*pole + 360)%360
-            coil_settings['bottomangle'] = (math.degrees(angle_included)*(2+pole)+360)%360
-            f.write(four_layer_coil(coil_settings))
+                coil_dct['top_angle'] = (np.degrees(angle_included)*(1-pole)+360)%360
+            coil_dct['center'] = coil_center
+            coil_dct['connect_angle'] = (45+np.degrees(angle_included)*pole + 360)%360
+            coil_dct['bottom_angle'] = (np.degrees(angle_included)*(2+pole)+360)%360
+            f.write(four_layer_coil(**coil_dct, spiral_dct, track_dct))
 
         for line in end:
             f.write(line)
