@@ -54,9 +54,9 @@ Wire Wire Line
 Wire Wire Line
 	6450 2550 6450 2650
 Connection ~ 6450 2550
-Text GLabel 5350 1750 0    50   Input ~ 0
-PWM1L
 Text GLabel 5350 1650 0    50   Input ~ 0
+PWM1L
+Text GLabel 5350 1750 0    50   Input ~ 0
 PWM1H
 Text GLabel 5350 2050 0    50   Input ~ 0
 PWM2L
@@ -199,9 +199,9 @@ Text GLabel 2650 1100 0    50   Input ~ 0
 PH2
 Text GLabel 2650 1200 0    50   Input ~ 0
 PH3
-Text GLabel 1350 1900 0    50   Input ~ 0
-PWM1H
 Text GLabel 1350 2000 0    50   Input ~ 0
+PWM1H
+Text GLabel 1350 1900 0    50   Input ~ 0
 PWM1L
 Text GLabel 1350 2100 0    50   Input ~ 0
 PWM2H
@@ -447,4 +447,6 @@ F 3 "" H 4150 2050 50  0001 C CNN
 	1    4150 2050
 	1    0    0    -1  
 $EndComp
+Text Notes 8150 1550 2    50   ~ 0
+Pin 1 is INUL and not correct in Kicad
 $EndSCHEMATC
