@@ -4,11 +4,30 @@
 shaft ED1319-ND
 
 bearings
+ prisma is nu binnen 1 micrometer vlak als het wordt rond gedraaid, dit moet zo blijven
+ bij de huidige motor is het prisma gelijmd op een koperen houder, hierin is de as geklemd door
+ een fixture fit.
+ Het lager hoeft niet vlak te zijn. 
+  De huidige problemen zijn
+    - hoe lijm je de as op het prisma
+       (lijm resten buiten de as, is geen optie)
+    - de as moet onder een hoek van 90 graden staan
+ Het idee is nu een redelijk brede, bijvoorbeeld 6 mm as te nemen, daarop een drupje lijm te doen
+ Deze met UV te flitsen, terwijl de kraag er op wordt geduwt. Een referentie plaat van een laser
+ snijder zorgt voor de centrering.
+ Een ringmagneet trekt de staaf naar beneden. De staaf moet dan van ijzer kobalt of nikkel zijn
+ messing is zelfsmerend, je kan staal bestellen via https://duisterslineair.nl/webshop/as-op-maat/as-op-maat/
+ of https://www.goedmetaal.nl/goedmetaal/staal-wgw-rond-massief-6-mm.
+ 
+ 
+
  looked at radial bearing from conrad, no guaranteed flat top top surface
  mirror motor uses a bush bearing with shaft and 3 mm rod
-  --> moved to bronze bearing with shaft (supplimax.eu), price 0.7 euro
+  --> moved to bronze bearing with shaft (supplimax.eu), price 0.7 euro  (zoek op glijbus met kraag en kijk naar mogelijkheden)
       3x6x6 mm, 5099-02-0003
-  --> messing staaf RVS 3 mm
+  --> messing staaf RVS 3 mm, deze kwam van conrad
+  
+  glijbus met kraag -->
 
 breedte lager is 2.6 mm
 
