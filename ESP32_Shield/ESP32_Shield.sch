@@ -58,7 +58,7 @@ U 1 1 61DDBDBA
 P 1450 2325
 F 0 "J1" H 1500 3442 50  0000 C CNN
 F 1 "Conn_02x20_Odd_Even" H 1500 3351 50  0000 C CNN
-F 2 "" H 1450 2325 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 1450 2325 50  0001 C CNN
 F 3 "~" H 1450 2325 50  0001 C CNN
 	1    1450 2325
 	1    0    0    -1  
@@ -238,48 +238,48 @@ F 3 "~" H 1750 1425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 1750 1425
-Text GLabel 3750 1475 0    50   Input ~ 0
+Text GLabel 5200 1775 2    50   Input ~ 0
 POT_SDA
-Text GLabel 3750 1575 0    50   Input ~ 0
+Text GLabel 5200 1475 2    50   Input ~ 0
 POT_SCL
 NoConn ~ 3750 1375
-Text GLabel 3750 1675 0    50   Input ~ 0
+Text GLabel 5200 1675 2    50   Input ~ 0
 ENABLE
-Text GLabel 3750 1775 0    50   Input ~ 0
+Text GLabel 3725 2575 0    50   Input ~ 0
 PI_SPI_MOSI
-Text GLabel 3750 1875 0    50   Input ~ 0
+Text GLabel 3750 2475 0    50   Input ~ 0
 PI_SPI_MISO
-Text GLabel 3750 1975 0    50   Input ~ 0
+Text GLabel 3750 2375 0    50   Input ~ 0
 PI_SPI_SCK
-Text GLabel 3750 2075 0    50   Input ~ 0
+Text GLabel 3750 1975 0    50   Input ~ 0
 CFG_DONE
 Text GLabel 3750 2175 0    50   Input ~ 0
 CFG_SI
-Text GLabel 3750 2275 0    50   Input ~ 0
+Text GLabel 3750 2075 0    50   Input ~ 0
 CFG_SO
-Text GLabel 3750 2375 0    50   Input ~ 0
-SPI1_MISO
-Text GLabel 3750 2475 0    50   Input ~ 0
-CFG_RST
-Text GLabel 5200 1375 2    50   Input ~ 0
-PI_UART_WI
-Text GLabel 5200 1475 2    50   Input ~ 0
-PI_UART_RO
-Text GLabel 5200 1575 2    50   Input ~ 0
-SD_IO2
-Text GLabel 5200 1675 2    50   Input ~ 0
-SD_IO3
-Text GLabel 5200 1775 2    50   Input ~ 0
-PI_SPI_CE_0
-Text GLabel 5200 1875 2    50   Input ~ 0
-SPI1_CE
-Text GLabel 5200 1975 2    50   Input ~ 0
-CFG_SS
-Text GLabel 5200 2075 2    50   Input ~ 0
-CFG_SCK
 Text GLabel 5200 2175 2    50   Input ~ 0
-SPI1_MOSI
+SPI1_MISO
+Text GLabel 5200 1575 2    50   Input ~ 0
+CFG_RST
+Text GLabel 3750 1575 0    50   Input ~ 0
+PI_UART_WI
+Text GLabel 3750 1475 0    50   Input ~ 0
+PI_UART_RO
+Text GLabel 3750 1675 0    50   Input ~ 0
+SD_IO2
+Text GLabel 3750 1775 0    50   Input ~ 0
+SD_IO3
+Text GLabel 5200 2575 2    50   Input ~ 0
+PI_SPI_CE_0
+Text GLabel 5200 2475 2    50   Input ~ 0
+SPI1_CE
+Text GLabel 3750 2275 0    50   Input ~ 0
+CFG_SS
+Text GLabel 3750 1875 0    50   Input ~ 0
+CFG_SCK
 Text GLabel 5200 2275 2    50   Input ~ 0
+SPI1_MOSI
+Text GLabel 5200 2375 2    50   Input ~ 0
 SPI1_SCL
 NoConn ~ 7775 2550
 NoConn ~ 7775 2450
@@ -295,7 +295,7 @@ U 1 1 61E0C366
 P 8675 2050
 F 0 "J2" H 8625 2867 50  0000 C CNN
 F 1 "Micro_SD_Card_Det_Hirose_DM3AT" H 8625 2776 50  0000 C CNN
-F 2 "" H 10725 2750 50  0001 C CNN
+F 2 "ESP32_Shield:hirose" H 10725 2750 50  0001 C CNN
 F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 8675 2150 50  0001 C CNN
 	1    8675 2050
 	1    0    0    -1  
@@ -348,7 +348,7 @@ U 1 1 61E36390
 P 7500 1425
 F 0 "R4" H 7570 1471 50  0000 L CNN
 F 1 "10K" V 7500 1375 50  0000 L CNN
-F 2 "" V 7430 1425 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7430 1425 50  0001 C CNN
 F 3 "~" H 7500 1425 50  0001 C CNN
 	1    7500 1425
 	1    0    0    -1  
@@ -363,7 +363,7 @@ U 1 1 61E3D70C
 P 7000 1650
 F 0 "R2" H 7070 1696 50  0000 L CNN
 F 1 "10K" V 7000 1600 50  0000 L CNN
-F 2 "" V 6930 1650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6930 1650 50  0001 C CNN
 F 3 "~" H 7000 1650 50  0001 C CNN
 	1    7000 1650
 	1    0    0    -1  
@@ -381,7 +381,7 @@ U 1 1 61E3C2DC
 P 7275 2575
 F 0 "R3" H 7425 2600 50  0000 C CNN
 F 1 "10K" V 7275 2575 50  0000 C CNN
-F 2 "" V 7205 2575 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7205 2575 50  0001 C CNN
 F 3 "~" H 7275 2575 50  0001 C CNN
 	1    7275 2575
 	1    0    0    -1  
@@ -392,7 +392,7 @@ U 1 1 61E43CD3
 P 6925 2575
 F 0 "R1" H 6775 2575 50  0000 C CNN
 F 1 "10K" V 6925 2575 50  0000 C CNN
-F 2 "" V 6855 2575 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6855 2575 50  0001 C CNN
 F 3 "~" H 6925 2575 50  0001 C CNN
 	1    6925 2575
 	1    0    0    -1  
@@ -428,7 +428,7 @@ U 1 1 61E4A48E
 P 6450 2200
 F 0 "C3" H 6565 2246 50  0000 L CNN
 F 1 "0.1U" H 6125 2175 50  0000 L CNN
-F 2 "" H 6488 2050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6488 2050 50  0001 C CNN
 F 3 "~" H 6450 2200 50  0001 C CNN
 	1    6450 2200
 	1    0    0    -1  
@@ -450,13 +450,13 @@ Wire Wire Line
 	6900 2050 6900 1950
 Wire Wire Line
 	6900 1950 7775 1950
-Text GLabel 5200 2375 2    50   Input ~ 0
+Text GLabel 5200 2075 2    50   Input ~ 0
 SD_SS
-Text GLabel 5200 2475 2    50   Input ~ 0
+Text GLabel 5200 1375 2    50   Input ~ 0
 SD_MOSI
-Text GLabel 5200 2575 2    50   Input ~ 0
+Text GLabel 5200 1875 2    50   Input ~ 0
 SD_MISO
-Text GLabel 3725 2575 0    50   Input ~ 0
+Text GLabel 5200 1975 2    50   Input ~ 0
 SD_CLK
 Connection ~ 6450 2050
 $Comp
@@ -498,7 +498,7 @@ U 1 1 61DD918E
 P 925 4650
 F 0 "C1" H 1040 4696 50  0000 L CNN
 F 1 "4.7u" H 1040 4605 50  0000 L CNN
-F 2 "" H 963 4500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 963 4500 50  0001 C CNN
 F 3 "~" H 925 4650 50  0001 C CNN
 	1    925  4650
 	1    0    0    -1  
@@ -509,7 +509,7 @@ U 1 1 61DD9C65
 P 1825 4675
 F 0 "C2" H 1940 4721 50  0000 L CNN
 F 1 "4.7u" H 1940 4630 50  0000 L CNN
-F 2 "" H 1863 4525 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1863 4525 50  0001 C CNN
 F 3 "~" H 1825 4675 50  0001 C CNN
 	1    1825 4675
 	1    0    0    -1  
@@ -634,7 +634,7 @@ U 1 1 61E0FC3C
 P 3250 4450
 F 0 "J3" H 3330 4442 50  0000 L CNN
 F 1 "Conn_01x06" H 3330 4351 50  0000 L CNN
-F 2 "" H 3250 4450 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 3250 4450 50  0001 C CNN
 F 3 "~" H 3250 4450 50  0001 C CNN
 	1    3250 4450
 	1    0    0    -1  
