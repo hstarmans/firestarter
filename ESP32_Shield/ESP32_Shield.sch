@@ -669,14 +669,16 @@ F 3 "" H 3050 4250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0110
 U 1 1 61DFFA63
 P 9475 2550
-F 0 "#PWR?" H 9475 2300 50  0001 C CNN
+F 0 "#PWR0110" H 9475 2300 50  0001 C CNN
 F 1 "GND" H 9480 2377 50  0000 C CNN
 F 2 "" H 9475 2550 50  0001 C CNN
 F 3 "" H 9475 2550 50  0001 C CNN
 	1    9475 2550
 	0    -1   -1   0   
 $EndComp
+Text Notes 3150 950  0    50   ~ 0
+details see https://www.mischianti.org/2021/02/17/doit-esp32-dev-kit-v1-high-resolution-pinout-and-specs/\nthe top four left pins are input only!
 $EndSCHEMATC
