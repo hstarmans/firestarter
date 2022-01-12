@@ -295,7 +295,7 @@ U 1 1 61E0C366
 P 8675 2050
 F 0 "J2" H 8625 2867 50  0000 C CNN
 F 1 "Micro_SD_Card_Det_Hirose_DM3AT" H 8625 2776 50  0000 C CNN
-F 2 "ESP32_Shield:hirose" H 10725 2750 50  0001 C CNN
+F 2 "ESP32_Shield:microSD_HC_Hirose_DM3AT-SF-PEJM5" H 10725 2750 50  0001 C CNN
 F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 8675 2150 50  0001 C CNN
 	1    8675 2050
 	1    0    0    -1  
@@ -311,7 +311,6 @@ F 3 "" H 5200 2775 50  0001 C CNN
 	1    5200 2775
 	0    1    1    0   
 $EndComp
-NoConn ~ 9475 2550
 Text GLabel 7450 1750 0    50   Input ~ 0
 SD_SS
 Wire Wire Line
@@ -667,6 +666,17 @@ F 1 "+3.3V" V 3065 4378 50  0000 L CNN
 F 2 "" H 3050 4250 50  0001 C CNN
 F 3 "" H 3050 4250 50  0001 C CNN
 	1    3050 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61DFFA63
+P 9475 2550
+F 0 "#PWR?" H 9475 2300 50  0001 C CNN
+F 1 "GND" H 9480 2377 50  0000 C CNN
+F 2 "" H 9475 2550 50  0001 C CNN
+F 3 "" H 9475 2550 50  0001 C CNN
+	1    9475 2550
 	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
