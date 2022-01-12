@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 8)
+    (drawings 9)
     (tracks 343)
     (zones 0)
     (modules 12)
@@ -1077,6 +1077,9 @@
     )
   )
 
+  (gr_text "ESP32 DEVKIT V1" (at 108.966 78.3844) (layer B.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
+  )
   (gr_arc (start 127.724001 66.019401) (end 129.474 66.0944) (angle -92.45403167) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 127.161015 122.1444) (end 127.161015 124.557385) (angle -90) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 78.699 122.6194) (end 76.774001 122.544401) (angle -92.23117461) (layer Edge.Cuts) (width 0.15))
@@ -1430,7 +1433,7 @@
   (segment (start 102.263 105.1534) (end 102.362 105.0544) (width 0.25) (layer F.Cu) (net 31))
   (segment (start 102.263 107.4894) (end 102.263 105.1534) (width 0.25) (layer F.Cu) (net 31))
 
-  (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 61DDB5E8) (hatch edge 0.508)
+  (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 61DF0347) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -1913,7 +1916,7 @@
       )
     )
   )
-  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 61DDB5E5) (hatch edge 0.508)
+  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 61DF0344) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
