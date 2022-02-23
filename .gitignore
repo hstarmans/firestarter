@@ -17,6 +17,8 @@ _autosave-*
 *-save.kicad_pcb
 gerber*
 *lock*
+*-backups*
+*auto_saved*
 
 # Netlist files (exported from Eeschema)
 *.net
