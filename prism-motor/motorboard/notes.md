@@ -20,6 +20,6 @@
 - you apply a PWM signal which are also lagged by 120 degrees
 - hall effect feedback --> the motor you know use has three!! sensors
 
-# base boad
+# base board
 - this chip drives the circuit STSPIN230 it is in stock
 - you then need a hall sensor and can basically drive it with your FPGA technology
