@@ -19,6 +19,7 @@ gerber*
 *lock*
 *-backups*
 *auto_saved*
+plots*
 
 # Netlist files (exported from Eeschema)
 *.net
