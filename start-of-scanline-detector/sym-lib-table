@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name photodiode-cape)(type Legacy)(uri ${KIPRJMOD}/start-of-scanline_library.lib)(options "")(descr ""))
-)

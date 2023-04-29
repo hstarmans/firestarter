@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name ESP32_Shield-rescue)(type Legacy)(uri ${KIPRJMOD}/ESP32_Shield-rescue.lib)(options "")(descr ""))
-  (lib (name ESP32_Shield)(type Legacy)(uri ${KIPRJMOD}/ESP32_Shield.lib)(options "")(descr ""))
-)

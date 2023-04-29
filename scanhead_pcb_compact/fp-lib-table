@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name sockets_scanhead)(type KiCad)(uri ${KIPRJMOD}/sockets_scanhead.pretty)(options "")(descr ""))
-)

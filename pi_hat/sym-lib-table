@@ -1,6 +1,0 @@
-(sym_lib_table
-  (lib (name raspberrypi-gpio-40pin-rescue)(type Legacy)(uri ${KIPRJMOD}/raspberrypi-gpio-40pin.lib)(options "")(descr ""))
-  (lib (name beagle-wire)(type Legacy)(uri ${KIPRJMOD}/beagle-wire.lib)(options "")(descr ""))
-  (lib (name firestarter_library)(type Legacy)(uri ${KIPRJMOD}/firestarter_library.lib)(options "")(descr ""))
-  (lib (name UPduino_v3.0)(type Legacy)(uri ${KIPRJMOD}/UPduino_v3.0.lib)(options "")(descr ""))
-)

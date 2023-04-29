@@ -1,13 +1,20 @@
-# Firestarter
-This repository provides four pcbs for controlling an open hardware fast high resolution laser.
-Details can be found on [Hackaday](https://hackaday.io/project/21933-open-hardware-fast-high-resolution-laser). 
-The pcbs are; a hat for the raspberry, a pcb to detect the start of the scanline, a main board for the laser head and a board for the motors.
-The housing of the laser scanner is made from circuit boards as well. They are located in the plates folder. 
+# Hexastorm PCB
+This repository provides two modules;
+ * Laser module  
+    Contains six PCBs for the laser head. A box is created by the PCBs.  
+    A baseboard, a front and back plate, a side plate and a top plate.  
+    The laser module is standalone and can be controlled via SPI.  
+ * Main board  
+    The main board can be used to control motors and the laser head.  
+    
+A blog with progress updates is available on [Hackaday](https://hackaday.io/project/21933-open-hardware-fast-high-resolution-laser). 
 
 # Status
-The raspberry pi hat is in development and works with a FPGA. 
-The beaglebone board works with the 200 MHz pru on the bone and is no longer in development.
-The bill of materials for each board can be found in their subfolder.
-
-# Costs
-Building board for 3 modules cost me around 130 euro's The components cost is 104 euro's at Farnell. I paid around 70 euro for 5 PCBs made by Eurocircuits. These had a gold finish and a delivery time of a couple of days. Later, I used PCBway at around 26 dollars and a lead time of 5 day. You roughly pay 1 euro per PCB here.
+Several systems were designed. A successful exposure is shown in this [video](https://youtu.be/dR09Tev0cPk).  
+The current system is going through a complete iteration. Older version of the laser head can be found in
+the old branch of this repo.    
+A presentation on the current target is found [here](https://youtu.be/b7ArZDhsyfI).  
+Goals are;
+  - improve documentation
+  - make the laser module standalone
+A video will be uploaded when the boards are sent to the fab.
