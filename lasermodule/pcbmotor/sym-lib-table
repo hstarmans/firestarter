@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "scanhead_library")(type "Legacy")(uri "${KIPRJMOD}/scanhead_library.lib")(options "")(descr ""))
+  (lib (name "scanhead_pcb-rescue")(type "Legacy")(uri "${KIPRJMOD}/pcbmotor-rescue.lib")(options "")(descr ""))
+  (lib (name "photodiode-cape")(type "Legacy")(uri "/home/hexastorm/projects/firestarter/start-of-scanline-detector/start-of-scanline_library.lib")(options "")(descr ""))
+)
