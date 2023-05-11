@@ -1532,7 +1532,7 @@
     (pin "1" (uuid 583fc56f-29dc-4980-b5a0-f689942d767c))
     (pin "2" (uuid 262b80d4-8b9d-42b6-8d8c-52c6107f00d1))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5ad883a3-659e-4115-bb42-80d5e30d2551"
           (reference "R20") (unit 1)
         )
@@ -1557,7 +1557,7 @@
     )
     (pin "1" (uuid 3ba35ce6-b95f-4e70-80b3-2e56d00ce980))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5ad883a3-659e-4115-bb42-80d5e30d2551"
           (reference "#PWR0128") (unit 1)
         )
@@ -1583,7 +1583,7 @@
     (pin "1" (uuid 9ed8f4f5-bb92-456c-b241-7db08792d29e))
     (pin "2" (uuid f2c29606-64ce-48ac-bcb2-3af38b6bc5d4))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5ad883a3-659e-4115-bb42-80d5e30d2551"
           (reference "C11") (unit 1)
         )
@@ -1608,7 +1608,7 @@
     )
     (pin "1" (uuid ef61ed00-4820-46f9-b30a-866b70bd2407))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5ad883a3-659e-4115-bb42-80d5e30d2551"
           (reference "#PWR0129") (unit 1)
         )
@@ -1633,7 +1633,7 @@
     )
     (pin "1" (uuid 381d5611-7a99-4c0d-8dd5-41fe2d1351cb))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5ad883a3-659e-4115-bb42-80d5e30d2551"
           (reference "#PWR0130") (unit 1)
         )
@@ -1650,7 +1650,7 @@
     (property "Value" "S25FL064LABMFI010" (at 115.57 163.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_SO:SOIC-8W_5.3x5.3mm_P1.27mm" (at 132.08 152.4 0)
+    (property "Footprint" "sockets_scanhead:SOIC-8W_5.3x5.3mm_P1.27mm" (at 132.08 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://nl.farnell.com/cypress-semiconductor/s25fl064labmfi010/flash-memory-64mbit-soic-8/dp/2768034" (at 119.38 156.21 0)
@@ -1665,7 +1665,7 @@
     (pin "7" (uuid 1e0cfdb2-d3f2-4bfd-bfd4-8dae3451acec))
     (pin "8" (uuid bd203aa6-51e8-4548-9a55-fc51b7f9e429))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5ad883a3-659e-4115-bb42-80d5e30d2551"
           (reference "U13") (unit 1)
         )
@@ -1691,7 +1691,7 @@
     (pin "1" (uuid 919f7355-7a99-4fca-aa5a-f39e752a9855))
     (pin "2" (uuid 27d04097-dd24-4264-b94c-a228735c1e3c))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5ad883a3-659e-4115-bb42-80d5e30d2551"
           (reference "R19") (unit 1)
         )
@@ -1717,7 +1717,7 @@
     (pin "1" (uuid b201e9e1-e92b-4312-b179-3a64bfe6c28b))
     (pin "2" (uuid 3f779442-7544-4294-87d3-66ca88576fbb))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5ad883a3-659e-4115-bb42-80d5e30d2551"
           (reference "R23") (unit 1)
         )
@@ -1743,7 +1743,7 @@
     (pin "1" (uuid c6f68e7a-6c0e-4e5c-a066-1a168b540926))
     (pin "2" (uuid 778ceb93-c219-4ce6-b9e7-a5723aecdf2a))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5ad883a3-659e-4115-bb42-80d5e30d2551"
           (reference "R21") (unit 1)
         )
@@ -1816,7 +1816,7 @@
     (pin "49" (uuid 9327c1dc-995f-44ee-9945-2d6bf4214447))
     (pin "5" (uuid 0387f135-5fd8-4bd4-be39-dccc9c51dc78))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5ad883a3-659e-4115-bb42-80d5e30d2551"
           (reference "U12") (unit 1)
         )
@@ -1889,7 +1889,7 @@
     (pin "49" (uuid 58bf6f77-38b3-4eb3-a218-f36f8a93cd48))
     (pin "5" (uuid cd21a43a-b544-4777-ade3-6bcc00ea2cd2))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5ad883a3-659e-4115-bb42-80d5e30d2551"
           (reference "U12") (unit 2)
         )
@@ -1962,7 +1962,7 @@
     (pin "49" (uuid a388ec41-c274-4c5c-803a-73a501c7bf8c))
     (pin "5" (uuid 3cdb1d51-4ad6-44be-b5dd-dcd67a20a7a5))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5ad883a3-659e-4115-bb42-80d5e30d2551"
           (reference "U12") (unit 3)
         )
@@ -2035,7 +2035,7 @@
     (pin "49" (uuid feb439e1-3258-426e-ae7c-63abff0f9a8e))
     (pin "5" (uuid dc8f9511-b482-4d47-af5e-84073d178e81))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5ad883a3-659e-4115-bb42-80d5e30d2551"
           (reference "U12") (unit 4)
         )
@@ -2060,7 +2060,7 @@
     )
     (pin "1" (uuid 9ab07a22-d00d-4631-a7d6-67b4ba457948))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5ad883a3-659e-4115-bb42-80d5e30d2551"
           (reference "#PWR0123") (unit 1)
         )
@@ -2086,7 +2086,7 @@
     (pin "1" (uuid e5eace79-64f7-4052-a119-b09d1c394b1a))
     (pin "2" (uuid 79d0df76-9062-4b5a-a9e0-456e595d45d2))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5ad883a3-659e-4115-bb42-80d5e30d2551"
           (reference "C12") (unit 1)
         )
@@ -2112,7 +2112,7 @@
     (pin "1" (uuid d54417e2-94fc-493e-ad4d-f9d40ff34ff3))
     (pin "2" (uuid b7245713-0bd9-4e59-b810-f6707848612b))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5ad883a3-659e-4115-bb42-80d5e30d2551"
           (reference "C13") (unit 1)
         )
@@ -2138,7 +2138,7 @@
     (pin "1" (uuid 606d3235-8939-4383-9302-9b2bdc9c5c93))
     (pin "2" (uuid abcbf425-b631-4338-b64d-e9bcf3899426))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5ad883a3-659e-4115-bb42-80d5e30d2551"
           (reference "C14") (unit 1)
         )
@@ -2164,7 +2164,7 @@
     (pin "1" (uuid 52ac34df-090a-4a78-8404-524055309d8a))
     (pin "2" (uuid 5d5347b5-0e5b-47b3-a3e3-d6f5725bead7))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5ad883a3-659e-4115-bb42-80d5e30d2551"
           (reference "C15") (unit 1)
         )
@@ -2190,7 +2190,7 @@
     (pin "1" (uuid 1e26466f-5d65-40e5-9a26-52cb11f30d47))
     (pin "2" (uuid 261987d5-45f2-4a00-bede-f39dde06a6a0))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5ad883a3-659e-4115-bb42-80d5e30d2551"
           (reference "C18") (unit 1)
         )
@@ -2216,7 +2216,7 @@
     (pin "1" (uuid f8f9725e-16c6-4ff4-8cf0-389d1d7bc2ce))
     (pin "2" (uuid af97bda6-b118-4d5f-a302-88a60ce0b06d))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5ad883a3-659e-4115-bb42-80d5e30d2551"
           (reference "C19") (unit 1)
         )
@@ -2241,7 +2241,7 @@
     )
     (pin "1" (uuid 8f3b22d5-c024-4339-8bde-a9ed7e7a6e00))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5ad883a3-659e-4115-bb42-80d5e30d2551"
           (reference "#PWR0120") (unit 1)
         )
@@ -2266,7 +2266,7 @@
     )
     (pin "1" (uuid 25fd0a12-19d0-4f66-9a17-3c1d0fd539b4))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5ad883a3-659e-4115-bb42-80d5e30d2551"
           (reference "#PWR0117") (unit 1)
         )
@@ -2291,7 +2291,7 @@
     )
     (pin "1" (uuid afbfd10b-3e0e-4137-a5b1-ba542cb49644))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5ad883a3-659e-4115-bb42-80d5e30d2551"
           (reference "#PWR0134") (unit 1)
         )
@@ -2316,7 +2316,7 @@
     )
     (pin "1" (uuid 991d1163-c589-46d1-a91e-31c3b5320ecf))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5ad883a3-659e-4115-bb42-80d5e30d2551"
           (reference "#PWR0132") (unit 1)
         )
@@ -2342,7 +2342,7 @@
     (pin "1" (uuid 45e6543b-da28-4ad6-b10a-17b328e877b5))
     (pin "2" (uuid 952f2c9e-22eb-4f87-b226-0774c048ea44))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5ad883a3-659e-4115-bb42-80d5e30d2551"
           (reference "R22") (unit 1)
         )
@@ -2368,7 +2368,7 @@
     (pin "1" (uuid 0225db91-a163-4a58-be52-eeb95876d0a2))
     (pin "2" (uuid 24f23a75-281a-4a64-84b4-2adac897bf63))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5ad883a3-659e-4115-bb42-80d5e30d2551"
           (reference "C16") (unit 1)
         )
@@ -2394,7 +2394,7 @@
     (pin "1" (uuid a544543f-c79b-4539-8648-9dae4433fb29))
     (pin "2" (uuid 3b031682-d2b7-4f72-adaf-fba6a3db64cb))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5ad883a3-659e-4115-bb42-80d5e30d2551"
           (reference "C17") (unit 1)
         )
@@ -2420,7 +2420,7 @@
     (pin "1" (uuid c378b76e-6761-4295-9491-256a4807b525))
     (pin "2" (uuid 14e6f865-9c0a-49ea-b81b-07711ade0119))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5ad883a3-659e-4115-bb42-80d5e30d2551"
           (reference "D1") (unit 1)
         )
@@ -2445,7 +2445,7 @@
     )
     (pin "1" (uuid fc2dbc69-c314-4498-ade9-c7f8dc9f8811))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5ad883a3-659e-4115-bb42-80d5e30d2551"
           (reference "#FLG0103") (unit 1)
         )
@@ -2470,7 +2470,7 @@
     )
     (pin "1" (uuid c4d7e778-dec6-4bda-ac58-09fe72018d6d))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5ad883a3-659e-4115-bb42-80d5e30d2551"
           (reference "#PWR0137") (unit 1)
         )
@@ -2487,7 +2487,7 @@
     (property "Value" "CLMVC-FKA-CLBDGL7LBB79353" (at 218.44 137.7696 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "LED_SMD:LED_Cree-PLCC4_2x2mm_CW" (at 218.44 146.05 0)
+    (property "Footprint" "sockets_scanhead:LED_Cree-PLCC4_2x2mm_CW" (at 218.44 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.cree.com/led-components/media/documents/CLV1L-FKB-1238.pdf" (at 218.44 146.05 0)
@@ -2498,7 +2498,7 @@
     (pin "3" (uuid c02a61ed-8e06-4647-9080-c66dcac3f98a))
     (pin "4" (uuid 9b282d6d-6bbb-4727-b85c-7b00ccc25fbe))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5ad883a3-659e-4115-bb42-80d5e30d2551"
           (reference "D2") (unit 1)
         )
@@ -2524,7 +2524,7 @@
     (pin "1" (uuid 0be308a2-ed36-4877-9b9d-5acb8f594a2b))
     (pin "2" (uuid 22bd5cf1-c49e-4d90-9e5f-3ccce462b1a1))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5ad883a3-659e-4115-bb42-80d5e30d2551"
           (reference "C10") (unit 1)
         )
@@ -2549,7 +2549,7 @@
     )
     (pin "1" (uuid bdb8f021-7efe-4436-99e5-1e854765c5b6))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5ad883a3-659e-4115-bb42-80d5e30d2551"
           (reference "#PWR027") (unit 1)
         )
@@ -2574,7 +2574,7 @@
     )
     (pin "1" (uuid 99074cbb-d390-4e16-a069-565a60840dec))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR019") (unit 1)
         )
@@ -2605,7 +2605,7 @@
     )
     (pin "1" (uuid c658feb2-44e9-4e2b-9a7f-da1edd12183e))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR019") (unit 1)
         )
@@ -2636,7 +2636,7 @@
     )
     (pin "1" (uuid 48f62833-8b65-4588-b751-859f774293af))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR019") (unit 1)
         )
@@ -2667,7 +2667,7 @@
     )
     (pin "1" (uuid 8d30be0c-8217-4eeb-8067-2ebeb5d566d2))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5ad883a3-659e-4115-bb42-80d5e30d2551"
           (reference "#PWR030") (unit 1)
         )
@@ -2692,7 +2692,7 @@
     )
     (pin "1" (uuid ce4b3f10-5b5f-4bcd-ae08-bd6311b17d74))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5ad883a3-659e-4115-bb42-80d5e30d2551"
           (reference "#PWR028") (unit 1)
         )
@@ -2717,7 +2717,7 @@
     )
     (pin "1" (uuid 126a94ca-21e4-4150-b1d2-eefdf8f35bf1))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR019") (unit 1)
         )
@@ -2748,7 +2748,7 @@
     )
     (pin "1" (uuid b53ec8c5-123b-4271-a4cd-1d83a0828d23))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR019") (unit 1)
         )
@@ -2779,7 +2779,7 @@
     )
     (pin "1" (uuid d6ddea4c-ddd6-44a9-aeef-6d93ea8154a5))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5ad883a3-659e-4115-bb42-80d5e30d2551"
           (reference "#PWR026") (unit 1)
         )
@@ -2804,7 +2804,7 @@
     )
     (pin "1" (uuid 43afa645-5bec-4637-9125-7c4480ac9546))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR019") (unit 1)
         )
@@ -2835,7 +2835,7 @@
     )
     (pin "1" (uuid 9f9f058b-ce33-4454-a91c-854ec64080a5))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR019") (unit 1)
         )
@@ -2868,7 +2868,7 @@
     (pin "2" (uuid 95806d40-9bfb-4cfd-894d-02b9bd533135))
     (pin "3" (uuid 1352551a-4a55-4ff5-838b-2bb8e81ef4c5))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5ad883a3-659e-4115-bb42-80d5e30d2551"
           (reference "U14") (unit 1)
         )
@@ -2893,7 +2893,7 @@
     )
     (pin "1" (uuid 49fa980a-c09f-492d-979c-08270384c31f))
     (instances
-      (project "scanhead_pcb"
+      (project "base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/5ad883a3-659e-4115-bb42-80d5e30d2551"
           (reference "#PWR029") (unit 1)
         )

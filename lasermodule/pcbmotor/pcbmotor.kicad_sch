@@ -67,7 +67,6 @@
     )
   )
 
-
   (junction (at 85.09 36.83) (diameter 0) (color 0 0 0 0)
     (uuid 5e066100-2ddd-4cf4-b70e-2e800bbbf810)
   )
@@ -150,7 +149,7 @@
     (property "Value" "Conn_01x03" (at 50.8 31.75 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 50.8 36.83 0)
+    (property "Footprint" "pcbmotor:PinHeader_1x03_P2.54mm_Vertical" (at 50.8 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 50.8 36.83 0)
@@ -160,7 +159,7 @@
     (pin "2" (uuid b5312f20-ed8f-4091-aad8-04bad0be8050))
     (pin "3" (uuid 7c31e902-213a-4dd0-9e24-8761bad7a457))
     (instances
-      (project "scanhead_pcb"
+      (project "pcbmotor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J1") (unit 1)
         )
