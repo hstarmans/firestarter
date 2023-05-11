@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "start-of-scanline_library")(type "KiCad")(uri "${KIPRJMOD}/start-of-scanline_library.kicad_sym")(options "")(descr ""))
+)
