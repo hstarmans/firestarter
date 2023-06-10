@@ -1,4 +1,4 @@
-(kicad_sch (version 20211123) (generator eeschema)
+(kicad_sch (version 20230121) (generator eeschema)
 
   (uuid 85697c89-1348-441e-add9-eb5a39865876)
 
@@ -6,22 +6,22 @@
 
   (lib_symbols
     (symbol "Graphic:Logo_Open_Hardware_Large" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "#LOGO" (id 0) (at 0 12.7 0)
+      (property "Reference" "#LOGO" (at 0 12.7 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "Logo_Open_Hardware_Large" (id 1) (at 0 -10.16 0)
+      (property "Value" "Logo_Open_Hardware_Large" (at 0 -10.16 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Footprint" "" (id 2) (at 0 0 0)
+      (property "Footprint" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (property "Datasheet" "~" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "Logo" (id 4) (at 0 0 0)
+      (property "ki_keywords" "Logo" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Open Hardware logo, large" (id 5) (at 0 0 0)
+      (property "ki_description" "Open Hardware logo, large" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "Logo_Open_Hardware_Large_1_1"
@@ -305,7 +305,7 @@
             (xy 6.8326 -8.636)
             (xy 6.731 -8.7122)
           )
-          (stroke (width 0) (type default) (color 0 0 0 0))
+          (stroke (width 0) (type default))
           (fill (type outline))
         )
       )
@@ -323,49 +323,54 @@
   )
 
   (symbol (lib_id "Graphic:Logo_Open_Hardware_Large") (at 144.78 105.41 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006168343a)
-    (property "Reference" "L1" (id 0) (at 144.78 92.71 0)
+    (property "Reference" "L1" (at 144.78 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "" (id 1) (at 144.78 115.57 0)
+    (property "Value" "Logo_Open_Hardware_Large" (at 144.78 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (id 2) (at 144.78 105.41 0)
+    (property "Footprint" "footprints:hexastorm" (at 144.78 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 144.78 105.41 0)
+    (property "Datasheet" "~" (at 144.78 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "frontplate"
+        (path "/85697c89-1348-441e-add9-eb5a39865876"
+          (reference "L1") (unit 1)
+        )
+      )
     )
   )
 
   (symbol (lib_id "Graphic:Logo_Open_Hardware_Large") (at 143.51 73.66 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000061683d03)
-    (property "Reference" "L2" (id 0) (at 143.51 60.96 0)
+    (property "Reference" "L2" (at 143.51 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "" (id 1) (at 143.51 83.82 0)
+    (property "Value" "Logo_Open_Hardware_Large" (at 143.51 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (id 2) (at 143.51 73.66 0)
+    (property "Footprint" "footprints:hexastorm" (at 143.51 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 143.51 73.66 0)
+    (property "Datasheet" "~" (at 143.51 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "frontplate"
+        (path "/85697c89-1348-441e-add9-eb5a39865876"
+          (reference "L2") (unit 1)
+        )
+      )
     )
   )
 
   (sheet_instances
     (path "/" (page "1"))
-  )
-
-  (symbol_instances
-    (path "/00000000-0000-0000-0000-00006168343a"
-      (reference "L1") (unit 1) (value "Logo_Open_Hardware_Large") (footprint "footprints:hexastorm")
-    )
-    (path "/00000000-0000-0000-0000-000061683d03"
-      (reference "L2") (unit 1) (value "Logo_Open_Hardware_Large") (footprint "footprints:hexastorm")
-    )
   )
 )

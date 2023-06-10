@@ -6051,6 +6051,12 @@
   (gr_text "HEXASTORM" (at 142.5395 103.1995) (layer "F.Mask") (tstamp 26fbbf36-de83-4ec9-86e9-2c6274a79e91)
     (effects (font (size 1 1) (thickness 0.15)))
   )
+  (gr_text "PCB3D_TL_sideplate" (at 95.6945 91.2495) (layer "Cmts.User") (tstamp 213ab991-66eb-4f6e-a24c-b3767f1aaa1d)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
+  )
+  (gr_text "PCB3D_BR_sideplate" (at 197.2945 119.1895) (layer "Cmts.User") (tstamp eb65cf68-8314-463a-95b2-aaac3932cda0)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
+  )
 
   (via (at 144.4645 100.2745) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (free) (net 0) (tstamp 5b86cb50-e2ef-475e-93e3-77fea6b5a690))
   (via (at 162.8895 100.3995) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (free) (net 0) (tstamp 7167e0fb-15b0-446d-969c-ecf63e50097d))
