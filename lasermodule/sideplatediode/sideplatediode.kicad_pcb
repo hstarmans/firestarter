@@ -306,7 +306,7 @@
 
   (footprint "start-of-scanline-detector:hexastorm" (layer "F.Cu")
     (tstamp c39ecdc6-9f24-4a22-a08b-b02b25b13330)
-    (at 39.43 62.758)
+    (at 64.33 72.858)
     (property "Sheetfile" "sideplatediode.kicad_sch")
     (property "Sheetname" "")
     (property "Sim.Enable" "0")
@@ -3221,7 +3221,7 @@
 
   (footprint "start-of-scanline-detector:hexastorm" (layer "B.Cu")
     (tstamp c80515ee-cf66-4c04-9699-355009d42084)
-    (at 85.73 62.858 180)
+    (at 60.43 72.858 180)
     (property "Sheetfile" "sideplatediode.kicad_sch")
     (property "Sheetname" "")
     (property "Sim.Enable" "0")

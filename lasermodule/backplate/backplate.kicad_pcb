@@ -71,14 +71,14 @@
 
   (footprint "footprints:hexastorm" (layer "F.Cu")
     (tstamp 00000000-0000-0000-0000-00006168903c)
-    (at 154.23134 103.886 -90)
+    (at 151.83134 103.886 -90)
     (path "/00000000-0000-0000-0000-00006168343a")
     (attr through_hole)
     (fp_text reference "L1" (at -0.67818 0.92964 90) (layer "F.SilkS") hide
         (effects (font (size 1.524 1.524) (thickness 0.3)))
       (tstamp dcff4fe4-a296-4fc0-a12d-bb6b3501faf2)
     )
-    (fp_text value "Logo_Open_Hardware_Large" (at 1.31826 0.21844 -90) (layer "F.SilkS") hide
+    (fp_text value "Logo_Open_Hardware_Large" (at 1.31826 0.21844 90) (layer "F.SilkS") hide
         (effects (font (size 1.524 1.524) (thickness 0.3)))
       (tstamp d6487266-4010-40c8-82a0-ce8d241c85c6)
     )
@@ -2980,7 +2980,7 @@
 
   (footprint "footprints:hexastorm" (layer "B.Cu")
     (tstamp 00000000-0000-0000-0000-000061689644)
-    (at 154.12212 104.43464 90)
+    (at 151.83134 104.43464 90)
     (path "/00000000-0000-0000-0000-000061683d03")
     (attr through_hole)
     (fp_text reference "L2" (at 0 0 90) (layer "B.SilkS") hide
