@@ -5955,10 +5955,10 @@
   (gr_text "HEXASTORM" (at 160.9895 90.0245 270) (layer "F.Mask") (tstamp aba98e24-5e8c-466a-9a20-6fa6c73dbb88)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "PCB3D_BR_backplate" (at 151.5745 134.4295) (layer "Cmts.User") (tstamp 3a97a8bf-45f8-49e4-9613-4201f00d3091)
+  (gr_text "PCB3D_BR_backplate" (at 166.8145 134.4295) (layer "Cmts.User") (tstamp 3a97a8bf-45f8-49e4-9613-4201f00d3091)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
-  (gr_text "PCB3D_TL_backplate" (at 141.4145 76.0095) (layer "Cmts.User") (tstamp df7045d2-7c06-47f3-a39c-8a8347db7f0e)
+  (gr_text "PCB3D_TL_backplate" (at 138.8745 73.4695) (layer "Cmts.User") (tstamp df7045d2-7c06-47f3-a39c-8a8347db7f0e)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
 
