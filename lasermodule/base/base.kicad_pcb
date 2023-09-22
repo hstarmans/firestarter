@@ -4215,10 +4215,10 @@
   (gr_text "laserdiode holder" (at 161.16 120.242) (layer "F.SilkS") (tstamp f7a5e30d-9f01-42ed-9188-3a424e22f9d8)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
-  (gr_text "PCB3D_BR_base" (at 171.32 145.134) (layer "Cmts.User") (tstamp 0c53add5-ac14-4808-9937-ce6448a10d9a)
+  (gr_text "PCB3D_BR_base" (at 184.372 145.146) (layer "Cmts.User") (tstamp 0c53add5-ac14-4808-9937-ce6448a10d9a)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
-  (gr_text "PCB3D_TL_base" (at 64.597 69.871) (layer "Cmts.User") (tstamp 12606227-da93-44e1-a0a3-36c2b6e7da0d)
+  (gr_text "PCB3D_TL_base" (at 63.772 69.946) (layer "Cmts.User") (tstamp 12606227-da93-44e1-a0a3-36c2b6e7da0d)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
 
