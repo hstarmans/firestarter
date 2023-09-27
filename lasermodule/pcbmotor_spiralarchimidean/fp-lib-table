@@ -1,5 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "sockets_scanhead")(type "KiCad")(uri "${KIPRJMOD}/sockets_scanhead.pretty")(options "")(descr ""))
   (lib (name "pcbmotor")(type "KiCad")(uri "${KIPRJMOD}/pcbmotor.pretty")(options "")(descr ""))
 )

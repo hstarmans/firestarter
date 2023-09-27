@@ -109,6 +109,7 @@
   )
 
   (no_connect (at 49.53 67.31) (uuid 43252bc3-d51f-4427-a485-745872ec38ee))
+  (no_connect (at 50.165 86.36) (uuid a409e8bf-47ac-4877-84a6-5f78a47c8972))
   (no_connect (at 49.53 54.61) (uuid a60b11fb-3376-4b2f-8630-fe205a1e29bb))
   (no_connect (at 49.53 60.96) (uuid ce51800e-275f-46fc-91dc-23ca6aa440a4))
 
@@ -136,6 +137,10 @@
   (text "pcb motor" (at 78.74 27.94 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3bb32800-0789-4851-bbe9-2310d9db13a8)
+  )
+  (text "connector sliding bearing" (at 43.815 78.105 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 56a30a46-2cd2-40c6-9581-c1d31f1f6e51)
   )
   (text "connectors fix pcb" (at 41.91 50.8 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -282,6 +287,31 @@
       (project "pcbmotor"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 55.245 86.36 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c227df9a-1e50-4481-b8c9-c149e00224d1)
+    (property "Reference" "J5" (at 58.42 85.09 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Conn_01x01" (at 58.42 87.63 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "pcbmotor:motorconnector_D8.0mm_Drill4.1mm" (at 55.245 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 55.245 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1c779d8e-ee61-4766-b5a6-33dd8f90f571))
+    (instances
+      (project "pcbmotor"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "J5") (unit 1)
         )
       )
     )
