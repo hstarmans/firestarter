@@ -111,6 +111,7 @@
   (no_connect (at 48.26 59.69) (uuid 02a6ab9f-e556-467e-93f8-48963bc8227e))
   (no_connect (at 48.26 71.12) (uuid 8581119c-7fcd-4b39-8723-0962d0b89b85))
   (no_connect (at 48.26 64.77) (uuid d399a310-c737-44fb-a324-a4572ea49263))
+  (no_connect (at 48.895 85.725) (uuid f91d8213-123a-4050-b167-923f4c16bc7f))
 
   (wire (pts (xy 81.28 40.64) (xy 85.09 40.64))
     (stroke (width 0) (type default))
@@ -133,6 +134,10 @@
     (uuid dc1b6b19-ccbc-4248-8ca8-8304abf46fd8)
   )
 
+  (text "fix sliding bearing" (at 45.085 79.375 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 1dfa4ef3-3ce3-4ee0-979b-8b427167a041)
+  )
   (text "pcb motor" (at 78.74 27.94 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3bb32800-0789-4851-bbe9-2310d9db13a8)
@@ -182,6 +187,31 @@
     (uuid f882fe15-e202-4444-a6f6-575412f1c9a6)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 86.5758 40.5606 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+
+  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 53.975 85.725 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 03047278-2ab0-4ab3-9880-96a7faac0540)
+    (property "Reference" "J5" (at 57.15 84.455 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Conn_01x01" (at 57.15 86.995 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "pcbmotor:motorconnector_D8.0mm_Drill4.1mm" (at 53.975 85.725 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 53.975 85.725 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ccb25a4f-5b66-4b69-a963-e1a34a5ebf7d))
+    (instances
+      (project "pcbmotor"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "J5") (unit 1)
+        )
+      )
     )
   )
 
