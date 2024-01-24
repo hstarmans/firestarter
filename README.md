@@ -6,7 +6,8 @@ This repository provides two modules;
     The laser module is standalone and can be controlled via SPI.  
  * **Main board**  
     The main board can be used to control motors and the laser head.  
-    It's very basic and just serves as an example on how to control the laser head.   
+    The main board is placed in this box 100x67x22mm, AK-NW-84.  
+    This box can be found on Aliexpress.  
     
 A blog with progress updates is available on [Hackaday](https://hackaday.io/project/21933-open-hardware-fast-high-resolution-laser). 
 
