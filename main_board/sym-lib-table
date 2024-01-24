@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "firestarter_library")(type "KiCad")(uri "${KIPRJMOD}/firestarter_library.kicad_sym")(options "")(descr ""))
   (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/Espressif.kicad_sym")(options "")(descr ""))
+  (lib (name "wch_mcu_peripheral")(type "KiCad")(uri "${KIPRJMOD}/wch_mcu_peripheral.kicad_sym")(options "")(descr ""))
 )
