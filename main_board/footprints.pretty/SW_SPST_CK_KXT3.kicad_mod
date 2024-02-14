@@ -69,7 +69,7 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 27ef0a6e-a633-456f-88a3-dca6533c38d8))
   (pad "1" smd rect (at -1.625 0) (size 0.55 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 42642b66-ad96-43ab-9a21-f1f8882b917d))
   (pad "2" smd rect (at 1.625 0) (size 0.55 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp cc341416-8bf6-4ea9-959e-b44c8eec944f))
-  (model "C:/Users/r.starmans/Documents/Laserscanner/firestarter/main_board/shapes.3dshapes/KXT321LHS.stp"
+  (model "${KIPRJMOD}/shapes.3dshapes/3x2x0.65mm.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
