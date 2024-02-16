@@ -68,14 +68,14 @@
   (pad "14" thru_hole oval (at 0 12.7) (size 1.8 1.8) (drill 1.02) (layers "*.Cu" "*.Mask") (tstamp f5abe74d-d675-4be9-a9f7-b3791f44ae2d))
   (pad "15" thru_hole oval (at 0 15.24) (size 1.8 1.8) (drill 1.02) (layers "*.Cu" "*.Mask") (tstamp cc6db7db-b7f5-4229-a778-f90bd1f6240d))
   (pad "16" thru_hole oval (at 0 17.78) (size 1.8 1.8) (drill 1.02) (layers "*.Cu" "*.Mask") (tstamp 2818ad3e-0b3b-44c4-ba66-6fcf6c241676))
-  (model "${KIPRJMOD}/shapes.3dshapes/TMC 2130 v1.step" hide
-    (offset (xyz -1.5 1.5 1.5))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 90))
-  )
-  (model "${KIPRJMOD}/shapes.3dshapes/tmc2130withfemaleheaders.step"
+  (model "${KIPRJMOD}/shapes.3dshapes/tmc2130withfemaleheaders.step" hide
     (offset (xyz 14.3 -19.2 11))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -90))
+  )
+  (model "${KIPRJMOD}/shapes.3dshapes/tmc2100.step"
+    (offset (xyz 39.5 -44.5 2.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 180 0 180))
   )
 )
