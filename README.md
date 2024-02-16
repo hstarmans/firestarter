@@ -5,9 +5,13 @@ This repository provides two modules;
     A baseboard, a front and back plate, a side plate and a top plate.  
     The laser module is standalone and can be controlled via SPI.  
  * **Main board**  
-    The main board can be used to control motors and the laser head.  
-    The main board is placed in this box 100x67x22mm, AK-NW-84.  
-    This box can be found on Aliexpress.  
+    Main board can be used to control the laser head via USB C.
+    It is powered by a ESP32 and has three stepper motors. 
+    In addition there is a programming port and also power connector (USB C).
+    Board is depicted below. ESP32 S3 provides 32 mb onboard storage. A micro SD card reader is present for
+    extra memory. The main board is placed in this box 100x67x22mm, AK-NW-84.  
+    <img src="./pictures/hexastorm_mainboard.jpg" width="40%"/>  
+    
     
 A blog with progress updates is available on [Hackaday](https://hackaday.io/project/21933-open-hardware-fast-high-resolution-laser). 
 
