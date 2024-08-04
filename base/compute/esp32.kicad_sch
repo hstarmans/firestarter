@@ -1945,74 +1945,50 @@
 		)
 	)
 	(junction
+		(at 80.01 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75a9b522-c6ba-4b41-b62a-992c219146a4")
+	)
+	(junction
 		(at 69.85 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fd34c532-9bf6-4490-a69c-bf2a020fafc9")
+		(uuid "d324d44a-2465-4777-98dc-e7e1e8c1c504")
+	)
+	(junction
+		(at 69.85 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f22e32bc-edb0-46f7-82a7-11ab7459960d")
 	)
 	(no_connect
-		(at 180.34 82.55)
-		(uuid "0f645345-5aac-46df-8b25-bfbeef638796")
-	)
-	(no_connect
-		(at 180.34 95.25)
-		(uuid "427dec4d-9ff1-440a-a287-d883e19ac9fa")
-	)
-	(no_connect
-		(at 180.34 110.49)
+		(at 88.9 82.55)
 		(uuid "491afa0a-1b1a-4289-b873-a6b787d0a201")
 	)
 	(no_connect
-		(at 180.34 62.23)
-		(uuid "66f0bc00-7721-466f-b51f-ad8f43c4ef72")
+		(at 180.34 125.73)
+		(uuid "5fc8b8f6-a915-4233-b8d7-39563e6ab1fa")
+	)
+	(no_connect
+		(at 88.9 74.93)
+		(uuid "605782dd-7b3a-4adb-8502-bf328e5889cf")
 	)
 	(no_connect
 		(at 88.9 77.47)
 		(uuid "6a09ecda-98e2-4759-aacc-71139ec23c00")
 	)
 	(no_connect
-		(at 180.34 90.17)
-		(uuid "6c757b89-10aa-401c-adc2-39ec0a4510e5")
-	)
-	(no_connect
-		(at 180.34 80.01)
-		(uuid "878ca9ad-0357-40bd-97f5-a9a060523c1b")
-	)
-	(no_connect
-		(at 180.34 85.09)
-		(uuid "8d36b0e1-e42a-4a84-942c-15fe345eaaca")
-	)
-	(no_connect
-		(at 180.34 77.47)
-		(uuid "9a8e32f8-5630-4087-b860-4acc209dd270")
-	)
-	(no_connect
-		(at 180.34 87.63)
-		(uuid "a336b0a8-41a2-401c-b7a6-78b3fd572a10")
-	)
-	(no_connect
 		(at 88.9 80.01)
 		(uuid "c3958ef9-0bc1-41cc-a298-fe300fd979ae")
 	)
 	(no_connect
-		(at 88.9 67.31)
-		(uuid "c5126a1e-db3e-420e-9d2c-f6c3fcf1e500")
-	)
-	(no_connect
-		(at 180.34 125.73)
+		(at 180.34 123.19)
 		(uuid "c51bb9c8-4340-40d2-8549-eea8469f7cb3")
-	)
-	(no_connect
-		(at 88.9 69.85)
-		(uuid "ddb7246d-d588-4bc4-9b7f-299d74f31298")
-	)
-	(no_connect
-		(at 180.34 92.71)
-		(uuid "e72d2651-a7b0-4e7f-b892-6fbf5c49281e")
 	)
 	(wire
 		(pts
-			(xy 69.85 59.69) (xy 88.9 59.69)
+			(xy 69.85 59.69) (xy 80.01 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2032,6 +2008,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 49.53) (xy 69.85 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3592ab70-b21b-4d67-b454-b3d71feb1820")
+	)
+	(wire
+		(pts
 			(xy 180.34 74.93) (xy 191.77 74.93)
 		)
 		(stroke
@@ -2039,6 +2025,16 @@
 			(type default)
 		)
 		(uuid "386e7401-a986-44ed-a417-8e8efb8e9468")
+	)
+	(wire
+		(pts
+			(xy 69.85 49.53) (xy 80.01 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2c2cc18-8a5c-439b-bf33-5c7cd93fcfc1")
 	)
 	(polyline
 		(pts
@@ -2069,6 +2065,16 @@
 			(type default)
 		)
 		(uuid "ec9efba2-8a12-43ee-b5cc-2550cc4e4580")
+	)
+	(wire
+		(pts
+			(xy 80.01 59.69) (xy 88.9 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f12157b1-0ee6-4223-8bdc-d00581399a8b")
 	)
 	(rectangle
 		(start 64.77 40.64)
@@ -2104,6 +2110,17 @@
 		)
 		(uuid "137d7da1-6d9f-47de-a150-f5f9617c03f1")
 	)
+	(text "GPIO 1 + 3 micropython REPL"
+		(exclude_from_sim no)
+		(at 191.516 81.534 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "43104508-d4f2-46da-bfc5-2511fcc4c051")
+	)
 	(text "pinout is described here https://doc.riot-os.org/group__boards__esp32s3__devkit.html"
 		(exclude_from_sim no)
 		(at 67.945 150.495 0)
@@ -2117,7 +2134,7 @@
 	)
 	(global_label "SPI_SS_FPGA"
 		(shape input)
-		(at 180.34 123.19 0)
+		(at 180.34 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2127,7 +2144,29 @@
 		)
 		(uuid "04bf1cfa-53ff-4b81-b4b7-24f2265702cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.7473 123.19 0)
+			(at 194.7473 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO44"
+		(shape input)
+		(at 180.34 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "09d9e2f0-7d6e-45bc-aeda-004291a506fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.5653 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2183,7 +2222,7 @@
 	)
 	(global_label "POT_SCL"
 		(shape input)
-		(at 180.34 100.33 0)
+		(at 180.34 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2193,29 +2232,7 @@
 		)
 		(uuid "18e049e0-4278-4dd3-8e76-67acc41afc97")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.6349 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Z_STEP"
-		(shape input)
-		(at 180.34 59.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1b913215-ee4a-4d39-8edb-de14c55e57a5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.3648 59.69 0)
+			(at 190.6349 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2227,7 +2244,7 @@
 	)
 	(global_label "STEP_ENABLE"
 		(shape input)
-		(at 180.34 97.79 0)
+		(at 180.34 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2236,7 +2253,7 @@
 		)
 		(uuid "1e6579a6-4aee-4a9c-bdf6-00c5d552e4a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.34 97.79 0)
+			(at 180.34 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2245,9 +2262,31 @@
 			)
 		)
 	)
+	(global_label "FPGA44"
+		(shape input)
+		(at 180.34 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2ab6c694-0612-44aa-ad30-f61dd85dcb19")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.8072 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "POT_SDA"
 		(shape input)
-		(at 180.34 130.81 0)
+		(at 180.34 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2257,7 +2296,7 @@
 		)
 		(uuid "3359b32e-f655-427b-90a5-c40b3d399b54")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.6954 130.81 0)
+			(at 190.6954 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2289,18 +2328,148 @@
 			)
 		)
 	)
-	(global_label "SPI_SS_MOTOR"
+	(global_label "GPIO21"
 		(shape input)
-		(at 88.9 82.55 180)
+		(at 180.34 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
+		)
+		(uuid "3f85d606-d7e0-492b-8cf0-1951ebe4932a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.34 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FPGA46"
+		(shape input)
+		(at 180.34 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "514e59c5-9e8d-4180-b7c1-bf3b637742d0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.8072 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FPGA38"
+		(shape input)
+		(at 180.34 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5977e396-89d6-4b8f-854a-4b84e238ae60")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.8072 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FPGA41"
+		(shape input)
+		(at 180.34 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "64cb2f65-55bf-42c5-8a15-684e809c349e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.8072 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI_SS"
+		(shape input)
+		(at 180.34 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6be08b24-15ea-4f83-880c-32fe2f0f8fc9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.1419 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ESP32_BLUE"
+		(shape input)
+		(at 180.34 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d48c5fd-7ae0-4862-8c42-b507a904595a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.4637 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI_SS_MOTOR"
+		(shape input)
+		(at 180.34 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
 		)
 		(uuid "73a949df-1005-4639-ba43-388f888ffc0f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9 82.55 0)
+			(at 180.34 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2331,9 +2500,31 @@
 			)
 		)
 	)
-	(global_label "FREE"
+	(global_label "GPIO43"
 		(shape input)
-		(at 88.9 74.93 180)
+		(at 180.34 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9fc03a8a-3669-4bd7-a835-fcd96174dc49")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.5653 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FPGA43"
+		(shape input)
+		(at 88.9 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2341,9 +2532,9 @@
 			)
 			(justify right)
 		)
-		(uuid "879abba7-fddf-4895-8b95-8feccea1aad3")
+		(uuid "aa8e5903-9fa8-440a-8c12-a79cce0e4f4f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.9918 74.93 0)
+			(at 79.4328 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2353,9 +2544,31 @@
 			)
 		)
 	)
+	(global_label "FPGA39"
+		(shape input)
+		(at 180.34 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ae209733-ae27-4530-9713-99ec1d3a3d37")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.8072 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ESP32_RED"
 		(shape input)
-		(at 180.34 118.11 0)
+		(at 180.34 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2365,7 +2578,7 @@
 		)
 		(uuid "ae8c9b30-7378-40cf-9857-09aa5277f5da")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.3751 118.11 0)
+			(at 193.3751 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2419,24 +2632,24 @@
 			)
 		)
 	)
-	(global_label "ESP32_BLUE"
+	(global_label "FPGA42"
 		(shape input)
-		(at 180.34 113.03 0)
+		(at 88.9 67.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "c005ebb1-654e-48e3-810f-6c491c1a52f7")
+		(uuid "c1b99b65-1b4f-499c-bb14-94e170740f1a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.4637 113.03 0)
+			(at 79.4328 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2487,7 +2700,7 @@
 	)
 	(global_label "CFG_DONE"
 		(shape input)
-		(at 180.34 120.65 0)
+		(at 180.34 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2497,7 +2710,7 @@
 		)
 		(uuid "e969fc88-1376-451c-be05-11a2318327a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.2678 120.65 0)
+			(at 192.2678 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2553,7 +2766,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 67.31 0)
+		(at 69.85 49.53 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2562,7 +2775,7 @@
 		(fields_autoplaced yes)
 		(uuid "2005de51-5169-436e-8120-3aebde31cdb2")
 		(property "Reference" "#PWR05"
-			(at 69.85 73.66 0)
+			(at 69.85 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2571,7 +2784,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 71.755 0)
+			(at 69.85 45.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2579,7 +2792,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 67.31 0)
+			(at 69.85 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2588,7 +2801,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 67.31 0)
+			(at 69.85 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2597,7 +2810,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 67.31 0)
+			(at 69.85 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2944,7 +3157,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_SPST_CK_KXT3"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 196.85 69.85 0)
 			(effects
 				(font
@@ -2971,7 +3184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" "2610942 "
+		(property "Farnell" "1333652"
 			(at 196.85 74.93 0)
 			(effects
 				(font
@@ -2980,7 +3193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Producer" "147873-1"
+		(property "Producer" "B3U-1000P"
 			(at 196.85 74.93 0)
 			(effects
 				(font
@@ -2989,7 +3202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "506-147873-1"
+		(property "Mouser" "653-B3U-1000P"
 			(at 196.85 74.93 0)
 			(effects
 				(font
@@ -3015,16 +3228,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 69.85 63.5 0)
+		(at 69.85 55.88 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7bfda4c6-d8be-4cb7-afdc-2441f04c6036")
 		(property "Reference" "C9"
-			(at 73.025 62.23 0)
+			(at 75.184 56.642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3033,7 +3245,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 73.025 64.77 0)
+			(at 76.2 54.102 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3042,7 +3254,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 70.8152 67.31 0)
+			(at 68.8848 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3051,7 +3263,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 63.5 0)
+			(at 69.85 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3060,7 +3272,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 63.5 0)
+			(at 69.85 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3069,7 +3281,7 @@
 			)
 		)
 		(property "Farnell" "2094043"
-			(at 69.85 63.5 0)
+			(at 69.85 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3078,7 +3290,7 @@
 			)
 		)
 		(property "Producer" "08055C105KAT2A"
-			(at 69.85 63.5 0)
+			(at 69.85 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3087,7 +3299,7 @@
 			)
 		)
 		(property "Mouser" "581-08055C105KAT2A "
-			(at 69.85 63.5 0)
+			(at 69.85 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3183,8 +3395,105 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 80.01 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa2943bf-e8d0-488b-85fe-8e41b173e33b")
+		(property "Reference" "SW2"
+			(at 81.28 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push_Open"
+			(at 81.28 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
+			(at 74.93 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nl.farnell.com/en-NL/alcoswitch-te-connectivity/fsmsm/switch-spst-0-05a-24vdc-smd/dp/1703878"
+			(at 74.93 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell" "1333652"
+			(at 80.01 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Producer" "B3U-1000P"
+			(at 80.01 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "653-B3U-1000P"
+			(at 80.01 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "febb743f-0cca-433b-a2b1-a7525b66eeec")
+		)
+		(pin "2"
+			(uuid "9b46ea42-9b0f-4526-a53b-ed2db7bfdabb")
+		)
+		(instances
+			(project "main_board"
+				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/ded41933-47f2-4164-99b5-6584a7af0743"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
-		(at 69.85 52.07 0)
+		(at 69.85 67.31 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3193,7 +3502,7 @@
 		(fields_autoplaced yes)
 		(uuid "c752d910-98b4-49a7-b4e6-b59e16886171")
 		(property "Reference" "#PWR04"
-			(at 69.85 55.88 0)
+			(at 69.85 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3202,7 +3511,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 69.85 46.99 0)
+			(at 69.85 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3210,7 +3519,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 52.07 0)
+			(at 69.85 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3219,7 +3528,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 52.07 0)
+			(at 69.85 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3228,7 +3537,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 69.85 52.07 0)
+			(at 69.85 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3455,16 +3764,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 69.85 55.88 0)
+		(at 69.85 63.5 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dee29d35-db21-4c2d-b623-ba0654dc1866")
 		(property "Reference" "R4"
-			(at 71.755 54.61 0)
+			(at 74.93 64.262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3473,7 +3781,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 71.755 57.15 0)
+			(at 76.2 61.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3482,7 +3790,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 68.072 55.88 90)
+			(at 71.628 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3491,7 +3799,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 55.88 0)
+			(at 69.85 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3500,7 +3808,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 55.88 0)
+			(at 69.85 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3509,7 +3817,7 @@
 			)
 		)
 		(property "Farnell" "2826162"
-			(at 69.85 55.88 0)
+			(at 69.85 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3518,7 +3826,7 @@
 			)
 		)
 		(property "Producer" "CRCW080510K0JNEAC "
-			(at 69.85 55.88 0)
+			(at 69.85 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3527,7 +3835,7 @@
 			)
 		)
 		(property "Mouser" "71-CRCW080510K0JNEAC "
-			(at 69.85 55.88 0)
+			(at 69.85 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
