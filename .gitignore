@@ -21,6 +21,13 @@ gerber*
 *-backups*
 *auto_saved*
 plots*
+*.kicad_prl
+*.kicad_pcb
+*.lck
+*.dcm
+meta*
+fp-lib-table
+sym-lib-table
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -35,6 +42,7 @@ plots*
 *.drl
 
 # BOM Files / Notes in Libre office
+*.ods
 
 # Exported BOM files
 *.xml
