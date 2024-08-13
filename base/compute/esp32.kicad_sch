@@ -1945,6 +1945,12 @@
 		)
 	)
 	(junction
+		(at 238.76 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "603071d0-86f2-497c-b192-288f12b2117b")
+	)
+	(junction
 		(at 80.01 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1965,10 +1971,6 @@
 	(no_connect
 		(at 88.9 82.55)
 		(uuid "491afa0a-1b1a-4289-b873-a6b787d0a201")
-	)
-	(no_connect
-		(at 180.34 125.73)
-		(uuid "5fc8b8f6-a915-4233-b8d7-39563e6ab1fa")
 	)
 	(no_connect
 		(at 88.9 74.93)
@@ -2039,6 +2041,16 @@
 			(type default)
 		)
 		(uuid "b2c2cc18-8a5c-439b-bf33-5c7cd93fcfc1")
+	)
+	(wire
+		(pts
+			(xy 238.76 62.23) (xy 247.65 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb77c3cf-7cd6-4c40-8cca-d52fb2825a2f")
 	)
 	(polyline
 		(pts
@@ -2484,6 +2496,28 @@
 			)
 		)
 	)
+	(global_label "GPIO46"
+		(shape input)
+		(at 180.34 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "923e1f7c-233e-4a3b-aff3-6cced88c13c2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.5653 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO43"
 		(shape input)
 		(at 180.34 59.69 0)
@@ -2546,6 +2580,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "POT_SCL"
+		(shape input)
+		(at 247.65 69.85 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ae8009a5-2523-40e0-be30-78a7571d8a42")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.65 80.2243 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2726,6 +2782,28 @@
 			)
 		)
 	)
+	(global_label "POT_SDA"
+		(shape input)
+		(at 238.76 69.85 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f1e56697-ad3b-4667-973d-3ab52803e7fc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.76 80.2848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SPI_SCK"
 		(shape input)
 		(at 180.34 105.41 0)
@@ -2745,6 +2823,102 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 238.76 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18555c82-3376-4d0b-bb65-ba7a500f1fdd")
+		(property "Reference" "R8"
+			(at 233.68 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 232.41 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 236.982 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell" "2826162"
+			(at 238.76 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Producer" "CRCW080510K0JNEAC "
+			(at 238.76 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "71-CRCW080510K0JNEAC "
+			(at 238.76 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35b06186-df67-4f2c-9db7-0e60fa17b6de")
+		)
+		(pin "2"
+			(uuid "8971916c-6235-42d2-861b-84c38da58250")
+		)
+		(instances
+			(project "main_board"
+				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/ded41933-47f2-4164-99b5-6584a7af0743"
+					(reference "R8")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -3211,6 +3385,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 238.76 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "623a5b20-6dd0-4511-b6fd-9da5d9854bbf")
+		(property "Reference" "#PWR019"
+			(at 238.76 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 238.76 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 238.76 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22fc62ed-9269-4a62-8895-da8ca48e35ab")
+		)
+		(instances
+			(project "main_board"
+				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/ded41933-47f2-4164-99b5-6584a7af0743"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 69.85 55.88 180)
 		(unit 1)
@@ -3470,6 +3710,102 @@
 			(project "main_board"
 				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/ded41933-47f2-4164-99b5-6584a7af0743"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 247.65 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be6b2287-d39e-40dc-bbc4-47505f0c12a0")
+		(property "Reference" "R9"
+			(at 242.57 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 241.3 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 245.872 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell" "2826162"
+			(at 247.65 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Producer" "CRCW080510K0JNEAC "
+			(at 247.65 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "71-CRCW080510K0JNEAC "
+			(at 247.65 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac329ce0-cc5e-4251-882d-5f6edd07921d")
+		)
+		(pin "2"
+			(uuid "3db6aa6b-e6ff-4af0-8623-cfd303fe13d1")
+		)
+		(instances
+			(project "main_board"
+				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/ded41933-47f2-4164-99b5-6584a7af0743"
+					(reference "R9")
 					(unit 1)
 				)
 			)

@@ -3043,16 +3043,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 64.77) (xy 59.69 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6df1522-304d-48fb-917a-d7401bda4847")
-	)
-	(wire
-		(pts
 			(xy 240.03 77.47) (xy 243.84 77.47)
 		)
 		(stroke
@@ -3252,7 +3242,7 @@
 	)
 	(global_label "FPGA42"
 		(shape input)
-		(at 212.09 39.37 180)
+		(at 212.09 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3262,7 +3252,7 @@
 		)
 		(uuid "0d41be0e-3365-45ef-9bc8-405a0397e806")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.6228 39.37 0)
+			(at 202.6228 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3450,7 +3440,7 @@
 	)
 	(global_label "FPGA43"
 		(shape input)
-		(at 212.09 41.91 180)
+		(at 212.09 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3460,7 +3450,7 @@
 		)
 		(uuid "46624c5e-1347-477e-b2bb-c972160efd7d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.6228 41.91 0)
+			(at 202.6228 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3472,7 +3462,7 @@
 	)
 	(global_label "FPGA44"
 		(shape input)
-		(at 212.09 44.45 180)
+		(at 212.09 39.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3482,7 +3472,7 @@
 		)
 		(uuid "55d82c41-7152-4f5e-a6a4-e09250bb5551")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.6228 44.45 0)
+			(at 202.6228 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3932,6 +3922,28 @@
 			)
 		)
 	)
+	(global_label "GPIO46"
+		(shape input)
+		(at 212.09 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1430df5-9853-456f-9777-0432097ec089")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 202.8647 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "HALL2"
 		(shape input)
 		(at 212.09 54.61 180)
@@ -3995,77 +4007,6 @@
 				)
 				(justify left)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Graphic:Logo_Open_Hardware_Small")
-		(at 159.385 169.164 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005ec469a3")
-		(property "Reference" "G1"
-			(at 159.385 162.179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "hexastorm"
-			(at 159.385 174.879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "footprints:hexastorm"
-			(at 159.385 169.164 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 159.385 169.164 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 159.385 169.164 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Text" "Hexastorm Logo"
-			(at 159.385 175.514 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "main_board"
-				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455"
-					(reference "G1")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -4161,6 +4102,72 @@
 			(project "main_board"
 				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V2")
+		(at 92.71 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0bbb93db-f577-4474-ba21-3470e8344cf2")
+		(property "Reference" "#PWR020"
+			(at 92.71 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V2"
+			(at 90.17 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V2\""
+			(at 92.71 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa44c6f6-cef2-4e1c-a775-2687c873900b")
+		)
+		(instances
+			(project "main_board"
+				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -4425,8 +4432,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Graphic:Logo_Open_Hardware_Small")
+		(at 185.42 125.73 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1fe682eb-fa6b-491e-a0b7-d7e4e35440ee")
+		(property "Reference" "G1"
+			(at 185.42 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "hexastorm"
+			(at 185.42 131.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "footprints:hexastorm"
+			(at 185.42 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Open Hardware logo, small"
+			(at 185.42 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Text" "Hexastorm Logo"
+			(at 185.42 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "main_board"
+				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455"
+					(reference "G1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
-		(at 53.34 64.77 90)
+		(at 59.69 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4434,7 +4512,7 @@
 		(dnp no)
 		(uuid "200ff8c0-d125-476f-bf2c-2a539443ea38")
 		(property "Reference" "#PWR09"
-			(at 57.15 64.77 0)
+			(at 63.5 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4443,7 +4521,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 53.594 62.23 90)
+			(at 59.69 68.072 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4452,7 +4530,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 64.77 0)
+			(at 59.69 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4461,7 +4539,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 64.77 0)
+			(at 59.69 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4470,7 +4548,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 53.34 64.77 0)
+			(at 59.69 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4646,73 +4724,6 @@
 			(project "main_board"
 				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455"
 					(reference "F2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 204.47 31.75 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f99403d-b351-4f96-9de4-12ef21fe929c")
-		(property "Reference" "#PWR019"
-			(at 208.28 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 200.66 31.7499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 204.47 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "57992844-f46c-46c7-8fb8-84e426483b0d")
-		)
-		(instances
-			(project "main_board"
-				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6696,100 +6707,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 208.28 31.75 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b32c7793-9997-4b82-9f66-1d3d313c1342")
-		(property "Reference" "D6"
-			(at 206.502 26.416 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_Schottky"
-			(at 206.502 28.702 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
-			(at 208.28 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 208.28 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Producer" "SD103AWS-E3-08"
-			(at 208.28 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell" "2393466"
-			(at 208.28 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "78-SD103AWS-HE3-18"
-			(at 208.28 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5251d8bb-b9b1-46f7-9b5f-e2ae7e022ab9")
-		)
-		(pin "2"
-			(uuid "7de3cd6a-4ad6-444d-912a-9c02a3f01410")
-		)
-		(instances
-			(project "main_board"
-				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 121.92 77.47 0)
 		(unit 1)
@@ -7152,72 +7069,6 @@
 			(project "main_board"
 				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455"
 					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 92.71 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e44f0c04-2af9-4db4-ba9b-8ad21c4656df")
-		(property "Reference" "#PWR024"
-			(at 92.71 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 92.71 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 92.71 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4409df93-b070-491f-85d5-4845e879f615")
-		)
-		(instances
-			(project "main_board"
-				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455"
-					(reference "#PWR024")
 					(unit 1)
 				)
 			)
