@@ -209,15 +209,15 @@
 		(thermal_bridge_angle 45)
 		(uuid "e95a668a-9d19-43e0-9774-850503b86b25")
 	)
-	(model "${KIPRJMOD}/shapes.3dshapes/AB2_MSOP10.wrl"
+	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/SSOP-10_3.9x4.9mm_P1.00mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
 		(scale
-			(xyz 0.8 0.5 0.5)
+			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 90)
+			(xyz 0 0 0)
 		)
 	)
 )
