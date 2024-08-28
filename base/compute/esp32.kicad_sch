@@ -1623,7 +1623,7 @@
 			)
 		)
 	)
-	(global_label "GPIO44"
+	(global_label "UARX"
 		(shape input)
 		(at 180.34 62.23 0)
 		(fields_autoplaced yes)
@@ -1775,7 +1775,7 @@
 			)
 		)
 	)
-	(global_label "FPGA46"
+	(global_label "Z_STEP"
 		(shape input)
 		(at 180.34 90.17 0)
 		(fields_autoplaced yes)
@@ -1797,7 +1797,7 @@
 			)
 		)
 	)
-	(global_label "FPGA38"
+	(global_label "Z_DIR"
 		(shape input)
 		(at 180.34 77.47 0)
 		(fields_autoplaced yes)
@@ -1819,7 +1819,7 @@
 			)
 		)
 	)
-	(global_label "FPGA41"
+	(global_label "INDEX_X"
 		(shape input)
 		(at 180.34 82.55 0)
 		(fields_autoplaced yes)
@@ -1927,7 +1927,7 @@
 			)
 		)
 	)
-	(global_label "GPIO43"
+	(global_label "UART"
 		(shape input)
 		(at 180.34 59.69 0)
 		(fields_autoplaced yes)
@@ -1971,7 +1971,7 @@
 			)
 		)
 	)
-	(global_label "FPGA39"
+	(global_label "X_STEP"
 		(shape input)
 		(at 180.34 80.01 0)
 		(fields_autoplaced yes)

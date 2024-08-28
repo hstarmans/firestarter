@@ -2694,7 +2694,7 @@
 			)
 		)
 	)
-	(global_label "uL"
+	(global_label "FPGA3"
 		(shape input)
 		(at 189.23 58.42 180)
 		(fields_autoplaced yes)
@@ -2715,7 +2715,7 @@
 			)
 		)
 	)
-	(global_label "HALL2"
+	(global_label "HALL2_old"
 		(shape input)
 		(at 73.66 80.01 180)
 		(fields_autoplaced yes)
@@ -2757,7 +2757,7 @@
 			)
 		)
 	)
-	(global_label "uH"
+	(global_label "FPGA49"
 		(shape input)
 		(at 73.66 77.47 180)
 		(fields_autoplaced yes)
@@ -2799,7 +2799,7 @@
 			)
 		)
 	)
-	(global_label "IC_HB_PWM1"
+	(global_label "uL"
 		(shape input)
 		(at 189.23 66.04 180)
 		(fields_autoplaced yes)
@@ -2820,7 +2820,7 @@
 			)
 		)
 	)
-	(global_label "X_STEP"
+	(global_label "vH"
 		(shape input)
 		(at 116.84 55.88 180)
 		(fields_autoplaced yes)
@@ -2841,7 +2841,7 @@
 			)
 		)
 	)
-	(global_label "wH"
+	(global_label "HALL2"
 		(shape input)
 		(at 189.23 55.88 180)
 		(fields_autoplaced yes)
@@ -2906,7 +2906,7 @@
 			)
 		)
 	)
-	(global_label "X_PO"
+	(global_label "wL"
 		(shape input)
 		(at 116.84 58.42 180)
 		(fields_autoplaced yes)
@@ -2927,7 +2927,7 @@
 			)
 		)
 	)
-	(global_label "Z_STEP"
+	(global_label "Y_PO"
 		(shape input)
 		(at 116.84 68.58 180)
 		(fields_autoplaced yes)
@@ -2949,7 +2949,7 @@
 			)
 		)
 	)
-	(global_label "FPGA38"
+	(global_label "Z_DIR"
 		(shape input)
 		(at 73.66 54.61 180)
 		(fields_autoplaced yes)
@@ -2971,7 +2971,7 @@
 			)
 		)
 	)
-	(global_label "Y_DIR"
+	(global_label "wH"
 		(shape input)
 		(at 116.84 60.96 180)
 		(fields_autoplaced yes)
@@ -2993,7 +2993,7 @@
 			)
 		)
 	)
-	(global_label "DIGITAL"
+	(global_label "Y_DIR"
 		(shape input)
 		(at 73.66 74.93 180)
 		(fields_autoplaced yes)
@@ -3037,7 +3037,7 @@
 			)
 		)
 	)
-	(global_label "vL"
+	(global_label "DIGITAL"
 		(shape input)
 		(at 189.23 53.34 180)
 		(fields_autoplaced yes)
@@ -3080,7 +3080,7 @@
 			)
 		)
 	)
-	(global_label "IC_HB_PWM2"
+	(global_label "vL"
 		(shape input)
 		(at 189.23 71.12 180)
 		(fields_autoplaced yes)
@@ -3102,7 +3102,7 @@
 			)
 		)
 	)
-	(global_label "Y_STEP"
+	(global_label "IC_HB_PWM1"
 		(shape input)
 		(at 116.84 63.5 180)
 		(fields_autoplaced yes)
@@ -3190,7 +3190,7 @@
 			)
 		)
 	)
-	(global_label "Z_DIR"
+	(global_label "X_DIR"
 		(shape input)
 		(at 116.84 73.66 180)
 		(fields_autoplaced yes)
@@ -3212,7 +3212,7 @@
 			)
 		)
 	)
-	(global_label "HALL3"
+	(global_label "X_PO"
 		(shape input)
 		(at 73.66 82.55 180)
 		(fields_autoplaced yes)
@@ -3276,7 +3276,7 @@
 			)
 		)
 	)
-	(global_label "FPGA39"
+	(global_label "X_STEP"
 		(shape input)
 		(at 73.66 57.15 180)
 		(fields_autoplaced yes)
@@ -3320,7 +3320,7 @@
 			)
 		)
 	)
-	(global_label "vH"
+	(global_label "HALL1"
 		(shape input)
 		(at 189.23 63.5 180)
 		(fields_autoplaced yes)
@@ -3341,7 +3341,7 @@
 			)
 		)
 	)
-	(global_label "HALL1"
+	(global_label "Y_STEP"
 		(shape input)
 		(at 73.66 69.85 180)
 		(fields_autoplaced yes)
@@ -3362,7 +3362,7 @@
 			)
 		)
 	)
-	(global_label "FPGA41"
+	(global_label "INDEX_X"
 		(shape input)
 		(at 73.66 59.69 180)
 		(fields_autoplaced yes)
@@ -3406,7 +3406,7 @@
 			)
 		)
 	)
-	(global_label "X_DIR"
+	(global_label "uH"
 		(shape input)
 		(at 189.23 68.58 180)
 		(fields_autoplaced yes)
@@ -3427,7 +3427,7 @@
 			)
 		)
 	)
-	(global_label "FPGA46"
+	(global_label "Z_STEP"
 		(shape input)
 		(at 73.66 72.39 180)
 		(fields_autoplaced yes)
@@ -3471,7 +3471,7 @@
 			)
 		)
 	)
-	(global_label "wL"
+	(global_label "HALL3"
 		(shape input)
 		(at 189.23 60.96 180)
 		(fields_autoplaced yes)
@@ -3493,7 +3493,7 @@
 			)
 		)
 	)
-	(global_label "Y_PO"
+	(global_label "IC_HB_PWM2"
 		(shape input)
 		(at 116.84 66.04 180)
 		(fields_autoplaced yes)

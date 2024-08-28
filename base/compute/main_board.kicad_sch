@@ -4220,7 +4220,7 @@
 	)
 	(text "Status light"
 		(exclude_from_sim no)
-		(at 82.042 100.838 0)
+		(at 90.932 100.838 0)
 		(effects
 			(font
 				(size 3 3)
@@ -4251,7 +4251,7 @@
 		)
 		(uuid "9bff311b-32d4-45cf-af84-4ee20243a1bf")
 	)
-	(global_label "GPIO44"
+	(global_label "UARX"
 		(shape input)
 		(at 217.17 39.37 180)
 		(fields_autoplaced yes)
@@ -4295,7 +4295,7 @@
 			)
 		)
 	)
-	(global_label "Y_DIR"
+	(global_label "wH"
 		(shape input)
 		(at 217.17 80.01 180)
 		(fields_autoplaced yes)
@@ -4317,7 +4317,7 @@
 			)
 		)
 	)
-	(global_label "HALL1"
+	(global_label "Y_STEP"
 		(shape input)
 		(at 229.87 54.61 0)
 		(fields_autoplaced yes)
@@ -4339,7 +4339,7 @@
 			)
 		)
 	)
-	(global_label "Y_PO"
+	(global_label "IC_HB_PWM2"
 		(shape input)
 		(at 229.87 82.55 0)
 		(fields_autoplaced yes)
@@ -4383,7 +4383,7 @@
 			)
 		)
 	)
-	(global_label "X_PO"
+	(global_label "wL"
 		(shape input)
 		(at 229.87 80.01 0)
 		(fields_autoplaced yes)
@@ -4405,7 +4405,7 @@
 			)
 		)
 	)
-	(global_label "uH"
+	(global_label "FPGA49"
 		(shape input)
 		(at 229.87 67.31 0)
 		(fields_autoplaced yes)
@@ -4449,7 +4449,7 @@
 			)
 		)
 	)
-	(global_label "IC_HB_PWM1"
+	(global_label "uL"
 		(shape input)
 		(at 229.87 74.93 0)
 		(fields_autoplaced yes)
@@ -4493,7 +4493,7 @@
 			)
 		)
 	)
-	(global_label "FPGA46"
+	(global_label "Z_STEP"
 		(shape input)
 		(at 229.87 49.53 0)
 		(fields_autoplaced yes)
@@ -4559,7 +4559,7 @@
 			)
 		)
 	)
-	(global_label "FPGA39"
+	(global_label "X_STEP"
 		(shape input)
 		(at 229.87 59.69 0)
 		(fields_autoplaced yes)
@@ -4625,7 +4625,7 @@
 			)
 		)
 	)
-	(global_label "HALL3"
+	(global_label "X_PO"
 		(shape input)
 		(at 217.17 64.77 180)
 		(fields_autoplaced yes)
@@ -4647,7 +4647,7 @@
 			)
 		)
 	)
-	(global_label "Z_STEP"
+	(global_label "Y_PO"
 		(shape input)
 		(at 217.17 57.15 180)
 		(fields_autoplaced yes)
@@ -4669,7 +4669,7 @@
 			)
 		)
 	)
-	(global_label "vH"
+	(global_label "HALL1"
 		(shape input)
 		(at 229.87 69.85 0)
 		(fields_autoplaced yes)
@@ -4713,7 +4713,7 @@
 			)
 		)
 	)
-	(global_label "FPGA38"
+	(global_label "Z_DIR"
 		(shape input)
 		(at 217.17 52.07 180)
 		(fields_autoplaced yes)
@@ -4735,7 +4735,7 @@
 			)
 		)
 	)
-	(global_label "vL"
+	(global_label "DIGITAL"
 		(shape input)
 		(at 217.17 69.85 180)
 		(fields_autoplaced yes)
@@ -4801,7 +4801,7 @@
 			)
 		)
 	)
-	(global_label "Z_DIR"
+	(global_label "X_DIR"
 		(shape input)
 		(at 229.87 62.23 0)
 		(fields_autoplaced yes)
@@ -4845,7 +4845,7 @@
 			)
 		)
 	)
-	(global_label "uL"
+	(global_label "FPGA3"
 		(shape input)
 		(at 217.17 67.31 180)
 		(fields_autoplaced yes)
@@ -4889,7 +4889,7 @@
 			)
 		)
 	)
-	(global_label "X_DIR"
+	(global_label "uH"
 		(shape input)
 		(at 217.17 74.93 180)
 		(fields_autoplaced yes)
@@ -4933,7 +4933,7 @@
 			)
 		)
 	)
-	(global_label "IC_HB_PWM2"
+	(global_label "vL"
 		(shape input)
 		(at 229.87 77.47 0)
 		(fields_autoplaced yes)
@@ -4955,7 +4955,7 @@
 			)
 		)
 	)
-	(global_label "wL"
+	(global_label "HALL3"
 		(shape input)
 		(at 229.87 72.39 0)
 		(fields_autoplaced yes)
@@ -4977,7 +4977,7 @@
 			)
 		)
 	)
-	(global_label "X_STEP"
+	(global_label "vH"
 		(shape input)
 		(at 217.17 77.47 180)
 		(fields_autoplaced yes)
@@ -4999,7 +4999,7 @@
 			)
 		)
 	)
-	(global_label "FPGA41"
+	(global_label "INDEX_X"
 		(shape input)
 		(at 229.87 57.15 0)
 		(fields_autoplaced yes)
@@ -5065,7 +5065,7 @@
 			)
 		)
 	)
-	(global_label "wH"
+	(global_label "HALL2"
 		(shape input)
 		(at 217.17 72.39 180)
 		(fields_autoplaced yes)
@@ -5109,7 +5109,7 @@
 			)
 		)
 	)
-	(global_label "HALL2"
+	(global_label "HALL2_old"
 		(shape input)
 		(at 217.17 46.99 180)
 		(fields_autoplaced yes)
@@ -5131,7 +5131,7 @@
 			)
 		)
 	)
-	(global_label "Y_STEP"
+	(global_label "IC_HB_PWM1"
 		(shape input)
 		(at 217.17 82.55 180)
 		(fields_autoplaced yes)
@@ -5153,7 +5153,7 @@
 			)
 		)
 	)
-	(global_label "DIGITAL"
+	(global_label "Y_DIR"
 		(shape input)
 		(at 229.87 52.07 0)
 		(fields_autoplaced yes)
@@ -5175,7 +5175,7 @@
 			)
 		)
 	)
-	(global_label "GPIO43"
+	(global_label "UART"
 		(shape input)
 		(at 217.17 36.83 180)
 		(fields_autoplaced yes)

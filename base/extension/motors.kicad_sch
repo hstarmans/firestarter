@@ -1162,7 +1162,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin bidirectional line
 					(at 20.32 -25.4 180)
 					(length 5.08)
 					(name "BRA"
@@ -1198,6 +1198,24 @@
 						)
 					)
 				)
+				(pin free line
+					(at -20.32 -15.24 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin output line
 					(at 20.32 -10.16 180)
 					(length 5.08)
@@ -1216,7 +1234,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin bidirectional line
 					(at 20.32 -30.48 180)
 					(length 5.08)
 					(name "BRB"
@@ -1245,6 +1263,24 @@
 						)
 					)
 					(number "28"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.32 20.32 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
 						(effects
 							(font
 								(size 0 0)
@@ -1374,24 +1410,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -20.32 20.32 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "TP"
-						(effects
-							(font
-								(size 0 0)
 							)
 						)
 					)
@@ -4630,7 +4648,7 @@
 		(pin "9"
 			(uuid "0bc70b59-5e46-4f19-86f2-bbea4d094ea2")
 		)
-		(pin "TP"
+		(pin "29"
 			(uuid "c2e334ed-6b51-437d-8f1b-51e3630efe0c")
 		)
 		(pin "3"
@@ -4656,6 +4674,9 @@
 		)
 		(pin "21"
 			(uuid "c74b118d-f0bf-46d7-86c9-b4983b52698b")
+		)
+		(pin "25"
+			(uuid "eadefcae-f10a-481e-996d-e500907eb5e4")
 		)
 		(instances
 			(project ""
@@ -7361,7 +7382,7 @@
 		(pin "9"
 			(uuid "ae4c339e-6a77-444f-977b-1560cdaa1a7d")
 		)
-		(pin "TP"
+		(pin "29"
 			(uuid "bdba643e-5683-4e29-a0c9-9d2bf006d621")
 		)
 		(pin "3"
@@ -7387,6 +7408,9 @@
 		)
 		(pin "21"
 			(uuid "b6540724-4ff8-46c0-964c-4f8b4c37d347")
+		)
+		(pin "25"
+			(uuid "5e059a51-fb79-4806-897f-96d37e57fa73")
 		)
 		(instances
 			(project "main_board"
@@ -9197,7 +9221,7 @@
 		(pin "9"
 			(uuid "12111124-801c-4e68-bfba-79c40bf900a2")
 		)
-		(pin "TP"
+		(pin "29"
 			(uuid "d819cd67-9890-412d-b047-42116646387f")
 		)
 		(pin "3"
@@ -9223,6 +9247,9 @@
 		)
 		(pin "21"
 			(uuid "a148d8ac-d9eb-4109-a130-0a21d61535f4")
+		)
+		(pin "25"
+			(uuid "3e02bce3-63c6-442b-9cec-3a49e8ddb666")
 		)
 		(instances
 			(project "main_board"
