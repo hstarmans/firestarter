@@ -1345,6 +1345,248 @@
 				)
 			)
 		)
+		(symbol "power:+12V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 104.14 153.67)
+		(uuid "51715a92-100f-45c9-ac32-aa336f9daf1f")
+	)
+	(global_label "PWM"
+		(shape input)
+		(at 101.6 153.67 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "713aca00-b64b-46bf-8e45-a671f57711f1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.6 146.512 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "mirrormotor:TB67S149FG,EL")
@@ -1562,7 +1804,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "100a3f40-87ea-4d64-9a86-bbd584929578")
-		(property "Reference" "R8"
+		(property "Reference" "R5"
 			(at 57.15 162.5599 0)
 			(effects
 				(font
@@ -1616,7 +1858,7 @@
 		(instances
 			(project "mirrormotor"
 				(path "/02aeda72-ca3b-4b43-8ba2-cb54433722d4"
-					(reference "R8")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -1632,7 +1874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "123a71bb-af79-4aeb-b55d-2f3b2f063a13")
-		(property "Reference" "C3"
+		(property "Reference" "C10"
 			(at 35.56 165.0999 0)
 			(effects
 				(font
@@ -1686,7 +1928,7 @@
 		(instances
 			(project "mirrormotor"
 				(path "/02aeda72-ca3b-4b43-8ba2-cb54433722d4"
-					(reference "C3")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -1702,7 +1944,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "183c1cf0-9a48-46d8-83ab-58807912c319")
-		(property "Reference" "C10"
+		(property "Reference" "C4"
 			(at 82.55 175.2599 0)
 			(effects
 				(font
@@ -1756,7 +1998,7 @@
 		(instances
 			(project "mirrormotor"
 				(path "/02aeda72-ca3b-4b43-8ba2-cb54433722d4"
-					(reference "C10")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -1772,7 +2014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a4b3ab5-e5af-4605-be97-d196bb80810a")
-		(property "Reference" "C15"
+		(property "Reference" "C12"
 			(at 168.91 41.91 90)
 			(effects
 				(font
@@ -1824,7 +2066,7 @@
 		(instances
 			(project "mirrormotor"
 				(path "/02aeda72-ca3b-4b43-8ba2-cb54433722d4"
-					(reference "C15")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -1840,7 +2082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cc26646-6228-43ce-a841-4d68f59e669d")
-		(property "Reference" "J2"
+		(property "Reference" "J6"
 			(at 31.75 52.07 90)
 			(effects
 				(font
@@ -1892,7 +2134,7 @@
 		(instances
 			(project "mirrormotor"
 				(path "/02aeda72-ca3b-4b43-8ba2-cb54433722d4"
-					(reference "J2")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -1908,7 +2150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "205d7172-471d-4966-9ad1-e26ca184e414")
-		(property "Reference" "J9"
+		(property "Reference" "J3"
 			(at 69.85 113.0299 0)
 			(effects
 				(font
@@ -1962,7 +2204,7 @@
 		(instances
 			(project "mirrormotor"
 				(path "/02aeda72-ca3b-4b43-8ba2-cb54433722d4"
-					(reference "J9")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -2104,7 +2346,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2656dc6c-2f05-42ab-87e6-a6e4819000cc")
-		(property "Reference" "R10"
+		(property "Reference" "R4"
 			(at 67.31 137.16 90)
 			(effects
 				(font
@@ -2156,7 +2398,7 @@
 		(instances
 			(project "mirrormotor"
 				(path "/02aeda72-ca3b-4b43-8ba2-cb54433722d4"
-					(reference "R10")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -2172,7 +2414,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a55a07b-8160-4a6b-876b-a2123ebabdcc")
-		(property "Reference" "C14"
+		(property "Reference" "C11"
 			(at 168.91 22.86 90)
 			(effects
 				(font
@@ -2224,7 +2466,7 @@
 		(instances
 			(project "mirrormotor"
 				(path "/02aeda72-ca3b-4b43-8ba2-cb54433722d4"
-					(reference "C14")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -2240,7 +2482,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bf53271-cb26-4e25-b27c-9ac512ad609d")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 62.23 24.1299 0)
 			(effects
 				(font
@@ -2294,7 +2536,7 @@
 		(instances
 			(project "mirrormotor"
 				(path "/02aeda72-ca3b-4b43-8ba2-cb54433722d4"
-					(reference "R9")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -2310,7 +2552,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d34a20c-b024-491c-836d-aad542b940a4")
-		(property "Reference" "C1"
+		(property "Reference" "C3"
 			(at 26.67 135.89 90)
 			(effects
 				(font
@@ -2362,7 +2604,7 @@
 		(instances
 			(project "mirrormotor"
 				(path "/02aeda72-ca3b-4b43-8ba2-cb54433722d4"
-					(reference "C1")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -2378,7 +2620,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46345247-3449-4f12-8fb5-9fa163a31ed1")
-		(property "Reference" "C5"
+		(property "Reference" "C8"
 			(at 57.15 148.5899 0)
 			(effects
 				(font
@@ -2432,7 +2674,7 @@
 		(instances
 			(project "mirrormotor"
 				(path "/02aeda72-ca3b-4b43-8ba2-cb54433722d4"
-					(reference "C5")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -2448,7 +2690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fac9c0f-8663-4a13-8490-c8ff57935a62")
-		(property "Reference" "J6"
+		(property "Reference" "J5"
 			(at 54.61 83.8199 0)
 			(effects
 				(font
@@ -2502,7 +2744,7 @@
 		(instances
 			(project "mirrormotor"
 				(path "/02aeda72-ca3b-4b43-8ba2-cb54433722d4"
-					(reference "J6")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -2586,7 +2828,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "586608ef-6e0f-4730-9906-97e1aa030e21")
-		(property "Reference" "R13"
+		(property "Reference" "R3"
 			(at 80.01 154.9399 0)
 			(effects
 				(font
@@ -2640,7 +2882,7 @@
 		(instances
 			(project "mirrormotor"
 				(path "/02aeda72-ca3b-4b43-8ba2-cb54433722d4"
-					(reference "R13")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2656,7 +2898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59cb15cf-5518-4c6f-ae97-ba3289e293c2")
-		(property "Reference" "C9"
+		(property "Reference" "C5"
 			(at 71.12 175.2599 0)
 			(effects
 				(font
@@ -2710,7 +2952,7 @@
 		(instances
 			(project "mirrormotor"
 				(path "/02aeda72-ca3b-4b43-8ba2-cb54433722d4"
-					(reference "C9")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -2726,7 +2968,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b66ec12-3914-48ec-86f8-dd74a75da6b4")
-		(property "Reference" "R4"
+		(property "Reference" "R7"
 			(at 45.72 149.8599 0)
 			(effects
 				(font
@@ -2780,7 +3022,7 @@
 		(instances
 			(project "mirrormotor"
 				(path "/02aeda72-ca3b-4b43-8ba2-cb54433722d4"
-					(reference "R4")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -2788,7 +3030,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 167.64 135.89 0)
+		(at 168.91 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2796,8 +3038,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60d1e112-ac73-4ab7-9b19-8e9f6653bc90")
-		(property "Reference" "R14"
-			(at 170.18 134.6199 0)
+		(property "Reference" "R9"
+			(at 171.45 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2806,7 +3048,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 170.18 137.1599 0)
+			(at 171.45 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2815,7 +3057,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 165.862 135.89 90)
+			(at 167.132 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2824,7 +3066,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 135.89 0)
+			(at 168.91 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2833,7 +3075,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 167.64 135.89 0)
+			(at 168.91 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2850,7 +3092,7 @@
 		(instances
 			(project ""
 				(path "/02aeda72-ca3b-4b43-8ba2-cb54433722d4"
-					(reference "R14")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -2936,7 +3178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70447461-655b-4f2f-bbe4-571a7e9c47e7")
-		(property "Reference" "J3"
+		(property "Reference" "J1"
 			(at 35.56 129.54 90)
 			(effects
 				(font
@@ -2988,7 +3230,7 @@
 		(instances
 			(project "mirrormotor"
 				(path "/02aeda72-ca3b-4b43-8ba2-cb54433722d4"
-					(reference "J3")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -3003,7 +3245,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72b4ffe8-8e8d-4f08-87b1-3242cdd94ec6")
-		(property "Reference" "R11"
+		(property "Reference" "R15"
 			(at 67.31 86.36 0)
 			(effects
 				(font
@@ -3055,7 +3297,72 @@
 		(instances
 			(project "mirrormotor"
 				(path "/02aeda72-ca3b-4b43-8ba2-cb54433722d4"
-					(reference "R11")
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 111.76 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76d6c861-ecfc-4f0a-b036-65f8b891aab9")
+		(property "Reference" "#PWR02"
+			(at 111.76 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 114.3 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 111.76 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3bcca6b8-08c6-48ec-b799-fbbd8166f736")
+		)
+		(instances
+			(project ""
+				(path "/02aeda72-ca3b-4b43-8ba2-cb54433722d4"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -3071,7 +3378,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "775494fa-6658-4af8-9b8a-6eabe9328fb1")
-		(property "Reference" "R2"
+		(property "Reference" "R11"
 			(at 31.75 41.91 90)
 			(effects
 				(font
@@ -3123,7 +3430,7 @@
 		(instances
 			(project "mirrormotor"
 				(path "/02aeda72-ca3b-4b43-8ba2-cb54433722d4"
-					(reference "R2")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -3139,7 +3446,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "796b244d-5501-4e77-8a57-ac3a0a557bb3")
-		(property "Reference" "R1"
+		(property "Reference" "R13"
 			(at 31.75 33.02 90)
 			(effects
 				(font
@@ -3191,7 +3498,7 @@
 		(instances
 			(project "mirrormotor"
 				(path "/02aeda72-ca3b-4b43-8ba2-cb54433722d4"
-					(reference "R1")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -3199,7 +3506,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 157.48 120.65 0)
+		(at 146.05 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3207,8 +3514,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7df0b729-2278-441e-8151-5cd55cd957ca")
-		(property "Reference" "C12"
-			(at 161.29 119.3799 0)
+		(property "Reference" "C13"
+			(at 149.86 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3217,7 +3524,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 161.29 121.9199 0)
+			(at 149.86 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3226,7 +3533,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 158.4452 124.46 0)
+			(at 147.0152 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3235,7 +3542,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 120.65 0)
+			(at 146.05 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3244,7 +3551,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 157.48 120.65 0)
+			(at 146.05 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3261,7 +3568,7 @@
 		(instances
 			(project ""
 				(path "/02aeda72-ca3b-4b43-8ba2-cb54433722d4"
-					(reference "C12")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -3269,7 +3576,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 139.7 134.62 0)
+		(at 125.73 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3277,8 +3584,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80d34d46-de1e-4ff4-8bc2-01f67b44c264")
-		(property "Reference" "C11"
-			(at 143.51 133.3499 0)
+		(property "Reference" "C1"
+			(at 129.54 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3287,7 +3594,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 143.51 135.8899 0)
+			(at 129.54 158.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3296,7 +3603,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 140.6652 138.43 0)
+			(at 126.6952 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3305,7 +3612,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 134.62 0)
+			(at 125.73 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3314,7 +3621,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 139.7 134.62 0)
+			(at 125.73 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3331,7 +3638,72 @@
 		(instances
 			(project "mirrormotor"
 				(path "/02aeda72-ca3b-4b43-8ba2-cb54433722d4"
-					(reference "C11")
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 109.22 153.67 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85eeea41-1680-4a64-b46c-016cc4c897aa")
+		(property "Reference" "#PWR01"
+			(at 109.22 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 148.082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04f1d9be-e7b8-4e86-ac7b-0f186c07a394")
+		)
+		(instances
+			(project ""
+				(path "/02aeda72-ca3b-4b43-8ba2-cb54433722d4"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -3347,7 +3719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8edc00ae-4884-4769-beb2-b2000a9dd0c4")
-		(property "Reference" "J8"
+		(property "Reference" "J4"
 			(at 59.69 90.1699 0)
 			(effects
 				(font
@@ -3401,7 +3773,7 @@
 		(instances
 			(project "mirrormotor"
 				(path "/02aeda72-ca3b-4b43-8ba2-cb54433722d4"
-					(reference "J8")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -3554,7 +3926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "966f25ba-0d87-4703-b00e-d1e50663f2a1")
-		(property "Reference" "J7"
+		(property "Reference" "J9"
 			(at 58.42 116.8399 0)
 			(effects
 				(font
@@ -3608,7 +3980,7 @@
 		(instances
 			(project "mirrormotor"
 				(path "/02aeda72-ca3b-4b43-8ba2-cb54433722d4"
-					(reference "J7")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -3624,7 +3996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9751f8a7-1733-4220-b8db-c1b218d54583")
-		(property "Reference" "C7"
+		(property "Reference" "C15"
 			(at 59.69 102.8699 0)
 			(effects
 				(font
@@ -3678,7 +4050,7 @@
 		(instances
 			(project "mirrormotor"
 				(path "/02aeda72-ca3b-4b43-8ba2-cb54433722d4"
-					(reference "C7")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -3694,7 +4066,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "979fffec-2dff-46e1-93d6-fffe8cd49261")
-		(property "Reference" "R7"
+		(property "Reference" "R2"
 			(at 53.34 24.1299 0)
 			(effects
 				(font
@@ -3748,7 +4120,7 @@
 		(instances
 			(project "mirrormotor"
 				(path "/02aeda72-ca3b-4b43-8ba2-cb54433722d4"
-					(reference "R7")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3961,7 +4333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a75c95f1-7056-4ab0-ad1e-6134b5e7e4f6")
-		(property "Reference" "C8"
+		(property "Reference" "C6"
 			(at 71.12 163.8299 0)
 			(effects
 				(font
@@ -4015,7 +4387,7 @@
 		(instances
 			(project "mirrormotor"
 				(path "/02aeda72-ca3b-4b43-8ba2-cb54433722d4"
-					(reference "C8")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -4031,7 +4403,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a92870a1-5c25-41a7-a23d-61b564b88c34")
-		(property "Reference" "C6"
+		(property "Reference" "C7"
 			(at 58.42 175.2599 0)
 			(effects
 				(font
@@ -4085,7 +4457,7 @@
 		(instances
 			(project "mirrormotor"
 				(path "/02aeda72-ca3b-4b43-8ba2-cb54433722d4"
-					(reference "C6")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -4101,7 +4473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aecb0535-ff35-4f1b-899d-fc0f3287f66f")
-		(property "Reference" "R15"
+		(property "Reference" "R8"
 			(at 181.61 134.6199 0)
 			(effects
 				(font
@@ -4155,7 +4527,7 @@
 		(instances
 			(project "mirrormotor"
 				(path "/02aeda72-ca3b-4b43-8ba2-cb54433722d4"
-					(reference "R15")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -4170,7 +4542,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "baf9c5e0-56d0-4175-b205-edf0c61a15da")
-		(property "Reference" "R6"
+		(property "Reference" "R1"
 			(at 48.26 95.25 0)
 			(effects
 				(font
@@ -4222,7 +4594,7 @@
 		(instances
 			(project "mirrormotor"
 				(path "/02aeda72-ca3b-4b43-8ba2-cb54433722d4"
-					(reference "R6")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -4237,7 +4609,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c3d593cf-addd-4a72-9b46-a38f65c3786a")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 29.464 117.602 90)
 			(effects
 				(font
@@ -4289,7 +4661,7 @@
 		(instances
 			(project "mirrormotor"
 				(path "/02aeda72-ca3b-4b43-8ba2-cb54433722d4"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -4305,7 +4677,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9079bdb-1ad1-4157-93d3-0f463bc3f761")
-		(property "Reference" "J1"
+		(property "Reference" "J7"
 			(at 27.94 97.79 90)
 			(effects
 				(font
@@ -4357,7 +4729,7 @@
 		(instances
 			(project "mirrormotor"
 				(path "/02aeda72-ca3b-4b43-8ba2-cb54433722d4"
-					(reference "J1")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -4373,7 +4745,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca868577-90c5-467c-bcdc-17433162838b")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 46.99 163.8299 0)
 			(effects
 				(font
@@ -4427,7 +4799,72 @@
 		(instances
 			(project "mirrormotor"
 				(path "/02aeda72-ca3b-4b43-8ba2-cb54433722d4"
-					(reference "R5")
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 153.67 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d17b0d89-d913-4e7d-a600-8548d42923b0")
+		(property "Reference" "#PWR03"
+			(at 106.68 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.156 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9652d450-10d2-4df8-9229-ba6360b3b28e")
+		)
+		(instances
+			(project "mirrormotor"
+				(path "/02aeda72-ca3b-4b43-8ba2-cb54433722d4"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -4443,7 +4880,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e08ecf44-481f-4c90-a58e-7d82f58b0ed0")
-		(property "Reference" "J5"
+		(property "Reference" "J8"
 			(at 44.45 76.2 90)
 			(effects
 				(font
@@ -4495,7 +4932,7 @@
 		(instances
 			(project "mirrormotor"
 				(path "/02aeda72-ca3b-4b43-8ba2-cb54433722d4"
-					(reference "J5")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -4511,7 +4948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e39cc2a4-4cf0-4b94-b59f-89cf3ecaea5d")
-		(property "Reference" "R3"
+		(property "Reference" "R14"
 			(at 36.83 91.4399 0)
 			(effects
 				(font
@@ -4565,7 +5002,7 @@
 		(instances
 			(project "mirrormotor"
 				(path "/02aeda72-ca3b-4b43-8ba2-cb54433722d4"
-					(reference "R3")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -4581,7 +5018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5716b6f-1d95-4ba9-91c4-be9ff41046c6")
-		(property "Reference" "C13"
+		(property "Reference" "C9"
 			(at 162.56 90.17 90)
 			(effects
 				(font
@@ -4633,7 +5070,7 @@
 		(instances
 			(project "mirrormotor"
 				(path "/02aeda72-ca3b-4b43-8ba2-cb54433722d4"
-					(reference "C13")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -4775,7 +5212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc2c3237-5c0a-4f4c-aa2f-87fa6f652bfd")
-		(property "Reference" "C4"
+		(property "Reference" "C14"
 			(at 38.1 104.14 90)
 			(effects
 				(font
@@ -4827,7 +5264,7 @@
 		(instances
 			(project "mirrormotor"
 				(path "/02aeda72-ca3b-4b43-8ba2-cb54433722d4"
-					(reference "C4")
+					(reference "C14")
 					(unit 1)
 				)
 			)

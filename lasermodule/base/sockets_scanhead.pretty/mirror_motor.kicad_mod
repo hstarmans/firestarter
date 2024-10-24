@@ -1,0 +1,165 @@
+(footprint "mirror_motor"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
+	(tags "Through hole pin header THT 1x03 2.54mm single row")
+	(property "Reference" "REF**"
+		(at -0.072 -5.062 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4a42150c-e2cb-48c8-8496-6e7fedd454bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PCB motor smd"
+		(at -0.05 10.6458 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db29ad0b-b335-4faf-88c7-319c7ace35e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -0.05 -0.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "458143fc-c23e-4205-bbc0-221567788c90")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.05 -0.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3e7a1b8-84fb-4515-8fd8-29aac7631957")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.05 -0.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "300e6618-dda5-45ca-9757-3874dc494f44")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -23.8 -23.9)
+		(end -23.8 23.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0b485305-1fc7-44f5-8c4d-d992543a6723")
+	)
+	(fp_line
+		(start -23.8 -23.9)
+		(end 43.8 -23.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "24902291-37c9-473c-bcf2-8c5b86a8a8ce")
+	)
+	(fp_line
+		(start -23.8 23.9)
+		(end 43.8 23.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a91b15d8-d4e8-455f-96cb-8c34624b5709")
+	)
+	(fp_line
+		(start 43.8 -23.9)
+		(end 43.8 23.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9c5e6523-684f-4c7f-aef1-7dc470ae4f79")
+	)
+	(pad "1" thru_hole oval
+		(at -19.1 -20.6 116.5)
+		(size 5 7)
+		(drill oval 4 6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ecd8da53-95f2-4006-af8e-12d7f54e7de5")
+	)
+	(pad "1" thru_hole oval
+		(at -19.1 20.6 63.5)
+		(size 5 7)
+		(drill oval 4 6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "378e6b7e-f66a-438d-95a3-7bef0ff58127")
+	)
+	(pad "1" smd rect
+		(at -11.1 -22.7)
+		(size 2.55 2.25)
+		(layers "F.Cu" "F.Mask")
+		(uuid "2cbbab78-5332-4878-aa64-47c4c9d22a44")
+	)
+	(pad "1" smd rect
+		(at -11.1 22.7)
+		(size 2.55 2.25)
+		(layers "F.Cu" "F.Mask")
+		(uuid "32909ae8-79bf-4188-9bb3-73c061db40da")
+	)
+	(pad "1" smd rect
+		(at 35.5 -22.7)
+		(size 2.55 2.25)
+		(layers "F.Cu" "F.Mask")
+		(uuid "c114f560-cfdd-49b9-8503-3848536a7ccf")
+	)
+	(pad "1" smd rect
+		(at 35.5 22.7)
+		(size 2.55 2.25)
+		(layers "F.Cu" "F.Mask")
+		(uuid "1824fdc6-bcc7-48ad-805a-66bc198a2f80")
+	)
+	(pad "1" thru_hole oval
+		(at 39.8 -20.3)
+		(size 4.2 5.6)
+		(drill oval 3.2 4.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "857b92b5-55ea-41d2-b3d3-0cc53c8ffb37")
+	)
+	(pad "1" thru_hole oval
+		(at 39.8 20.3)
+		(size 4.2 5.6)
+		(drill oval 3.2 4.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2ab05a98-f68a-42b0-9662-30e09807c46e")
+	)
+)
