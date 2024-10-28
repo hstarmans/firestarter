@@ -4064,7 +4064,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1uF"
 			(at 91.186 37.846 0)
 			(effects
 				(font
@@ -4127,6 +4127,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 91.44 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "64c535d0-2bc4-4117-9767-645dffa443a2")
 		)
@@ -4160,7 +4169,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1uF"
 			(at 33.02 41.402 0)
 			(effects
 				(font
@@ -4215,6 +4224,15 @@
 			)
 		)
 		(property "farnell#" "1414663"
+			(at 35.56 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 35.56 43.18 0)
 			(effects
 				(font
@@ -4303,6 +4321,15 @@
 			)
 		)
 		(property "mouser#" "490-HSB01-080808"
+			(at 157.48 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 157.48 151.13 0)
 			(effects
 				(font
@@ -4469,6 +4496,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 162.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f028aa1a-8ca7-4dea-b7ef-cdb837d764de")
 		)
@@ -4549,6 +4585,15 @@
 			)
 		)
 		(property "mouser#" "490-HSB01-080808"
+			(at 157.48 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 157.48 163.83 0)
 			(effects
 				(font
@@ -4652,7 +4697,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1uF"
 			(at 91.186 117.856 0)
 			(effects
 				(font
@@ -4715,6 +4760,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 91.44 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b524ae09-daa6-4d96-9a00-666d13443d6a")
 		)
@@ -4748,7 +4802,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7uF"
 			(at 43.18 42.672 0)
 			(effects
 				(font
@@ -4811,6 +4865,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 45.72 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "14f8b322-a581-4e4c-838e-cecc06dc3c15")
 		)
@@ -4844,7 +4907,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1uF"
 			(at 91.186 205.486 0)
 			(effects
 				(font
@@ -4899,6 +4962,15 @@
 			)
 		)
 		(property "farnell#" "1414663"
+			(at 91.44 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 91.44 207.01 0)
 			(effects
 				(font
@@ -5024,6 +5096,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 71.12 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -5196,6 +5277,15 @@
 			)
 		)
 		(property "mouser#" "306-S4BXHSM4TBLFSN"
+			(at 171.45 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 171.45 96.52 0)
 			(effects
 				(font
@@ -5438,6 +5528,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 119.38 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5999117b-be51-4852-a78c-3b3d197c700c")
 		)
@@ -5526,6 +5625,15 @@
 			)
 		)
 		(property "mouser#" "71-CRCW080510K0JNEAC"
+			(at 162.56 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 162.56 53.34 0)
 			(effects
 				(font
@@ -5766,6 +5874,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 171.45 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "09544282-0980-4511-8f2c-6289429c3382")
 		)
@@ -5863,6 +5980,15 @@
 			)
 		)
 		(property "farnell#" "3019895"
+			(at 91.44 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 91.44 134.62 0)
 			(effects
 				(font
@@ -6024,6 +6150,15 @@
 			)
 		)
 		(property "mouser#" "71-CRCW080510K0JNEAC"
+			(at 119.38 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 119.38 63.5 0)
 			(effects
 				(font
@@ -6195,7 +6330,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1uF"
 			(at 102.616 205.486 0)
 			(effects
 				(font
@@ -6258,6 +6393,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 102.87 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "350660ea-cecc-4368-991b-33ce1b987d61")
 		)
@@ -6283,7 +6427,7 @@
 		(dnp no)
 		(uuid "47b9db26-7dbf-451b-92f2-bf1d9d7c0246")
 		(property "Reference" "C27"
-			(at 158.75 45.72 90)
+			(at 156.21 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6291,7 +6435,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1uF"
 			(at 163.576 45.72 90)
 			(effects
 				(font
@@ -6354,6 +6498,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 163.83 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e21a82f4-d2da-4efe-9278-9c2cb4490407")
 		)
@@ -6387,7 +6540,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1uF"
 			(at 109.474 37.846 0)
 			(effects
 				(font
@@ -6442,6 +6595,15 @@
 			)
 		)
 		(property "farnell#" "1414663"
+			(at 111.76 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 111.76 39.37 0)
 			(effects
 				(font
@@ -6538,6 +6700,15 @@
 			)
 		)
 		(property "farnell#" "3019895"
+			(at 91.44 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 91.44 54.61 0)
 			(effects
 				(font
@@ -6703,7 +6874,7 @@
 		(dnp no)
 		(uuid "5de7cf4e-6355-4e64-a53d-af86afce2e45")
 		(property "Reference" "C28"
-			(at 158.496 77.47 90)
+			(at 155.702 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6711,7 +6882,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1uF"
 			(at 163.322 77.47 90)
 			(effects
 				(font
@@ -6766,6 +6937,15 @@
 			)
 		)
 		(property "farnell#" "1414663"
+			(at 163.83 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 163.83 80.01 0)
 			(effects
 				(font
@@ -6843,7 +7023,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "B3B-XH-AM(LF)(SN)"
+		(property "manf#" "S3B-XH-SM4-TB(LF)(SN)"
 			(at 171.45 82.55 0)
 			(effects
 				(font
@@ -6852,7 +7032,7 @@
 				(hide yes)
 			)
 		)
-		(property "farnell#" "1516277"
+		(property "farnell#" "2399334"
 			(at 171.45 82.55 0)
 			(effects
 				(font
@@ -6861,7 +7041,16 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "306-B3BXHALFSNP"
+		(property "mouser#" "306-S3BXHSM4TBLFSN"
+			(at 171.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 171.45 82.55 0)
 			(effects
 				(font
@@ -6909,7 +7098,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1uF"
 			(at 100.33 38.1 0)
 			(effects
 				(font
@@ -6972,6 +7161,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 102.87 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9a0583f4-df23-48ff-9595-eff52e422e67")
 		)
@@ -7005,7 +7203,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1uF"
 			(at 111.506 117.856 0)
 			(effects
 				(font
@@ -7060,6 +7258,15 @@
 			)
 		)
 		(property "farnell#" "1414663"
+			(at 111.76 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 111.76 119.38 0)
 			(effects
 				(font
@@ -7202,7 +7409,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "B3B-XH-AM(LF)(SN)"
+		(property "manf#" "S3B-XH-SM4-TB(LF)(SN)"
 			(at 171.45 114.3 0)
 			(effects
 				(font
@@ -7211,7 +7418,7 @@
 				(hide yes)
 			)
 		)
-		(property "farnell#" "1516277"
+		(property "farnell#" "2399334"
 			(at 171.45 114.3 0)
 			(effects
 				(font
@@ -7220,7 +7427,16 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "306-B3BXHALFSNP"
+		(property "mouser#" "306-S3BXHSM4TBLFSN"
+			(at 171.45 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 171.45 114.3 0)
 			(effects
 				(font
@@ -7329,6 +7545,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 120.65 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "36e93777-4992-4f0b-a478-19a0d221b5aa")
 		)
@@ -7362,7 +7587,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1uF"
 			(at 102.616 117.856 0)
 			(effects
 				(font
@@ -7417,6 +7642,15 @@
 			)
 		)
 		(property "farnell#" "1414663"
+			(at 102.87 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 102.87 119.38 0)
 			(effects
 				(font
@@ -7523,7 +7757,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7uF"
 			(at 43.18 210.312 0)
 			(effects
 				(font
@@ -7578,6 +7812,15 @@
 			)
 		)
 		(property "farnell#" "2611942"
+			(at 45.72 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 45.72 212.09 0)
 			(effects
 				(font
@@ -7666,6 +7909,15 @@
 			)
 		)
 		(property "mouser#" "490-HSB01-080808"
+			(at 157.48 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 157.48 157.48 0)
 			(effects
 				(font
@@ -7922,6 +8174,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 71.12 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "27"
 			(uuid "0419d6db-7dac-4d73-9108-0c28af2e582b")
 		)
@@ -8165,6 +8426,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 171.45 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8cfce758-e149-4d09-8cc1-5f76d25023f9")
 		)
@@ -8276,6 +8546,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 91.44 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "52b0e3bf-4d4f-409d-9a6d-70ae50f14b9e")
 		)
@@ -8345,7 +8624,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "B3B-XH-AM(LF)(SN)"
+		(property "manf#" "S3B-XH-SM4-TB(LF)(SN)"
 			(at 171.45 50.8 0)
 			(effects
 				(font
@@ -8354,7 +8633,7 @@
 				(hide yes)
 			)
 		)
-		(property "farnell#" "1516277"
+		(property "farnell#" "2399334"
 			(at 171.45 50.8 0)
 			(effects
 				(font
@@ -8363,7 +8642,16 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "306-B3BXHALFSNP"
+		(property "mouser#" "306-S3BXHSM4TBLFSN"
+			(at 171.45 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 171.45 50.8 0)
 			(effects
 				(font
@@ -8483,7 +8771,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1uF"
 			(at 111.506 205.486 0)
 			(effects
 				(font
@@ -8538,6 +8826,15 @@
 			)
 		)
 		(property "farnell#" "1414663"
+			(at 111.76 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 111.76 207.01 0)
 			(effects
 				(font
@@ -8716,7 +9013,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1uF"
 			(at 33.02 121.412 0)
 			(effects
 				(font
@@ -8779,6 +9076,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 35.56 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "282d6812-ba22-42e6-8fb2-b44edb5db08a")
 		)
@@ -8804,7 +9110,7 @@
 		(dnp no)
 		(uuid "afebcff3-0c67-4d85-af15-60c37a6685ec")
 		(property "Reference" "C29"
-			(at 157.226 110.236 90)
+			(at 155.956 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8812,7 +9118,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1uF"
 			(at 162.56 110.236 90)
 			(effects
 				(font
@@ -8867,6 +9173,15 @@
 			)
 		)
 		(property "farnell#" "1414663"
+			(at 163.83 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 163.83 111.76 0)
 			(effects
 				(font
@@ -9235,6 +9550,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 120.65 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "99c61065-78dd-49a7-9b5a-fbc14bc3cea5")
 		)
@@ -9268,7 +9592,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4.7uF"
 			(at 43.18 122.682 0)
 			(effects
 				(font
@@ -9323,6 +9647,15 @@
 			)
 		)
 		(property "farnell#" "2611942"
+			(at 45.72 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 45.72 124.46 0)
 			(effects
 				(font
@@ -9427,6 +9760,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 162.56 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6e5d7c56-2f31-482e-b4dc-e612d981a601")
 		)
@@ -9460,7 +9802,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1uF"
 			(at 33.02 209.042 0)
 			(effects
 				(font
@@ -9515,6 +9857,15 @@
 			)
 		)
 		(property "farnell#" "1414663"
+			(at 35.56 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 35.56 210.82 0)
 			(effects
 				(font
@@ -9610,6 +9961,15 @@
 		)
 		(property "manf#" "865080343009"
 			(at 120.65 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 120.65 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9734,6 +10094,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 71.12 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

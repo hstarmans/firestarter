@@ -7346,6 +7346,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 242.57 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2acff959-7f25-40c2-9e70-444a8427c493")
 		)
@@ -7508,6 +7517,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 36.83 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6b1dd8f9-2ac1-4b4c-a210-fb2d9271098b")
 		)
@@ -7597,6 +7615,15 @@
 			)
 		)
 		(property "manf#" "C0805C334K5RACTU"
+			(at 36.83 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 36.83 50.8 0)
 			(effects
 				(font
@@ -7764,6 +7791,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 40.64 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fa0a7069-23d1-4bd1-a95b-a74a2bb80d89")
 		)
@@ -7845,6 +7881,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 125.73 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(instances
@@ -8130,6 +8175,15 @@
 			)
 		)
 		(property "Farnell" "3404513"
+			(at 255.27 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 255.27 125.73 0)
 			(effects
 				(font
@@ -8685,6 +8739,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 137.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9bb0952f-582b-48c0-b78c-01b6e7a49580")
 		)
@@ -8911,6 +8974,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 63.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3a6134b7-1aa2-4b75-ba60-79cd370dbd36")
 		)
@@ -9014,7 +9086,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1uF"
 			(at 92.71 52.0699 0)
 			(effects
 				(font
@@ -9041,7 +9113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C0805C104J5RACTU"
+		(property "Description" ""
 			(at 88.9 50.8 0)
 			(effects
 				(font
@@ -9078,6 +9150,15 @@
 			)
 		)
 		(property "manf#" "C0805C104J5RACTU"
+			(at 88.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 88.9 50.8 0)
 			(effects
 				(font
@@ -9519,6 +9600,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 110.49 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6446ae93-a40b-4626-80af-867eaddd02e9")
 		)
@@ -9876,6 +9966,15 @@
 			)
 		)
 		(property "Farnell" "3404513"
+			(at 204.47 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 204.47 125.73 0)
 			(effects
 				(font
@@ -10475,6 +10574,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 72.39 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "0"
 			(uuid "0a14af7f-f8b5-41d9-b49e-6c5204f1d8b1")
 		)
@@ -10600,6 +10708,15 @@
 			)
 		)
 		(property "farnell#" "2094043"
+			(at 88.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 88.9 71.12 0)
 			(effects
 				(font
@@ -10841,6 +10958,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 63.5 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8854b43c-5e5a-452f-9e8d-34b0e3851eef")
 		)
@@ -11069,6 +11195,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 234.95 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d82bb8ee-5dbe-486f-98f8-1158b875b98a")
 		)
@@ -11165,6 +11300,15 @@
 			)
 		)
 		(property "manf#" "USB4105-GF-A"
+			(at 118.11 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 118.11 121.92 0)
 			(effects
 				(font
@@ -11380,6 +11524,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 48.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5c48771c-0f3b-4d9b-937e-fc736c4ca473")
 		)
@@ -11466,6 +11619,15 @@
 			)
 		)
 		(property "farnell#" "3817923"
+			(at 251.46 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 251.46 57.15 0)
 			(effects
 				(font
@@ -11682,6 +11844,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 101.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f16916d8-ac9a-4ee6-809e-73a5cba649fd")
 		)
@@ -11768,6 +11939,15 @@
 			)
 		)
 		(property "mouser#" "71-CRCW080510K0JNEAC"
+			(at 86.36 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 86.36 119.38 0)
 			(effects
 				(font
@@ -11870,6 +12050,15 @@
 		)
 		(property "farnell#" "2799441"
 			(at 59.69 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 59.69 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
