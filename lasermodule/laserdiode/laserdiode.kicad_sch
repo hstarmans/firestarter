@@ -1335,6 +1335,24 @@
 				(hide yes)
 			)
 		)
+		(property "manuf#" "74663125R"
+			(at 157.48 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "710-74663125R"
+			(at 157.48 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cb1b225b-1b4f-4ddc-a112-029bfa599d7f")
 		)
@@ -1693,6 +1711,24 @@
 				(hide yes)
 			)
 		)
+		(property "manuf#" "0906-1-15-20-75-14-11-0"
+			(at 133.35 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "575-906115"
+			(at 133.35 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fed17828-dfc4-4b37-ad2e-2118ad35193e")
 		)
@@ -1760,7 +1796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Producer" "0906-1-15-20-75-14-11-0"
+		(property "manuf#" "0906-1-15-20-75-14-11-0"
 			(at 133.35 50.8 0)
 			(effects
 				(font
@@ -1769,7 +1805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "575-906115"
+		(property "mouser#" "575-906115"
 			(at 133.35 50.8 0)
 			(effects
 				(font
@@ -2248,7 +2284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Producer" "0906-1-15-20-75-14-11-0"
+		(property "manuf#" "74663125R"
 			(at 157.48 50.8 0)
 			(effects
 				(font
@@ -2257,7 +2293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "575-906115"
+		(property "mouser#" "710-74663125R"
 			(at 157.48 50.8 0)
 			(effects
 				(font
@@ -2346,6 +2382,24 @@
 			)
 		)
 		(property "Mouser" "575-906115"
+			(at 133.35 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manuf#" "0906-1-15-20-75-14-11-0"
+			(at 133.35 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "575-906115"
 			(at 133.35 60.96 0)
 			(effects
 				(font
@@ -3177,6 +3231,24 @@
 			)
 		)
 		(property "Mouser" "575-906115"
+			(at 133.35 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manuf#" "0906-1-15-20-75-14-11-0"
+			(at 133.35 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "575-906115"
 			(at 133.35 66.04 0)
 			(effects
 				(font

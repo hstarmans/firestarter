@@ -723,6 +723,10 @@
 		(uuid "571b8734-fee2-4413-acd1-afaca1653fb7")
 	)
 	(no_connect
+		(at 83.82 128.27)
+		(uuid "25551e08-2472-4167-a55f-4e53dbd49286")
+	)
+	(no_connect
 		(at 52.07 139.7)
 		(uuid "36a3fde8-5b17-4e43-90cc-32d54154be0e")
 	)
@@ -733,6 +737,36 @@
 	(no_connect
 		(at 52.07 133.35)
 		(uuid "d2b1e64f-3530-4f94-b0b6-817036ef424a")
+	)
+	(polyline
+		(pts
+			(xy 82.55 124.46) (xy 82.55 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b8a0dd3-be67-4934-bb92-ecca90cab238")
+	)
+	(polyline
+		(pts
+			(xy 82.55 133.35) (xy 105.41 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c78ecd5-3866-4113-8164-ec92fb52f233")
+	)
+	(polyline
+		(pts
+			(xy 105.41 124.46) (xy 105.41 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4998b5fa-32bf-4421-a008-34cb3a3c29b7")
 	)
 	(polyline
 		(pts
@@ -753,6 +787,16 @@
 			(type default)
 		)
 		(uuid "b3fff023-3e9e-4479-8851-151df3d5a591")
+	)
+	(polyline
+		(pts
+			(xy 82.55 124.46) (xy 105.41 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b86c9a29-45da-40cf-81b2-5ab662e4d940")
 	)
 	(polyline
 		(pts
@@ -784,6 +828,17 @@
 			(justify left bottom)
 		)
 		(uuid "0f3c9e3a-9c59-4881-b27a-d0e982b3ea8e")
+	)
+	(text "cylinder lens1"
+		(exclude_from_sim no)
+		(at 87.63 123.698 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "727ffcd5-c7f6-4b8d-a790-8afebe8bcbf0")
 	)
 	(text "laser safety"
 		(exclude_from_sim no)
@@ -823,7 +878,7 @@
 		(lib_id "Graphic:Logo_Open_Hardware_Large")
 		(at 138.43 104.14 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -873,15 +928,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 138.43 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "topplate"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -895,7 +941,7 @@
 		(lib_id "Graphic:Logo_Open_Hardware_Large")
 		(at 137.16 72.39 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -945,15 +991,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 137.16 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "topplate"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -968,7 +1005,7 @@
 		(lib_id "Graphic:Logo_Open_Hardware_Large")
 		(at 107.95 104.14 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -1010,15 +1047,6 @@
 			)
 		)
 		(property "Description" "Open Hardware logo, large"
-			(at 107.95 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 107.95 104.14 0)
 			(effects
 				(font
@@ -1163,6 +1191,73 @@
 			(project "topplate"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 88.9 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4cb44076-5f8a-4058-a41b-f7c6508837f8")
+		(property "Reference" "J5"
+			(at 92.075 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 92.075 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:cylinderlens1"
+			(at 88.9 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92fd0989-c839-4d56-adf0-484abacc2548")
+		)
+		(instances
+			(project "topplate"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J5")
 					(unit 1)
 				)
 			)

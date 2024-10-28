@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "fadbe4ab-bac7-4f2a-83e3-1b66526ba9c5")
 	(paper "A4")
+	(title_block
+		(title "Laserhead Base")
+		(company "Hexastorm")
+		(comment 1 "Author: Rik Starmans")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers hide)
@@ -1879,6 +1884,10 @@
 		(color 0 0 0 0)
 		(uuid "fd3499d5-6fd2-49a4-bdb0-109cee899fde")
 	)
+	(no_connect
+		(at 116.84 86.36)
+		(uuid "16128e6b-c765-402b-b256-4d2f661c98fb")
+	)
 	(wire
 		(pts
 			(xy 78.74 40.64) (xy 78.74 35.56)
@@ -2753,6 +2762,16 @@
 		)
 		(uuid "a24ce0e2-fdd3-4e6a-b754-5dee9713dd27")
 	)
+	(text "Credits Henner Zeller"
+		(exclude_from_sim no)
+		(at 201.422 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ab99199c-ca7f-443a-b93b-c9bc030f4da4")
+	)
 	(text "laserdiode"
 		(exclude_from_sim no)
 		(at 71.882 77.216 0)
@@ -3171,7 +3190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "998-MIC920YC5TR "
+		(property "mouser#" "998-MIC920YC5TR"
 			(at 217.17 44.45 0)
 			(effects
 				(font
@@ -3180,7 +3199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0,44"
+		(property "farnell#" "2920854"
 			(at 217.17 44.45 0)
 			(effects
 				(font
@@ -3189,7 +3208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" "2920854"
+		(property "manf#" "MIC920YC5-TR"
 			(at 217.17 44.45 0)
 			(effects
 				(font
@@ -3274,6 +3293,24 @@
 				(hide yes)
 			)
 		)
+		(property "manf#" " MCU08050C2202FP500"
+			(at 250.19 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "594-MCU08050C2202FP5"
+			(at 250.19 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2089e40a-bc36-4da8-b94f-f363a3f3f68e")
 		)
@@ -3284,6 +3321,100 @@
 			(project "base"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a3ece103-0834-4f34-b268-bf200f179698"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 121.92 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1aecb4c4-99bc-4f4f-868f-197f040410cb")
+		(property "Reference" "J1"
+			(at 124.46 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "fan laser"
+			(at 124.46 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 121.92 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "HSB01-080808"
+			(at 121.92 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "490-HSB01-080808"
+			(at 121.92 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 121.92 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2cddf580-70b7-4afd-a4e5-f4b4fc334220")
+		)
+		(instances
+			(project "base"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a3ece103-0834-4f34-b268-bf200f179698"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -3484,15 +3615,6 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "2.9"
-			(at 74.93 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "671902b4-fc26-45bf-880f-6b916ca11eab")
 		)
@@ -3584,6 +3706,33 @@
 				(hide yes)
 			)
 		)
+		(property "mouser#" "595-RV5033FAEDBZRQ1"
+			(at 114.3 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "farnell#" "3006067"
+			(at 114.3 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "DRV5033FAQDBZR"
+			(at 114.3 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0f545bda-35b4-4a25-91b9-e4f231c2c3a1")
 		)
@@ -3649,6 +3798,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 125.73 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "farnell#" "2826162"
+			(at 125.73 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CRCW080510K0JNEAC"
+			(at 125.73 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "71-CRCW080510K0JNEAC"
 			(at 125.73 127 0)
 			(effects
 				(font
@@ -3726,7 +3902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Producer" "MAX5395 "
+		(property "manf#" "MAX5395MATA+T"
 			(at 113.03 55.88 90)
 			(effects
 				(font
@@ -3735,7 +3911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "700-MAX5395MATA+T "
+		(property "mouser#" "700-MAX5395MATA+T "
 			(at 113.03 55.88 90)
 			(effects
 				(font
@@ -3744,7 +3920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "2,36"
+		(property "farnell#" "2763348"
 			(at 113.03 55.88 90)
 			(effects
 				(font
@@ -4040,6 +4216,24 @@
 				(hide yes)
 			)
 		)
+		(property "manf#" "CR0805-JW-152ELF"
+			(at 257.81 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "652-CR0805JW-152ELF"
+			(at 257.81 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4c799ea0-b527-49fa-98cf-1ddf84d46dc9")
 		)
@@ -4109,7 +4303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "998-MIC920YC5TR "
+		(property "farnell#" "2920854"
 			(at 246.38 44.45 0)
 			(effects
 				(font
@@ -4118,7 +4312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0,44"
+		(property "manf#" "MIC920YC5-TR"
 			(at 246.38 44.45 0)
 			(effects
 				(font
@@ -4127,7 +4321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" "2920854"
+		(property "mouser#" "998-MIC920YC5TR"
 			(at 246.38 44.45 0)
 			(effects
 				(font
@@ -4281,6 +4475,33 @@
 				(hide yes)
 			)
 		)
+		(property "farnell#" "2826162"
+			(at 177.8 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CRCW080510K0JNEAC"
+			(at 177.8 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "71-CRCW080510K0JNEAC"
+			(at 177.8 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "60595fe2-e540-4a38-9d0c-3c7c12fbe0a9")
 		)
@@ -4342,6 +4563,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 198.12 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "652-CR0805FX-8251ELF"
+			(at 198.12 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CR0805-FX-8251ELF"
 			(at 198.12 50.8 0)
 			(effects
 				(font
@@ -4419,6 +4658,24 @@
 				(hide yes)
 			)
 		)
+		(property "manf#" "CR0805-FX-8251ELF"
+			(at 233.68 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "652-CR0805FX-8251ELF"
+			(at 233.68 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5021f9d4-27cd-40b5-aade-5243ec47a60b")
 		)
@@ -4488,6 +4745,24 @@
 				(hide yes)
 			)
 		)
+		(property "manf#" "VJ0805Y473JXXCW1BC"
+			(at 55.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "77-VJ0805Y473JXXCBC"
+			(at 55.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7fe41fe0-ad51-4845-b211-ba32b496fc0f")
 		)
@@ -4548,6 +4823,24 @@
 		)
 		(property "Description" ""
 			(at 220.98 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "80-C0805C221J5GAUTO"
+			(at 220.98 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "C0805C221J5GACAUTO"
+			(at 220.98 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5211,6 +5504,33 @@
 				(hide yes)
 			)
 		)
+		(property "manf#" "08055C105KAT2A"
+			(at 86.36 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "581-08055C105KAT2A"
+			(at 86.36 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "farnell#" "2094043"
+			(at 86.36 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d3be8e2e-a0c5-46d8-9eae-d43731be4932")
 		)
@@ -5280,6 +5600,24 @@
 				(hide yes)
 			)
 		)
+		(property "manf#" "CR0805-FX-8251ELF"
+			(at 257.81 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "652-CR0805FX-8251ELF"
+			(at 257.81 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2cf0ae5a-7e02-4df0-abef-fb057cff4b7c")
 		)
@@ -5341,6 +5679,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 233.68 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CR0805-FX-8251ELF"
+			(at 233.68 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "652-CR0805FX-8251ELF"
 			(at 233.68 38.1 0)
 			(effects
 				(font
@@ -5474,6 +5830,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 64.77 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "farnell#" "2094043"
+			(at 64.77 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "08055C105KAT2A"
+			(at 64.77 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "581-08055C105KAT2A"
 			(at 64.77 85.09 0)
 			(effects
 				(font
@@ -5675,6 +6058,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 91.44 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "farnell#" "2826162"
+			(at 91.44 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CRCW080510K0JNEAC"
+			(at 91.44 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "71-CRCW080510K0JNEAC"
 			(at 91.44 46.99 0)
 			(effects
 				(font
@@ -5885,6 +6295,33 @@
 				(hide yes)
 			)
 		)
+		(property "farnell#" "3006067"
+			(at 67.31 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "DRV5033FAQDBZR"
+			(at 67.31 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "595-RV5033FAEDBZRQ1"
+			(at 67.31 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5c5eca21-3090-471a-a15f-0b9ff0bad422")
 		)
@@ -5948,6 +6385,33 @@
 		)
 		(property "Description" ""
 			(at 86.36 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "farnell#" "1414663"
+			(at 86.36 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "C0805C104J5RACTU"
+			(at 86.36 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "80-C0805C104J5R"
+			(at 86.36 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6022,6 +6486,24 @@
 				(hide yes)
 			)
 		)
+		(property "manf#" " MCU08050C2202FP500"
+			(at 220.98 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "594-MCU08050C2202FP5"
+			(at 220.98 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0dc31ef2-ac11-42e5-9152-2438cf59d766")
 		)
@@ -6084,6 +6566,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 166.37 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "farnell#" "3006067"
+			(at 166.37 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "DRV5033FAQDBZR"
+			(at 166.37 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "595-RV5033FAEDBZRQ1"
 			(at 166.37 130.81 0)
 			(effects
 				(font
@@ -6164,6 +6673,24 @@
 				(hide yes)
 			)
 		)
+		(property "manf#" " MCU08050C2202FP500"
+			(at 198.12 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "594-MCU08050C2202FP5"
+			(at 198.12 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "81030725-d016-4706-a577-ceb04b2b6fab")
 		)
@@ -6233,6 +6760,33 @@
 				(hide yes)
 			)
 		)
+		(property "farnell#" "2826162"
+			(at 91.44 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CRCW080510K0JNEAC"
+			(at 91.44 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "71-CRCW080510K0JNEAC"
+			(at 91.44 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "08441e85-8d59-4357-b023-a8757ac51a12")
 		)
@@ -6294,6 +6848,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 241.3 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "farnell#" "2094043"
+			(at 241.3 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "08055C105KAT2A"
+			(at 241.3 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "581-08055C105KAT2A"
 			(at 241.3 68.58 0)
 			(effects
 				(font
@@ -6562,6 +7143,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 78.74 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "farnell#" "2826162"
+			(at 78.74 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CRCW080510K0JNEAC"
+			(at 78.74 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "71-CRCW080510K0JNEAC"
 			(at 78.74 127 0)
 			(effects
 				(font

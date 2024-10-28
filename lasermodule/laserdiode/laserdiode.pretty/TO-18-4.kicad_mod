@@ -67,46 +67,16 @@
 		)
 	)
 	(attr through_hole)
-	(fp_line
-		(start -3.484448 -2.494499)
-		(end -2.572281 -1.582331)
+	(fp_circle
+		(center 0 0)
+		(end 3 0)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type solid)
 		)
+		(fill none)
 		(layer "F.SilkS")
-		(uuid "fed2ae93-17b7-407f-8862-10a1b4363f4c")
-	)
-	(fp_line
-		(start -2.494499 -3.484448)
-		(end -3.484448 -2.494499)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "2a7f3196-077b-4161-bf35-210461c66243")
-	)
-	(fp_line
-		(start -1.582331 -2.572281)
-		(end -2.494499 -3.484448)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "01905e53-4871-4dc8-893d-8df65ddd1b89")
-	)
-	(fp_arc
-		(start -1.582331 -2.572281)
-		(mid 2.135374 2.135551)
-		(end -2.57215 -1.582544)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "7b0dae27-b13d-406a-821e-d9e2daed7687")
+		(uuid "72863575-c962-4f50-8eec-0fdc2aa02225")
 	)
 	(fp_line
 		(start -3.5 -3.5)
@@ -148,47 +118,6 @@
 		(layer "F.CrtYd")
 		(uuid "5dc5267b-cd39-4c75-82a2-bfdaa9dccf1e")
 	)
-	(fp_line
-		(start -3.246616 -2.426372)
-		(end -2.419301 -1.599057)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "d1b9d0e6-137f-47b1-94f0-e3ac42028121")
-	)
-	(fp_line
-		(start -2.426372 -3.246616)
-		(end -3.246616 -2.426372)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "cbc84dca-2d3b-4430-b9d4-8196fe0760a8")
-	)
-	(fp_line
-		(start -1.599057 -2.419301)
-		(end -2.426372 -3.246616)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "94b613ac-7f66-43c6-852a-d280509b3a4c")
-	)
-	(fp_arc
-		(start -1.599057 -2.419301)
-		(mid 2.051076 2.050143)
-		(end -2.420029 -1.597956)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "bc36aacd-ca3f-4e16-aba5-d0910cbf41c6")
-	)
 	(fp_circle
 		(center 0 0)
 		(end 2.4 0)
@@ -198,7 +127,7 @@
 		)
 		(fill none)
 		(layer "F.Fab")
-		(uuid "72863575-c962-4f50-8eec-0fdc2aa02225")
+		(uuid "c97e9c5e-4e6b-4897-8a60-ecb78f500882")
 	)
 	(fp_text user "3"
 		(at 3.73 -0.1 0)

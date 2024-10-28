@@ -52,25 +52,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        "copper_edge_clearance|137875107|95610000|fdabe44b-79a5-40d9-9967-e93b0529fce2|d0edb806-7218-464c-a023-6af92c5c3910",
-        "copper_edge_clearance|137876113|97610000|fdabe44b-79a5-40d9-9967-e93b0529fce2|21c87423-c20e-4284-8e49-3fcad1157c0a",
-        "copper_edge_clearance|137877119|99610000|fdabe44b-79a5-40d9-9967-e93b0529fce2|655741db-d7a2-4638-8ef1-4ef49e8b83ab",
-        "copper_edge_clearance|137878124|101610000|fdabe44b-79a5-40d9-9967-e93b0529fce2|5626a16b-c546-4200-8d3e-2ba178bc688a",
-        "copper_edge_clearance|137879130|103610000|fdabe44b-79a5-40d9-9967-e93b0529fce2|47264eac-4adc-4316-944f-a4f26b56457a",
-        "copper_edge_clearance|151087052|98132903|31502046-5a61-40ad-9b90-b42bee7fa6e2|becaa54a-a16f-4129-a6cd-27db39023161",
-        "copper_edge_clearance|151096987|100179084|31502046-5a61-40ad-9b90-b42bee7fa6e2|0126de95-f697-4f13-a375-9420c16bef1e",
-        "copper_edge_clearance|151097137|100210000|31502046-5a61-40ad-9b90-b42bee7fa6e2|2af27ac8-db2b-49e2-974d-d793ec05fd4f",
-        "copper_edge_clearance|151097137|100210000|31502046-5a61-40ad-9b90-b42bee7fa6e2|3b9842cb-5185-4999-af01-5f19854b8cea",
-        "copper_edge_clearance|151106847|102210000|31502046-5a61-40ad-9b90-b42bee7fa6e2|12d11488-babc-40b5-9e46-83fd16718685",
-        "copper_edge_clearance|151672918|95535000|31502046-5a61-40ad-9b90-b42bee7fa6e2|a6a25256-271e-4ba5-86b2-460ea8c3ecf5",
-        "copper_edge_clearance|151675888|96219112|31502046-5a61-40ad-9b90-b42bee7fa6e2|b6a35263-6c3e-4273-b82e-807199186775",
-        "copper_edge_clearance|151684533|98210002|31502046-5a61-40ad-9b90-b42bee7fa6e2|e970fad9-6897-4fa0-96c8-b309c0908b22",
-        "copper_edge_clearance|151685000|104210000|31502046-5a61-40ad-9b90-b42bee7fa6e2|5268ae21-6140-40ae-b739-70879c506cc7",
-        "copper_edge_clearance|151693217|100209964|31502046-5a61-40ad-9b90-b42bee7fa6e2|e6fcdeb0-15d5-48f4-b3ad-90fbb0460b00",
-        "copper_edge_clearance|151701901|102209927|31502046-5a61-40ad-9b90-b42bee7fa6e2|8430d94d-4193-4627-9e60-b724b844f980",
-        "copper_edge_clearance|151710585|104209889|31502046-5a61-40ad-9b90-b42bee7fa6e2|64d3b1dd-137e-44c1-b5e7-6f62689c17e8"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
