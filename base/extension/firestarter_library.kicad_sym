@@ -2777,7 +2777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" "3131535"
+		(property "farnell#" "3131535"
 			(at 29.21 -484.76 0)
 			(effects
 				(font
@@ -2787,7 +2787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "700-TMC2209-LA-T "
+		(property "mouser#" "700-TMC2209-LA-T "
 			(at 29.21 -584.76 0)
 			(effects
 				(font
@@ -2807,7 +2807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Producer" "TMC2209-LA-T"
+		(property "manf#" "TMC2209-LA-T"
 			(at 29.21 -784.76 0)
 			(effects
 				(font
@@ -2836,7 +2836,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -20.32 -15.24 0)
 				(length 5.08)
 				(name "MS2"
@@ -2890,7 +2890,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -20.32 -20.32 0)
 				(length 5.08)
 				(name "CLK"
@@ -3034,7 +3034,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -20.32 15.24 0)
 				(length 5.08)
 				(name "STDBY"
@@ -3088,7 +3088,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 20.32 -25.4 180)
 				(length 5.08)
 				(name "BRA"
@@ -3125,8 +3125,8 @@
 				)
 			)
 			(pin free line
-				(at -20.32 -15.24 0)
-				(length 2.54)
+				(at -20.32 20.32 0)
+				(length 2.54) hide
 				(name "GND"
 					(effects
 						(font
@@ -3160,7 +3160,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 20.32 -30.48 180)
 				(length 5.08)
 				(name "BRB"
@@ -3322,7 +3322,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -20.32 -12.7 0)
 				(length 5.08)
 				(name "MS1"

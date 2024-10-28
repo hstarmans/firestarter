@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Firestarter ")
-		(date "2024-07-25")
+		(date "2024-10-26")
 		(company "Hexastorm")
 		(comment 1 "v1")
 	)
@@ -1558,7 +1558,7 @@
 	)
 	(rectangle
 		(start 64.77 40.64)
-		(end 218.44 152.4)
+		(end 223.52 152.4)
 		(stroke
 			(width 0)
 			(type default)
@@ -1885,7 +1885,7 @@
 			)
 		)
 	)
-	(global_label "SPI_SS_MOTOR"
+	(global_label "GPIO14"
 		(shape input)
 		(at 180.34 110.49 0)
 		(effects
@@ -2245,7 +2245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" "2826162"
+		(property "farnell#" "2826162"
 			(at 238.76 66.04 0)
 			(effects
 				(font
@@ -2254,7 +2254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Producer" "CRCW080510K0JNEAC "
+		(property "manf#" "CRCW080510K0JNEAC"
 			(at 238.76 66.04 0)
 			(effects
 				(font
@@ -2263,7 +2263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW080510K0JNEAC "
+		(property "mouser#" "71-CRCW080510K0JNEAC"
 			(at 238.76 66.04 0)
 			(effects
 				(font
@@ -2539,7 +2539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" "1333652"
+		(property "farnell#" "1333652"
 			(at 196.85 74.93 0)
 			(effects
 				(font
@@ -2548,7 +2548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Producer" "B3U-1000P"
+		(property "manf#" "B3U-1000P"
 			(at 196.85 74.93 0)
 			(effects
 				(font
@@ -2557,7 +2557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "653-B3U-1000P"
+		(property "mouser#" "653-B3U-1000P"
 			(at 196.85 74.93 0)
 			(effects
 				(font
@@ -2701,7 +2701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" "2094043"
+		(property "farnell#" "2094043"
 			(at 69.85 55.88 0)
 			(effects
 				(font
@@ -2710,7 +2710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Producer" "08055C105KAT2A"
+		(property "manf#" "08055C105KAT2A"
 			(at 69.85 55.88 0)
 			(effects
 				(font
@@ -2719,7 +2719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "581-08055C105KAT2A "
+		(property "mouser#" "581-08055C105KAT2A"
 			(at 69.85 55.88 0)
 			(effects
 				(font
@@ -2870,7 +2870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" "1333652"
+		(property "farnell#" "1333652"
 			(at 80.01 54.61 0)
 			(effects
 				(font
@@ -2879,7 +2879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Producer" "B3U-1000P"
+		(property "manf#" "B3U-1000P"
 			(at 80.01 54.61 0)
 			(effects
 				(font
@@ -2888,7 +2888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "653-B3U-1000P"
+		(property "mouser#" "653-B3U-1000P"
 			(at 80.01 54.61 0)
 			(effects
 				(font
@@ -2966,7 +2966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" "2826162"
+		(property "farnell#" "2826162"
 			(at 247.65 66.04 0)
 			(effects
 				(font
@@ -2975,7 +2975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Producer" "CRCW080510K0JNEAC "
+		(property "manf#" "CRCW080510K0JNEAC"
 			(at 247.65 66.04 0)
 			(effects
 				(font
@@ -2984,7 +2984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW080510K0JNEAC "
+		(property "mouser#" "71-CRCW080510K0JNEAC"
 			(at 247.65 66.04 0)
 			(effects
 				(font
@@ -3129,7 +3129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "ESP32-S3-WROOM-2-N32R8V"
+		(property "mouser#" "ESP32-S3-WROOM-2-N32R8V"
 			(at 134.62 95.25 0)
 			(effects
 				(font
@@ -3138,7 +3138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Producer" "ESP32-S3-WROOM-2-N32R8V"
+		(property "manf#" "ESP32-S3-WROOM-2-N32R8V"
 			(at 134.62 95.25 0)
 			(effects
 				(font
@@ -3333,7 +3333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" "2826162"
+		(property "farnell#" "2826162"
 			(at 69.85 63.5 0)
 			(effects
 				(font
@@ -3342,7 +3342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Producer" "CRCW080510K0JNEAC "
+		(property "manf#" "CRCW080510K0JNEAC"
 			(at 69.85 63.5 0)
 			(effects
 				(font
@@ -3351,7 +3351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW080510K0JNEAC "
+		(property "mouser#" "71-CRCW080510K0JNEAC"
 			(at 69.85 63.5 0)
 			(effects
 				(font

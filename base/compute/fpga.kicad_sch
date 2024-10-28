@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Firestarter ")
-		(date "2024-07-25")
+		(date "2024-10-26")
 		(company "Hexastorm")
 		(comment 1 "v1")
 	)
@@ -2715,7 +2715,7 @@
 			)
 		)
 	)
-	(global_label "HALL2_old"
+	(global_label "FPGA50"
 		(shape input)
 		(at 73.66 80.01 180)
 		(fields_autoplaced yes)
@@ -3635,7 +3635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Producer" "ICE40UP5K-SG48I"
+		(property "manf#" "ICE40UP5K-SG48I"
 			(at 199.39 58.42 0)
 			(effects
 				(font
@@ -3644,7 +3644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "842-ICE40UP5K-SG48I"
+		(property "mouser#" "842-ICE40UP5K-SG48I"
 			(at 199.39 58.42 0)
 			(effects
 				(font
@@ -3863,7 +3863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" "2826162"
+		(property "farnell#" "2826162"
 			(at 158.75 57.15 0)
 			(effects
 				(font
@@ -3872,7 +3872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Producer" "CRCW080510K0JNEAC "
+		(property "manf#" "CRCW080510K0JNEAC"
 			(at 158.75 57.15 0)
 			(effects
 				(font
@@ -3881,7 +3881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW080510K0JNEAC "
+		(property "mouser#" "71-CRCW080510K0JNEAC"
 			(at 158.75 57.15 0)
 			(effects
 				(font
@@ -3959,7 +3959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" "2826162"
+		(property "farnell#" "2826162"
 			(at 158.75 62.23 0)
 			(effects
 				(font
@@ -3968,7 +3968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Producer" "CRCW080510K0JNEAC "
+		(property "manf#" "CRCW080510K0JNEAC"
 			(at 158.75 62.23 0)
 			(effects
 				(font
@@ -3977,7 +3977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW080510K0JNEAC "
+		(property "mouser#" "71-CRCW080510K0JNEAC"
 			(at 158.75 62.23 0)
 			(effects
 				(font
@@ -4384,7 +4384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Producer" "B340A-13-F"
+		(property "manf#" "SD103AWS-E3-08"
 			(at 175.26 109.22 0)
 			(effects
 				(font
@@ -4393,7 +4393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" "1843668 "
+		(property "farnell#" "2393466"
 			(at 175.26 109.22 0)
 			(effects
 				(font
@@ -4402,7 +4402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "621-B340A-F"
+		(property "mouser#" "78-SD103AWS-HE3-18"
 			(at 175.26 109.22 0)
 			(effects
 				(font
@@ -4480,7 +4480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Producer" "ICE40UP5K-SG48I"
+		(property "manf#" "ICE40UP5K-SG48I"
 			(at 198.12 105.41 0)
 			(effects
 				(font
@@ -4489,7 +4489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "842-ICE40UP5K-SG48I"
+		(property "mouser#" "842-ICE40UP5K-SG48I"
 			(at 198.12 105.41 0)
 			(effects
 				(font
@@ -4718,7 +4718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "454-W25X20CLSNIG"
+		(property "mouser#" "454-W25X20CLSNIG"
 			(at 111.76 149.86 0)
 			(effects
 				(font
@@ -4727,7 +4727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Producer" "W25X20CLSNIG "
+		(property "manf#" "W25X20CLSNIG"
 			(at 111.76 149.86 0)
 			(effects
 				(font
@@ -4761,7 +4761,7 @@
 			(uuid "26d15acd-3ef2-4e83-bdcf-e789f8b44f3f")
 		)
 		(instances
-			(project ""
+			(project "main_board"
 				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/bdb11667-3ffd-4676-bd47-34e666a8a2df"
 					(reference "U4")
 					(unit 1)
@@ -4823,7 +4823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Producer" "C0805C104J5RACTU"
+		(property "manf#" "C0805C104J5RACTU"
 			(at 114.3 137.16 0)
 			(effects
 				(font
@@ -4832,7 +4832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "80-C0805C104J5R "
+		(property "mouser#" "80-C0805C104J5R"
 			(at 114.3 137.16 0)
 			(effects
 				(font
@@ -4841,7 +4841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" "1414663 "
+		(property "farnell#" "1414663"
 			(at 114.3 137.16 0)
 			(effects
 				(font
@@ -4919,7 +4919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Producer" "C0805C104J5RACTU"
+		(property "manf#" "C0805C104J5RACTU"
 			(at 210.82 39.37 0)
 			(effects
 				(font
@@ -4928,7 +4928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "80-C0805C104J5R "
+		(property "mouser#" "80-C0805C104J5R"
 			(at 210.82 39.37 0)
 			(effects
 				(font
@@ -4937,7 +4937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" "1414663 "
+		(property "farnell#" "1414663"
 			(at 210.82 39.37 0)
 			(effects
 				(font
@@ -5015,7 +5015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Producer" "GRM21BR61H475KE51L"
+		(property "manf#" "GRM21BR61H475KE51L"
 			(at 105.41 38.1 0)
 			(effects
 				(font
@@ -5024,7 +5024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" "2611942"
+		(property "farnell#" "2611942"
 			(at 105.41 38.1 0)
 			(effects
 				(font
@@ -5033,7 +5033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "81-GRM21BR61H475KE1L"
+		(property "mouser#" "81-GRM21BR61H475KE1L"
 			(at 105.41 38.1 0)
 			(effects
 				(font
@@ -5176,7 +5176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Producer" "GRM21BR61H475KE51L"
+		(property "manf#" "GRM21BR61H475KE51L"
 			(at 151.13 36.83 0)
 			(effects
 				(font
@@ -5185,7 +5185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" "2611942"
+		(property "farnell#" "2611942"
 			(at 151.13 36.83 0)
 			(effects
 				(font
@@ -5194,7 +5194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "81-GRM21BR61H475KE1L"
+		(property "mouser#" "81-GRM21BR61H475KE1L"
 			(at 151.13 36.83 0)
 			(effects
 				(font
@@ -5272,7 +5272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Producer" "ICE40UP5K-SG48I"
+		(property "manf#" "ICE40UP5K-SG48I"
 			(at 83.82 64.77 0)
 			(effects
 				(font
@@ -5281,7 +5281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "842-ICE40UP5K-SG48I"
+		(property "mouser#" "842-ICE40UP5K-SG48I"
 			(at 83.82 64.77 0)
 			(effects
 				(font
@@ -5500,7 +5500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Producer" "GRM21BR61H475KE51L"
+		(property "manf#" "GRM21BR61H475KE51L"
 			(at 185.42 100.33 0)
 			(effects
 				(font
@@ -5509,7 +5509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" "2611942"
+		(property "farnell#" "2611942"
 			(at 185.42 100.33 0)
 			(effects
 				(font
@@ -5518,7 +5518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "81-GRM21BR61H475KE1L"
+		(property "mouser#" "81-GRM21BR61H475KE1L"
 			(at 185.42 100.33 0)
 			(effects
 				(font
@@ -5727,7 +5727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Producer" "C0805C104J5RACTU"
+		(property "manf#" "C0805C104J5RACTU"
 			(at 95.25 38.1 0)
 			(effects
 				(font
@@ -5736,7 +5736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "80-C0805C104J5R "
+		(property "mouser#" "80-C0805C104J5R"
 			(at 95.25 38.1 0)
 			(effects
 				(font
@@ -5745,7 +5745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" "1414663 "
+		(property "farnell#" "1414663"
 			(at 95.25 38.1 0)
 			(effects
 				(font
@@ -5823,7 +5823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" "2826162"
+		(property "farnell#" "2826162"
 			(at 82.55 138.43 0)
 			(effects
 				(font
@@ -5832,7 +5832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Producer" "CRCW080510K0JNEAC "
+		(property "manf#" "CRCW080510K0JNEAC"
 			(at 82.55 138.43 0)
 			(effects
 				(font
@@ -5841,7 +5841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW080510K0JNEAC "
+		(property "mouser#" "71-CRCW080510K0JNEAC"
 			(at 82.55 138.43 0)
 			(effects
 				(font
@@ -5984,7 +5984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Producer" "C0805C104J5RACTU"
+		(property "manf#" "C0805C104J5RACTU"
 			(at 143.51 36.83 0)
 			(effects
 				(font
@@ -5993,7 +5993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "80-C0805C104J5R "
+		(property "mouser#" "80-C0805C104J5R"
 			(at 143.51 36.83 0)
 			(effects
 				(font
@@ -6002,7 +6002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" "1414663 "
+		(property "farnell#" "1414663"
 			(at 143.51 36.83 0)
 			(effects
 				(font
@@ -6541,7 +6541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Producer" "GRM21BR61H475KE51L"
+		(property "manf#" "GRM21BR61H475KE51L"
 			(at 217.17 39.37 0)
 			(effects
 				(font
@@ -6550,7 +6550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" "2611942"
+		(property "farnell#" "2611942"
 			(at 217.17 39.37 0)
 			(effects
 				(font
@@ -6559,7 +6559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "81-GRM21BR61H475KE1L"
+		(property "mouser#" "81-GRM21BR61H475KE1L"
 			(at 217.17 39.37 0)
 			(effects
 				(font
@@ -6635,7 +6635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Producer" "CRCW0805100RFKTA"
+		(property "manf#" "CRCW0805100RFKTA"
 			(at 175.26 102.87 90)
 			(effects
 				(font
@@ -6644,7 +6644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW0805-100"
+		(property "mouser#" "71-CRCW0805-100"
 			(at 175.26 102.87 90)
 			(effects
 				(font
@@ -6653,7 +6653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" "1652906"
+		(property "farnell#" "1652906"
 			(at 175.26 102.87 90)
 			(effects
 				(font
@@ -6796,7 +6796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Producer" "C0805C104J5RACTU"
+		(property "manf#" "C0805C104J5RACTU"
 			(at 179.07 100.33 0)
 			(effects
 				(font
@@ -6805,7 +6805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "80-C0805C104J5R "
+		(property "mouser#" "80-C0805C104J5R"
 			(at 179.07 100.33 0)
 			(effects
 				(font
@@ -6814,7 +6814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" "1414663 "
+		(property "farnell#" "1414663"
 			(at 179.07 100.33 0)
 			(effects
 				(font
@@ -6890,7 +6890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Producer" "ICE40UP5K-SG48I"
+		(property "manf#" "ICE40UP5K-SG48I"
 			(at 129.54 66.04 0)
 			(effects
 				(font
@@ -6899,7 +6899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "842-ICE40UP5K-SG48I"
+		(property "mouser#" "842-ICE40UP5K-SG48I"
 			(at 129.54 66.04 0)
 			(effects
 				(font
@@ -7118,7 +7118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" "2826162"
+		(property "farnell#" "2826162"
 			(at 78.74 138.43 0)
 			(effects
 				(font
@@ -7127,7 +7127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Producer" "CRCW080510K0JNEAC "
+		(property "manf#" "CRCW080510K0JNEAC"
 			(at 78.74 138.43 0)
 			(effects
 				(font
@@ -7136,7 +7136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "71-CRCW080510K0JNEAC "
+		(property "mouser#" "71-CRCW080510K0JNEAC"
 			(at 78.74 138.43 0)
 			(effects
 				(font
