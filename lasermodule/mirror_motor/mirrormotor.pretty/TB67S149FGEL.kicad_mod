@@ -6,13 +6,13 @@
 	(descr "TB67S149FG,EL-7")
 	(tags "Integrated Circuit")
 	(property "Reference" "IC**"
-		(at 0 0 0)
+		(at 0 0 180)
 		(layer "F.SilkS")
 		(uuid "338c5f27-6647-43af-82c5-2763dec7bfc3")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -419,6 +419,17 @@
 		(uuid "d3ca5b51-6905-4d75-81ea-7575c7376222")
 	)
 	(model "TB67S149FG,EL.stp"
+		(offset
+			(xyz 0 0 0.5)
+		)
+		(scale
+			(xyz 0.88 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+	(model "${KIPRJMOD}/mirrormotor.3dshapes/TB67S149FG,EL.stp"
 		(offset
 			(xyz 0 0 0.5)
 		)

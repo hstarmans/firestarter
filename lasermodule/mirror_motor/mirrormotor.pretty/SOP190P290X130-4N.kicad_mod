@@ -6,13 +6,13 @@
 	(descr "HW-101A")
 	(tags "Integrated Circuit")
 	(property "Reference" "IC**"
-		(at 0 0 0)
+		(at 0 -2.48 0)
 		(layer "F.SilkS")
 		(uuid "b48f360f-9c2b-48a0-a2c4-f35b09fd1e4a")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
