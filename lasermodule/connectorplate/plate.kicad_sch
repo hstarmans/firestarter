@@ -551,6 +551,66 @@
 		)
 		(uuid "d6f19c52-450e-4560-8178-8ba6716857eb")
 	)
+	(text "GND\n"
+		(exclude_from_sim no)
+		(at 78.74 91.694 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "03c81b64-79cb-46dd-af65-e49704471841")
+	)
+	(text "12V"
+		(exclude_from_sim no)
+		(at 78.994 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2a115e44-23f6-4b62-9719-a78b5f004a88")
+	)
+	(text "Ricoh AF-1027/270 using NBC3111 chip"
+		(exclude_from_sim no)
+		(at 66.04 81.026 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5b89a511-2d2c-4ec6-b44c-679467062e80")
+	)
+	(text "PWM"
+		(exclude_from_sim no)
+		(at 78.74 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c7894baa-7d6c-4a8e-a046-3b8ce3995d93")
+	)
+	(text "GND\n"
+		(exclude_from_sim no)
+		(at 78.74 89.154 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ca0459b7-3673-405d-99d8-2505e1e5b458")
+	)
+	(text "NC"
+		(exclude_from_sim no)
+		(at 78.74 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f6204fb5-9c47-421d-bffa-f00ca72b674f")
+	)
 	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x05_MountingPin")
 		(at 109.22 91.44 0)

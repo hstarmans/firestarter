@@ -4026,16 +4026,16 @@
 		)
 	)
 	(junction
+		(at 167.64 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0938582c-a38e-413f-9ee7-863d78d3cf34")
+	)
+	(junction
 		(at 121.92 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69329317-9caf-40a0-9faa-6bb98f19bbb6")
-	)
-	(junction
-		(at 248.92 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a0a934e-a35e-422e-9ede-02f086d498b4")
 	)
 	(junction
 		(at 213.36 34.29)
@@ -4163,13 +4163,13 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 34.29) (xy 245.11 34.29)
+			(xy 152.4 39.37) (xy 160.02 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "da8fee24-b386-4a30-ad60-b47eec4a3957")
+		(uuid "f174f283-dfd4-49b7-a90f-b0aaafbcbec0")
 	)
 	(rectangle
 		(start 34.29 29.21)
@@ -4185,7 +4185,7 @@
 	)
 	(rectangle
 		(start 114.3 29.083)
-		(end 171.577 84.963)
+		(end 180.34 84.963)
 		(stroke
 			(width 0)
 			(type default)
@@ -4814,6 +4814,50 @@
 		(uuid "9261890c-6b08-44ea-a2a8-eb909a3d1aba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 237.5229 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5Vfuse"
+		(shape input)
+		(at 237.49 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "97e5ff79-5fdb-4945-8e23-0dcbaf7be593")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 246.1105 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5Vfuse"
+		(shape input)
+		(at 160.02 39.37 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9a19f8e6-2563-4869-8370-dbbf5da02252")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.02 30.7495 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5823,100 +5867,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 241.3 34.29 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2c97f8b6-aa5f-4913-bac6-a325b31fbc00")
-		(property "Reference" "F2"
-			(at 242.57 30.988 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Fuse"
-			(at 241.554 28.702 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
-			(at 241.3 36.068 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 241.3 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "farnell#" "2799448"
-			(at 241.3 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "SF-0402FP100-2"
-			(at 241.3 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser#" "652-SF-0402FP100-2"
-			(at 241.3 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6a6149a1-b6b2-4c3d-95a5-f2568d0bed0d")
-		)
-		(pin "2"
-			(uuid "26c96be9-0ef0-41dd-ba46-dcb4548e6a64")
-		)
-		(instances
-			(project "main_board"
-				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455"
-					(reference "F2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED_ABGR")
 		(at 82.55 113.03 180)
 		(unit 1)
@@ -6098,7 +6048,7 @@
 		(dnp no)
 		(uuid "3af3c3c3-90c5-46f1-be2d-7929a993b5ff")
 		(property "Reference" "R5"
-			(at 160.02 41.91 90)
+			(at 159.512 42.418 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6779,73 +6729,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 248.92 34.29 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6b59c022-6de6-4ea4-9430-9940a77981e3")
-		(property "Reference" "#PWR01"
-			(at 245.11 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 253.3142 34.671 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 248.92 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 248.92 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "602fa5cc-2699-4274-abb8-fcdf04f2b933")
-		)
-		(instances
-			(project "main_board"
-				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Fuse")
-		(at 156.21 39.37 90)
+		(at 163.83 39.37 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6854,7 +6739,7 @@
 		(fields_autoplaced yes)
 		(uuid "6be82c6f-4a8b-4794-b5ac-c7a5e0d27039")
 		(property "Reference" "F1"
-			(at 156.21 34.29 90)
+			(at 163.83 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6862,7 +6747,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 156.21 36.83 90)
+			(at 163.83 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6870,7 +6755,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
-			(at 156.21 41.148 90)
+			(at 163.83 41.148 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6879,7 +6764,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 39.37 0)
+			(at 163.83 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6888,7 +6773,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.21 39.37 0)
+			(at 163.83 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6897,7 +6782,7 @@
 			)
 		)
 		(property "farnell#" "2799448"
-			(at 156.21 39.37 90)
+			(at 163.83 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6906,7 +6791,7 @@
 			)
 		)
 		(property "manf#" "SF-0402FP100-2"
-			(at 156.21 39.37 90)
+			(at 163.83 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6915,7 +6800,7 @@
 			)
 		)
 		(property "mouser#" "652-SF-0402FP100-2"
-			(at 156.21 39.37 90)
+			(at 163.83 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7011,7 +6896,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 248.92 34.29 0)
+		(at 167.64 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7019,7 +6904,7 @@
 		(dnp no)
 		(uuid "7b5ac0ab-5a09-4e0e-a497-9c186591144b")
 		(property "Reference" "#FLG02"
-			(at 248.92 32.385 0)
+			(at 167.64 37.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7028,7 +6913,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 248.92 29.8958 0)
+			(at 171.958 34.798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7036,7 +6921,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 34.29 0)
+			(at 167.64 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7045,7 +6930,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 248.92 34.29 0)
+			(at 167.64 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7054,7 +6939,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 248.92 34.29 0)
+			(at 167.64 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7305,7 +7190,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 160.02 39.37 270)
+		(at 167.64 39.37 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7313,7 +7198,7 @@
 		(dnp no)
 		(uuid "9274220e-ea37-4398-ab50-c4981865bc7e")
 		(property "Reference" "#PWR03"
-			(at 156.21 39.37 0)
+			(at 163.83 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7322,7 +7207,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 163.83 39.37 90)
+			(at 171.45 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7331,7 +7216,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 39.37 0)
+			(at 167.64 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7340,7 +7225,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 39.37 0)
+			(at 167.64 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7349,7 +7234,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 160.02 39.37 0)
+			(at 167.64 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)

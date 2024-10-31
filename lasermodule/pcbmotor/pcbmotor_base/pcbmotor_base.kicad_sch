@@ -3306,6 +3306,33 @@
 				(hide yes)
 			)
 		)
+		(property "manf#" "CRCW080510K0JNEAC"
+			(at 171.45 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manuf#" ""
+			(at 171.45 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "71-CRCW080510K0JNEAC"
+			(at 171.45 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "76c95880-45b9-477c-84ae-e5ee401aacb3")
 		)
@@ -3499,6 +3526,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 171.45 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CRCW080510K0JNEAC"
+			(at 171.45 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "71-CRCW080510K0JNEAC"
+			(at 171.45 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "farnell#" "2826162"
+			(at 171.45 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manuf#" ""
 			(at 171.45 43.18 0)
 			(effects
 				(font
@@ -3775,6 +3838,33 @@
 				(hide yes)
 			)
 		)
+		(property "manf#" "CRCW080510K0JNEAC"
+			(at 171.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manuf#" ""
+			(at 171.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "71-CRCW080510K0JNEAC"
+			(at 171.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "201678eb-4296-49ee-9b3c-e5097652a3c5")
 		)
@@ -3902,6 +3992,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x13, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 229.87 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manuf#" ""
 			(at 229.87 83.82 0)
 			(effects
 				(font
@@ -4201,6 +4300,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 109.22 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manuf#" ""
 			(at 109.22 53.34 0)
 			(effects
 				(font
@@ -4613,6 +4721,42 @@
 				(hide yes)
 			)
 		)
+		(property "farnell#" "3006067"
+			(at 160.02 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "DRV5033FAQDBZR"
+			(at 160.02 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "595-RV5033FAEDBZRQ1"
+			(at 160.02 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manuf#" ""
+			(at 160.02 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3a7fd00e-4563-4eb0-9ac5-5d6754da1b55")
 		)
@@ -4877,6 +5021,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 212.09 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manuf#" ""
 			(at 212.09 41.91 0)
 			(effects
 				(font
@@ -5180,7 +5333,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "0.1uF"
 			(at 146.05 66.0399 0)
 			(effects
 				(font
@@ -5208,6 +5361,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 142.24 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "C0805C104J5RACTU"
+			(at 142.24 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "80-C0805C104J5R"
+			(at 142.24 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "farnell#" "1414663"
+			(at 142.24 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manuf#" ""
 			(at 142.24 64.77 0)
 			(effects
 				(font
@@ -5352,6 +5541,15 @@
 				(hide yes)
 			)
 		)
+		(property "manuf#" ""
+			(at 212.09 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "02b718ee-bb68-4c31-97fd-90ae9bb7a13c")
 		)
@@ -5409,6 +5607,33 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 104.14 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "GRM21BR61H475KE51L"
+			(at 104.14 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "81-GRM21BR61H475KE1L"
+			(at 104.14 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "farnell#" "2611942"
+			(at 104.14 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5495,7 +5720,16 @@
 				(hide yes)
 			)
 		)
-		(property "manuf#" "MP6543HGL-A-P"
+		(property "manf#" "MP6543HGL-A-P"
+			(at 54.61 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manuf#" ""
 			(at 54.61 49.53 0)
 			(effects
 				(font
@@ -5710,6 +5944,15 @@
 				(hide yes)
 			)
 		)
+		(property "manuf#" ""
+			(at 212.09 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "df2d2dd2-5f5a-4615-9be7-da851c778c41")
 		)
@@ -5836,6 +6079,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 160.02 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "DRV5033FAQDBZR"
+			(at 160.02 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manuf#" ""
+			(at 160.02 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "595-RV5033FAEDBZRQ1"
 			(at 160.02 123.19 0)
 			(effects
 				(font
@@ -6007,7 +6277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "manuf#" ""
 			(at 48.26 36.83 0)
 			(effects
 				(font
@@ -6149,6 +6419,42 @@
 				(hide yes)
 			)
 		)
+		(property "farnell#" "2094043"
+			(at 104.14 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "08055C105KAT2A"
+			(at 104.14 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "581-08055C105KAT2A"
+			(at 104.14 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manuf#" ""
+			(at 104.14 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f6e893d0-c04b-4ab0-ac26-bad71a1f8671")
 		)
@@ -6211,6 +6517,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 160.02 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "DRV5033FAQDBZR"
+			(at 160.02 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manuf#" ""
+			(at 160.02 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "595-RV5033FAEDBZRQ1"
 			(at 160.02 83.82 0)
 			(effects
 				(font

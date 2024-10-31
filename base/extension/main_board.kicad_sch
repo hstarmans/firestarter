@@ -4783,6 +4783,12 @@
 		(uuid "62cc69cc-5366-4377-8e03-74af8716250b")
 	)
 	(junction
+		(at 247.65 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ef3c952-0b47-4b41-86a6-b509bf324b1c")
+	)
+	(junction
 		(at 46.99 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4801,7 +4807,13 @@
 		(uuid "a79330f1-3ede-469f-aa2e-5a82e36b6c72")
 	)
 	(junction
-		(at 261.62 34.29)
+		(at 247.65 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a88c6f29-195a-4be6-8c7b-23684d324ab8")
+	)
+	(junction
+		(at 243.84 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8fd7e46-ad94-4070-937b-738cb5367e98")
@@ -4837,14 +4849,6 @@
 		(uuid "ff424389-f137-42c3-abfd-52e9dceccc38")
 	)
 	(no_connect
-		(at 196.85 133.35)
-		(uuid "033cb4b0-ee0d-45ca-b38b-6fa3771f2ed3")
-	)
-	(no_connect
-		(at 196.85 130.81)
-		(uuid "1754169b-3a80-40d8-a10c-0ca6a313dc8d")
-	)
-	(no_connect
 		(at 212.09 135.89)
 		(uuid "20a33b66-25a5-4cf3-bc1f-e75bbe45a9fd")
 	)
@@ -4867,14 +4871,6 @@
 	(no_connect
 		(at 196.85 140.97)
 		(uuid "9316655f-5d0c-4edf-af80-7920a4f90fcd")
-	)
-	(no_connect
-		(at 212.09 130.81)
-		(uuid "971969c4-dc14-47a4-9dc6-fde5c58a29d2")
-	)
-	(no_connect
-		(at 212.09 133.35)
-		(uuid "9a2fc7fb-df8d-452e-90e2-27837974646c")
 	)
 	(no_connect
 		(at 196.85 135.89)
@@ -5096,7 +5092,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 34.29) (xy 262.89 34.29)
+			(xy 243.84 34.29) (xy 242.57 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5236,7 +5232,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 34.29) (xy 261.62 34.29)
+			(xy 246.38 34.29) (xy 243.84 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5263,6 +5259,16 @@
 			(type default)
 		)
 		(uuid "c9fc2bad-8c33-49cc-a96e-27f662dbf7fd")
+	)
+	(wire
+		(pts
+			(xy 196.85 133.35) (xy 212.09 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdd6522f-6016-44b0-acce-8425c6389244")
 	)
 	(wire
 		(pts
@@ -5363,6 +5369,16 @@
 			(type default)
 		)
 		(uuid "efaf5c79-6776-4a45-8275-0998acfd7417")
+	)
+	(wire
+		(pts
+			(xy 196.85 130.81) (xy 212.09 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc77a08f-22c9-4035-9f9e-95764de04583")
 	)
 	(rectangle
 		(start 26.67 25.273)
@@ -6604,7 +6620,7 @@
 	)
 	(global_label "FPGA49"
 		(shape input)
-		(at 247.65 140.97 180)
+		(at 196.85 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6614,7 +6630,7 @@
 		)
 		(uuid "a0f851f7-b46c-4418-88dc-6381e63de90a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.1828 140.97 0)
+			(at 187.3828 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6648,7 +6664,7 @@
 	)
 	(global_label "FPGA3"
 		(shape input)
-		(at 247.65 138.43 180)
+		(at 196.85 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6658,7 +6674,7 @@
 		)
 		(uuid "aa0a883e-c789-4b1b-bd82-a84579d01cb1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.3923 138.43 0)
+			(at 188.5923 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7269,7 +7285,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 242.57 34.29 180)
+		(at 262.89 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7277,7 +7293,7 @@
 		(dnp no)
 		(uuid "0a39efc5-027d-4572-8469-2be9aafd1731")
 		(property "Reference" "D1"
-			(at 242.8875 27.94 0)
+			(at 262.89 28.956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7285,7 +7301,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 242.8875 30.48 0)
+			(at 262.636 30.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7293,7 +7309,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
-			(at 242.57 34.29 0)
+			(at 262.89 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7302,7 +7318,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 34.29 0)
+			(at 262.89 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7311,7 +7327,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 242.57 34.29 0)
+			(at 262.89 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7320,7 +7336,7 @@
 			)
 		)
 		(property "manf#" "SD103AWS-E3-08"
-			(at 242.57 34.29 0)
+			(at 262.89 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7329,7 +7345,7 @@
 			)
 		)
 		(property "farnell#" "2393466"
-			(at 242.57 34.29 0)
+			(at 262.89 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7338,7 +7354,7 @@
 			)
 		)
 		(property "mouser#" "78-SD103AWS-HE3-18"
-			(at 242.57 34.29 0)
+			(at 262.89 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7347,7 +7363,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 242.57 34.29 0)
+			(at 262.89 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7560,7 +7576,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.33uF"
+		(property "Value" "1uF"
 			(at 40.64 52.0699 0)
 			(effects
 				(font
@@ -7596,7 +7612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Farnell" "2332405"
+		(property "Farnell" "2094043"
 			(at 36.83 50.8 0)
 			(effects
 				(font
@@ -7605,7 +7621,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "80-C0805C334K5R"
+		(property "mouser#" "581-08055C105KAT2A"
 			(at 36.83 50.8 0)
 			(effects
 				(font
@@ -7614,7 +7630,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "C0805C334K5RACTU"
+		(property "manf#" "08055C105KAT2A"
 			(at 36.83 50.8 0)
 			(effects
 				(font
@@ -8323,7 +8339,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 231.14 34.29 90)
+		(at 266.7 34.29 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8331,7 +8347,7 @@
 		(dnp no)
 		(uuid "2b81a9b0-2534-475d-bc62-1f94dcd45bf6")
 		(property "Reference" "#PWR023"
-			(at 234.95 34.29 0)
+			(at 262.89 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8340,7 +8356,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 226.7458 33.909 90)
+			(at 271.0942 34.671 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8348,7 +8364,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 34.29 0)
+			(at 266.7 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8357,7 +8373,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 34.29 0)
+			(at 266.7 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8366,7 +8382,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 231.14 34.29 0)
+			(at 266.7 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8388,7 +8404,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 262.89 34.29 90)
+		(at 242.57 34.29 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8397,7 +8413,7 @@
 		(fields_autoplaced yes)
 		(uuid "34a77887-2550-48bb-8664-f017f42c6387")
 		(property "Reference" "#PWR028"
-			(at 269.24 34.29 0)
+			(at 236.22 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8406,7 +8422,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 266.7 34.2899 90)
+			(at 238.76 34.2901 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8415,7 +8431,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 262.89 34.29 0)
+			(at 242.57 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8424,7 +8440,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 34.29 0)
+			(at 242.57 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8433,7 +8449,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 262.89 34.29 0)
+			(at 242.57 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8765,7 +8781,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 261.62 34.29 0)
+		(at 243.84 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8773,7 +8789,7 @@
 		(dnp no)
 		(uuid "44d7d911-d946-4af3-a6bd-5aeba78f404e")
 		(property "Reference" "#FLG03"
-			(at 261.62 32.385 0)
+			(at 243.84 32.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8782,7 +8798,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 261.62 29.8958 0)
+			(at 243.84 29.8958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8790,7 +8806,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 34.29 0)
+			(at 243.84 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8799,7 +8815,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 34.29 0)
+			(at 243.84 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8808,7 +8824,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 261.62 34.29 0)
+			(at 243.84 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8823,6 +8839,72 @@
 			(project "main_board"
 				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455"
 					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 247.65 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "550fe034-f480-4054-9535-83e75de4ccc4")
+		(property "Reference" "#PWR049"
+			(at 251.46 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 243.84 140.716 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 247.65 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f988449-a98a-4492-9b30-2593ad4f6fe4")
+		)
+		(instances
+			(project "main_board"
+				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -9886,6 +9968,71 @@
 			(project "main_board"
 				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 247.65 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9cc10a36-2b78-4b8e-b68c-179c7b4ccdbb")
+		(property "Reference" "#PWR048"
+			(at 251.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 241.3 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 247.65 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9c1f5c2-1019-4745-b788-d1d9e3d96750")
+		)
+		(instances
+			(project "main_board"
+				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -11111,109 +11258,6 @@
 			(project "main_board"
 				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
-		(at 234.95 34.29 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dd97ad79-be55-4429-bb4c-30e250b293b5")
-		(property "Reference" "F2"
-			(at 233.426 28.956 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Fuse"
-			(at 234.442 31.242 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
-			(at 234.95 32.512 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 234.95 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Farnell" "2799448"
-			(at 234.95 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "SF-0402FP100-2"
-			(at 234.95 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser#" "652-SF-0402FP100-2"
-			(at 234.95 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 234.95 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d82bb8ee-5dbe-486f-98f8-1158b875b98a")
-		)
-		(pin "2"
-			(uuid "f4ffbbd4-547f-48bb-a947-84d562d5f88e")
-		)
-		(instances
-			(project "main_board"
-				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455"
-					(reference "F2")
 					(unit 1)
 				)
 			)

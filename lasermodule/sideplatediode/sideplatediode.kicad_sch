@@ -1034,7 +1034,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "OSRAM"
+		(property "manuf#" "BPW 34 S"
 			(at 50.8 41.91 0)
 			(effects
 				(font
@@ -1044,17 +1044,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "1.5"
-			(at 50.8 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
+		(property "mouser#" "720-BPW34S-Z"
 			(at 50.8 41.91 0)
 			(effects
 				(font
