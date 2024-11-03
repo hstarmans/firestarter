@@ -2309,6 +2309,10 @@
 		(uuid "db678547-3bc5-438b-9ee0-9ebd07079cbd")
 	)
 	(no_connect
+		(at 241.3 34.29)
+		(uuid "068a06ba-127f-453f-b8e5-244742e0b5fc")
+	)
+	(no_connect
 		(at 100.33 54.61)
 		(uuid "0e87bea0-7ec6-48af-9325-19b2ca290001")
 	)
@@ -2528,6 +2532,16 @@
 		)
 		(uuid "5ff0ffc1-87be-4374-a69f-d304faf80e22")
 	)
+	(polyline
+		(pts
+			(xy 262.89 38.1) (xy 262.89 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66d122c9-c4ad-4e38-b5fe-240595068fba")
+	)
 	(wire
 		(pts
 			(xy 107.95 77.47) (xy 107.95 80.01)
@@ -2537,6 +2551,16 @@
 			(type default)
 		)
 		(uuid "6b4adf25-2321-4ad9-ae81-4ce121b1bfe0")
+	)
+	(polyline
+		(pts
+			(xy 262.89 29.21) (xy 237.49 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "774d91c2-3918-44c6-9668-8a009de3b0a8")
 	)
 	(polyline
 		(pts
@@ -2557,6 +2581,16 @@
 			(type default)
 		)
 		(uuid "81c3f4f5-cdfe-4623-85da-6d5356c16491")
+	)
+	(polyline
+		(pts
+			(xy 237.49 38.1) (xy 262.89 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8af98918-5593-4880-bf4b-5a4cf3de5fcb")
 	)
 	(polyline
 		(pts
@@ -2627,6 +2661,16 @@
 			(type default)
 		)
 		(uuid "c4a7c0dc-9723-43fb-920b-da1bcdb9cb0c")
+	)
+	(polyline
+		(pts
+			(xy 237.49 29.21) (xy 237.49 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd2f571e-edbb-47a7-93ba-4109c7541709")
 	)
 	(wire
 		(pts
@@ -4837,6 +4881,73 @@
 			(project ""
 				(path "/6ad206d4-5372-46a2-80b5-cf4f27c341ba"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 246.38 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e8c0f7b-0c59-445a-80e7-1d417c21956f")
+		(property "Reference" "J1"
+			(at 248.92 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "mirrormotor"
+			(at 248.92 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "sockets_scanhead:mirror_motor"
+			(at 246.38 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86854741-7733-41ff-bb47-fb3ca5666bf1")
+		)
+		(instances
+			(project "pcbmotor_base"
+				(path "/6ad206d4-5372-46a2-80b5-cf4f27c341ba"
+					(reference "J1")
 					(unit 1)
 				)
 			)
