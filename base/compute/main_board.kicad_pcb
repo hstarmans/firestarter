@@ -45,6 +45,7 @@
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
+				(color "Black")
 				(thickness 0.01)
 			)
 			(layer "F.Cu"
@@ -64,6 +65,7 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
+				(color "Black")
 				(thickness 0.01)
 			)
 			(layer "B.Paste"
@@ -14734,7 +14736,7 @@
 		)
 	)
 	(gr_text "PCB3D_TL_main_board"
-		(at 160.7 127.87 0)
+		(at 160.97 127.79 0)
 		(layer "Cmts.User")
 		(uuid "05f054f2-5608-49b8-827e-f94b5c15c604")
 		(effects

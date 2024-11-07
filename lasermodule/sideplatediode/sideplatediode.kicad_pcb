@@ -39,6 +39,7 @@
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
+				(color "Black")
 				(thickness 0.01)
 			)
 			(layer "F.Cu"
@@ -58,6 +59,7 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
+				(color "Black")
 				(thickness 0.01)
 			)
 			(layer "B.Paste"
@@ -3186,7 +3188,7 @@
 		)
 	)
 	(gr_text "PCB3D_BR_sideplatediode"
-		(at 210.66 121.748 0)
+		(at 207.17 121.64 0)
 		(layer "Cmts.User")
 		(uuid "771b3b5e-acaa-42e8-8ca3-236c70f61ffd")
 		(effects

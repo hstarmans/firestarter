@@ -30,6 +30,47 @@
 		(49 "F.Fab" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(color "Black")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(color "Black")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(grid_origin 154.1145 103.9495)
@@ -3699,7 +3740,7 @@
 		)
 	)
 	(gr_text "PCB3D_BR_topplate"
-		(at 214.6145 143.3495 0)
+		(at 213.8845 143.0195 0)
 		(layer "Cmts.User")
 		(uuid "5165fa3e-5656-4eb1-9862-090287bb5c42")
 		(effects
@@ -3712,7 +3753,7 @@
 		)
 	)
 	(gr_text "PCB3D_TL_topplate"
-		(at 94.4145 65.7495 0)
+		(at 94.1145 65.6795 0)
 		(layer "Cmts.User")
 		(uuid "53a4dbf1-03bc-4131-a7b5-00ce6182269d")
 		(effects
