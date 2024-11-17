@@ -3148,7 +3148,7 @@
 		(layer "Edge.Cuts")
 		(uuid "f976a0b1-24ec-4e66-9bb4-3507c10f25ff")
 	)
-	(gr_text "pos 2\n"
+	(gr_text "pos2\n"
 		(at 110.375 94.075 0)
 		(layer "F.SilkS")
 		(uuid "07a53a89-cd10-4bb8-bc59-e7acd8059c6e")

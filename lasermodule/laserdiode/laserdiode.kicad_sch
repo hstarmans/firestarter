@@ -115,145 +115,6 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016) hide)
@@ -986,16 +847,8 @@
 		(uuid "1263f3e9-5cdd-4301-ac15-707b32fc5e5c")
 	)
 	(no_connect
-		(at 152.4 62.23)
-		(uuid "54201526-dd97-4158-b08b-809d630d398a")
-	)
-	(no_connect
-		(at 152.4 59.69)
+		(at 152.4 57.15)
 		(uuid "b60b6794-de04-42e6-9d20-e49b6b721b4a")
-	)
-	(no_connect
-		(at 152.4 53.34)
-		(uuid "f25f5ad8-49d8-4470-80c0-fe4a3abdf484")
 	)
 	(wire
 		(pts
@@ -1263,8 +1116,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 157.48 59.69 0)
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 157.48 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1273,7 +1126,7 @@
 		(fields_autoplaced yes)
 		(uuid "1bdec871-4efa-4719-9101-1a8aa8e5e6f4")
 		(property "Reference" "J6"
-			(at 160.02 59.6899 0)
+			(at 160.02 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1282,7 +1135,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 160.02 62.2299 0)
+			(at 160.02 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1291,7 +1144,7 @@
 			)
 		)
 		(property "Footprint" "laserdiode:23765912"
-			(at 157.48 59.69 0)
+			(at 157.48 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1300,7 +1153,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 59.69 0)
+			(at 157.48 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1308,8 +1161,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 157.48 59.69 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 157.48 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1318,7 +1171,7 @@
 			)
 		)
 		(property "Producer" "0906-1-15-20-75-14-11-0"
-			(at 157.48 59.69 0)
+			(at 157.48 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1327,7 +1180,7 @@
 			)
 		)
 		(property "Mouser" "575-906115"
-			(at 157.48 59.69 0)
+			(at 157.48 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1336,7 +1189,7 @@
 			)
 		)
 		(property "manuf#" "74663125R"
-			(at 157.48 59.69 0)
+			(at 157.48 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1345,7 +1198,7 @@
 			)
 		)
 		(property "mouser#" "710-74663125R"
-			(at 157.48 59.69 0)
+			(at 157.48 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1355,9 +1208,6 @@
 		)
 		(pin "1"
 			(uuid "cb1b225b-1b4f-4ddc-a112-029bfa599d7f")
-		)
-		(pin "2"
-			(uuid "ae69a90e-81b5-4970-b225-ed6e5ac9ce68")
 		)
 		(instances
 			(project "laserdiode"
@@ -2230,7 +2080,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
+		(lib_id "Connector_Generic:Conn_01x01")
 		(at 157.48 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2240,7 +2090,7 @@
 		(fields_autoplaced yes)
 		(uuid "95b94b02-6e5e-421c-8d07-e0e04f3611af")
 		(property "Reference" "J7"
-			(at 160.02 50.7999 0)
+			(at 160.02 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2249,7 +2099,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 160.02 53.3399 0)
+			(at 160.02 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2275,7 +2125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 157.48 50.8 0)
 			(effects
 				(font
@@ -2304,9 +2154,6 @@
 		)
 		(pin "1"
 			(uuid "dacb75c8-d4ce-490e-94e3-378be1cb34dd")
-		)
-		(pin "2"
-			(uuid "b3452504-fc96-48cc-8352-7f95400ebeba")
 		)
 		(instances
 			(project "laserdiode"
