@@ -6,7 +6,7 @@
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
-        "board_outline_line_width": 0.12,
+        "board_outline_line_width": 0.05,
         "copper_line_width": 0.2,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,
@@ -37,11 +37,11 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.2,
-          "height": 3.2,
-          "width": 3.2
+          "drill": 7.2,
+          "height": 2.8,
+          "width": 8.2
         },
-        "silk_line_width": 0.15,
+        "silk_line_width": 0.12,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -91,12 +91,12 @@
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "warning",
         "missing_footprint": "warning",
         "net_conflict": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "warning",
         "padstack": "error",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "warning",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
@@ -124,8 +124,8 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.06,
-        "min_hole_clearance": 0.15,
+        "min_copper_edge_clearance": 0.025,
+        "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -134,7 +134,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.15,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
@@ -185,10 +185,8 @@
       ],
       "track_widths": [
         0.0,
-        0.5,
-        0.7,
-        1.37,
-        3.0
+        0.25,
+        0.7
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -219,6 +217,10 @@
       "via_dimensions": [
         {
           "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.3,
           "drill": 0.0
         }
       ],
@@ -455,7 +457,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "main_board.kicad_pro",
+    "filename": "felixmount.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -483,12 +485,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "Default",
-        "pattern": "Z_DIR"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -506,16 +503,16 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "computebom.csv",
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
-      "field_delimiter": "\t",
+      "field_delimiter": ",",
       "keep_line_breaks": false,
       "keep_tabs": false,
-      "name": "TSV",
+      "name": "CSV",
       "ref_delimiter": ",",
       "ref_range_delimiter": "",
-      "string_delimiter": ""
+      "string_delimiter": "\""
     },
     "bom_presets": [],
     "bom_settings": {
@@ -565,27 +562,15 @@
         },
         {
           "group_by": false,
-          "label": "Notes",
-          "name": "Notes",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "OLDFootprint",
-          "name": "OLDFootprint",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Text",
-          "name": "Text",
+          "label": "Producer",
+          "name": "Producer",
           "show": false
         },
         {
           "group_by": false,
           "label": "farnell#",
           "name": "farnell#",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -604,12 +589,18 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "name": "",
-      "sort_asc": true,
+      "sort_asc": false,
       "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
@@ -650,7 +641,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "pihat",
+    "plot_directory": "images/",
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -663,16 +654,8 @@
   },
   "sheets": [
     [
-      "3f5fe6b7-98fc-4d3e-9567-f9f7202d1455",
+      "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       "Root"
-    ],
-    [
-      "ded41933-47f2-4164-99b5-6584a7af0743",
-      "ESP32"
-    ],
-    [
-      "bdb11667-3ffd-4676-bd47-34e666a8a2df",
-      "FPGA"
     ]
   ],
   "text_variables": {}

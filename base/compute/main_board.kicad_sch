@@ -5600,7 +5600,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 182.88 121.92 0)
+		(at 118.11 105.41 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -5609,7 +5609,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e38af05-f4f8-4d82-9a80-a7fe5ef07467")
 		(property "Reference" "H2"
-			(at 185.42 120.6499 0)
+			(at 120.65 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5618,7 +5618,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 185.42 123.1899 0)
+			(at 120.65 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5627,7 +5627,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 182.88 121.92 0)
+			(at 118.11 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5636,7 +5636,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 121.92 0)
+			(at 118.11 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5645,7 +5645,25 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 182.88 121.92 0)
+			(at 118.11 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "970050244"
+			(at 118.11 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "710-970050244"
+			(at 118.11 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6338,7 +6356,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 182.88 129.54 0)
+		(at 118.11 113.03 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -6347,7 +6365,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e5ae432-c167-4ff4-ab50-46549e4aafb3")
 		(property "Reference" "H3"
-			(at 185.42 128.2699 0)
+			(at 120.65 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6356,7 +6374,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 185.42 130.8099 0)
+			(at 120.65 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6365,7 +6383,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 182.88 129.54 0)
+			(at 118.11 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6374,7 +6392,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 129.54 0)
+			(at 118.11 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6383,7 +6401,25 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 182.88 129.54 0)
+			(at 118.11 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "970050244"
+			(at 118.11 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "710-970050244"
+			(at 118.11 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6402,7 +6438,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 182.88 115.57 0)
+		(at 118.11 99.06 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -6411,7 +6447,7 @@
 		(fields_autoplaced yes)
 		(uuid "60f07f9d-b6c3-4136-9e5b-0dc5593ecf04")
 		(property "Reference" "H1"
-			(at 185.42 114.2999 0)
+			(at 120.65 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6420,7 +6456,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 185.42 116.8399 0)
+			(at 120.65 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6429,7 +6465,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 182.88 115.57 0)
+			(at 118.11 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6438,7 +6474,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 115.57 0)
+			(at 118.11 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6447,7 +6483,25 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 182.88 115.57 0)
+			(at 118.11 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "710-970050244"
+			(at 118.11 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "970050244"
+			(at 118.11 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8492,7 +8546,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 182.88 135.89 0)
+		(at 118.11 119.38 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -8501,7 +8555,7 @@
 		(fields_autoplaced yes)
 		(uuid "fee2712f-448e-4539-aa7f-0f89cbca514d")
 		(property "Reference" "H4"
-			(at 185.42 134.6199 0)
+			(at 120.65 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8510,7 +8564,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 185.42 137.1599 0)
+			(at 120.65 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8519,7 +8573,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 182.88 135.89 0)
+			(at 118.11 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8528,7 +8582,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 135.89 0)
+			(at 118.11 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8537,7 +8591,25 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 182.88 135.89 0)
+			(at 118.11 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "970050244"
+			(at 118.11 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "710-970050244"
+			(at 118.11 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)

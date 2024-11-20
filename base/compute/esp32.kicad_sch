@@ -1445,25 +1445,25 @@
 		)
 	)
 	(junction
+		(at 76.2 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1bc16b9b-89a2-4a0e-9155-660f3be17da8")
+	)
+	(junction
 		(at 238.76 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "603071d0-86f2-497c-b192-288f12b2117b")
 	)
 	(junction
-		(at 80.01 59.69)
+		(at 66.04 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "75a9b522-c6ba-4b41-b62a-992c219146a4")
+		(uuid "cd7f152e-f96a-477a-9cd2-a30849a4b944")
 	)
 	(junction
-		(at 69.85 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d324d44a-2465-4777-98dc-e7e1e8c1c504")
-	)
-	(junction
-		(at 69.85 49.53)
+		(at 76.2 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f22e32bc-edb0-46f7-82a7-11ab7459960d")
@@ -1498,17 +1498,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 59.69) (xy 80.01 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f0ebfba-cea5-4c34-99c4-76ffb285d3a5")
-	)
-	(wire
-		(pts
-			(xy 69.85 49.53) (xy 69.85 52.07)
+			(xy 76.2 69.85) (xy 76.2 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1528,7 +1518,27 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 49.53) (xy 80.01 49.53)
+			(xy 76.2 59.69) (xy 88.9 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c3596d5-d914-4e6d-abf0-27f1e2609ead")
+	)
+	(wire
+		(pts
+			(xy 66.04 59.69) (xy 76.2 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bb5c18b-80b2-406c-9352-0ae4b6d3eb77")
+	)
+	(wire
+		(pts
+			(xy 76.2 69.85) (xy 66.04 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1546,18 +1556,8 @@
 		)
 		(uuid "cb77c3cf-7cd6-4c40-8cca-d52fb2825a2f")
 	)
-	(wire
-		(pts
-			(xy 80.01 59.69) (xy 88.9 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f12157b1-0ee6-4223-8bdc-d00581399a8b")
-	)
 	(rectangle
-		(start 64.77 40.64)
+		(start 48.26 40.64)
 		(end 223.52 152.4)
 		(stroke
 			(width 0)
@@ -2289,7 +2289,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 49.53 180)
+		(at 76.2 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2298,7 +2298,7 @@
 		(fields_autoplaced yes)
 		(uuid "2005de51-5169-436e-8120-3aebde31cdb2")
 		(property "Reference" "#PWR05"
-			(at 69.85 43.18 0)
+			(at 76.2 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2307,7 +2307,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 45.085 0)
+			(at 76.2 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2315,7 +2315,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 49.53 0)
+			(at 76.2 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2324,7 +2324,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 49.53 0)
+			(at 76.2 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2333,7 +2333,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 49.53 0)
+			(at 76.2 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2421,7 +2421,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 201.93 74.93 90)
+		(at 201.93 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2430,7 +2430,7 @@
 		(fields_autoplaced yes)
 		(uuid "4067baa4-95e0-4cdc-88eb-de8f47623637")
 		(property "Reference" "#PWR032"
-			(at 208.28 74.93 0)
+			(at 201.93 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2439,12 +2439,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 205.74 74.93 90)
+			(at 204.47 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -2649,7 +2649,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 69.85 55.88 180)
+		(at 76.2 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2657,7 +2657,7 @@
 		(dnp no)
 		(uuid "7bfda4c6-d8be-4cb7-afdc-2441f04c6036")
 		(property "Reference" "C9"
-			(at 75.184 56.642 0)
+			(at 70.866 62.738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2666,7 +2666,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 76.2 54.102 0)
+			(at 69.85 65.278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2675,7 +2675,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 68.8848 52.07 0)
+			(at 77.1652 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2684,7 +2684,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 55.88 0)
+			(at 76.2 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2693,7 +2693,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 55.88 0)
+			(at 76.2 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2702,7 +2702,7 @@
 			)
 		)
 		(property "farnell#" "2094043"
-			(at 69.85 55.88 0)
+			(at 76.2 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2711,7 +2711,7 @@
 			)
 		)
 		(property "manf#" "08055C105KAT2A"
-			(at 69.85 55.88 0)
+			(at 76.2 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2720,7 +2720,7 @@
 			)
 		)
 		(property "mouser#" "581-08055C105KAT2A"
-			(at 69.85 55.88 0)
+			(at 76.2 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2817,7 +2817,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 80.01 54.61 90)
+		(at 66.04 64.77 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2826,7 +2826,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa2943bf-e8d0-488b-85fe-8e41b173e33b")
 		(property "Reference" "SW2"
-			(at 81.28 53.3399 90)
+			(at 64.77 66.0401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2835,7 +2835,7 @@
 			)
 		)
 		(property "Value" "SW_Push_Open"
-			(at 81.28 55.8799 90)
+			(at 64.77 63.5001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2844,7 +2844,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
-			(at 74.93 54.61 0)
+			(at 71.12 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2853,7 +2853,7 @@
 			)
 		)
 		(property "Datasheet" "https://nl.farnell.com/en-NL/alcoswitch-te-connectivity/fsmsm/switch-spst-0-05a-24vdc-smd/dp/1703878"
-			(at 74.93 54.61 0)
+			(at 71.12 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2862,7 +2862,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 80.01 54.61 0)
+			(at 66.04 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2871,7 +2871,7 @@
 			)
 		)
 		(property "farnell#" "1333652"
-			(at 80.01 54.61 0)
+			(at 66.04 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2880,7 +2880,7 @@
 			)
 		)
 		(property "manf#" "B3U-1000P"
-			(at 80.01 54.61 0)
+			(at 66.04 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2889,7 +2889,7 @@
 			)
 		)
 		(property "mouser#" "653-B3U-1000P"
-			(at 80.01 54.61 0)
+			(at 66.04 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3010,7 +3010,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 69.85 67.31 180)
+		(at 66.04 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3019,7 +3019,7 @@
 		(fields_autoplaced yes)
 		(uuid "c752d910-98b4-49a7-b4e6-b59e16886171")
 		(property "Reference" "#PWR04"
-			(at 69.85 63.5 0)
+			(at 66.04 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3028,7 +3028,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 69.85 72.39 0)
+			(at 66.04 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3036,7 +3036,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 67.31 0)
+			(at 66.04 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3045,7 +3045,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 67.31 0)
+			(at 66.04 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3054,7 +3054,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 69.85 67.31 0)
+			(at 66.04 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3281,7 +3281,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 69.85 63.5 180)
+		(at 66.04 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3289,7 +3289,7 @@
 		(dnp no)
 		(uuid "dee29d35-db21-4c2d-b623-ba0654dc1866")
 		(property "Reference" "R4"
-			(at 74.93 64.262 0)
+			(at 60.96 55.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3298,7 +3298,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 76.2 61.976 0)
+			(at 59.69 57.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3307,7 +3307,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 71.628 63.5 90)
+			(at 64.262 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3316,7 +3316,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 63.5 0)
+			(at 66.04 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3325,7 +3325,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 63.5 0)
+			(at 66.04 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3334,7 +3334,7 @@
 			)
 		)
 		(property "farnell#" "2826162"
-			(at 69.85 63.5 0)
+			(at 66.04 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3343,7 +3343,7 @@
 			)
 		)
 		(property "manf#" "CRCW080510K0JNEAC"
-			(at 69.85 63.5 0)
+			(at 66.04 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3352,7 +3352,7 @@
 			)
 		)
 		(property "mouser#" "71-CRCW080510K0JNEAC"
-			(at 69.85 63.5 0)
+			(at 66.04 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)

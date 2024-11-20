@@ -8253,6 +8253,24 @@
 				(hide yes)
 			)
 		)
+		(property "mouser#" "710-970100244"
+			(at 158.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "970100244"
+			(at 158.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "main_board"
 				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455"
@@ -10452,6 +10470,24 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 158.75 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "710-970100244"
+			(at 158.75 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "970100244"
 			(at 158.75 49.53 0)
 			(effects
 				(font
