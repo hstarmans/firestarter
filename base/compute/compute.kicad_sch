@@ -5603,7 +5603,7 @@
 		(at 118.11 105.41 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5685,7 +5685,7 @@
 		(at 252.73 144.78 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "1fe682eb-fa6b-491e-a0b7-d7e4e35440ee")
@@ -6359,7 +6359,7 @@
 		(at 118.11 113.03 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6441,7 +6441,7 @@
 		(at 118.11 99.06 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8549,7 +8549,7 @@
 		(at 118.11 119.38 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8657,7 +8657,7 @@
 			)
 		)
 		(instances
-			(project "main_board"
+			(project "compute"
 				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455"
 					(page "3")
 				)
@@ -8695,7 +8695,7 @@
 			)
 		)
 		(instances
-			(project "main_board"
+			(project "compute"
 				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455"
 					(page "2")
 				)

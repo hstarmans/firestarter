@@ -2261,6 +2261,18 @@
 		(uuid "f858e349-66e8-4426-81c5-6352a940b098")
 	)
 	(no_connect
+		(at 182.88 114.3)
+		(uuid "0560b2a2-e149-431d-878c-76ea8c16a006")
+	)
+	(no_connect
+		(at 184.15 50.8)
+		(uuid "14f5daa8-fc0f-4677-b70e-6fff7ccad5cf")
+	)
+	(no_connect
+		(at 184.15 40.64)
+		(uuid "26fee5b2-caae-4888-986c-a5a80002bd90")
+	)
+	(no_connect
 		(at 50.8 97.79)
 		(uuid "325b85e2-90f4-4c70-a1c4-ba7532efb297")
 	)
@@ -2283,6 +2295,10 @@
 	(no_connect
 		(at 171.45 74.93)
 		(uuid "521658e4-a2fe-4bd4-9312-176fe1e47b9f")
+	)
+	(no_connect
+		(at 182.88 97.79)
+		(uuid "5331fc8b-0cee-48cc-abc7-7216e8c10bd9")
 	)
 	(no_connect
 		(at 152.4 151.13)
@@ -2309,6 +2325,10 @@
 		(uuid "76cd7de9-b21f-4db0-9975-d8735445b601")
 	)
 	(no_connect
+		(at 184.15 66.04)
+		(uuid "af43fd97-a7da-4881-8953-ed47ab54f428")
+	)
+	(no_connect
 		(at 50.8 152.4)
 		(uuid "b681355f-5468-41e2-a609-33a0a31b3e42")
 	)
@@ -2325,8 +2345,16 @@
 		(uuid "ca46eee8-99b1-4c24-beab-e65169fe691c")
 	)
 	(no_connect
+		(at 184.15 83.82)
+		(uuid "d48fd821-78b3-46fe-a63f-a8e51c6869e8")
+	)
+	(no_connect
 		(at 50.8 245.11)
 		(uuid "e063c956-9824-43af-bc0e-d8950f329c08")
+	)
+	(no_connect
+		(at 184.15 33.02)
+		(uuid "e7842a68-cc0f-4aa9-a0ea-707eb8f36c9e")
 	)
 	(wire
 		(pts
@@ -3012,7 +3040,7 @@
 	)
 	(rectangle
 		(start 149.86 26.67)
-		(end 179.705 124.46)
+		(end 215.9 124.46)
 		(stroke
 			(width 0)
 			(type default)
@@ -5258,7 +5286,7 @@
 				(hide yes)
 			)
 		)
-		(property "farnell#" "2399335"
+		(property "farnell#" "9491929"
 			(at 171.45 96.52 0)
 			(effects
 				(font
@@ -5267,7 +5295,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "S4B-XH-SM4-TB(LF)(SN)"
+		(property "manf#" "B4B-PH-SM4-TB(LF)(SN)"
 			(at 171.45 96.52 0)
 			(effects
 				(font
@@ -5276,7 +5304,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "306-S4BXHSM4TBLFSN"
+		(property "mouser#" ""
 			(at 171.45 96.52 0)
 			(effects
 				(font
@@ -5794,6 +5822,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 189.23 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2dfbf95d-b2c8-4d8a-ab33-a03cf3ebd505")
+		(property "Reference" "J15"
+			(at 191.77 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "receptable 3 way"
+			(at 191.77 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 189.23 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "PHR-3"
+			(at 189.23 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" ""
+			(at 189.23 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "farnell#" "3616198"
+			(at 189.23 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbe91f1e-fda9-4a58-a2f6-8183f953cb6c")
+		)
+		(instances
+			(project "extension"
+				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/bdb11667-3ffd-4676-bd47-34e666a8a2df"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x04_MountingPin")
 		(at 171.45 64.77 0)
 		(unit 1)
@@ -5847,7 +5969,7 @@
 				(hide yes)
 			)
 		)
-		(property "farnell#" "2399335"
+		(property "farnell#" "9491929"
 			(at 171.45 64.77 0)
 			(effects
 				(font
@@ -5856,7 +5978,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "S4B-XH-SM4-TB(LF)(SN)"
+		(property "manf#" "B4B-PH-SM4-TB(LF)(SN)"
 			(at 171.45 64.77 0)
 			(effects
 				(font
@@ -5865,7 +5987,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "306-S4BXHSM4TBLFSN"
+		(property "mouser#" ""
 			(at 171.45 64.77 0)
 			(effects
 				(font
@@ -7023,7 +7145,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "S3B-XH-SM4-TB(LF)(SN)"
+		(property "manf#" "B3B-PH-SM4-TB(LF)(SN)"
 			(at 171.45 82.55 0)
 			(effects
 				(font
@@ -7032,7 +7154,7 @@
 				(hide yes)
 			)
 		)
-		(property "farnell#" "2399334"
+		(property "farnell#" "9492542"
 			(at 171.45 82.55 0)
 			(effects
 				(font
@@ -7041,7 +7163,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "306-S3BXHSM4TBLFSN"
+		(property "mouser#" ""
 			(at 171.45 82.55 0)
 			(effects
 				(font
@@ -7180,6 +7302,100 @@
 			(project "main_board"
 				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/bdb11667-3ffd-4676-bd47-34e666a8a2df"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 189.23 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fc27507-076b-4184-a2dc-1a461bec4218")
+		(property "Reference" "J14"
+			(at 191.77 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "cable assembly"
+			(at 191.77 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 189.23 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "SPH-001T-P0.5L"
+			(at 189.23 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" ""
+			(at 189.23 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "farnell#" "2320539"
+			(at 189.23 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c165983-2765-418e-bf31-ec77b5b91680")
+		)
+		(instances
+			(project "extension"
+				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/bdb11667-3ffd-4676-bd47-34e666a8a2df"
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -7409,7 +7625,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "S3B-XH-SM4-TB(LF)(SN)"
+		(property "manf#" "B3B-PH-SM4-TB(LF)(SN)"
 			(at 171.45 114.3 0)
 			(effects
 				(font
@@ -7418,7 +7634,7 @@
 				(hide yes)
 			)
 		)
-		(property "farnell#" "2399334"
+		(property "farnell#" "9492542"
 			(at 171.45 114.3 0)
 			(effects
 				(font
@@ -7427,7 +7643,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "306-S3BXHSM4TBLFSN"
+		(property "mouser#" ""
 			(at 171.45 114.3 0)
 			(effects
 				(font
@@ -7734,6 +7950,100 @@
 			(project "main_board"
 				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/bdb11667-3ffd-4676-bd47-34e666a8a2df"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 189.23 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76e56450-015d-42e2-9d64-1eb1ca711040")
+		(property "Reference" "J13"
+			(at 191.77 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "receptable 3 way"
+			(at 191.77 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 189.23 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "PHR-3"
+			(at 189.23 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" ""
+			(at 189.23 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "farnell#" "3616198"
+			(at 189.23 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1333781a-be27-432c-96ca-42a4a107ae4d")
+		)
+		(instances
+			(project "extension"
+				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/bdb11667-3ffd-4676-bd47-34e666a8a2df"
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -8280,6 +8590,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 187.96 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89d67150-d568-425f-8b78-d4737c5d9c6f")
+		(property "Reference" "J16"
+			(at 190.5 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "receptable 3 way"
+			(at 190.5 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 187.96 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "PHR-3"
+			(at 187.96 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" ""
+			(at 187.96 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "farnell#" "3616198"
+			(at 187.96 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d15c04c0-a453-4a2d-a395-8b20b74c868b")
+		)
+		(instances
+			(project "extension"
+				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/bdb11667-3ffd-4676-bd47-34e666a8a2df"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 35.56 36.83 0)
 		(unit 1)
@@ -8399,7 +8803,7 @@
 				(hide yes)
 			)
 		)
-		(property "farnell#" "2399335"
+		(property "farnell#" "9491929"
 			(at 171.45 31.75 0)
 			(effects
 				(font
@@ -8408,7 +8812,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "S4B-XH-SM4-TB(LF)(SN)"
+		(property "manf#" "B4B-PH-SM4-TB(LF)(SN)"
 			(at 171.45 31.75 0)
 			(effects
 				(font
@@ -8417,7 +8821,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "306-S4BXHSM4TBLFSN"
+		(property "mouser#" ""
 			(at 171.45 31.75 0)
 			(effects
 				(font
@@ -8571,6 +8975,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 189.23 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93af9f13-3c0b-4823-a0e0-17e605b3895d")
+		(property "Reference" "J11"
+			(at 191.77 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "receptable 4 way"
+			(at 191.77 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 189.23 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "PHR-4"
+			(at 189.23 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "306-PHR-4"
+			(at 189.23 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "farnell#" "3616204"
+			(at 189.23 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b266fb3-3968-4511-b77b-f226aa8097c9")
+		)
+		(instances
+			(project "extension"
+				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/bdb11667-3ffd-4676-bd47-34e666a8a2df"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
 		(at 171.45 50.8 0)
 		(unit 1)
@@ -8624,7 +9122,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "S3B-XH-SM4-TB(LF)(SN)"
+		(property "manf#" "B3B-PH-SM4-TB(LF)(SN)"
 			(at 171.45 50.8 0)
 			(effects
 				(font
@@ -8633,7 +9131,7 @@
 				(hide yes)
 			)
 		)
-		(property "farnell#" "2399334"
+		(property "farnell#" "9492542"
 			(at 171.45 50.8 0)
 			(effects
 				(font
@@ -8642,7 +9140,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "306-S3BXHSM4TBLFSN"
+		(property "mouser#" ""
 			(at 171.45 50.8 0)
 			(effects
 				(font
@@ -9330,6 +9828,100 @@
 			(project "main_board"
 				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/bdb11667-3ffd-4676-bd47-34e666a8a2df"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 187.96 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1c40f0e-eb59-4663-bc5d-39daa841ceb0")
+		(property "Reference" "J12"
+			(at 190.5 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "receptable 4 way"
+			(at 190.5 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 187.96 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "PHR-4"
+			(at 187.96 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "306-PHR-4"
+			(at 187.96 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "farnell#" "3616204"
+			(at 187.96 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c76c13b0-aa2a-4e68-9900-623d8536531f")
+		)
+		(instances
+			(project "extension"
+				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/bdb11667-3ffd-4676-bd47-34e666a8a2df"
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -10470,6 +11062,100 @@
 			(project "main_board"
 				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/bdb11667-3ffd-4676-bd47-34e666a8a2df"
 					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 189.23 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7825d51-b1a0-4285-a241-42bfbcec90d5")
+		(property "Reference" "J10"
+			(at 191.77 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "receptable 4 way"
+			(at 191.77 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 189.23 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "PHR-4"
+			(at 189.23 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "306-PHR-4"
+			(at 189.23 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "farnell#" "3616204"
+			(at 189.23 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88247f27-8570-41c2-a704-f2dbfabc8397")
+		)
+		(instances
+			(project "extension"
+				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/bdb11667-3ffd-4676-bd47-34e666a8a2df"
+					(reference "J10")
 					(unit 1)
 				)
 			)

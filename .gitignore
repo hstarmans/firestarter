@@ -44,6 +44,8 @@ sym-lib-table
 
 # BOM Files / Notes in Libre office
 *.ods
+boms/
+*.html
 
 # Exported BOM files
 *.xml
