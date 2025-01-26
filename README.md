@@ -7,7 +7,7 @@ Files are split over two folders;
  * **Base**  
     The base is made by two boards; a compute and extension board.
     The compute boards creates the commands using an ESP32S3 and up5K FPGA. 
-    The extension board can control three stepper motors and connect to possible two laserheads.  
+    The extension board can control three stepper motors and connect to up to two laserheads.  
     
 A blog with progress updates is available on [Hackaday](https://hackaday.io/project/21933-open-hardware-fast-high-resolution-laser). 
 
