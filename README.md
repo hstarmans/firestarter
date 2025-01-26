@@ -13,4 +13,4 @@ A blog with progress updates is available on [Hackaday](https://hackaday.io/proj
 
 # Status
 Several systems were designed. A successful exposure is shown in this [video](https://youtu.be/dR09Tev0cPk).  
-Current design will be tested in december 2024.
+Current design is tested and functional.
