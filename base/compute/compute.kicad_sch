@@ -8191,7 +8191,16 @@
 				(hide yes)
 			)
 		)
-		(property "farnell#" "TSM-120-01-L-DV"
+		(property "farnell#" "2847240"
+			(at 222.25 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "2213SM-40G-TB"
 			(at 222.25 57.15 0)
 			(effects
 				(font

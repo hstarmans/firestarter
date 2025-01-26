@@ -1955,12 +1955,6 @@
 		)
 	)
 	(junction
-		(at 45.72 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "01421f31-c1c6-4217-9825-b112833d11a4")
-	)
-	(junction
 		(at 102.87 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1971,18 +1965,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06fdfc3d-859f-4389-bf44-e8837ae2499d")
-	)
-	(junction
-		(at 91.44 265.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "09050559-82a9-4eeb-b30e-f41919e97b40")
-	)
-	(junction
-		(at 45.72 209.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0aac77ad-8fa1-4fc6-89f7-7ac8852a3a09")
 	)
 	(junction
 		(at 35.56 116.84)
@@ -2007,18 +1989,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "17f39a70-4551-49e4-aa72-cceda19e8886")
-	)
-	(junction
-		(at 91.44 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1bb33e40-83e9-4a41-9682-0dffe74b3763")
-	)
-	(junction
-		(at 45.72 204.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "242c1f87-d4d9-46ab-9d52-8e4171185213")
 	)
 	(junction
 		(at 50.8 82.55)
@@ -2063,6 +2033,12 @@
 		(uuid "41fe0ba0-ffe0-478c-9212-ac9457853e1d")
 	)
 	(junction
+		(at 99.06 265.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "423e45bc-8fe4-43e3-a9b5-bf2a51dfb62a")
+	)
+	(junction
 		(at 166.37 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2087,6 +2063,12 @@
 		(uuid "55072092-d899-4977-a678-32aa4c0f121e")
 	)
 	(junction
+		(at 99.06 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57619faf-5301-41e2-99a2-0dec090162d2")
+	)
+	(junction
 		(at 120.65 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2103,12 +2085,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5fd44029-057b-4689-8b44-2db8e5077fb3")
-	)
-	(junction
-		(at 45.72 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6200434b-0038-4540-81e9-cd66567269fb")
 	)
 	(junction
 		(at 50.8 214.63)
@@ -2159,12 +2135,6 @@
 		(uuid "7d774c19-01fc-4ce8-ac47-843818769f38")
 	)
 	(junction
-		(at 91.44 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7dbe64ae-0fc9-495a-b74d-cf1b71ef4bd0")
-	)
-	(junction
 		(at 35.56 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2201,10 +2171,10 @@
 		(uuid "b132ca54-cd69-4cd4-9424-c6d59cb41929")
 	)
 	(junction
-		(at 45.72 116.84)
+		(at 99.06 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b84aed67-313a-4612-af75-66256f25a907")
+		(uuid "b672438f-98af-4ef3-af78-8465a904b5b8")
 	)
 	(junction
 		(at 35.56 214.63)
@@ -2241,12 +2211,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e50e358c-a16e-443a-8ab4-f146aeb34bf6")
-	)
-	(junction
-		(at 45.72 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eaed0b8d-a5fd-483f-999c-1d9b41752745")
 	)
 	(junction
 		(at 111.76 204.47)
@@ -2408,27 +2372,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 36.83) (xy 45.72 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15a690ee-6697-4d6b-b31d-bb0c2d9c7f71")
-	)
-	(wire
-		(pts
-			(xy 45.72 204.47) (xy 50.8 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1716d202-5f32-43c7-97b6-bef9428544ce")
-	)
-	(wire
-		(pts
-			(xy 35.56 116.84) (xy 45.72 116.84)
+			(xy 35.56 116.84) (xy 50.8 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2578,16 +2522,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 116.84) (xy 45.72 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d685117-59e0-4967-957f-793900d7af47")
-	)
-	(wire
-		(pts
 			(xy 158.75 111.76) (xy 158.75 114.3)
 		)
 		(stroke
@@ -2618,7 +2552,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 204.47) (xy 45.72 204.47)
+			(xy 35.56 204.47) (xy 50.8 204.47)
 		)
 		(stroke
 			(width 0)
@@ -2655,16 +2589,6 @@
 			(type default)
 		)
 		(uuid "629b8e94-5c4d-4fa7-8a7f-fc42b208ffa8")
-	)
-	(wire
-		(pts
-			(xy 91.44 92.71) (xy 91.44 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6906f748-3195-4bd2-a88a-c9985a72a189")
 	)
 	(wire
 		(pts
@@ -2748,7 +2672,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 260.35) (xy 91.44 265.43)
+			(xy 99.06 260.35) (xy 99.06 265.43)
 		)
 		(stroke
 			(width 0)
@@ -2818,16 +2742,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 116.84) (xy 50.8 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa151f82-788e-4555-b9ab-8742f38ca4d7")
-	)
-	(wire
-		(pts
 			(xy 50.8 82.55) (xy 50.8 87.63)
 		)
 		(stroke
@@ -2858,13 +2772,13 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 204.47) (xy 45.72 209.55)
+			(xy 99.06 177.8) (xy 99.06 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b398f716-2563-4e92-93eb-efa1be3766d8")
+		(uuid "ae6f3bc8-1172-4410-8f14-d6b3106fd388")
 	)
 	(wire
 		(pts
@@ -2888,6 +2802,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 97.79) (xy 99.06 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9b9e49d-f6f9-4c17-ac67-3523789ea156")
+	)
+	(wire
+		(pts
 			(xy 35.56 45.72) (xy 35.56 46.99)
 		)
 		(stroke
@@ -2898,7 +2822,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 36.83) (xy 45.72 36.83)
+			(xy 35.56 36.83) (xy 50.8 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2938,13 +2862,13 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 36.83) (xy 50.8 36.83)
+			(xy 99.06 265.43) (xy 99.06 266.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c5c7143d-99fd-4859-8eec-27de869a16ff")
+		(uuid "cac34c6b-93db-4ebf-8440-65096bcfb50d")
 	)
 	(wire
 		(pts
@@ -2988,6 +2912,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 172.72) (xy 99.06 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8033fb5-4cb2-482d-b8bb-a7da408c1936")
+	)
+	(wire
+		(pts
 			(xy 91.44 36.83) (xy 102.87 36.83)
 		)
 		(stroke
@@ -2995,16 +2929,6 @@
 			(type default)
 		)
 		(uuid "d90fce2e-ccb3-45ca-9afa-a7502f0769e7")
-	)
-	(wire
-		(pts
-			(xy 91.44 172.72) (xy 91.44 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e254c192-d80d-4b3e-961a-7d18f4e65af3")
 	)
 	(wire
 		(pts
@@ -3025,6 +2949,16 @@
 			(type default)
 		)
 		(uuid "f0d9df7a-6df0-45eb-b35e-b828d9c8dec7")
+	)
+	(wire
+		(pts
+			(xy 99.06 92.71) (xy 99.06 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe93ff42-4872-4883-9c1f-6083caa41909")
 	)
 	(rectangle
 		(start 22.606 27.178)
@@ -4285,6 +4219,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 95.25 260.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03b59de7-6509-4aeb-a731-557306e9c15f")
+		(property "Reference" "R8"
+			(at 96.52 258.318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.5"
+			(at 97.282 260.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 95.25 262.128 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "farnell#" "1100339"
+			(at 95.25 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "LR1206-R50FW"
+			(at 95.25 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "756-LR1206-R50FW "
+			(at 95.25 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 95.25 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0d8718e-6761-49b3-b18e-cc81ae6e5daa")
+		)
+		(pin "2"
+			(uuid "89451d6d-5bca-498c-8195-1f2b8844ba75")
+		)
+		(instances
+			(project "extension"
+				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/bdb11667-3ffd-4676-bd47-34e666a8a2df"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
 		(at 157.48 151.13 0)
 		(unit 1)
@@ -4373,71 +4412,6 @@
 			(project ""
 				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/bdb11667-3ffd-4676-bd47-34e666a8a2df"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 91.44 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0aaa8554-c791-4b8b-bb09-d1b88f1f108c")
-		(property "Reference" "#PWR044"
-			(at 91.44 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 95.504 99.822 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5f799c75-8cae-40ee-8675-079baeb4671d")
-		)
-		(instances
-			(project "main_board"
-				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/bdb11667-3ffd-4676-bd47-34e666a8a2df"
-					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -4702,6 +4676,111 @@
 			(project "main_board"
 				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/bdb11667-3ffd-4676-bd47-34e666a8a2df"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 95.25 265.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11b4857f-0bdf-40d7-b52e-94a0fd120c44")
+		(property "Reference" "R9"
+			(at 96.52 263.398 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.5"
+			(at 97.282 265.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 95.25 267.208 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "farnell#" "1100339"
+			(at 95.25 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "LR1206-R50FW"
+			(at 95.25 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "756-LR1206-R50FW"
+			(at 95.25 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 95.25 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81d3b227-d6dd-45f3-991e-49519b297758")
+		)
+		(pin "2"
+			(uuid "96b561fc-820e-4e91-9c9c-bc58aacc870c")
+		)
+		(instances
+			(project "extension"
+				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/bdb11667-3ffd-4676-bd47-34e666a8a2df"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -6135,71 +6214,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 91.44 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "32ce49de-c6aa-4e8f-b890-8cec34b31c6e")
-		(property "Reference" "#PWR045"
-			(at 91.44 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 95.504 179.832 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f24d49e3-0f27-478a-ae87-98628a75ab00")
-		)
-		(instances
-			(project "main_board"
-				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/bdb11667-3ffd-4676-bd47-34e666a8a2df"
-					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 119.38 63.5 0)
 		(unit 1)
@@ -6744,6 +6758,71 @@
 			(project "main_board"
 				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/bdb11667-3ffd-4676-bd47-34e666a8a2df"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 99.06 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d122bb5-08a6-41a7-970b-3ea51a50ca0b")
+		(property "Reference" "#PWR045"
+			(at 99.06 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 103.124 101.092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06d472cc-7b13-4335-9d83-9f2ae97e4ea6")
+		)
+		(instances
+			(project "extension"
+				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/bdb11667-3ffd-4676-bd47-34e666a8a2df"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -8155,6 +8234,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 95.25 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b305b75-c77b-4da4-8068-16bcc88cbe44")
+		(property "Reference" "R13"
+			(at 96.52 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.5"
+			(at 97.282 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 95.25 99.568 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "farnell#" "1100339"
+			(at 95.25 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "LR1206-R50FW"
+			(at 95.25 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "756-LR1206-R50FW"
+			(at 95.25 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 95.25 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30be1135-0ace-40c6-a209-ac860ea4db54")
+		)
+		(pin "2"
+			(uuid "ff5726bd-903c-493c-9fe6-881fb7b66ceb")
+		)
+		(instances
+			(project "extension"
+				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/bdb11667-3ffd-4676-bd47-34e666a8a2df"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
 		(at 157.48 157.48 0)
 		(unit 1)
@@ -8678,6 +8862,111 @@
 			(project "extension"
 				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/bdb11667-3ffd-4676-bd47-34e666a8a2df"
 					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 95.25 177.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8bbe9b8a-a2fe-4976-8b19-64c12f4e987a")
+		(property "Reference" "R11"
+			(at 96.52 175.768 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.5"
+			(at 97.282 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 95.25 179.578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "farnell#" "1100339"
+			(at 95.25 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "LR1206-R50FW"
+			(at 95.25 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "756-LR1206-R50FW"
+			(at 95.25 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 95.25 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b447965e-08c5-49c2-ac7e-b754ce9ee744")
+		)
+		(pin "2"
+			(uuid "d528096c-3e01-4341-b919-e8bf94e90a5d")
+		)
+		(instances
+			(project "extension"
+				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/bdb11667-3ffd-4676-bd47-34e666a8a2df"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -9246,6 +9535,71 @@
 			(project "main_board"
 				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/bdb11667-3ffd-4676-bd47-34e666a8a2df"
 					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 99.06 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9733f01e-3608-4d6d-92c6-73180c1fe479")
+		(property "Reference" "#PWR063"
+			(at 99.06 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 103.124 181.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61b38092-a27f-4a70-a58d-d0e7102b4036")
+		)
+		(instances
+			(project "extension"
+				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/bdb11667-3ffd-4676-bd47-34e666a8a2df"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -10585,6 +10939,216 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 95.25 172.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd4eeede-0e77-4988-b4cb-cd84ec7f8cac")
+		(property "Reference" "R10"
+			(at 96.52 170.688 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.5"
+			(at 97.282 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 95.25 174.498 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "farnell#" "1100339"
+			(at 95.25 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "LR1206-R50FW"
+			(at 95.25 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "756-LR1206-R50FW "
+			(at 95.25 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 95.25 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5176528f-5323-43a6-997f-b03a3a8cdd3b")
+		)
+		(pin "2"
+			(uuid "d2162789-d88b-4331-ba7f-b709fd7319da")
+		)
+		(instances
+			(project "extension"
+				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/bdb11667-3ffd-4676-bd47-34e666a8a2df"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 95.25 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2fa9b68-38e5-4756-9b8d-da08b99c2f3f")
+		(property "Reference" "R12"
+			(at 96.52 90.678 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.5"
+			(at 97.282 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 95.25 94.488 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "farnell#" "1100339"
+			(at 95.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "LR1206-R50FW"
+			(at 95.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "756-LR1206-R50FW "
+			(at 95.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 95.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dadab51a-c7bd-464f-8647-698da21534bb")
+		)
+		(pin "2"
+			(uuid "83d6444e-3245-4497-be67-a8bfbcad2866")
+		)
+		(instances
+			(project "extension"
+				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/bdb11667-3ffd-4676-bd47-34e666a8a2df"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "firestarter_library:TMC2209-LA-T")
 		(at 71.12 234.95 0)
 		(unit 1)
@@ -10796,7 +11360,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 265.43 0)
+		(at 99.06 266.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10804,7 +11368,7 @@
 		(dnp no)
 		(uuid "e49cceed-68cf-4e2c-a2b2-26a26db7ab1d")
 		(property "Reference" "#PWR046"
-			(at 91.44 271.78 0)
+			(at 99.06 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10813,7 +11377,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.504 267.462 0)
+			(at 103.124 268.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10821,7 +11385,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 265.43 0)
+			(at 99.06 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10830,7 +11394,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 265.43 0)
+			(at 99.06 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10839,7 +11403,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 265.43 0)
+			(at 99.06 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)

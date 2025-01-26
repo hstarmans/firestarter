@@ -12343,7 +12343,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "855-M20-7812045"
+		(property "mouser#" ""
 			(at 251.46 57.15 0)
 			(effects
 				(font
@@ -12352,7 +12352,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "M20-7812045"
+		(property "manf#" "2214SM-40G-75-PCR"
 			(at 251.46 57.15 0)
 			(effects
 				(font
@@ -12361,7 +12361,7 @@
 				(hide yes)
 			)
 		)
-		(property "farnell#" "3225919"
+		(property "farnell#" "2847933"
 			(at 251.46 57.15 0)
 			(effects
 				(font

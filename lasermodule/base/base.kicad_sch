@@ -2379,6 +2379,16 @@
 		)
 		(uuid "f701c041-bc34-4e4d-943a-3d693fee0ebf")
 	)
+	(text "PWM"
+		(exclude_from_sim no)
+		(at 171.958 70.104 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3a82716e-3235-4a1b-b083-5823220b33bd")
+	)
 	(text "Micropython"
 		(exclude_from_sim no)
 		(at 101.346 127.508 0)
@@ -2389,6 +2399,16 @@
 			(justify left bottom)
 		)
 		(uuid "4ad2ccfe-331a-4cb0-bb6e-4d2da26f1238")
+	)
+	(text "EN"
+		(exclude_from_sim no)
+		(at 171.196 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4d5f640f-3d66-4ed0-ac7d-c986edc521a7")
 	)
 	(text "YosysHQ"
 		(exclude_from_sim no)
