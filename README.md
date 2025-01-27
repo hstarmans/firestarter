@@ -10,6 +10,7 @@ Files are split over two folders;
     The extension board can control three stepper motors and connect to up to two laserheads.  
     
 A blog with progress updates is available on [Hackaday](https://hackaday.io/project/21933-open-hardware-fast-high-resolution-laser). 
+Cost spreadsehets can be generated via [KiCost](https://github.com/hildogjr/KiCost).
 
 # Status
 Several systems were designed. A successful exposure is shown in this [video](https://youtu.be/dR09Tev0cPk).  

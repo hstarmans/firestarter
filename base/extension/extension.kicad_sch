@@ -9871,7 +9871,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "60 mm ffc cable"
+		(property "Value" "610 mm ffc cable"
 			(at 210.82 35.5599 0)
 			(effects
 				(font
@@ -9907,7 +9907,7 @@
 				(hide yes)
 			)
 		)
-		(property "farnell#" "3514896"
+		(property "farnell#" "3514895"
 			(at 208.28 34.29 0)
 			(effects
 				(font
@@ -9916,7 +9916,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "FJ-20-R-24.00-4"
+		(property "manf#" "FJ-20-D-24.00-4"
 			(at 208.28 34.29 0)
 			(effects
 				(font
