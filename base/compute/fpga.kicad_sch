@@ -4290,7 +4290,7 @@
 				)
 			)
 		)
-		(property "manf#" "CL21B106KOQNNNE"
+		(property "manf#" "CL21A106KAYNNNE"
 			(at 105.41 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -4301,7 +4301,7 @@
 				)
 			)
 		)
-		(property "farnell#" "3013485"
+		(property "farnell#" "3010126"
 			(at 105.41 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -4312,7 +4312,7 @@
 				)
 			)
 		)
-		(property "mouser#" "187-CL21B106KOQNNNE"
+		(property "mouser#" "187-CL21A106KAYNNNE"
 			(at 105.41 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -4415,7 +4415,7 @@
 				)
 			)
 		)
-		(property "manf#" "CL21B106KOQNNNE"
+		(property "manf#" "CL21A106KAYNNNE"
 			(at 151.13 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -4426,7 +4426,7 @@
 				)
 			)
 		)
-		(property "farnell#" "3013485"
+		(property "farnell#" "3010126"
 			(at 151.13 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -4437,7 +4437,7 @@
 				)
 			)
 		)
-		(property "mouser#" "187-CL21B106KOQNNNE"
+		(property "mouser#" "187-CL21A106KAYNNNE"
 			(at 151.13 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -4795,7 +4795,7 @@
 				)
 			)
 		)
-		(property "manf#" "CL21B106KOQNNNE"
+		(property "manf#" "CL21A106KAYNNNE"
 			(at 177.8 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4806,7 +4806,7 @@
 				)
 			)
 		)
-		(property "farnell#" "3013485"
+		(property "farnell#" "3010126"
 			(at 177.8 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4817,7 +4817,7 @@
 				)
 			)
 		)
-		(property "mouser#" "187-CL21B106KOQNNNE"
+		(property "mouser#" "187-CL21A106KAYNNNE"
 			(at 177.8 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -5792,7 +5792,7 @@
 				)
 			)
 		)
-		(property "manf#" "CL21B106KOQNNNE"
+		(property "manf#" "CL21A106KAYNNNE"
 			(at 217.17 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -5803,7 +5803,7 @@
 				)
 			)
 		)
-		(property "farnell#" "3013485"
+		(property "farnell#" "3010126"
 			(at 217.17 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -5814,7 +5814,7 @@
 				)
 			)
 		)
-		(property "mouser#" "187-CL21B106KOQNNNE"
+		(property "mouser#" "187-CL21A106KAYNNNE"
 			(at 217.17 39.37 0)
 			(hide yes)
 			(show_name no)

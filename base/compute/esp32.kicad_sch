@@ -3317,7 +3317,7 @@
 				)
 			)
 		)
-		(property "farnell#" "3013485"
+		(property "farnell#" "3010126"
 			(at 76.2 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3328,7 +3328,7 @@
 				)
 			)
 		)
-		(property "manf#" "CL21B106KOQNNNE"
+		(property "manf#" "CL21A106KAYNNNE"
 			(at 76.2 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3339,7 +3339,7 @@
 				)
 			)
 		)
-		(property "mouser#" "187-CL21B106KOQNNNE"
+		(property "mouser#" "187-CL21A106KAYNNNE"
 			(at 76.2 63.5 0)
 			(hide yes)
 			(show_name no)
