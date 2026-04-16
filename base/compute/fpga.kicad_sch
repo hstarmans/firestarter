@@ -1817,22 +1817,6 @@
 		(color 0 0 0 0)
 		(uuid "ee774809-dfb9-4173-ba5c-89578d30d0d7")
 	)
-	(no_connect
-		(at 116.84 76.2)
-		(uuid "17fd1166-caec-411c-8447-7926f4c489be")
-	)
-	(no_connect
-		(at 116.84 78.74)
-		(uuid "410a777e-5b69-4789-991e-b8a2a8dceff5")
-	)
-	(no_connect
-		(at 116.84 71.12)
-		(uuid "7e6ea829-b94e-4c08-b202-07795c7f233d")
-	)
-	(no_connect
-		(at 73.66 49.53)
-		(uuid "a7fc2543-1db1-45c2-954a-0c27879888c8")
-	)
 	(wire
 		(pts
 			(xy 83.82 36.83) (xy 83.82 35.56)
@@ -2153,7 +2137,7 @@
 	)
 	(global_label "Z_PO"
 		(shape input)
-		(at 73.66 52.07 180)
+		(at 73.66 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2163,7 +2147,7 @@
 		)
 		(uuid "16655019-0118-42e4-af38-2f82fa4c4920")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.6308 52.07 0)
+			(at 66.6308 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2201,7 +2185,7 @@
 	)
 	(global_label "FPGA3"
 		(shape input)
-		(at 189.23 58.42 180)
+		(at 172.72 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2211,7 +2195,7 @@
 		)
 		(uuid "1b0ea4b2-66ce-4e69-945c-dd4df7d1e4a3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.47 20.32 0)
+			(at 60.96 11.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2222,9 +2206,33 @@
 			)
 		)
 	)
+	(global_label "FPGA39"
+		(shape input)
+		(at 73.66 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1c03f4e2-dd35-4dd6-9e47-54c14fed9040")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.1928 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "FPGA50"
 		(shape input)
-		(at 73.66 80.01 180)
+		(at 50.8 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2234,7 +2242,7 @@
 		)
 		(uuid "277dc65d-757e-4770-986c-c9ff5d0bca51")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -38.1 16.51 0)
+			(at -60.96 8.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2269,9 +2277,55 @@
 			)
 		)
 	)
-	(global_label "FPGA49"
+	(global_label "FPGA41"
 		(shape input)
-		(at 73.66 77.47 180)
+		(at 73.66 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2a45b0bc-f98f-4a4a-b33f-fee4cfd15867")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.1928 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "DIAG_Y"
+		(shape input)
+		(at 189.23 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2b30b966-c09c-405c-bda7-352cc77bb27d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.23 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "FPGA48"
+		(shape input)
+		(at 73.66 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2281,7 +2335,7 @@
 		)
 		(uuid "2d7c0960-b9a5-4bfd-80f5-da21eaba767f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -38.1 31.75 0)
+			(at 64.1928 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2289,6 +2343,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 	)
@@ -2318,7 +2373,7 @@
 	)
 	(global_label "uL"
 		(shape input)
-		(at 189.23 66.04 180)
+		(at 116.84 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2328,7 +2383,7 @@
 		)
 		(uuid "3fc96ec6-b110-4b26-8882-9baa6fd91e57")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.47 15.24 0)
+			(at 5.08 15.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2341,7 +2396,7 @@
 	)
 	(global_label "vH"
 		(shape input)
-		(at 116.84 55.88 180)
+		(at 116.84 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2351,7 +2406,7 @@
 		)
 		(uuid "41185a19-9007-4032-8697-1b83a3a6fab8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -49.53 11.43 0)
+			(at -49.53 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2362,9 +2417,33 @@
 			)
 		)
 	)
+	(global_label "FPGA37"
+		(shape input)
+		(at 73.66 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "468546b1-5114-48d6-b57e-8bb34cc0bd9f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.1928 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "HALL2"
 		(shape input)
-		(at 189.23 55.88 180)
+		(at 116.84 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2374,7 +2453,7 @@
 		)
 		(uuid "54962eb6-46f0-4c2e-aef8-989f974d22d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.47 2.54 0)
+			(at 5.08 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2435,7 +2514,7 @@
 	)
 	(global_label "wL"
 		(shape input)
-		(at 116.84 58.42 180)
+		(at 116.84 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2445,7 +2524,7 @@
 		)
 		(uuid "5db5a8f6-996d-44b6-b91a-2cf8ee5661a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -128.27 -1.27 0)
+			(at -128.27 -3.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2458,7 +2537,7 @@
 	)
 	(global_label "Y_PO"
 		(shape input)
-		(at 116.84 68.58 180)
+		(at 73.66 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2468,7 +2547,7 @@
 		)
 		(uuid "600cfe19-1902-4c86-bf98-5b7b396fec33")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.8152 68.58 0)
+			(at 64.6352 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2482,7 +2561,7 @@
 	)
 	(global_label "Z_DIR"
 		(shape input)
-		(at 73.66 54.61 180)
+		(at 73.66 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2492,7 +2571,7 @@
 		)
 		(uuid "6458d17e-ee0e-4e17-9042-8655e5e7f1f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.1928 54.61 0)
+			(at 64.1928 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2506,7 +2585,7 @@
 	)
 	(global_label "wH"
 		(shape input)
-		(at 116.84 60.96 180)
+		(at 116.84 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2516,7 +2595,7 @@
 		)
 		(uuid "6aa9bbdf-dd80-486f-a197-8293d028080f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.3874 60.96 0)
+			(at 109.3874 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2530,7 +2609,7 @@
 	)
 	(global_label "Y_DIR"
 		(shape input)
-		(at 73.66 74.93 180)
+		(at 189.23 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2540,7 +2619,7 @@
 		)
 		(uuid "6d204ae5-82ed-46e0-af5c-f504e74a1386")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.502 74.8506 0)
+			(at 180.072 53.2606 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2552,9 +2631,9 @@
 			)
 		)
 	)
-	(global_label "DIGITAL"
+	(global_label "PHOTODIODE"
 		(shape input)
-		(at 189.23 53.34 180)
+		(at 116.84 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2564,7 +2643,7 @@
 		)
 		(uuid "77b7ef7a-042e-462d-be25-aa381615ffbb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.86 6.35 0)
+			(at 102.6556 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2572,6 +2651,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 	)
@@ -2601,7 +2681,7 @@
 	)
 	(global_label "vL"
 		(shape input)
-		(at 189.23 71.12 180)
+		(at 116.84 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2611,7 +2691,7 @@
 		)
 		(uuid "8594bbac-abea-4b0d-99df-f01ef7d0333b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.1129 71.0406 0)
+			(at 102.7229 60.8806 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2625,7 +2705,7 @@
 	)
 	(global_label "IC_HB_PWM1"
 		(shape input)
-		(at 116.84 63.5 180)
+		(at 189.23 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2635,7 +2715,7 @@
 		)
 		(uuid "862322d3-c0f7-4451-80c8-0bc3fe055ac0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.9361 63.5 0)
+			(at 180.3261 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2673,7 +2753,7 @@
 	)
 	(global_label "X_DIR"
 		(shape input)
-		(at 116.84 73.66 180)
+		(at 184.15 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2683,7 +2763,7 @@
 		)
 		(uuid "96dcc1cc-2707-4f2e-b023-746b77378bbb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.2665 73.66 0)
+			(at 176.5765 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2715,6 +2795,30 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+	)
+	(global_label "FPGA46"
+		(shape input)
+		(at 73.66 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a0c4cc4b-69a3-42f8-ad69-b7985ec192b9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.1928 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -2768,7 +2872,7 @@
 	)
 	(global_label "X_STEP"
 		(shape input)
-		(at 73.66 57.15 180)
+		(at 189.23 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2778,7 +2882,7 @@
 		)
 		(uuid "b9a51765-cc47-4a31-b5eb-4f813b4c39d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.1928 57.15 0)
+			(at 179.7628 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2790,9 +2894,31 @@
 			)
 		)
 	)
-	(global_label "HALL1"
+	(global_label "DIAG_Z"
 		(shape input)
 		(at 189.23 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c1a128ce-4bea-4820-b3fd-bfbcb45311a2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.23 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "HALL1"
+		(shape input)
+		(at 116.84 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2802,7 +2928,7 @@
 		)
 		(uuid "c33f1469-f309-4d1f-9bd5-18c913a0816c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.47 22.86 0)
+			(at 5.08 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2815,7 +2941,7 @@
 	)
 	(global_label "Y_STEP"
 		(shape input)
-		(at 73.66 69.85 180)
+		(at 189.23 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2825,7 +2951,7 @@
 		)
 		(uuid "c6d62a8c-1fca-453a-8fc0-832b41152aa9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -38.1 13.97 0)
+			(at 77.47 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2860,9 +2986,9 @@
 			)
 		)
 	)
-	(global_label "INDEX_X"
+	(global_label "DIAG_X"
 		(shape input)
-		(at 73.66 59.69 180)
+		(at 73.66 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2872,7 +2998,7 @@
 		)
 		(uuid "c92fbfeb-aabc-4cb4-8234-89ebd13d336c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.1928 59.69 0)
+			(at 64.9185 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2886,7 +3012,7 @@
 	)
 	(global_label "uH"
 		(shape input)
-		(at 189.23 68.58 180)
+		(at 116.84 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2896,7 +3022,29 @@
 		)
 		(uuid "cff7a896-77e9-423f-83c1-fff6a1e57d6d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -55.88 11.43 0)
+			(at -128.27 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "DIAG_X"
+		(shape input)
+		(at 146.05 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d2ef1595-0fce-4d0d-8107-8321b24c1c7b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.05 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2909,7 +3057,7 @@
 	)
 	(global_label "Z_STEP"
 		(shape input)
-		(at 73.66 72.39 180)
+		(at 189.23 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2919,7 +3067,7 @@
 		)
 		(uuid "d868e93c-ace0-4fb7-ae8d-a02a15e8c4ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.1928 72.39 0)
+			(at 179.7628 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2933,7 +3081,7 @@
 	)
 	(global_label "HALL3"
 		(shape input)
-		(at 189.23 60.96 180)
+		(at 116.84 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2943,7 +3091,7 @@
 		)
 		(uuid "ecf304f1-3592-43df-b36e-28deb25f3224")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.4953 60.8806 0)
+			(at 108.1053 78.6606 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2957,7 +3105,7 @@
 	)
 	(global_label "IC_HB_PWM2"
 		(shape input)
-		(at 116.84 66.04 180)
+		(at 189.23 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2967,7 +3115,31 @@
 		)
 		(uuid "ef1346bf-0fce-4821-bfea-457416e87c40")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.9317 66.04 0)
+			(at 182.3217 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "FPGA38"
+		(shape input)
+		(at 73.66 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f2ee48cb-a6a5-441d-9505-8d8a822e23da")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.1928 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

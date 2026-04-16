@@ -1,0 +1,145 @@
+(footprint "Fuse_2920_7451Metric"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Fuse SMD 2920 (7451 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size from: http://www.megastar.com/products/fusetronic/polyswitch/PDF/smd2920.pdf)")
+	(tags "fuse")
+	(property "Reference" "REF**"
+		(at 0 -3.68 0)
+		(layer "F.SilkS")
+		(uuid "9e984075-e12f-4f9d-a05b-833a9a468e9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Fuse_2920_7451Metric"
+		(at 0 3.68 0)
+		(layer "F.Fab")
+		(uuid "a5d30257-d231-4efa-9c89-a5d2caa0c548")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "449ee053-8660-4981-9df6-985e03188220")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fdbfba52-7d0e-41dd-8660-4335aedd214e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ab561b4e-4f21-4621-a02c-e32fafeb00ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.203752 -2.67)
+		(end 2.203752 -2.67)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "440d9b46-cea8-4cdb-a697-8277465da4ed")
+	)
+	(fp_line
+		(start -2.203752 2.67)
+		(end 2.203752 2.67)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "83d14283-85e3-4a26-a03d-5fdeaa52d7c3")
+	)
+	(fp_rect
+		(start -4.6 -2.98)
+		(end 4.6 2.98)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f3c911ee-51b9-411b-98b5-d86f5afefacc")
+	)
+	(fp_rect
+		(start -3.6775 -2.56)
+		(end 3.6775 2.56)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2688e5da-6240-4e2c-b4c2-85f5c4d4fabb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b0658c60-a267-4df4-b693-b59d7b199f4c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -3.3875 0)
+		(size 1.925 5.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.12987)
+		(uuid "61e16f4c-614e-4013-99c1-7b85e3cff30f")
+	)
+	(pad "2" smd roundrect
+		(at 3.3875 0)
+		(size 1.925 5.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.12987)
+		(uuid "ac026a7d-1e37-499c-8732-8eafd80f307b")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/shapes.3dshapes/MF-MSMF030-2.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1.5 1.5 1.5)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

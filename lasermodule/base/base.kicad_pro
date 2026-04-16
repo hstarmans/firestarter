@@ -251,7 +251,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "0.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -710,7 +710,7 @@
       {
         "filename": "base.kicad_sch",
         "name": "base",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
     "used_designators": "",
@@ -719,7 +719,7 @@
   "sheets": [
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
-      "Root"
+      "base"
     ],
     [
       "a3ece103-0834-4f34-b268-bf200f179698",
