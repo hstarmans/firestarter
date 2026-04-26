@@ -140,232 +140,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic_MountingPin:Conn_01x03_MountingPin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03_MountingPin"
-				(at 1.27 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x03_MountingPin_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -4.572) (xy 1.016 -4.572)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "Mounting"
-					(at 0 -4.191 0)
-					(effects
-						(font
-							(size 0.381 0.381)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 3.048)
-					(name "MountPin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic_MountingPin:Conn_01x04_MountingPin"
 			(pin_names
 				(offset 1.016)
@@ -1094,7 +868,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "firestarter_library:TMC2209-LA-T"
+		(symbol "compute_library:TMC2209-LA-T"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1757,7 +1531,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+12V"
+		(symbol "power:+24V"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -1782,7 +1556,7 @@
 					)
 				)
 			)
-			(property "Value" "+12V"
+			(property "Value" "+24V"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1814,7 +1588,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(property "Description" "Power symbol creates a global label with name \"+24V\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1836,7 +1610,7 @@
 					)
 				)
 			)
-			(symbol "+12V_0_1"
+			(symbol "+24V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1874,7 +1648,7 @@
 					)
 				)
 			)
-			(symbol "+12V_1_1"
+			(symbol "+24V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2164,8 +1938,8 @@
 		(uuid "0f067f82-69c4-434d-9f9b-6a8acb402ec7")
 	)
 	(rectangle
-		(start 149.86 26.67)
-		(end 215.9 124.46)
+		(start 228.6 52.705)
+		(end 297.815 107.95)
 		(stroke
 			(width 0)
 			(type default)
@@ -2173,7 +1947,7 @@
 		(fill
 			(type none)
 		)
-		(uuid "1a23cdf8-d6ae-4b0c-8080-19f6bbe45cb6")
+		(uuid "cf948ae8-e16c-453e-b758-9053575d6548")
 	)
 	(rectangle
 		(start 149.86 146.05)
@@ -2210,17 +1984,6 @@
 			(justify left)
 		)
 		(uuid "29d8c234-f181-4c43-a530-7fe73cd7f1e5")
-	)
-	(text "Endstops"
-		(exclude_from_sim no)
-		(at 155.448 25.146 0)
-		(effects
-			(font
-				(size 3 3)
-			)
-			(justify left bottom)
-		)
-		(uuid "5cf6d6b9-caca-416d-8def-4a4d37ba8b3e")
 	)
 	(text "address 00"
 		(exclude_from_sim no)
@@ -2269,17 +2032,22 @@
 		)
 		(uuid "a7db9d8a-1690-42c4-8332-3828a31d65a8")
 	)
+	(text "Endstops"
+		(exclude_from_sim no)
+		(at 236.728 51.816 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "c6fe1723-b4f1-4b52-b04f-577e2ce8f505")
+	)
 	(junction
 		(at 102.87 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0684551f-2404-442b-8e15-edfa283bb439")
-	)
-	(junction
-		(at 120.65 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "06fdfc3d-859f-4389-bf44-e8837ae2499d")
 	)
 	(junction
 		(at 35.56 116.84)
@@ -2300,34 +2068,10 @@
 		(uuid "1364c1a9-b0bf-4a44-a748-7decde1df674")
 	)
 	(junction
-		(at 120.65 204.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "17f39a70-4551-49e4-aa72-cceda19e8886")
-	)
-	(junction
 		(at 50.8 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "24e0745b-e920-465c-9d81-ddb9d8f9b435")
-	)
-	(junction
-		(at 163.83 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "33b1f1b4-59a5-4bad-9f4a-507626543900")
-	)
-	(junction
-		(at 163.83 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3932c631-e466-4e38-9690-5b8672cb49ee")
-	)
-	(junction
-		(at 171.45 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3d861888-205c-4199-b4a9-45901fe0a42e")
 	)
 	(junction
 		(at 35.56 127)
@@ -2352,18 +2096,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "423e45bc-8fe4-43e3-a9b5-bf2a51dfb62a")
-	)
-	(junction
-		(at 163.83 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "477475c0-993c-4b63-b6d0-e580f4386f44")
-	)
-	(junction
-		(at 163.83 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4942f07f-26f6-46a3-a1b0-1de9d0fda6f3")
 	)
 	(junction
 		(at 35.56 46.99)
@@ -2426,18 +2158,6 @@
 		(uuid "7492f36f-ceb3-43cb-8249-0a44a4a23738")
 	)
 	(junction
-		(at 120.65 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "772839f2-1831-4280-b260-9f486b353641")
-	)
-	(junction
-		(at 171.45 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "78258274-c386-4c71-8bf1-982526ffc79e")
-	)
-	(junction
 		(at 111.76 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2456,12 +2176,6 @@
 		(uuid "8b01d465-eb22-455e-a843-e8874965e04e")
 	)
 	(junction
-		(at 163.83 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8d9243ca-aa17-47df-b516-9bd2c4e969e7")
-	)
-	(junction
 		(at 120.65 212.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2474,16 +2188,16 @@
 		(uuid "92d576d9-3889-4f1c-b365-6d5c28e0bc8e")
 	)
 	(junction
+		(at 120.65 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3712585-d3c7-46e9-b6ff-71bc8327ea9a")
+	)
+	(junction
 		(at 91.44 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab84c7e1-086b-49da-a837-073117c4bf77")
-	)
-	(junction
-		(at 171.45 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "abc141b3-42fd-4d28-87e8-8f69a1daeeed")
 	)
 	(junction
 		(at 45.72 46.99)
@@ -2498,6 +2212,12 @@
 		(uuid "b672438f-98af-4ef3-af78-8465a904b5b8")
 	)
 	(junction
+		(at 120.65 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8c1d034-0d72-42ed-a384-a5f790d69bfc")
+	)
+	(junction
 		(at 35.56 214.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2508,12 +2228,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dbce2f7f-80ff-4799-b29a-e78469638009")
-	)
-	(junction
-		(at 163.83 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dbd4cb1f-b928-4cf9-b873-a070c0ba93f4")
 	)
 	(junction
 		(at 91.44 36.83)
@@ -2534,42 +2248,28 @@
 		(uuid "f08616cc-4c9d-47ac-8bba-f6164cc96a3b")
 	)
 	(junction
+		(at 120.65 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3269806-9865-4321-8a7c-354d408b706f")
+	)
+	(junction
 		(at 50.8 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f858e349-66e8-4426-81c5-6352a940b098")
 	)
 	(no_connect
-		(at 182.88 114.3)
-		(uuid "0560b2a2-e149-431d-878c-76ea8c16a006")
+		(at 265.43 63.5)
+		(uuid "04287965-c598-4ac2-a989-7865f34167b2")
 	)
 	(no_connect
-		(at 184.15 43.18)
-		(uuid "14f5daa8-fc0f-4677-b70e-6fff7ccad5cf")
-	)
-	(no_connect
-		(at 184.15 36.83)
-		(uuid "26fee5b2-caae-4888-986c-a5a80002bd90")
-	)
-	(no_connect
-		(at 158.75 109.22)
-		(uuid "3cf294f9-5048-4b69-a8a2-3b6c66440c48")
-	)
-	(no_connect
-		(at 158.75 27.94)
-		(uuid "3d30ffe5-1bd2-4e76-b589-3b9ad6b149b3")
+		(at 265.43 80.01)
+		(uuid "19d2a10b-e861-46f3-95eb-a835b3e06be0")
 	)
 	(no_connect
 		(at 50.8 77.47)
 		(uuid "431b3aac-777d-4eab-9f45-71b811180520")
-	)
-	(no_connect
-		(at 157.48 59.69)
-		(uuid "521658e4-a2fe-4bd4-9312-176fe1e47b9f")
-	)
-	(no_connect
-		(at 184.15 93.98)
-		(uuid "5331fc8b-0cee-48cc-abc7-7216e8c10bd9")
 	)
 	(no_connect
 		(at 152.4 151.13)
@@ -2584,16 +2284,8 @@
 		(uuid "61107149-7421-48b8-83ec-d4a88beebc43")
 	)
 	(no_connect
-		(at 158.75 45.72)
-		(uuid "6d0488e7-6fa0-4bb0-8a86-e4f062cdfbd1")
-	)
-	(no_connect
-		(at 158.75 77.47)
-		(uuid "76cd7de9-b21f-4db0-9975-d8735445b601")
-	)
-	(no_connect
-		(at 184.15 62.23)
-		(uuid "af43fd97-a7da-4881-8953-ed47ab54f428")
+		(at 265.43 100.33)
+		(uuid "6c5135bd-3505-4a9a-b921-2f5dc7150aaf")
 	)
 	(no_connect
 		(at 50.8 152.4)
@@ -2608,24 +2300,16 @@
 		(uuid "c4e244d1-9e39-4e09-8450-ea2b705b38f5")
 	)
 	(no_connect
-		(at 157.48 92.71)
-		(uuid "ca46eee8-99b1-4c24-beab-e65169fe691c")
-	)
-	(no_connect
 		(at 50.8 72.39)
 		(uuid "ca990573-e668-4767-82f1-4dc6122bc0b3")
 	)
 	(no_connect
-		(at 184.15 80.01)
-		(uuid "d48fd821-78b3-46fe-a63f-a8e51c6869e8")
+		(at 265.43 57.15)
+		(uuid "dc2f4a9f-8d03-464f-a944-5d94b16109e1")
 	)
 	(no_connect
 		(at 50.8 245.11)
 		(uuid "e063c956-9824-43af-bc0e-d8950f329c08")
-	)
-	(no_connect
-		(at 184.15 30.48)
-		(uuid "e7842a68-cc0f-4aa9-a0ea-707eb8f36c9e")
 	)
 	(wire
 		(pts
@@ -2636,16 +2320,6 @@
 			(type default)
 		)
 		(uuid "011afaa0-1754-4a7c-81c3-0629c5b1c4c7")
-	)
-	(wire
-		(pts
-			(xy 171.45 55.88) (xy 168.91 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0397eeef-fd9a-473f-9ac5-310039caf624")
 	)
 	(wire
 		(pts
@@ -2679,13 +2353,13 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 119.38) (xy 168.91 119.38)
+			(xy 236.22 72.39) (xy 240.03 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0df69f5e-c2ce-4f5b-ba3c-7eb969aac49a")
+		(uuid "15e204b0-1051-4126-b420-1eee51028594")
 	)
 	(wire
 		(pts
@@ -2709,16 +2383,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 50.8) (xy 171.45 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "229a52ed-207d-4562-8501-7bd3be5536db")
-	)
-	(wire
-		(pts
 			(xy 35.56 36.83) (xy 35.56 40.64)
 		)
 		(stroke
@@ -2726,16 +2390,6 @@
 			(type default)
 		)
 		(uuid "2864ad69-71c0-4e64-b457-847d0c5bd0a5")
-	)
-	(wire
-		(pts
-			(xy 171.45 116.84) (xy 163.83 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c6135cb-334a-4791-9853-a4339ccfe750")
 	)
 	(wire
 		(pts
@@ -2759,16 +2413,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 82.55) (xy 171.45 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fe5be67-ac86-428a-b5eb-72cc7a0e4c67")
-	)
-	(wire
-		(pts
 			(xy 45.72 214.63) (xy 50.8 214.63)
 		)
 		(stroke
@@ -2786,6 +2430,16 @@
 			(type default)
 		)
 		(uuid "3888be3e-e8e8-427e-9c35-4cb359f2a4f1")
+	)
+	(wire
+		(pts
+			(xy 234.95 54.61) (xy 240.03 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38e22b87-4bbc-43ac-afca-e0368160c77b")
 	)
 	(wire
 		(pts
@@ -2819,16 +2473,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 114.3) (xy 171.45 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "422c61a0-5201-40db-9e6f-027458271f3d")
-	)
-	(wire
-		(pts
 			(xy 50.8 80.01) (xy 50.8 82.55)
 		)
 		(stroke
@@ -2856,16 +2500,6 @@
 			(type default)
 		)
 		(uuid "4e0ae976-1ff0-45be-be9a-d5b650e35456")
-	)
-	(wire
-		(pts
-			(xy 171.45 119.38) (xy 171.45 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54ecb547-6835-44e5-82c7-9b55c436c18b")
 	)
 	(wire
 		(pts
@@ -2899,16 +2533,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 87.63) (xy 168.91 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5da5a491-54c2-415f-a466-aade26dc5604")
-	)
-	(wire
-		(pts
 			(xy 41.91 247.65) (xy 50.8 247.65)
 		)
 		(stroke
@@ -2939,16 +2563,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 85.09) (xy 163.83 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a69c184-6bde-4d26-9f51-922cfef84754")
-	)
-	(wire
-		(pts
 			(xy 45.72 121.92) (xy 50.8 121.92)
 		)
 		(stroke
@@ -2976,16 +2590,6 @@
 			(type default)
 		)
 		(uuid "7859ef34-12bd-4ec3-a019-d41da6f542d1")
-	)
-	(wire
-		(pts
-			(xy 171.45 87.63) (xy 171.45 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "797a8340-de3f-4838-b945-752b51b17937")
 	)
 	(wire
 		(pts
@@ -3066,6 +2670,16 @@
 			(type default)
 		)
 		(uuid "9d73fe86-fb19-419f-886c-26964aeff475")
+	)
+	(wire
+		(pts
+			(xy 236.22 91.44) (xy 240.03 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a28cbb45-08ab-4abc-b8ec-d19fde581b0a")
 	)
 	(wire
 		(pts
@@ -3189,16 +2803,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 53.34) (xy 163.83 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4799664-d246-4b96-b16f-2fcecbb72466")
-	)
-	(wire
-		(pts
 			(xy 44.45 177.8) (xy 50.8 177.8)
 		)
 		(stroke
@@ -3216,16 +2820,6 @@
 			(type default)
 		)
 		(uuid "cac34c6b-93db-4ebf-8440-65096bcfb50d")
-	)
-	(wire
-		(pts
-			(xy 171.45 55.88) (xy 171.45 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cad1d90f-95c9-4708-986b-280b62fe99ec")
 	)
 	(wire
 		(pts
@@ -3307,28 +2901,6 @@
 		)
 		(uuid "fe93ff42-4872-4883-9c1f-6083caa41909")
 	)
-	(global_label "X_B2"
-		(shape input)
-		(at 163.83 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0a53bfb8-c2c7-4834-9c35-e6066f045680")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.83 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "X_STEP"
 		(shape input)
 		(at 50.8 62.23 180)
@@ -3395,6 +2967,28 @@
 			)
 		)
 	)
+	(global_label "Z_A2"
+		(shape input)
+		(at 245.11 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "14eb1be1-51fc-42a1-a6c0-e4a4e5646431")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 245.11 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
 	(global_label "Z_B1"
 		(shape input)
 		(at 91.44 245.11 0)
@@ -3439,18 +3033,18 @@
 			)
 		)
 	)
-	(global_label "Z_PO"
+	(global_label "X_A2"
 		(shape input)
-		(at 171.45 116.84 0)
+		(at 245.11 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "178b7677-e27b-436d-ab00-4f61d1a4e48e")
+		(uuid "199dcd6b-33f3-4f0b-9ff4-9af8ec3b9a55")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.45 116.84 0)
+			(at 245.11 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3473,50 +3067,6 @@
 		(uuid "1e1926b1-1625-42f1-a64d-66772e764095")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 91.44 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "X_A2"
-		(shape input)
-		(at 163.83 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "202d995b-60d6-40ca-9bd2-c033e3628325")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.83 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "Z_A2"
-		(shape input)
-		(at 162.56 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2ba08953-f7a3-4d87-9a73-951b10df332c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.56 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3605,28 +3155,6 @@
 		(uuid "383c843e-c0fe-4d5f-bcaf-1d79d5f46849")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 50.8 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "Z_A1"
-		(shape input)
-		(at 162.56 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "39867053-05bb-4dd1-9946-244e60e30679")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.56 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3771,18 +3299,40 @@
 			)
 		)
 	)
-	(global_label "Y_B2"
+	(global_label "X_B1"
 		(shape input)
-		(at 162.56 64.77 0)
+		(at 245.11 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "641b4a03-307d-42b6-b767-71833dbb04b7")
+		(uuid "6508f0f2-7d5a-4754-a876-dadd68a27c2c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.56 64.77 0)
+			(at 245.11 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "Z_B1"
+		(shape input)
+		(at 245.11 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "659a2b3f-ff2b-4c7b-ae56-452a102d532f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 245.11 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3814,28 +3364,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "X_B1"
-		(shape input)
-		(at 163.83 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6dd0184c-5dc5-4ef3-88c4-ad521965e6a4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.83 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 	)
@@ -3873,6 +3401,50 @@
 		(uuid "72c3f4cc-d899-4563-a518-e1280176365b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 50.8 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "X_B2"
+		(shape input)
+		(at 245.11 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "77fe097f-e467-44f7-b3da-67c9f3f5c9f2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 245.11 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "Z_A1"
+		(shape input)
+		(at 245.11 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7ad492ca-23bd-4632-b285-81cb25553ec8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 245.11 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3975,62 +3547,18 @@
 			)
 		)
 	)
-	(global_label "Y_A1"
+	(global_label "Y_B1"
 		(shape input)
-		(at 162.56 69.85 0)
+		(at 245.11 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "a203aaa5-7719-4d29-a7ff-669d99f5853a")
+		(uuid "af4ef9b6-70dc-47f9-9eaf-7b8867a140c1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.56 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "Z_B2"
-		(shape input)
-		(at 162.56 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "aac52bf6-3965-475c-bee5-0e33a23efee6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.56 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "Y_PO"
-		(shape input)
-		(at 171.45 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ac06627e-cdc3-4c49-a894-64146b377ac7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.45 85.09 0)
+			(at 245.11 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4053,6 +3581,28 @@
 		(uuid "c5cb02ac-6d1c-4bc5-b335-2dbc2bf5754f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 50.8 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "Y_B2"
+		(shape input)
+		(at 245.11 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d10acf75-ca94-42d7-a11f-5a60cab6446a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 245.11 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4087,18 +3637,40 @@
 			)
 		)
 	)
-	(global_label "Y_B1"
+	(global_label "Z_B2"
 		(shape input)
-		(at 162.56 67.31 0)
+		(at 245.11 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "e16a3dd4-a18e-4fd5-8a27-4bda86c76d1c")
+		(uuid "e3d01036-87d4-4e75-9fca-e3a49e90e9fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.56 67.31 0)
+			(at 245.11 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "X_A1"
+		(shape input)
+		(at 245.11 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e5cf01e5-febc-4728-bd7c-1b8962950c78")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 245.11 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4175,18 +3747,40 @@
 			)
 		)
 	)
-	(global_label "X_A1"
+	(global_label "Y_A1"
 		(shape input)
-		(at 163.83 38.1 0)
+		(at 245.11 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "f37228e0-ced1-461b-8175-512aaa73ef25")
+		(uuid "f356984e-5f65-4a2a-8ee4-b08ee257ef97")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.83 38.1 0)
+			(at 245.11 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "Y_A2"
+		(shape input)
+		(at 245.11 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f39dbe60-5d79-45bf-b66c-28ae2a67915d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 245.11 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4209,72 +3803,6 @@
 		(uuid "f7b331f0-ef7b-4d75-9f54-fd888ad33706")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 91.44 250.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "Z_B1"
-		(shape input)
-		(at 162.56 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f8a54626-a2de-485b-aec1-0e2567f4b581")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.56 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "Y_A2"
-		(shape input)
-		(at 162.56 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f9e68cd3-3403-4705-a54b-c61ca5ed72d8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.56 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "X_PO"
-		(shape input)
-		(at 171.45 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fdf129ce-2ac2-4650-a452-4b78f060f372")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.45 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4362,7 +3890,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 91.44 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -4509,7 +4037,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 35.56 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -4888,153 +4416,6 @@
 			(project "compute"
 				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 167.64 82.55 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0e13b3d8-01a2-4b77-bc1f-30be7f64772e")
-		(property "Reference" "R23"
-			(at 174.498 82.296 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 169.672 82.296 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 167.64 84.328 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 167.64 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "farnell#" "2826162"
-			(at 167.64 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manf#" "CRCW080510K0JNEAC"
-			(at 167.64 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mouser#" "71-CRCW080510K0JNEAC"
-			(at 167.64 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 167.64 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternatives" ""
-			(at 167.64 82.55 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 167.64 82.55 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2c86a02a-ec41-4738-b452-716286667d9c")
-		)
-		(pin "2"
-			(uuid "31c5516c-0c9d-4f67-a732-a9b815c21650")
-		)
-		(instances
-			(project "compute"
-				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
-					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -5464,7 +4845,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 91.44 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -5611,7 +4992,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 45.72 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -5622,7 +5003,7 @@
 				)
 			)
 		)
-		(property "manf#" "187-CL21A106KAYNNNE"
+		(property "manf#" "GRM21BR61H106KE43L"
 			(at 45.72 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -5633,7 +5014,7 @@
 				)
 			)
 		)
-		(property "mouser#" "3010126"
+		(property "mouser#" "81-GRM21BR61H106KE3L"
 			(at 45.72 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -5644,7 +5025,7 @@
 				)
 			)
 		)
-		(property "farnell#" "CL21A106KAYNNNE"
+		(property "farnell#" "3790440"
 			(at 45.72 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -5758,7 +5139,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 91.44 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -5851,7 +5232,7 @@
 		)
 	)
 	(symbol
-		(lib_id "firestarter_library:TMC2209-LA-T")
+		(lib_id "compute_library:TMC2209-LA-T")
 		(at 71.12 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -6107,8 +5488,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x04_MountingPin")
-		(at 157.48 102.87 180)
+		(lib_id "power:GND")
+		(at 236.22 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6116,31 +5497,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "18e859c0-c682-4809-8f96-e5ccd45666c2")
-		(property "Reference" "JZ1"
-			(at 155.448 102.6668 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Motor"
-			(at 155.448 100.3554 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:JST_XH_S4B-XH-SM4-TB_1x04-1MP_P2.50mm_Horizontal"
-			(at 157.48 102.87 0)
+		(uuid "1811837d-5774-45ac-b138-a6e8b19f588c")
+		(property "Reference" "#PWR0121"
+			(at 236.22 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6150,142 +5509,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 157.48 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 157.48 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "farnell#" "2399478"
-			(at 157.48 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manf#" "S4B-XH-SM4-TB(LF)(SN)"
-			(at 157.48 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mouser#" "306-S4BXHSM4TBLFSN"
-			(at 157.48 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 157.48 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternatives" ""
-			(at 157.48 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 157.48 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "80e7b7d9-38b1-4f5e-ab55-0913e04d3b65")
-		)
-		(pin "2"
-			(uuid "b371627e-7d5d-4ca6-a46e-e3653c181f24")
-		)
-		(pin "3"
-			(uuid "fd827549-b650-4c52-be18-8bb28773e112")
-		)
-		(pin "4"
-			(uuid "a9c7221c-c9f4-41a1-b689-4fd07c3e95df")
-		)
-		(pin "MP"
-			(uuid "924907ef-e325-4c89-8a6e-6a130630da58")
-		)
-		(instances
-			(project "compute"
-				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
-					(reference "JZ1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 120.65 116.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1b4b1c7c-f60d-49c2-b89c-8e2466840959")
-		(property "Reference" "#PWR0106"
-			(at 120.65 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 120.65 113.03 0)
+		(property "Value" "GND"
+			(at 232.41 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6295,7 +5520,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 116.84 0)
+			(at 236.22 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6306,7 +5531,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 116.84 0)
+			(at 236.22 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6316,8 +5541,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 120.65 116.84 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 236.22 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6328,12 +5553,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b22b15fc-fe88-44fd-afca-ad2d86769afb")
+			(uuid "a2b79b96-40f4-42d8-8bf1-84489a248247")
 		)
 		(instances
 			(project "compute"
 				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
-					(reference "#PWR0106")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -6563,153 +5788,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 167.64 50.8 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "25d3701d-9dbb-44a4-ab7a-9d78fef6c2ff")
-		(property "Reference" "R22"
-			(at 174.117 50.419 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 169.672 50.546 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 167.64 52.578 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 167.64 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "farnell#" "2826162"
-			(at 167.64 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manf#" "CRCW080510K0JNEAC"
-			(at 167.64 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mouser#" "71-CRCW080510K0JNEAC"
-			(at 167.64 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 167.64 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternatives" ""
-			(at 167.64 50.8 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 167.64 50.8 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "189d72ef-4f0c-4f99-8cf0-59ede6e3e867")
-		)
-		(pin "2"
-			(uuid "ee337920-db57-4a03-9c11-89050f94ccb1")
-		)
-		(instances
-			(project "compute"
-				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 35.56 214.63 0)
 		(unit 1)
@@ -6781,373 +5859,6 @@
 			(project "compute"
 				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
 					(reference "#PWR090")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 163.83 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2d0ec18e-7507-41c5-a097-c3ceb0a6a2d4")
-		(property "Reference" "#PWR0113"
-			(at 163.83 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 160.02 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2bc5cddc-c261-4d6b-b625-0ddc3d1a7b7d")
-		)
-		(instances
-			(project "compute"
-				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
-					(reference "#PWR0113")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 189.23 80.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2dfbf95d-b2c8-4d8a-ab33-a03cf3ebd505")
-		(property "Reference" "J15"
-			(at 191.77 78.7399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "receptable 3 way"
-			(at 191.77 81.2799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 189.23 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manf#" "XHP-3"
-			(at 189.23 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mouser#" "306-XHP-3"
-			(at 189.23 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "farnell#" "1516265"
-			(at 189.23 80.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternatives" ""
-			(at 189.23 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 189.23 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f7f646ba-9993-4544-bf21-90feeba491ae")
-		)
-		(instances
-			(project "compute"
-				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
-					(reference "J15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x04_MountingPin")
-		(at 157.48 69.85 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2fc8b03e-2481-4b9d-bedb-045d865deb23")
-		(property "Reference" "JY1"
-			(at 155.448 69.6468 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Motor"
-			(at 155.448 67.3354 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:JST_XH_S4B-XH-SM4-TB_1x04-1MP_P2.50mm_Horizontal"
-			(at 157.48 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 157.48 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "farnell#" "2399478"
-			(at 157.48 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manf#" "S4B-XH-SM4-TB(LF)(SN)"
-			(at 157.48 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mouser#" "306-S4BXHSM4TBLFSN"
-			(at 157.48 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 157.48 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternatives" ""
-			(at 157.48 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 157.48 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cf42fdac-e9b2-4ecd-a1f9-9324184e55c9")
-		)
-		(pin "2"
-			(uuid "af710d47-bd32-446e-a756-51751ced37b9")
-		)
-		(pin "3"
-			(uuid "d065eb7d-e440-4840-96d7-63472fee8a43")
-		)
-		(pin "4"
-			(uuid "928285ae-9700-45ec-8d87-f7aa7bef4982")
-		)
-		(pin "MP"
-			(uuid "a5e5b3f3-b26c-41f8-8ae8-8f6d85ff79b8")
-		)
-		(instances
-			(project "compute"
-				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
-					(reference "JY1")
 					(unit 1)
 				)
 			)
@@ -7355,7 +6066,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 119.38 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -7525,6 +6236,162 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x04_MountingPin")
+		(at 240.03 101.6 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3d28c27f-ae61-41db-afba-21b33b558632")
+		(property "Reference" "JZ1"
+			(at 237.998 101.3968 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor"
+			(at 237.998 99.0854 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:JST_XH_S4B-XH-SM4-TB_1x04-1MP_P2.50mm_Horizontal"
+			(at 240.03 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "farnell#" "2399478"
+			(at 240.03 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf#" "S4B-XH-SM4-TB(LF)(SN)"
+			(at 240.03 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser#" "306-S4BXHSM4TBLFSN"
+			(at 240.03 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 240.03 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternatives" ""
+			(at 240.03 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 240.03 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c533b202-c088-41a3-9aa7-673efe500aae")
+		)
+		(pin "2"
+			(uuid "f70cc2cb-7f18-4266-a311-19d510905527")
+		)
+		(pin "3"
+			(uuid "db061f1f-0314-435a-bd84-d7203859f87c")
+		)
+		(pin "4"
+			(uuid "af2489c8-9773-42c4-bb4e-9a497f1e2716")
+		)
+		(pin "MP"
+			(uuid "63c7ca8a-d720-403e-a934-df6a030e90c5")
+		)
+		(instances
+			(project "compute"
+				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
+					(reference "JZ1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 50.8 255.27 0)
 		(unit 1)
@@ -7656,7 +6523,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 102.87 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -7750,153 +6617,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 166.37 55.88 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "47b9db26-7dbf-451b-92f2-bf1d9d7c0246")
-		(property "Reference" "C45"
-			(at 173.99 58.42 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 166.624 58.42 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 166.37 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 166.37 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manf#" "C0805C104J5RACTU"
-			(at 166.37 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mouser#" "80-C0805C104J5R"
-			(at 166.37 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "farnell#" "1414663"
-			(at 166.37 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 166.37 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternatives" ""
-			(at 166.37 55.88 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 166.37 55.88 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "395cbaab-a355-4b89-93cf-2616fbad3be2")
-		)
-		(pin "2"
-			(uuid "14edd12b-c44b-48e9-8d09-a283b3c963e2")
-		)
-		(instances
-			(project "compute"
-				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
-					(reference "C45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
 		(at 111.76 39.37 180)
 		(unit 1)
 		(body_style 1)
@@ -7950,7 +6670,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 111.76 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -7961,7 +6681,7 @@
 				)
 			)
 		)
-		(property "manf#" "187-CL21A106KAYNNNE"
+		(property "manf#" "GRM21BR61H106KE43L"
 			(at 111.76 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -7972,7 +6692,7 @@
 				)
 			)
 		)
-		(property "mouser#" "3010126"
+		(property "mouser#" "81-GRM21BR61H106KE3L"
 			(at 111.76 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -7983,7 +6703,7 @@
 				)
 			)
 		)
-		(property "farnell#" "CL21A106KAYNNNE"
+		(property "farnell#" "3790440"
 			(at 111.76 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8267,6 +6987,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 270.51 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b797367-ad24-41cd-a688-baa8723ab32c")
+		(property "Reference" "J12"
+			(at 273.05 99.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "receptable 4 way"
+			(at 273.05 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 270.51 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf#" "XHP-4"
+			(at 270.51 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser#" "306-XHP-4"
+			(at 270.51 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "farnell#" "1516266"
+			(at 270.51 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternatives" ""
+			(at 270.51 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 270.51 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "14f7c259-e96b-4632-a95d-4816978404bd")
+		)
+		(instances
+			(project "compute"
+				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 35.56 204.47 0)
 		(unit 1)
@@ -8424,306 +7278,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 166.37 87.63 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5de7cf4e-6355-4e64-a53d-af86afce2e45")
-		(property "Reference" "C46"
-			(at 174.498 90.17 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 166.878 90.17 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 166.37 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 166.37 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manf#" "C0805C104J5RACTU"
-			(at 166.37 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mouser#" "80-C0805C104J5R"
-			(at 166.37 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "farnell#" "1414663"
-			(at 166.37 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 166.37 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternatives" ""
-			(at 166.37 87.63 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 166.37 87.63 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "75d35f24-8877-4cef-97c2-ecf7beb62780")
-		)
-		(pin "2"
-			(uuid "28f740d1-5739-4db7-bffd-bea4369243f6")
-		)
-		(instances
-			(project "compute"
-				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
-					(reference "C46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
-		(at 158.75 85.09 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5e9e65ab-0f66-4ce0-a27a-27e78d50def9")
-		(property "Reference" "SY1"
-			(at 156.718 86.1568 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Switch"
-			(at 156.718 83.8454 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:JST_XH_S3B-XH-SM4-TB_1x03-1MP_P2.50mm_Horizontal"
-			(at 158.75 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manf#" "S3B-XH-SM4-TB(LF)(SN)"
-			(at 158.75 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "farnell#" "2399476"
-			(at 158.75 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mouser#" "306-S3BXHSM4TBLFSN"
-			(at 158.75 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 158.75 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternatives" ""
-			(at 158.75 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 158.75 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "64df6cb1-e1d5-4115-8a2d-3bf6d9a8b629")
-		)
-		(pin "2"
-			(uuid "d2b4c446-5b89-42db-9724-15ba5a244b4e")
-		)
-		(pin "3"
-			(uuid "eb595f02-aa95-473c-8f3b-f0f502bbf41e")
-		)
-		(pin "MP"
-			(uuid "bd3df89c-91ae-4b25-9f61-f0481e218e8c")
-		)
-		(instances
-			(project "compute"
-				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
-					(reference "SY1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
 		(at 102.87 39.37 180)
 		(unit 1)
 		(body_style 1)
@@ -8777,7 +7331,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 102.87 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8870,140 +7424,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 189.23 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5fc27507-076b-4184-a2dc-1a461bec4218")
-		(property "Reference" "J14"
-			(at 191.77 35.5599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "cable assembly"
-			(at 191.77 38.0999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 189.23 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manf#" "SXH-001T-P0.6"
-			(at 189.23 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mouser#" "306-SXH-001T-P0.6"
-			(at 189.23 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "farnell#" "2847870"
-			(at 189.23 36.83 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternatives" ""
-			(at 189.23 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 189.23 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "84b9f8f7-e9b7-4ab4-a25a-7cfdda5c3591")
-		)
-		(instances
-			(project "compute"
-				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
-					(reference "J14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 111.76 119.38 180)
 		(unit 1)
@@ -9058,7 +7478,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 111.76 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -9069,7 +7489,7 @@
 				)
 			)
 		)
-		(property "manf#" "187-CL21A106KAYNNNE"
+		(property "manf#" "GRM21BR61H106KE43L"
 			(at 111.76 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -9080,7 +7500,7 @@
 				)
 			)
 		)
-		(property "mouser#" "3010126"
+		(property "mouser#" "81-GRM21BR61H106KE3L"
 			(at 111.76 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -9091,7 +7511,7 @@
 				)
 			)
 		)
-		(property "farnell#" "CL21A106KAYNNNE"
+		(property "farnell#" "3790440"
 			(at 111.76 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -9145,236 +7565,6 @@
 			(project "compute"
 				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
 					(reference "C41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 120.65 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "646e01eb-0f38-4640-94f2-e23775adc0e9")
-		(property "Reference" "#PWR0104"
-			(at 120.65 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 120.65 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 120.65 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6c715b20-0355-45f0-9d22-c6e6cea42579")
-		)
-		(instances
-			(project "compute"
-				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
-					(reference "#PWR0104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
-		(at 158.75 116.84 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "653b58e4-4df6-429b-8571-4e368c31df34")
-		(property "Reference" "SZ1"
-			(at 156.718 117.9068 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Switch"
-			(at 156.718 115.5954 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:JST_XH_S3B-XH-SM4-TB_1x03-1MP_P2.50mm_Horizontal"
-			(at 158.75 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manf#" "S3B-XH-SM4-TB(LF)(SN)"
-			(at 158.75 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "farnell#" "2399476"
-			(at 158.75 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mouser#" "306-S3BXHSM4TBLFSN"
-			(at 158.75 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 158.75 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternatives" ""
-			(at 158.75 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 158.75 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "52c8ed84-7310-4478-86d0-1ec2f2f382c8")
-		)
-		(pin "2"
-			(uuid "dd85b215-f0d9-428e-9ed1-85cb5746c690")
-		)
-		(pin "3"
-			(uuid "9f477432-00c8-430f-af76-34cff48e7cbb")
-		)
-		(pin "MP"
-			(uuid "45e4f54b-488b-478c-8981-6531956c375d")
-		)
-		(instances
-			(project "compute"
-				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
-					(reference "SZ1")
 					(unit 1)
 				)
 			)
@@ -9444,7 +7634,7 @@
 				)
 			)
 		)
-		(property "farnell#" "4765502"
+		(property "farnell#" "4765491"
 			(at 120.65 208.28 90)
 			(hide yes)
 			(show_name no)
@@ -9455,7 +7645,7 @@
 				)
 			)
 		)
-		(property "mouser#" "647-UCL1E101MCL1GS"
+		(property "mouser#" "647-UCD1V101MNL1GS "
 			(at 120.65 208.28 90)
 			(hide yes)
 			(show_name no)
@@ -9466,7 +7656,7 @@
 				)
 			)
 		)
-		(property "manf#" "UCL1E101MCL1GS"
+		(property "manf#" "UCD1V101MNL1GS"
 			(at 120.65 208.28 90)
 			(hide yes)
 			(show_name no)
@@ -9580,7 +7770,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 102.87 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -9750,140 +7940,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 189.23 43.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "76e56450-015d-42e2-9d64-1eb1ca711040")
-		(property "Reference" "J13"
-			(at 191.77 41.9099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "receptable 3 way"
-			(at 191.77 44.4499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 189.23 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manf#" "XHP-3"
-			(at 189.23 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mouser#" "306-XHP-3"
-			(at 189.23 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "farnell#" "1516265"
-			(at 189.23 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternatives" ""
-			(at 189.23 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 189.23 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d36370b5-9c08-4850-b81c-f34cbbb09460")
-		)
-		(instances
-			(project "compute"
-				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
-					(reference "J13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 45.72 212.09 180)
 		(unit 1)
@@ -9938,7 +7994,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 45.72 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -9949,7 +8005,7 @@
 				)
 			)
 		)
-		(property "manf#" "187-CL21A106KAYNNNE"
+		(property "manf#" "GRM21BR61H106KE43L"
 			(at 45.72 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -9960,7 +8016,7 @@
 				)
 			)
 		)
-		(property "mouser#" "3010126"
+		(property "mouser#" "81-GRM21BR61H106KE3L"
 			(at 45.72 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -9971,7 +8027,7 @@
 				)
 			)
 		)
-		(property "farnell#" "CL21A106KAYNNNE"
+		(property "farnell#" "3790440"
 			(at 45.72 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -10479,84 +8535,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 120.65 204.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "86c05149-9a5d-4cef-bfcb-cd24fcf945e6")
-		(property "Reference" "#PWR0108"
-			(at 120.65 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 120.65 200.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 120.65 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3c7a458f-b466-4b10-9bd3-ae26d8727c67")
-		)
-		(instances
-			(project "compute"
-				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
-					(reference "#PWR0108")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "firestarter_library:TMC2209-LA-T")
+		(lib_id "compute_library:TMC2209-LA-T")
 		(at 71.12 147.32 0)
 		(unit 1)
 		(body_style 1)
@@ -10890,140 +8869,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 187.96 114.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "89d67150-d568-425f-8b78-d4737c5d9c6f")
-		(property "Reference" "J16"
-			(at 190.5 113.0299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "receptable 3 way"
-			(at 190.5 115.5699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 187.96 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manf#" "XHP-3"
-			(at 187.96 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mouser#" "306-XHP-3"
-			(at 187.96 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "farnell#" "1516265"
-			(at 187.96 114.3 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternatives" ""
-			(at 187.96 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 187.96 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2141f6ec-e883-4aeb-aea0-a1468f5cc1f1")
-		)
-		(instances
-			(project "compute"
-				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
-					(reference "J16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 95.25 177.8 90)
 		(unit 1)
@@ -11249,8 +9094,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x04_MountingPin")
-		(at 158.75 38.1 180)
+		(lib_id "power:+24V")
+		(at 120.65 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11258,31 +9103,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "907c1d34-b847-439d-bd6d-7c5c5f03d547")
-		(property "Reference" "JX1"
-			(at 156.718 37.8968 0)
+		(fields_autoplaced yes)
+		(uuid "91c134b5-624a-4e21-87b1-f53438e71895")
+		(property "Reference" "#PWR071"
+			(at 120.65 120.65 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Motor"
-			(at 156.718 35.5854 0)
+		(property "Value" "+24V"
+			(at 120.65 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:JST_XH_S4B-XH-SM4-TB_1x04-1MP_P2.50mm_Horizontal"
-			(at 158.75 38.1 0)
+		(property "Footprint" ""
+			(at 120.65 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11293,7 +9138,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 38.1 0)
+			(at 120.65 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11303,74 +9148,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 158.75 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "farnell#" "2399478"
-			(at 158.75 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manf#" "S4B-XH-SM4-TB(LF)(SN)"
-			(at 158.75 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mouser#" "306-S4BXHSM4TBLFSN"
-			(at 158.75 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 158.75 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternatives" ""
-			(at 158.75 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 158.75 38.1 0)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 120.65 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11381,24 +9160,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "bf74e2e1-6fe1-4d19-804b-eb8ed761c230")
-		)
-		(pin "2"
-			(uuid "ae4f2588-e588-4603-989e-444c4c6093a3")
-		)
-		(pin "3"
-			(uuid "74cf66aa-5dd9-4fb5-9d5e-161c22765c6c")
-		)
-		(pin "4"
-			(uuid "996b543b-47f2-4385-9c5a-a852361f79b8")
-		)
-		(pin "MP"
-			(uuid "1da6b1bd-4b4d-4695-800c-a5d0e96e4adc")
+			(uuid "fc743366-f9bf-4701-ba74-c3c1ca29abf8")
 		)
 		(instances
 			(project "compute"
 				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
-					(reference "JX1")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -11546,293 +9313,6 @@
 			(project "compute"
 				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
 					(reference "C36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 189.23 62.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93af9f13-3c0b-4823-a0e0-17e605b3895d")
-		(property "Reference" "J11"
-			(at 191.77 60.9599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "receptable 4 way"
-			(at 191.77 63.4999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 189.23 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manf#" "XHP-4"
-			(at 189.23 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mouser#" "306-XHP-4"
-			(at 189.23 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "farnell#" "1516266"
-			(at 189.23 62.23 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternatives" ""
-			(at 189.23 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 189.23 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1fe3ec33-05dd-4976-8cd0-fc92514113c8")
-		)
-		(instances
-			(project "compute"
-				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
-		(at 158.75 53.34 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "95821bf4-0d0e-4acf-9869-7ca3b2325238")
-		(property "Reference" "SX1"
-			(at 156.718 54.4068 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Switch"
-			(at 156.718 52.0954 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:JST_XH_S3B-XH-SM4-TB_1x03-1MP_P2.50mm_Horizontal"
-			(at 158.75 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manf#" "S3B-XH-SM4-TB(LF)(SN)"
-			(at 158.75 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "farnell#" "2399476"
-			(at 158.75 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mouser#" "306-S3BXHSM4TBLFSN"
-			(at 158.75 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 158.75 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternatives" ""
-			(at 158.75 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 158.75 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d5367596-fd70-4367-aa4f-64fc160523eb")
-		)
-		(pin "2"
-			(uuid "62cfeaab-b0e5-4b56-9c94-32e439281dc5")
-		)
-		(pin "3"
-			(uuid "8f6c9bc0-d423-44c9-a441-14fe60eaf710")
-		)
-		(pin "MP"
-			(uuid "ac441db9-5c7f-46ce-919e-8a41d9986e53")
-		)
-		(instances
-			(project "compute"
-				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
-					(reference "SX1")
 					(unit 1)
 				)
 			)
@@ -11994,6 +9474,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 234.95 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9c3208f4-0979-4264-9636-cdc2ab909c8b")
+		(property "Reference" "#PWR0123"
+			(at 234.95 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 231.14 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 234.95 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "17cd2a44-c36d-4fff-8123-433a4d3c35f5")
+		)
+		(instances
+			(project "compute"
+				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
+					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 111.76 207.01 180)
 		(unit 1)
@@ -12048,7 +9605,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 111.76 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -12059,7 +9616,7 @@
 				)
 			)
 		)
-		(property "manf#" "187-CL21A106KAYNNNE"
+		(property "manf#" "GRM21BR61H106KE43L"
 			(at 111.76 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -12070,7 +9627,7 @@
 				)
 			)
 		)
-		(property "mouser#" "3010126"
+		(property "mouser#" "81-GRM21BR61H106KE3L"
 			(at 111.76 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -12081,7 +9638,7 @@
 				)
 			)
 		)
-		(property "farnell#" "CL21A106KAYNNNE"
+		(property "farnell#" "3790440"
 			(at 111.76 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -12142,7 +9699,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 163.83 55.88 0)
+		(at 236.22 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12150,9 +9707,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "9f534c10-a560-4466-a321-e022958139a4")
-		(property "Reference" "#PWR0111"
-			(at 163.83 62.23 0)
+		(uuid "a176556b-d0d5-4b6e-b18a-b286a4f2c573")
+		(property "Reference" "#PWR0119"
+			(at 236.22 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12163,7 +9720,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 58.42 0)
+			(at 232.41 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12173,7 +9730,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 55.88 0)
+			(at 236.22 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12184,7 +9741,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 55.88 0)
+			(at 236.22 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12195,7 +9752,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 55.88 0)
+			(at 236.22 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12206,12 +9763,168 @@
 			)
 		)
 		(pin "1"
-			(uuid "baf6b379-f9ed-442c-a10d-3b5da6df1242")
+			(uuid "8e7efa23-e855-46f7-b6c0-edd36cb40193")
 		)
 		(instances
 			(project "compute"
 				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
-					(reference "#PWR0111")
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x04_MountingPin")
+		(at 240.03 64.77 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a2b8bfba-8eda-4361-99a7-a2fe28799f81")
+		(property "Reference" "JX1"
+			(at 237.998 64.5668 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor"
+			(at 237.998 62.2554 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:JST_XH_S4B-XH-SM4-TB_1x04-1MP_P2.50mm_Horizontal"
+			(at 240.03 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "farnell#" "2399478"
+			(at 240.03 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf#" "S4B-XH-SM4-TB(LF)(SN)"
+			(at 240.03 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser#" "306-S4BXHSM4TBLFSN"
+			(at 240.03 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 240.03 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternatives" ""
+			(at 240.03 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 240.03 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a8d03963-8275-4931-8a5c-97e2e2da9eb5")
+		)
+		(pin "2"
+			(uuid "9d894f01-31bb-4b87-bbff-d4da7aa43e9c")
+		)
+		(pin "3"
+			(uuid "6c9064f2-3067-4760-9a27-e6f0041db7aa")
+		)
+		(pin "4"
+			(uuid "06db9179-2d69-4793-bbe6-0bafe0d57d24")
+		)
+		(pin "MP"
+			(uuid "35ec1f8f-8960-4c3e-bae2-d346bb089b9b")
+		)
+		(instances
+			(project "compute"
+				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
+					(reference "JX1")
 					(unit 1)
 				)
 			)
@@ -12350,7 +10063,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 35.56 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -12437,153 +10150,6 @@
 			(project "compute"
 				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
 					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 166.37 119.38 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "afebcff3-0c67-4d85-af15-60c37a6685ec")
-		(property "Reference" "C47"
-			(at 174.244 120.65 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 167.64 120.904 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 166.37 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 166.37 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manf#" "C0805C104J5RACTU"
-			(at 166.37 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mouser#" "80-C0805C104J5R"
-			(at 166.37 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "farnell#" "1414663"
-			(at 166.37 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 166.37 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternatives" ""
-			(at 166.37 119.38 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 166.37 119.38 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4c698a83-0244-44b1-b73c-3dc13a4f0f3f")
-		)
-		(pin "2"
-			(uuid "0776b1d7-25e2-461e-8f7b-2d931b4214f2")
-		)
-		(instances
-			(project "compute"
-				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
-					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -12744,217 +10310,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 189.23 93.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1c40f0e-eb59-4663-bc5d-39daa841ceb0")
-		(property "Reference" "J12"
-			(at 191.77 92.7099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "receptable 4 way"
-			(at 191.77 95.2499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 189.23 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manf#" "XHP-4"
-			(at 189.23 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mouser#" "306-XHP-4"
-			(at 189.23 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "farnell#" "1516266"
-			(at 189.23 93.98 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternatives" ""
-			(at 189.23 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 189.23 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f353ed99-29b4-4be7-881b-9dac2557d8bb")
-		)
-		(instances
-			(project "compute"
-				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
-					(reference "J12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 163.83 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b6e38579-ae16-462d-bfa1-8e5732786d87")
-		(property "Reference" "#PWR0112"
-			(at 163.83 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 166.37 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 163.83 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "98268dd4-0815-4d1f-93f4-f70bd6c5a23d")
-		)
-		(instances
-			(project "compute"
-				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
-					(reference "#PWR0112")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 50.8 87.63 0)
 		(unit 1)
@@ -13095,7 +10450,7 @@
 				)
 			)
 		)
-		(property "farnell#" "4765502"
+		(property "farnell#" "4765491"
 			(at 120.65 120.65 90)
 			(hide yes)
 			(show_name no)
@@ -13106,7 +10461,7 @@
 				)
 			)
 		)
-		(property "mouser#" "647-UCL1E101MCL1GS"
+		(property "mouser#" "647-UCD1V101MNL1GS "
 			(at 120.65 120.65 90)
 			(hide yes)
 			(show_name no)
@@ -13117,7 +10472,7 @@
 				)
 			)
 		)
-		(property "manf#" "UCL1E101MCL1GS"
+		(property "manf#" "UCD1V101MNL1GS"
 			(at 120.65 120.65 90)
 			(hide yes)
 			(show_name no)
@@ -13171,6 +10526,140 @@
 			(project "compute"
 				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
 					(reference "C43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 270.51 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be733593-20b0-42b5-a35d-4e5ab9a945e6")
+		(property "Reference" "J11"
+			(at 273.05 78.7399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "receptable 4 way"
+			(at 273.05 81.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 270.51 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf#" "XHP-4"
+			(at 270.51 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser#" "306-XHP-4"
+			(at 270.51 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "farnell#" "1516266"
+			(at 270.51 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternatives" ""
+			(at 270.51 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 270.51 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "36fb7539-c168-4170-b930-36cc53bdf04f")
+		)
+		(instances
+			(project "compute"
+				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -13231,7 +10720,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 45.72 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -13242,7 +10731,7 @@
 				)
 			)
 		)
-		(property "manf#" "187-CL21A106KAYNNNE"
+		(property "manf#" "GRM21BR61H106KE43L"
 			(at 45.72 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -13253,7 +10742,7 @@
 				)
 			)
 		)
-		(property "mouser#" "3010126"
+		(property "mouser#" "81-GRM21BR61H106KE3L"
 			(at 45.72 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -13264,7 +10753,7 @@
 				)
 			)
 		)
-		(property "farnell#" "CL21A106KAYNNNE"
+		(property "farnell#" "3790440"
 			(at 45.72 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -13318,153 +10807,6 @@
 			(project "compute"
 				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
 					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 167.64 114.3 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c2b39b1a-60e2-4f17-95a4-b88e11052a9a")
-		(property "Reference" "R24"
-			(at 174.752 114.046 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 169.672 114.046 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 167.64 116.078 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 167.64 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "farnell#" "2826162"
-			(at 167.64 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manf#" "CRCW080510K0JNEAC"
-			(at 167.64 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mouser#" "71-CRCW080510K0JNEAC"
-			(at 167.64 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 167.64 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternatives" ""
-			(at 167.64 114.3 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 167.64 114.3 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "21f119dc-cdfd-44c4-b894-1ef87dca4944")
-		)
-		(pin "2"
-			(uuid "7ca1ca36-8492-48d2-a007-26ceb6b68d1e")
-		)
-		(instances
-			(project "compute"
-				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
-					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -13525,7 +10867,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 35.56 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -13681,7 +11023,7 @@
 				)
 			)
 		)
-		(property "farnell#" "4765502"
+		(property "farnell#" "4765491"
 			(at 120.65 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -13692,7 +11034,7 @@
 				)
 			)
 		)
-		(property "mouser#" "647-UCL1E101MCL1GS"
+		(property "mouser#" "647-UCD1V101MNL1GS "
 			(at 120.65 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -13703,7 +11045,7 @@
 				)
 			)
 		)
-		(property "manf#" "UCL1E101MCL1GS"
+		(property "manf#" "UCD1V101MNL1GS"
 			(at 120.65 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -13904,6 +11246,296 @@
 			(project "compute"
 				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 270.51 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cefebf66-8756-4518-90af-cccd126701e2")
+		(property "Reference" "J10"
+			(at 273.05 55.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "receptable 4 way"
+			(at 273.05 58.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 270.51 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf#" "XHP-4"
+			(at 270.51 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser#" "306-XHP-4"
+			(at 270.51 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "farnell#" "1516266"
+			(at 270.51 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternatives" ""
+			(at 270.51 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 270.51 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7dcb2c11-8f25-4fd1-ad2b-39919add32be")
+		)
+		(instances
+			(project "compute"
+				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x04_MountingPin")
+		(at 240.03 82.55 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d228d0f5-b757-4a43-859b-679c356053ef")
+		(property "Reference" "JY1"
+			(at 237.998 82.3468 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor"
+			(at 237.998 80.0354 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:JST_XH_S4B-XH-SM4-TB_1x04-1MP_P2.50mm_Horizontal"
+			(at 240.03 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "farnell#" "2399478"
+			(at 240.03 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf#" "S4B-XH-SM4-TB(LF)(SN)"
+			(at 240.03 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser#" "306-S4BXHSM4TBLFSN"
+			(at 240.03 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 240.03 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternatives" ""
+			(at 240.03 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 240.03 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7c97803c-fd1c-462e-be65-0a8723c10ef2")
+		)
+		(pin "2"
+			(uuid "197d5eb1-9e0c-4b9c-b178-facec706a7d0")
+		)
+		(pin "3"
+			(uuid "02154e94-7655-4568-a11a-1f05ec62b71e")
+		)
+		(pin "4"
+			(uuid "32c28ba7-f5b6-48c6-a758-0fa3e80e712e")
+		)
+		(pin "MP"
+			(uuid "72368aaa-2a41-40f2-a694-cf0ace2d4023")
+		)
+		(instances
+			(project "compute"
+				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
+					(reference "JY1")
 					(unit 1)
 				)
 			)
@@ -14135,7 +11767,7 @@
 		)
 	)
 	(symbol
-		(lib_id "firestarter_library:TMC2209-LA-T")
+		(lib_id "compute_library:TMC2209-LA-T")
 		(at 71.12 234.95 0)
 		(unit 1)
 		(body_style 1)
@@ -14391,6 +12023,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+24V")
+		(at 120.65 204.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e38e2604-51c1-4a94-b804-2139ca545ffd")
+		(property "Reference" "#PWR073"
+			(at 120.65 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+24V"
+			(at 120.65 199.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 120.65 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3f429e3c-7041-429c-a658-409c288c7948")
+		)
+		(instances
+			(project "compute"
+				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 99.06 266.7 0)
 		(unit 1)
@@ -14468,39 +12178,41 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 163.83 50.8 0)
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 270.51 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ed3e45ad-c7f8-4f69-9cd3-c482dbed8fba")
-		(property "Reference" "#PWR0110"
-			(at 163.83 54.61 0)
-			(hide yes)
+		(fields_autoplaced yes)
+		(uuid "ebaf3fd0-5568-42c3-a371-2f5a74778171")
+		(property "Reference" "J14"
+			(at 273.05 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 166.37 46.99 0)
+		(property "Value" "cable assembly"
+			(at 273.05 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 50.8 0)
+			(at 270.51 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14511,7 +12223,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 50.8 0)
+			(at 270.51 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14521,8 +12233,63 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 163.83 50.8 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 270.51 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf#" "SXH-001T-P0.6"
+			(at 270.51 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser#" "306-SXH-001T-P0.6"
+			(at 270.51 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "farnell#" "2847870"
+			(at 270.51 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternatives" ""
+			(at 270.51 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 270.51 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14533,12 +12300,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e087c617-bb58-4abf-8d65-cbcbe81fd01e")
+			(uuid "2242def0-468c-4628-b6af-03d9c7e2f575")
 		)
 		(instances
 			(project "compute"
 				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
-					(reference "#PWR0110")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -14623,118 +12390,40 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 163.83 119.38 0)
+		(lib_id "power:+24V")
+		(at 120.65 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ef6ae0d5-06da-411b-b19d-6d831b32fef6")
-		(property "Reference" "#PWR0115"
-			(at 163.83 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 160.02 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "471a097c-c71d-461c-97ab-ea593bc64d5f")
-		)
-		(instances
-			(project "compute"
-				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
-					(reference "#PWR0115")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 189.23 30.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f7825d51-b1a0-4285-a241-42bfbcec90d5")
-		(property "Reference" "J10"
-			(at 191.77 29.2099 0)
+		(uuid "f39abd1e-b3e4-44b4-b488-f16bb95fd1f1")
+		(property "Reference" "#PWR017"
+			(at 120.65 40.64 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "receptable 4 way"
-			(at 191.77 31.7499 0)
+		(property "Value" "+24V"
+			(at 120.65 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 30.48 0)
+			(at 120.65 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14745,7 +12434,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 30.48 0)
+			(at 120.65 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14755,63 +12444,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 189.23 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manf#" "XHP-4"
-			(at 189.23 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mouser#" "306-XHP-4"
-			(at 189.23 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "farnell#" "1516266"
-			(at 189.23 30.48 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternatives" ""
-			(at 189.23 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 189.23 30.48 0)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 120.65 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14822,89 +12456,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "113cfd73-d3d7-4d3c-a038-9d2e1fc3a3f3")
+			(uuid "7f3b8a05-8c48-4029-a76e-8da37f220e20")
 		)
 		(instances
 			(project "compute"
 				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 163.83 114.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f9a6b5f2-c0a1-4c7b-ba5e-60dc6256aa72")
-		(property "Reference" "#PWR0114"
-			(at 163.83 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 164.592 109.474 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 163.83 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "894d3645-b58f-4aef-8bfd-0f151afa4db6")
-		)
-		(instances
-			(project "compute"
-				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
-					(reference "#PWR0114")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
