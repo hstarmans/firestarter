@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Firestarter ")
-		(date "2024-10-26")
+		(date "2026-04-30")
 		(company "Hexastorm")
 		(comment 1 "v1")
 	)
@@ -10459,7 +10459,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "power"
 			(at 41.148 36.068 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14922,7 +14922,7 @@
 				)
 			)
 		)
-		(property "mouser#" "652-SRP5030T-100M "
+		(property "mouser#" "652-SRP5030T-100M"
 			(at 120.65 127 0)
 			(hide yes)
 			(show_name no)

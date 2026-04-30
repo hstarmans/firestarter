@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Firestarter ")
-		(date "2024-10-27")
+		(date "2026-04-30")
 		(company "Hexastorm")
 		(comment 1 "v1")
 	)
@@ -1938,8 +1938,8 @@
 		(uuid "0f067f82-69c4-434d-9f9b-6a8acb402ec7")
 	)
 	(rectangle
-		(start 228.6 52.705)
-		(end 297.815 107.95)
+		(start 146.05 27.305)
+		(end 215.265 82.55)
 		(stroke
 			(width 0)
 			(type default)
@@ -2023,7 +2023,7 @@
 	)
 	(text "Stepper motors"
 		(exclude_from_sim no)
-		(at 58.928 22.86 0)
+		(at 54.102 24.892 0)
 		(effects
 			(font
 				(size 3 3)
@@ -2032,9 +2032,9 @@
 		)
 		(uuid "a7db9d8a-1690-42c4-8332-3828a31d65a8")
 	)
-	(text "Endstops"
+	(text "Motor connectors"
 		(exclude_from_sim no)
-		(at 236.728 51.816 0)
+		(at 160.02 24.892 0)
 		(effects
 			(font
 				(size 3 3)
@@ -2260,11 +2260,11 @@
 		(uuid "f858e349-66e8-4426-81c5-6352a940b098")
 	)
 	(no_connect
-		(at 265.43 63.5)
+		(at 182.88 38.1)
 		(uuid "04287965-c598-4ac2-a989-7865f34167b2")
 	)
 	(no_connect
-		(at 265.43 80.01)
+		(at 182.88 54.61)
 		(uuid "19d2a10b-e861-46f3-95eb-a835b3e06be0")
 	)
 	(no_connect
@@ -2284,7 +2284,7 @@
 		(uuid "61107149-7421-48b8-83ec-d4a88beebc43")
 	)
 	(no_connect
-		(at 265.43 100.33)
+		(at 182.88 74.93)
 		(uuid "6c5135bd-3505-4a9a-b921-2f5dc7150aaf")
 	)
 	(no_connect
@@ -2304,7 +2304,7 @@
 		(uuid "ca990573-e668-4767-82f1-4dc6122bc0b3")
 	)
 	(no_connect
-		(at 265.43 57.15)
+		(at 182.88 31.75)
 		(uuid "dc2f4a9f-8d03-464f-a944-5d94b16109e1")
 	)
 	(no_connect
@@ -2353,7 +2353,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 72.39) (xy 240.03 72.39)
+			(xy 153.67 46.99) (xy 157.48 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2433,7 +2433,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 54.61) (xy 240.03 54.61)
+			(xy 152.4 29.21) (xy 157.48 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2673,7 +2673,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 91.44) (xy 240.03 91.44)
+			(xy 153.67 66.04) (xy 157.48 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2969,7 +2969,7 @@
 	)
 	(global_label "Z_A2"
 		(shape input)
-		(at 245.11 104.14 0)
+		(at 162.56 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2978,7 +2978,7 @@
 		)
 		(uuid "14eb1be1-51fc-42a1-a6c0-e4a4e5646431")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.11 104.14 0)
+			(at 162.56 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3035,7 +3035,7 @@
 	)
 	(global_label "X_A2"
 		(shape input)
-		(at 245.11 67.31 0)
+		(at 162.56 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3044,7 +3044,7 @@
 		)
 		(uuid "199dcd6b-33f3-4f0b-9ff4-9af8ec3b9a55")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.11 67.31 0)
+			(at 162.56 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3301,7 +3301,7 @@
 	)
 	(global_label "X_B1"
 		(shape input)
-		(at 245.11 62.23 0)
+		(at 162.56 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3310,7 +3310,7 @@
 		)
 		(uuid "6508f0f2-7d5a-4754-a876-dadd68a27c2c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.11 62.23 0)
+			(at 162.56 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3323,7 +3323,7 @@
 	)
 	(global_label "Z_B1"
 		(shape input)
-		(at 245.11 99.06 0)
+		(at 162.56 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3332,7 +3332,7 @@
 		)
 		(uuid "659a2b3f-ff2b-4c7b-ae56-452a102d532f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.11 99.06 0)
+			(at 162.56 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3413,7 +3413,7 @@
 	)
 	(global_label "X_B2"
 		(shape input)
-		(at 245.11 59.69 0)
+		(at 162.56 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3422,7 +3422,7 @@
 		)
 		(uuid "77fe097f-e467-44f7-b3da-67c9f3f5c9f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.11 59.69 0)
+			(at 162.56 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3435,7 +3435,7 @@
 	)
 	(global_label "Z_A1"
 		(shape input)
-		(at 245.11 101.6 0)
+		(at 162.56 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3444,7 +3444,7 @@
 		)
 		(uuid "7ad492ca-23bd-4632-b285-81cb25553ec8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.11 101.6 0)
+			(at 162.56 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3549,7 +3549,7 @@
 	)
 	(global_label "Y_B1"
 		(shape input)
-		(at 245.11 80.01 0)
+		(at 162.56 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3558,7 +3558,7 @@
 		)
 		(uuid "af4ef9b6-70dc-47f9-9eaf-7b8867a140c1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.11 80.01 0)
+			(at 162.56 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3593,7 +3593,7 @@
 	)
 	(global_label "Y_B2"
 		(shape input)
-		(at 245.11 77.47 0)
+		(at 162.56 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3602,7 +3602,7 @@
 		)
 		(uuid "d10acf75-ca94-42d7-a11f-5a60cab6446a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.11 77.47 0)
+			(at 162.56 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3639,7 +3639,7 @@
 	)
 	(global_label "Z_B2"
 		(shape input)
-		(at 245.11 96.52 0)
+		(at 162.56 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3648,7 +3648,7 @@
 		)
 		(uuid "e3d01036-87d4-4e75-9fca-e3a49e90e9fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.11 96.52 0)
+			(at 162.56 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3661,7 +3661,7 @@
 	)
 	(global_label "X_A1"
 		(shape input)
-		(at 245.11 64.77 0)
+		(at 162.56 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3670,7 +3670,7 @@
 		)
 		(uuid "e5cf01e5-febc-4728-bd7c-1b8962950c78")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.11 64.77 0)
+			(at 162.56 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3749,7 +3749,7 @@
 	)
 	(global_label "Y_A1"
 		(shape input)
-		(at 245.11 82.55 0)
+		(at 162.56 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3758,7 +3758,7 @@
 		)
 		(uuid "f356984e-5f65-4a2a-8ee4-b08ee257ef97")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.11 82.55 0)
+			(at 162.56 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3771,7 +3771,7 @@
 	)
 	(global_label "Y_A2"
 		(shape input)
-		(at 245.11 85.09 0)
+		(at 162.56 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3780,7 +3780,7 @@
 		)
 		(uuid "f39dbe60-5d79-45bf-b66c-28ae2a67915d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.11 85.09 0)
+			(at 162.56 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5489,7 +5489,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 236.22 72.39 0)
+		(at 153.67 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5499,7 +5499,7 @@
 		(dnp no)
 		(uuid "1811837d-5774-45ac-b138-a6e8b19f588c")
 		(property "Reference" "#PWR0121"
-			(at 236.22 78.74 0)
+			(at 153.67 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5510,7 +5510,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 232.41 74.93 0)
+			(at 149.86 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5520,7 +5520,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 72.39 0)
+			(at 153.67 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5531,7 +5531,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 72.39 0)
+			(at 153.67 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5542,7 +5542,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 72.39 0)
+			(at 153.67 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6237,7 +6237,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x04_MountingPin")
-		(at 240.03 101.6 180)
+		(at 157.48 76.2 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6247,7 +6247,7 @@
 		(dnp no)
 		(uuid "3d28c27f-ae61-41db-afba-21b33b558632")
 		(property "Reference" "JZ1"
-			(at 237.998 101.3968 0)
+			(at 155.448 75.9968 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6258,7 +6258,7 @@
 			)
 		)
 		(property "Value" "Motor"
-			(at 237.998 99.0854 0)
+			(at 155.448 73.6854 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6269,7 +6269,7 @@
 			)
 		)
 		(property "Footprint" "footprints:JST_XH_S4B-XH-SM4-TB_1x04-1MP_P2.50mm_Horizontal"
-			(at 240.03 101.6 0)
+			(at 157.48 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6280,7 +6280,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 101.6 0)
+			(at 157.48 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6291,7 +6291,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 101.6 0)
+			(at 157.48 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6302,7 +6302,7 @@
 			)
 		)
 		(property "farnell#" "2399478"
-			(at 240.03 101.6 0)
+			(at 157.48 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6313,7 +6313,7 @@
 			)
 		)
 		(property "manf#" "S4B-XH-SM4-TB(LF)(SN)"
-			(at 240.03 101.6 0)
+			(at 157.48 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6324,7 +6324,7 @@
 			)
 		)
 		(property "mouser#" "306-S4BXHSM4TBLFSN"
-			(at 240.03 101.6 0)
+			(at 157.48 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6335,7 +6335,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 240.03 101.6 0)
+			(at 157.48 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6346,7 +6346,7 @@
 			)
 		)
 		(property "Alternatives" ""
-			(at 240.03 101.6 0)
+			(at 157.48 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6357,7 +6357,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 240.03 101.6 0)
+			(at 157.48 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6988,7 +6988,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 270.51 100.33 0)
+		(at 187.96 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6999,7 +6999,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b797367-ad24-41cd-a688-baa8723ab32c")
 		(property "Reference" "J12"
-			(at 273.05 99.0599 0)
+			(at 190.5 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7010,7 +7010,7 @@
 			)
 		)
 		(property "Value" "receptable 4 way"
-			(at 273.05 101.5999 0)
+			(at 190.5 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7021,7 +7021,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 270.51 100.33 0)
+			(at 187.96 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7032,7 +7032,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 100.33 0)
+			(at 187.96 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7043,7 +7043,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 270.51 100.33 0)
+			(at 187.96 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7054,7 +7054,7 @@
 			)
 		)
 		(property "manf#" "XHP-4"
-			(at 270.51 100.33 0)
+			(at 187.96 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7065,7 +7065,7 @@
 			)
 		)
 		(property "mouser#" "306-XHP-4"
-			(at 270.51 100.33 0)
+			(at 187.96 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7076,7 +7076,7 @@
 			)
 		)
 		(property "farnell#" "1516266"
-			(at 270.51 100.33 90)
+			(at 187.96 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7087,7 +7087,7 @@
 			)
 		)
 		(property "Alternatives" ""
-			(at 270.51 100.33 0)
+			(at 187.96 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7098,7 +7098,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 270.51 100.33 0)
+			(at 187.96 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9475,7 +9475,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 234.95 54.61 0)
+		(at 152.4 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9485,7 +9485,7 @@
 		(dnp no)
 		(uuid "9c3208f4-0979-4264-9636-cdc2ab909c8b")
 		(property "Reference" "#PWR0123"
-			(at 234.95 60.96 0)
+			(at 152.4 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9496,7 +9496,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 231.14 57.15 0)
+			(at 148.59 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9506,7 +9506,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 54.61 0)
+			(at 152.4 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9517,7 +9517,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 54.61 0)
+			(at 152.4 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9528,7 +9528,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 54.61 0)
+			(at 152.4 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9699,7 +9699,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 236.22 91.44 0)
+		(at 153.67 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9709,7 +9709,7 @@
 		(dnp no)
 		(uuid "a176556b-d0d5-4b6e-b18a-b286a4f2c573")
 		(property "Reference" "#PWR0119"
-			(at 236.22 97.79 0)
+			(at 153.67 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9720,7 +9720,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 232.41 93.98 0)
+			(at 149.86 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9730,7 +9730,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 91.44 0)
+			(at 153.67 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9741,7 +9741,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 91.44 0)
+			(at 153.67 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9752,7 +9752,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 91.44 0)
+			(at 153.67 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9776,7 +9776,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x04_MountingPin")
-		(at 240.03 64.77 180)
+		(at 157.48 39.37 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9786,7 +9786,7 @@
 		(dnp no)
 		(uuid "a2b8bfba-8eda-4361-99a7-a2fe28799f81")
 		(property "Reference" "JX1"
-			(at 237.998 64.5668 0)
+			(at 155.448 39.1668 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9797,7 +9797,7 @@
 			)
 		)
 		(property "Value" "Motor"
-			(at 237.998 62.2554 0)
+			(at 155.448 36.8554 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9808,7 +9808,7 @@
 			)
 		)
 		(property "Footprint" "footprints:JST_XH_S4B-XH-SM4-TB_1x04-1MP_P2.50mm_Horizontal"
-			(at 240.03 64.77 0)
+			(at 157.48 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9819,7 +9819,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 64.77 0)
+			(at 157.48 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9830,7 +9830,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 64.77 0)
+			(at 157.48 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9841,7 +9841,7 @@
 			)
 		)
 		(property "farnell#" "2399478"
-			(at 240.03 64.77 0)
+			(at 157.48 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9852,7 +9852,7 @@
 			)
 		)
 		(property "manf#" "S4B-XH-SM4-TB(LF)(SN)"
-			(at 240.03 64.77 0)
+			(at 157.48 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9863,7 +9863,7 @@
 			)
 		)
 		(property "mouser#" "306-S4BXHSM4TBLFSN"
-			(at 240.03 64.77 0)
+			(at 157.48 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9874,7 +9874,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 240.03 64.77 0)
+			(at 157.48 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9885,7 +9885,7 @@
 			)
 		)
 		(property "Alternatives" ""
-			(at 240.03 64.77 0)
+			(at 157.48 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9896,7 +9896,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 240.03 64.77 0)
+			(at 157.48 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10533,7 +10533,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 270.51 80.01 0)
+		(at 187.96 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10544,7 +10544,7 @@
 		(fields_autoplaced yes)
 		(uuid "be733593-20b0-42b5-a35d-4e5ab9a945e6")
 		(property "Reference" "J11"
-			(at 273.05 78.7399 0)
+			(at 190.5 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10555,7 +10555,7 @@
 			)
 		)
 		(property "Value" "receptable 4 way"
-			(at 273.05 81.2799 0)
+			(at 190.5 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10566,7 +10566,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 270.51 80.01 0)
+			(at 187.96 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10577,7 +10577,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 80.01 0)
+			(at 187.96 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10588,7 +10588,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 270.51 80.01 0)
+			(at 187.96 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10599,7 +10599,7 @@
 			)
 		)
 		(property "manf#" "XHP-4"
-			(at 270.51 80.01 0)
+			(at 187.96 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10610,7 +10610,7 @@
 			)
 		)
 		(property "mouser#" "306-XHP-4"
-			(at 270.51 80.01 0)
+			(at 187.96 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10621,7 +10621,7 @@
 			)
 		)
 		(property "farnell#" "1516266"
-			(at 270.51 80.01 90)
+			(at 187.96 54.61 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10632,7 +10632,7 @@
 			)
 		)
 		(property "Alternatives" ""
-			(at 270.51 80.01 0)
+			(at 187.96 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10643,7 +10643,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 270.51 80.01 0)
+			(at 187.96 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11253,7 +11253,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 270.51 57.15 0)
+		(at 187.96 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11264,7 +11264,7 @@
 		(fields_autoplaced yes)
 		(uuid "cefebf66-8756-4518-90af-cccd126701e2")
 		(property "Reference" "J10"
-			(at 273.05 55.8799 0)
+			(at 190.5 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11275,7 +11275,7 @@
 			)
 		)
 		(property "Value" "receptable 4 way"
-			(at 273.05 58.4199 0)
+			(at 190.5 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11286,7 +11286,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 270.51 57.15 0)
+			(at 187.96 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11297,7 +11297,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 57.15 0)
+			(at 187.96 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11308,7 +11308,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 270.51 57.15 0)
+			(at 187.96 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11319,7 +11319,7 @@
 			)
 		)
 		(property "manf#" "XHP-4"
-			(at 270.51 57.15 0)
+			(at 187.96 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11330,7 +11330,7 @@
 			)
 		)
 		(property "mouser#" "306-XHP-4"
-			(at 270.51 57.15 0)
+			(at 187.96 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11341,7 +11341,7 @@
 			)
 		)
 		(property "farnell#" "1516266"
-			(at 270.51 57.15 90)
+			(at 187.96 31.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11352,7 +11352,7 @@
 			)
 		)
 		(property "Alternatives" ""
-			(at 270.51 57.15 0)
+			(at 187.96 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11363,7 +11363,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 270.51 57.15 0)
+			(at 187.96 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11387,7 +11387,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x04_MountingPin")
-		(at 240.03 82.55 180)
+		(at 157.48 57.15 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11397,7 +11397,7 @@
 		(dnp no)
 		(uuid "d228d0f5-b757-4a43-859b-679c356053ef")
 		(property "Reference" "JY1"
-			(at 237.998 82.3468 0)
+			(at 155.448 56.9468 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11408,7 +11408,7 @@
 			)
 		)
 		(property "Value" "Motor"
-			(at 237.998 80.0354 0)
+			(at 155.448 54.6354 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11419,7 +11419,7 @@
 			)
 		)
 		(property "Footprint" "footprints:JST_XH_S4B-XH-SM4-TB_1x04-1MP_P2.50mm_Horizontal"
-			(at 240.03 82.55 0)
+			(at 157.48 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11430,7 +11430,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 82.55 0)
+			(at 157.48 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11441,7 +11441,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 82.55 0)
+			(at 157.48 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11452,7 +11452,7 @@
 			)
 		)
 		(property "farnell#" "2399478"
-			(at 240.03 82.55 0)
+			(at 157.48 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11463,7 +11463,7 @@
 			)
 		)
 		(property "manf#" "S4B-XH-SM4-TB(LF)(SN)"
-			(at 240.03 82.55 0)
+			(at 157.48 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11474,7 +11474,7 @@
 			)
 		)
 		(property "mouser#" "306-S4BXHSM4TBLFSN"
-			(at 240.03 82.55 0)
+			(at 157.48 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11485,7 +11485,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 240.03 82.55 0)
+			(at 157.48 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11496,7 +11496,7 @@
 			)
 		)
 		(property "Alternatives" ""
-			(at 240.03 82.55 0)
+			(at 157.48 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11507,7 +11507,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 240.03 82.55 0)
+			(at 157.48 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12179,7 +12179,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 270.51 63.5 0)
+		(at 187.96 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12190,7 +12190,7 @@
 		(fields_autoplaced yes)
 		(uuid "ebaf3fd0-5568-42c3-a371-2f5a74778171")
 		(property "Reference" "J14"
-			(at 273.05 62.2299 0)
+			(at 190.5 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12201,7 +12201,7 @@
 			)
 		)
 		(property "Value" "cable assembly"
-			(at 273.05 64.7699 0)
+			(at 190.5 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12212,7 +12212,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 270.51 63.5 0)
+			(at 187.96 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12223,7 +12223,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 63.5 0)
+			(at 187.96 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12234,7 +12234,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 270.51 63.5 0)
+			(at 187.96 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12245,7 +12245,7 @@
 			)
 		)
 		(property "manf#" "SXH-001T-P0.6"
-			(at 270.51 63.5 0)
+			(at 187.96 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12256,7 +12256,7 @@
 			)
 		)
 		(property "mouser#" "306-SXH-001T-P0.6"
-			(at 270.51 63.5 0)
+			(at 187.96 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12267,7 +12267,7 @@
 			)
 		)
 		(property "farnell#" "2847870"
-			(at 270.51 63.5 90)
+			(at 187.96 38.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12278,7 +12278,7 @@
 			)
 		)
 		(property "Alternatives" ""
-			(at 270.51 63.5 0)
+			(at 187.96 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12289,7 +12289,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 270.51 63.5 0)
+			(at 187.96 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
