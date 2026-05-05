@@ -1,5 +1,0 @@
-(version 1)
-(rule "Clearance in Camera Zone"
-  (condition "A.insideArea('Camera_Zone')")
-  (constraint clearance (min 0.1mm))
-)

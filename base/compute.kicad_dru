@@ -1,0 +1,9 @@
+(version 1)
+(rule "Clearance in Camera Zone"
+  (condition "A.insideArea('Camera_Zone')")
+  (constraint clearance (min 0.1mm))
+)
+(rule "DVP_Bus_Length_Matching"
+    (constraint length (min 25.00mm) (max 27.00mm))
+    (condition "A.NetClass == 'DVP_BUS'")
+)

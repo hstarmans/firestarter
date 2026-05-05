@@ -522,6 +522,21 @@
         "via_diameter": 0.6,
         "via_drill": 0.4,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "DVP_BUS",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.4
       }
     ],
     "meta": {
@@ -531,8 +546,12 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Default",
-        "pattern": "Z_DIR"
+        "netclass": "DVP_BUS",
+        "pattern": "DVP_Y*"
+      },
+      {
+        "netclass": "DVP_BUS",
+        "pattern": "DVP_*CLK"
       }
     ]
   },
@@ -794,7 +813,7 @@
         "uuid": "3f5fe6b7-98fc-4d3e-9567-f9f7202d1455"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR31,#PWR35",
     "variants": []
   },
   "sheets": [

@@ -1719,7 +1719,7 @@
 		)
 		(uuid "08393267-07f3-4683-9758-ead6936a07df")
 	)
-	(text "GPIO 1&3 micropython REPL"
+	(text "GPIO 0&3 strapping pins\n"
 		(exclude_from_sim no)
 		(at 190.754 84.582 0)
 		(effects
@@ -1786,7 +1786,7 @@
 		(uuid "e6bba318-fba3-4a5b-a2bf-8091409bf967")
 	)
 	(junction
-		(at 191.77 74.93)
+		(at 195.58 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f7de0ea-a0d3-40cd-9e19-751cdec3a907")
@@ -1816,7 +1816,7 @@
 		(uuid "a47ed8c6-4ba2-42b4-ac43-b8f0cc684e32")
 	)
 	(junction
-		(at 201.93 77.47)
+		(at 205.74 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a4f51708-ad54-492f-84c8-a180a21c9a98")
@@ -1855,16 +1855,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 74.93) (xy 191.77 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0aa6bdb5-6699-49c6-9de1-570aaebb9e0d")
-	)
-	(wire
-		(pts
 			(xy 76.2 67.31) (xy 72.39 67.31)
 		)
 		(stroke
@@ -1875,7 +1865,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 74.93) (xy 191.77 74.93)
+			(xy 180.34 74.93) (xy 195.58 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1895,7 +1885,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 72.39) (xy 201.93 77.47)
+			(xy 205.74 72.39) (xy 205.74 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1945,7 +1935,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 72.39) (xy 191.77 74.93)
+			(xy 195.58 72.39) (xy 195.58 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1983,7 +1973,7 @@
 		)
 		(uuid "fdf30981-5233-42d9-a4c2-fbcd2237bfda")
 	)
-	(global_label "HREF"
+	(global_label "DVP_HREF"
 		(shape input)
 		(at 88.9 77.47 180)
 		(fields_autoplaced yes)
@@ -1995,7 +1985,7 @@
 		)
 		(uuid "0621b5ac-b811-40ad-a896-b72060db6078")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.7309 77.47 0)
+			(at 77.1347 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2173,7 +2163,7 @@
 			)
 		)
 	)
-	(global_label "VSYNC"
+	(global_label "DVP_VSYNC"
 		(shape input)
 		(at 88.9 80.01 180)
 		(fields_autoplaced yes)
@@ -2185,7 +2175,7 @@
 		)
 		(uuid "45818d30-0ae1-48c9-a36a-7612a8a04711")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.5818 80.01 0)
+			(at 75.9856 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2385,7 +2375,7 @@
 			)
 		)
 	)
-	(global_label "XCLK"
+	(global_label "DVP_XCLK"
 		(shape input)
 		(at 88.9 74.93 180)
 		(fields_autoplaced yes)
@@ -2397,7 +2387,7 @@
 		)
 		(uuid "aa8e5903-9fa8-440a-8c12-a79cce0e4f4f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.7914 74.93 0)
+			(at 77.1952 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2481,7 +2471,7 @@
 			)
 		)
 	)
-	(global_label "PCLK"
+	(global_label "DVP_PCLK"
 		(shape input)
 		(at 180.34 120.65 0)
 		(fields_autoplaced yes)
@@ -2493,7 +2483,7 @@
 		)
 		(uuid "c1b99b65-1b4f-499c-bb14-94e170740f1a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.5091 120.65 0)
+			(at 192.1053 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2956,7 +2946,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 201.93 77.47 0)
+		(at 205.74 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2967,7 +2957,7 @@
 		(fields_autoplaced yes)
 		(uuid "4067baa4-95e0-4cdc-88eb-de8f47623637")
 		(property "Reference" "#PWR032"
-			(at 201.93 83.82 0)
+			(at 205.74 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2978,7 +2968,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 204.47 78.7399 0)
+			(at 208.28 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2989,7 +2979,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 77.47 0)
+			(at 205.74 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3000,7 +2990,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 77.47 0)
+			(at 205.74 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3011,7 +3001,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 201.93 77.47 0)
+			(at 205.74 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3035,7 +3025,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_Dual")
-		(at 196.85 74.93 0)
+		(at 200.66 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3046,7 +3036,7 @@
 		(fields_autoplaced yes)
 		(uuid "514350ad-3179-44b0-a7b0-d37f3ec143ec")
 		(property "Reference" "SW1"
-			(at 196.85 64.77 0)
+			(at 200.66 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3056,7 +3046,7 @@
 			)
 		)
 		(property "Value" "SW_Push_Open"
-			(at 196.85 67.31 0)
+			(at 200.66 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3066,7 +3056,7 @@
 			)
 		)
 		(property "Footprint" "footprints:SKRPABE010"
-			(at 196.85 67.31 0)
+			(at 200.66 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3077,7 +3067,7 @@
 			)
 		)
 		(property "Datasheet" "https://nl.farnell.com/en-NL/alcoswitch-te-connectivity/fsmsm/switch-spst-0-05a-24vdc-smd/dp/1703878"
-			(at 196.85 74.93 0)
+			(at 200.66 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3088,7 +3078,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, symbol, four pins"
-			(at 196.85 74.93 0)
+			(at 200.66 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3099,7 +3089,7 @@
 			)
 		)
 		(property "farnell#" "3261824"
-			(at 196.85 74.93 0)
+			(at 200.66 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3110,7 +3100,7 @@
 			)
 		)
 		(property "manf#" "SKRPABE010"
-			(at 196.85 74.93 0)
+			(at 200.66 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3121,7 +3111,7 @@
 			)
 		)
 		(property "mouser#" "688-SKRPAB"
-			(at 196.85 74.93 0)
+			(at 200.66 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3132,7 +3122,7 @@
 			)
 		)
 		(property "OLDFootprint" ""
-			(at 196.85 74.93 0)
+			(at 200.66 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
