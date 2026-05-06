@@ -1,4 +1,3 @@
-
 # Hexastorm PCB
 
 KiCad design files for the **Hexastorm**, an open-hardware prism laser direct imager. This project utilizes an ESP32-S3 and an iCE40 UP5K FPGA to achieve high-resolution, high-speed laser exposure.
@@ -11,20 +10,17 @@ Contains the PCBs that form the actual laser head as depicted in the [CAD design
 * **Laser Control:** Localized circuitry for high-speed modulation of the laser diode.
 
 ## 2. Base System
-The Base system consists of a stacked two-board architecture to separate high-speed logic from high-power motion control.
+The Base system has been consolidated into a **single-board architecture**, designed as a drop-in replacement for the [Vevor Pro CNC3018](https://www.vevor.com/s/cnc-3018-pro) controller. It handles high-speed logic, power distribution, and motion control on a single PCB.
 
-### **Compute Board (High-Speed Logic)**
-A **4-layer PCB** optimized for signal integrity, handling the heavy lifting of image processing and timing.
 * **MCU:** ESP32-S3 (N32R8V) utilizing **8MB Octal PSRAM** for rapid image buffering.
 * **FPGA:** Lattice iCE40 UltraPlus 5k (UP5K) for nanosecond-level laser modulation and real-time synchronization with the prism index pulses.
-* **Vision:** Dedicated FPC camera connector (supports OV2640/OV5640) for alignment and surface scanning.
+* **Vision & Alignment:** Features a dedicated **24-pin FPC camera connector** supporting the **OV2640** sensor for precise laser alignment.
+* **Motion Control:** Headers for **3x Stepper Motor Drivers** (e.g., TMC2209) for X, Y, and Z/Focus axes with sensorless homing.
+* **Laser Support:** Interface for **one laser module**.
+* **Power Management:** * Supports **24V input**.
+    * Integrated DC-DC conversion to **12V** for the laser module and cooling system.
+    * **PWM Fan Control** for active thermal management.
 * **Connectivity:** USB-C for high-speed data transfer and firmware updates.
-
-### **Extension Board (Power & Motion)**
-A robust interface board that handles the "muscles" of the imager.
-* **Motion:** Headers for **3x Stepper Motor Drivers** TMC2209 for X, Y, and Z/Focus axes.
-* **Laser Interconnect:** Dual ports to control and power up to **two independent laser modules**.
-* **Power:** Integrated power distribution for motors and logic (supports 12V-24V input).
 
 ---
 
@@ -35,4 +31,4 @@ A robust interface board that handles the "muscles" of the imager.
 
 # Status
 Several generations of the system have been prototyped. A successful high-resolution exposure can be seen in this [demonstration video](https://youtu.be/dR09Tev0cPk). 
-Latest design is not yet tested.
+Latest single-board design is currently in the testing phase.

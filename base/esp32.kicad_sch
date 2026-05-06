@@ -2685,7 +2685,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.5K"
+		(property "Value" "5.1K"
 			(at 232.41 67.564 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2729,7 +2729,7 @@
 				)
 			)
 		)
-		(property "farnell#" "2908429"
+		(property "farnell#" "1469937"
 			(at 238.76 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -2740,7 +2740,7 @@
 				)
 			)
 		)
-		(property "manf#" "CR0805-JW-152ELF"
+		(property "manf#" "CRCW08055K10FKEA"
 			(at 238.76 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -2751,7 +2751,7 @@
 				)
 			)
 		)
-		(property "mouser#" "652-CR0805JW-152ELF"
+		(property "mouser#" "-71-CRCW0805-5.1K-E3"
 			(at 238.76 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -3110,7 +3110,7 @@
 				)
 			)
 		)
-		(property "mouser#" "688-SKRPAB"
+		(property "mouser#" "611-PTS810SJM250SMTR"
 			(at 200.66 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3522,7 +3522,7 @@
 				)
 			)
 		)
-		(property "mouser#" "688-SKRPAB"
+		(property "mouser#" "611-PTS810SJM250SMTR"
 			(at 66.04 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -3587,7 +3587,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.5K"
+		(property "Value" "5.1K"
 			(at 241.3 67.564 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3631,7 +3631,7 @@
 				)
 			)
 		)
-		(property "farnell#" "2908429"
+		(property "farnell#" "1469937"
 			(at 247.65 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -3642,7 +3642,7 @@
 				)
 			)
 		)
-		(property "manf#" "CR0805-JW-152ELF"
+		(property "manf#" "CRCW08055K10FKEA"
 			(at 247.65 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -3653,7 +3653,7 @@
 				)
 			)
 		)
-		(property "mouser#" "652-CR0805JW-152ELF"
+		(property "mouser#" "-71-CRCW0805-5.1K-E3"
 			(at 247.65 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -4022,7 +4022,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "5.1K"
 			(at 59.69 57.404 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4066,7 +4066,7 @@
 				)
 			)
 		)
-		(property "farnell#" "2826162"
+		(property "farnell#" "1469937"
 			(at 66.04 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4077,7 +4077,7 @@
 				)
 			)
 		)
-		(property "manf#" "CRCW080510K0JNEAC"
+		(property "manf#" "CRCW08055K10FKEA"
 			(at 66.04 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4088,7 +4088,7 @@
 				)
 			)
 		)
-		(property "mouser#" "71-CRCW080510K0JNEAC"
+		(property "mouser#" "-71-CRCW0805-5.1K-E3"
 			(at 66.04 55.88 0)
 			(hide yes)
 			(show_name no)

@@ -4076,7 +4076,7 @@
 		(dnp no)
 		(uuid "23365a85-1e5c-4fd2-8952-666e09529601")
 		(property "Reference" "R30"
-			(at 243.332 74.93 90)
+			(at 239.522 72.898 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4086,8 +4086,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
-			(at 239.522 72.644 90)
+		(property "Value" "5.1K"
+			(at 243.078 75.184 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4130,7 +4130,7 @@
 				)
 			)
 		)
-		(property "farnell#" "2826162"
+		(property "farnell#" "1469937"
 			(at 245.11 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -4141,7 +4141,7 @@
 				)
 			)
 		)
-		(property "manf#" "CRCW080510K0JNEAC"
+		(property "manf#" "CRCW08055K10FKEA"
 			(at 245.11 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -4152,7 +4152,7 @@
 				)
 			)
 		)
-		(property "mouser#" "71-CRCW080510K0JNEAC"
+		(property "mouser#" "-71-CRCW0805-5.1K-E3"
 			(at 245.11 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -4277,7 +4277,7 @@
 				)
 			)
 		)
-		(property "mouser#" "511-STD120N4LF6"
+		(property "mouser#" "512-FDD8447L"
 			(at 166.37 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -4288,7 +4288,7 @@
 				)
 			)
 		)
-		(property "farnell#" "1752049"
+		(property "farnell#" "2101407"
 			(at 166.37 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -4299,7 +4299,7 @@
 				)
 			)
 		)
-		(property "manf#" "STD120N4LF6"
+		(property "manf#" "FDD8447L"
 			(at 166.37 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -4505,7 +4505,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "5.1K"
 			(at 79.248 77.724 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4549,7 +4549,7 @@
 				)
 			)
 		)
-		(property "farnell#" "2826162"
+		(property "farnell#" "1469937"
 			(at 81.28 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4560,7 +4560,7 @@
 				)
 			)
 		)
-		(property "manf#" "CRCW080510K0JNEAC"
+		(property "manf#" "CRCW08055K10FKEA"
 			(at 81.28 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4571,7 +4571,7 @@
 				)
 			)
 		)
-		(property "mouser#" "71-CRCW080510K0JNEAC"
+		(property "mouser#" "-71-CRCW0805-5.1K-E3"
 			(at 81.28 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4696,7 +4696,7 @@
 				)
 			)
 		)
-		(property "mouser#" "200-TSM10201TSV "
+		(property "mouser#" "863-BZX84C12LT1G"
 			(at 82.55 54.61 90)
 			(hide yes)
 			(show_name no)
@@ -6006,7 +6006,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x20"
+		(property "Value" "FPC-24P-0.5mm"
 			(at 264.16 87.9855 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6277,7 +6277,7 @@
 				)
 			)
 		)
-		(property "mouser#" "306-B2P-VHLFSN "
+		(property "mouser#" "306-B2PVHBKLFSN"
 			(at 166.37 54.61 90)
 			(hide yes)
 			(show_name no)
@@ -6580,7 +6580,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "5.1K"
 			(at 159.258 77.724 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6624,7 +6624,7 @@
 				)
 			)
 		)
-		(property "farnell#" "2826162"
+		(property "farnell#" "1469937"
 			(at 161.29 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -6635,7 +6635,7 @@
 				)
 			)
 		)
-		(property "manf#" "CRCW080510K0JNEAC"
+		(property "manf#" "CRCW08055K10FKEA"
 			(at 161.29 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -6646,7 +6646,7 @@
 				)
 			)
 		)
-		(property "mouser#" "71-CRCW080510K0JNEAC"
+		(property "mouser#" "-71-CRCW0805-5.1K-E3"
 			(at 161.29 77.47 0)
 			(hide yes)
 			(show_name no)

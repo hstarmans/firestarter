@@ -1,0 +1,219 @@
+(footprint "L_CommonModeChoke_Coilcraft_0603USB"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Coilcraft 0603USB Series Common Mode Choke, https://www.coilcraft.com/pdfs/0603usb.pdf")
+	(tags "surface mount common mode bead")
+	(property "Reference" "REF**"
+		(at 0 1.7 0)
+		(layer "F.SilkS")
+		(uuid "b7345b04-37e6-4b7f-b905-35e6c98f3d3c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_CommonModeChoke_Coilcraft_0603USB"
+		(at 0 -2.01 0)
+		(layer "F.Fab")
+		(uuid "67b4110e-dd79-4150-bb94-8aab79453156")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a81795c-ec6f-4f30-9f06-f261bdecac40")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5c57520-c7fc-4402-aaf7-70985f754df8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.63 -1.1)
+		(end -0.63 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8189b611-4f6d-4ae7-b907-99ad21e4de97")
+	)
+	(fp_line
+		(start 0.63 0.8)
+		(end 0.63 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ae63b86b-6499-4ce0-990f-9f1802ddb269")
+	)
+	(fp_line
+		(start -0.68 -1.2)
+		(end 0.68 -1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "48864316-6b2b-4626-a2e0-daebdfa86138")
+	)
+	(fp_line
+		(start -0.68 1.2)
+		(end -0.68 -1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1390cd91-9894-437a-bf62-2eef136949c8")
+	)
+	(fp_line
+		(start -0.68 1.2)
+		(end 0.68 1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "564cff44-e10d-4cc6-945b-6deed089e46d")
+	)
+	(fp_line
+		(start 0.68 1.2)
+		(end 0.68 -1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "26aba93f-8558-4fc9-85d8-1a43549ab25d")
+	)
+	(fp_line
+		(start -0.38 -0.58)
+		(end -0.38 0.76)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "404c7373-bcf0-4a03-b72c-89561c9e88f9")
+	)
+	(fp_line
+		(start -0.38 -0.58)
+		(end -0.2 -0.76)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "88760676-a00f-4ce1-8217-17e44c120e19")
+	)
+	(fp_line
+		(start -0.38 0.76)
+		(end 0.38 0.76)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3afbb049-c7fb-4b5a-8f1d-1edfb96c2994")
+	)
+	(fp_line
+		(start -0.2 -0.76)
+		(end 0.38 -0.76)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a82e8aa5-2846-4ab8-a954-0f0e86dcc686")
+	)
+	(fp_line
+		(start 0.38 -0.76)
+		(end 0.38 0.76)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "308e0be8-8e01-45c5-9e8c-313c395cc41a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "42cd3e57-3a76-49a6-8021-cf14c1c74f5c")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.275 -0.655)
+		(size 0.3 0.58)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.05)
+		(uuid "e9bae0fe-2704-43f4-85c0-252ed81af8c4")
+	)
+	(pad "2" smd roundrect
+		(at -0.275 0.655)
+		(size 0.3 0.58)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.05)
+		(uuid "adea06df-671a-4762-846e-de0518523545")
+	)
+	(pad "3" smd roundrect
+		(at 0.275 0.655)
+		(size 0.3 0.58)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.05)
+		(uuid "dc7bab69-cd46-42ed-bfe6-fe6b479cf819")
+	)
+	(pad "4" smd roundrect
+		(at 0.275 -0.655)
+		(size 0.3 0.58)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.05)
+		(uuid "4bb867b8-3db9-403e-9a51-cc785911abd1")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/shapes.3dshapes/LQW15AN11NG00D.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1.5 1.5 1.5)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)

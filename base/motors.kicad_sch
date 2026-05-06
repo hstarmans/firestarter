@@ -2268,8 +2268,16 @@
 		(uuid "19d2a10b-e861-46f3-95eb-a835b3e06be0")
 	)
 	(no_connect
+		(at 50.8 265.43)
+		(uuid "30c83619-425b-43de-b1ce-75d41999e765")
+	)
+	(no_connect
 		(at 50.8 77.47)
 		(uuid "431b3aac-777d-4eab-9f45-71b811180520")
+	)
+	(no_connect
+		(at 50.8 97.79)
+		(uuid "459844a8-dda3-4559-a2ee-66883d9f4c16")
 	)
 	(no_connect
 		(at 152.4 151.13)
@@ -2302,6 +2310,10 @@
 	(no_connect
 		(at 50.8 72.39)
 		(uuid "ca990573-e668-4767-82f1-4dc6122bc0b3")
+	)
+	(no_connect
+		(at 50.8 177.8)
+		(uuid "da491ff4-3059-4321-8271-6febb984aaa3")
 	)
 	(no_connect
 		(at 182.88 31.75)
@@ -2783,16 +2795,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 97.79) (xy 50.8 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c229967c-f3fb-4ecd-b46e-8ef45813966b")
-	)
-	(wire
-		(pts
 			(xy 91.44 121.92) (xy 91.44 127)
 		)
 		(stroke
@@ -2800,16 +2802,6 @@
 			(type default)
 		)
 		(uuid "c3b63207-0535-435a-9071-201950a84197")
-	)
-	(wire
-		(pts
-			(xy 44.45 177.8) (xy 50.8 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7e71df4-1371-48f3-bda0-0c777fe67e4e")
 	)
 	(wire
 		(pts
@@ -2870,16 +2862,6 @@
 			(type default)
 		)
 		(uuid "d90fce2e-ccb3-45ca-9afa-a7502f0769e7")
-	)
-	(wire
-		(pts
-			(xy 44.45 265.43) (xy 50.8 265.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eec17e19-8405-4f41-9c27-45e47d4d2b16")
 	)
 	(wire
 		(pts
@@ -5654,7 +5636,7 @@
 		(dnp no)
 		(uuid "2529b160-1fdf-4d6e-b3c3-9502561242af")
 		(property "Reference" "R21"
-			(at 121.92 88.9 0)
+			(at 123.19 89.408 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6033,7 +6015,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "5.1K"
 			(at 114.046 64.008 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6077,7 +6059,7 @@
 				)
 			)
 		)
-		(property "farnell#" "2826162"
+		(property "farnell#" "1469937"
 			(at 119.38 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -6088,7 +6070,7 @@
 				)
 			)
 		)
-		(property "manf#" "CRCW080510K0JNEAC"
+		(property "manf#" "CRCW08055K10FKEA"
 			(at 119.38 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -6099,7 +6081,7 @@
 				)
 			)
 		)
-		(property "mouser#" "71-CRCW080510K0JNEAC"
+		(property "mouser#" "-71-CRCW0805-5.1K-E3"
 			(at 119.38 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -8457,84 +8439,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 44.45 265.43 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "85d1c72f-4825-457c-9e44-50ff61e3add8")
-		(property "Reference" "#PWR094"
-			(at 44.45 269.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 37.084 265.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 44.45 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e605c062-e66a-4ad0-8c7b-487f67b3b32c")
-		)
-		(instances
-			(project "compute"
-				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
-					(reference "#PWR094")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "compute_library:TMC2209-LA-T")
 		(at 71.12 147.32 0)
 		(unit 1)
@@ -8785,84 +8689,6 @@
 			(project "compute"
 				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
 					(reference "IC2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 44.45 97.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "88dd58fa-762b-4d3a-9bfd-7357ad9db8a0")
-		(property "Reference" "#PWR092"
-			(at 44.45 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 37.592 97.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 44.45 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0b5576b4-2dd1-477f-8586-3a6fd0f18da9")
-		)
-		(instances
-			(project "compute"
-				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
-					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -11683,84 +11509,6 @@
 			(project "compute"
 				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 44.45 177.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d74eaf3c-a8f4-4abf-9c4a-eb77babc1e5c")
-		(property "Reference" "#PWR093"
-			(at 44.45 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 37.338 177.038 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 44.45 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1c6f13c4-f389-40b7-a4c2-2433dd2b63af")
-		)
-		(instances
-			(project "compute"
-				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455/de79d5a7-0ecc-418a-9699-8f6c422c0d4c"
-					(reference "#PWR093")
 					(unit 1)
 				)
 			)

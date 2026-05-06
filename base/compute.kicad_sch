@@ -4375,6 +4375,159 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Linear:LD1117S50TR_SOT223"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LD1117S50TR_SOT223"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf"
+				(at 2.54 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 5.0V, SOT-223"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "REGULATOR LDO 5.0V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?223*TabPin2*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LD1117S50TR_SOT223_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LD1117S50TR_SOT223_1_1"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:MCP1700x-120xxTT"
 			(pin_names
 				(offset 0.254)
@@ -4474,162 +4627,6 @@
 				)
 			)
 			(symbol "MCP1700x-120xxTT_1_1"
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Regulator_Linear:MCP1700x-330xxTT"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MCP1700x-330xxTT"
-				(at 0 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 0 5.715 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "250mA Low Quiscent Current LDO, 3.3V output, SOT-23"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "regulator linear ldo"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MCP1700x-330xxTT_0_1"
-				(rectangle
-					(start -5.08 1.905)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "MCP1700x-330xxTT_1_1"
 				(pin power_in line
 					(at 0 -7.62 90)
 					(length 2.54)
@@ -6717,6 +6714,16 @@
 		)
 		(uuid "dab9f1ef-a39a-4f7a-a693-3f651a2f8103")
 	)
+	(text "do not mix with 5V"
+		(exclude_from_sim no)
+		(at 260.858 36.068 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e59ad32c-59c8-4222-b1b6-7d5a71373545")
+	)
 	(junction
 		(at 31.75 87.63)
 		(diameter 0)
@@ -6742,12 +6749,6 @@
 		(uuid "0e14a61f-464d-4518-89b3-eddf167ffcbc")
 	)
 	(junction
-		(at 88.9 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1d836cfe-e244-4539-a755-dac3f5047cc5")
-	)
-	(junction
 		(at 86.36 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6770,12 +6771,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3349a559-f0cc-4d4f-8c0c-c54b863af849")
-	)
-	(junction
-		(at 99.06 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3b9883f4-ad3c-4502-b854-f86fd05787c7")
 	)
 	(junction
 		(at 241.3 31.75)
@@ -7149,16 +7144,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 33.02) (xy 176.53 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20c950b4-ddd0-4548-b4d0-34a910e7787d")
-	)
-	(wire
-		(pts
 			(xy 231.14 49.53) (xy 236.22 49.53)
 		)
 		(stroke
@@ -7266,16 +7251,6 @@
 			(type default)
 		)
 		(uuid "30d3a548-1314-4c97-a843-d4a98977454b")
-	)
-	(wire
-		(pts
-			(xy 99.06 142.24) (xy 88.9 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3119286a-6b11-4969-8d63-53277950092f")
 	)
 	(wire
 		(pts
@@ -7709,16 +7684,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 142.24) (xy 88.9 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b96f7c57-6083-4f08-9b39-f8c9731e4096")
-	)
-	(wire
-		(pts
 			(xy 78.74 30.48) (xy 78.74 27.94)
 		)
 		(stroke
@@ -7839,7 +7804,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 135.89) (xy 88.9 142.24)
+			(xy 88.9 135.89) (xy 88.9 151.13)
 		)
 		(stroke
 			(width 0)
@@ -10390,7 +10355,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_Via"
 			(at 193.04 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -11683,7 +11648,7 @@
 		(dnp no)
 		(uuid "3af3c3c3-90c5-46f1-be2d-7929a993b5ff")
 		(property "Reference" "R5"
-			(at 238.76 35.814 90)
+			(at 234.95 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11757,7 +11722,7 @@
 				)
 			)
 		)
-		(property "mouser#" "71-CRCW0805-5.1K-E3"
+		(property "mouser#" "-71-CRCW0805-5.1K-E3"
 			(at 234.95 36.83 90)
 			(hide yes)
 			(show_name no)
@@ -12301,7 +12266,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "5.1K"
 			(at 113.792 146.304 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12345,7 +12310,7 @@
 				)
 			)
 		)
-		(property "farnell#" "2826162"
+		(property "farnell#" "1469937"
 			(at 107.95 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -12356,7 +12321,7 @@
 				)
 			)
 		)
-		(property "manf#" "CRCW080510K0JNEAC"
+		(property "manf#" "CRCW08055K10FKEA"
 			(at 107.95 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -12367,7 +12332,7 @@
 				)
 			)
 		)
-		(property "mouser#" "71-CRCW080510K0JNEAC"
+		(property "mouser#" "-71-CRCW0805-5.1K-E3"
 			(at 107.95 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -12582,7 +12547,7 @@
 				)
 			)
 		)
-		(property "mouser#" "652-SRP5030T-100M"
+		(property "mouser#" "810-SPM5030T-100M-HZ"
 			(at 86.36 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -12736,7 +12701,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_Via"
 			(at 212.09 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -13508,7 +13473,7 @@
 				)
 			)
 		)
-		(property "mouser#" "2675184"
+		(property "mouser#" "863-BZX84C12LT1G "
 			(at 50.8 52.07 90)
 			(hide yes)
 			(show_name no)
@@ -13519,7 +13484,7 @@
 				)
 			)
 		)
-		(property "farnell#" "637-BZX84C12"
+		(property "farnell#" "2675184"
 			(at 50.8 52.07 90)
 			(hide yes)
 			(show_name no)
@@ -13582,7 +13547,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_Via"
 			(at 172.72 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -14270,7 +14235,7 @@
 		(dnp no)
 		(uuid "6a6d97c0-7dfe-456e-9d96-c07a697ff3a7")
 		(property "Reference" "R6"
-			(at 238.76 40.64 90)
+			(at 234.95 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14344,7 +14309,7 @@
 				)
 			)
 		)
-		(property "mouser#" "71-CRCW0805-5.1K-E3"
+		(property "mouser#" "-71-CRCW0805-5.1K-E3"
 			(at 234.95 39.37 90)
 			(hide yes)
 			(show_name no)
@@ -15628,8 +15593,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
-			(at 58.674 64.516 90)
+		(property "Value" "5.1K"
+			(at 64.77 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15672,7 +15637,7 @@
 				)
 			)
 		)
-		(property "farnell#" "2826162"
+		(property "farnell#" "1469937"
 			(at 58.42 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -15683,7 +15648,7 @@
 				)
 			)
 		)
-		(property "manf#" "CRCW080510K0JNEAC"
+		(property "manf#" "CRCW08055K10FKEA"
 			(at 58.42 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -15694,7 +15659,7 @@
 				)
 			)
 		)
-		(property "mouser#" "71-CRCW080510K0JNEAC"
+		(property "mouser#" "-71-CRCW0805-5.1K-E3"
 			(at 58.42 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -16273,7 +16238,7 @@
 				)
 			)
 		)
-		(property "mouser#" "652-SRP5030T-100M"
+		(property "mouser#" "810-SPM5030T-100M-HZ"
 			(at 120.65 127 0)
 			(hide yes)
 			(show_name no)
@@ -16869,7 +16834,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:MCP1700x-330xxTT")
+		(lib_id "Regulator_Linear:LD1117S50TR_SOT223")
 		(at 160.02 33.02 0)
 		(unit 1)
 		(body_style 1)
@@ -16890,7 +16855,7 @@
 				)
 			)
 		)
-		(property "Value" "LD1117S33TR_SOT223"
+		(property "Value" "LM1117MPX-5.0/NOPB"
 			(at 160.02 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16900,8 +16865,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 160.02 27.305 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 160.02 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16911,8 +16876,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf"
-			(at 160.02 33.02 0)
+		(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf"
+			(at 162.56 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16922,7 +16887,7 @@
 				)
 			)
 		)
-		(property "Description" "250mA Low Quiscent Current LDO, 3.3V output, SOT-23"
+		(property "Description" "800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 5.0V, SOT-223"
 			(at 160.02 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -17774,7 +17739,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 176.53 33.02 270)
+		(at 167.64 33.02 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17784,7 +17749,7 @@
 		(dnp no)
 		(uuid "b57b6e15-2ed9-4278-a2cc-98e5371010b6")
 		(property "Reference" "#PWR0127"
-			(at 172.72 33.02 0)
+			(at 163.83 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17795,7 +17760,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 177.546 30.988 90)
+			(at 168.656 30.988 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17806,7 +17771,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 33.02 0)
+			(at 167.64 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17817,7 +17782,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 33.02 0)
+			(at 167.64 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17828,7 +17793,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 176.53 33.02 0)
+			(at 167.64 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18084,129 +18049,6 @@
 			(project "compute"
 				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455"
 					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SS24")
-		(at 171.45 33.02 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bcfd5901-f2be-4ef7-8953-d3ad0b4456f2")
-		(property "Reference" "D9"
-			(at 171.45 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS24FL"
-			(at 177.038 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 171.45 28.575 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88748/ss22.pdf"
-			(at 171.45 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "40V 2A Schottky Diode, SMA"
-			(at 171.45 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "OLDFootprint" ""
-			(at 171.45 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "farnell#" "2822566"
-			(at 171.45 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manf#" "SS24FL"
-			(at 171.45 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mouser#" "512-SS24FL"
-			(at 171.45 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "28db407a-8ccc-4c76-bd7c-cd4ef40ea00f")
-		)
-		(pin "2"
-			(uuid "3733c194-3d33-4b64-9e74-44566174fee2")
-		)
-		(instances
-			(project "compute"
-				(path "/3f5fe6b7-98fc-4d3e-9567-f9f7202d1455"
-					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -18838,7 +18680,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "140K"
+		(property "Value" "71.5K"
 			(at 114.808 138.176 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18882,7 +18724,7 @@
 				)
 			)
 		)
-		(property "farnell#" "3951210"
+		(property "farnell#" "3952038"
 			(at 107.95 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -18893,7 +18735,7 @@
 				)
 			)
 		)
-		(property "manf#" "RC0805FR-07140KL"
+		(property "manf#" "RC0805FR-0771K5L"
 			(at 107.95 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -18904,7 +18746,7 @@
 				)
 			)
 		)
-		(property "mouser#" "603-RC0805FR-07140KL "
+		(property "mouser#" "603-RC0805FR-0771K5L"
 			(at 107.95 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -19897,7 +19739,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_CommonModeChoke_Coilcraft_0603USB"
+		(property "Footprint" "footprints:L_CommonModeChoke_Coilcraft_0603USB"
 			(at 257.81 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -19941,7 +19783,7 @@
 				)
 			)
 		)
-		(property "mouser#" "994-0603USB-951MLC"
+		(property "mouser#" "994-0603USB-142MLC"
 			(at 257.81 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -20431,7 +20273,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_Via"
 			(at 231.14 161.29 0)
 			(hide yes)
 			(show_name no)
