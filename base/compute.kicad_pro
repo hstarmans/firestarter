@@ -634,7 +634,7 @@
         },
         {
           "group_by": false,
-          "label": "Notes",
+          "label": "notes",
           "name": "Notes",
           "show": false
         },
@@ -738,12 +738,6 @@
           "group_by": false,
           "label": "reference2",
           "name": "reference2",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "notes",
-          "name": "notes",
           "show": false
         }
       ],

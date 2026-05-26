@@ -306,7 +306,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push_Dual"
+		(symbol "Switch:SW_MEC_5E"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -317,17 +317,18 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "SW"
-				(at 0 7.62 0)
+				(at 0.635 5.715 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "SW_Push_Dual"
-				(at 0 -6.35 0)
+			(property "Value" "SW_MEC_5E"
+				(at 0 -3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -347,8 +348,8 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://www.apem.com/medias/download/MEC_switches_serie_MULTIMEC5E.pdf"
+				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -358,7 +359,7 @@
 					)
 				)
 			)
-			(property "Description" "Push button switch, generic, symbol, four pins"
+			(property "Description" "MEC 5E single pole normally-open tactile switch"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -380,10 +381,34 @@
 					)
 				)
 			)
-			(symbol "SW_Push_Dual_0_1"
-				(circle
-					(center -2.032 2.54)
-					(radius 0.508)
+			(property "ki_fp_filters" "SW*MEC*5G*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_MEC_5E_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 2.54) (xy -2.286 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 3.81) (xy 2.286 3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -393,7 +418,7 @@
 					)
 				)
 				(circle
-					(center -2.032 -2.54)
+					(center -1.778 2.54)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -415,79 +440,8 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 3.048) (xy 0 3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.032) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.016) (xy 0 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.508) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.508) (xy 0 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(circle
-					(center 2.032 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
+					(center 1.778 2.54)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -499,19 +453,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 3.81) (xy -2.54 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.27) (xy -2.54 -1.27)
+						(xy 2.54 0) (xy 2.54 2.54) (xy 2.286 2.54)
 					)
 					(stroke
 						(width 0)
@@ -540,7 +482,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at -5.08 0 0)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -558,9 +500,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at 5.08 0 180)
 					(length 2.54)
-					(name "3"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -576,9 +518,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at 5.08 2.54 180)
 					(length 2.54)
-					(name "4"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -591,19 +533,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-			(symbol "SW_Push_Dual_1_1"
-				(rectangle
-					(start -3.175 5.715)
-					(end 3.175 -4.445)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 			)
@@ -1810,22 +1739,22 @@
 		(uuid "603071d0-86f2-497c-b192-288f12b2117b")
 	)
 	(junction
+		(at 68.58 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74d9a112-094f-4069-ac83-22bf3d0db332")
+	)
+	(junction
 		(at 76.2 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a47ed8c6-4ba2-42b4-ac43-b8f0cc684e32")
 	)
 	(junction
-		(at 205.74 77.47)
+		(at 205.74 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a4f51708-ad54-492f-84c8-a180a21c9a98")
-	)
-	(junction
-		(at 68.58 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d2a737e3-6692-4ac2-87e7-0a6b56616115")
+		(uuid "bbf05ad3-2601-41be-8bd2-f92265fa2f32")
 	)
 	(junction
 		(at 72.39 69.85)
@@ -1865,6 +1794,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 74.93) (xy 205.74 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2811df23-0d6b-4b50-a6bc-8adc795fd91b")
+	)
+	(wire
+		(pts
 			(xy 180.34 74.93) (xy 195.58 74.93)
 		)
 		(stroke
@@ -1885,7 +1824,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 72.39) (xy 205.74 77.47)
+			(xy 205.74 72.39) (xy 205.74 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1915,6 +1854,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 69.85) (xy 68.58 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "775a5e10-26e8-48d5-b496-0244c5bcf7f3")
+	)
+	(wire
+		(pts
 			(xy 66.04 59.69) (xy 68.58 59.69)
 		)
 		(stroke
@@ -1925,17 +1874,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 59.69) (xy 66.04 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e48715e-05a8-4765-a5c1-77763d2252f5")
-	)
-	(wire
-		(pts
-			(xy 195.58 72.39) (xy 195.58 77.47)
+			(xy 195.58 72.39) (xy 195.58 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1952,16 +1891,6 @@
 			(type default)
 		)
 		(uuid "cb77c3cf-7cd6-4c40-8cca-d52fb2825a2f")
-	)
-	(wire
-		(pts
-			(xy 63.5 69.85) (xy 68.58 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0769f08-ad9b-4fa0-8421-f47c4ba08b8b")
 	)
 	(wire
 		(pts
@@ -3024,7 +2953,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_Dual")
+		(lib_id "Switch:SW_MEC_5E")
 		(at 200.66 74.93 0)
 		(unit 1)
 		(body_style 1)
@@ -3033,7 +2962,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "514350ad-3179-44b0-a7b0-d37f3ec143ec")
 		(property "Reference" "SW1"
 			(at 200.66 64.77 0)
@@ -3046,7 +2974,7 @@
 			)
 		)
 		(property "Value" "SW_Push_Open"
-			(at 200.66 67.31 0)
+			(at 200.66 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3066,8 +2994,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://nl.farnell.com/en-NL/alcoswitch-te-connectivity/fsmsm/switch-spst-0-05a-24vdc-smd/dp/1703878"
-			(at 200.66 74.93 0)
+		(property "Datasheet" "https://www.apem.com/medias/download/MEC_switches_serie_MULTIMEC5E.pdf"
+			(at 200.66 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3077,7 +3005,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, symbol, four pins"
+		(property "Description" "MEC 5E single pole normally-open tactile switch"
 			(at 200.66 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3435,7 +3363,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_Dual")
+		(lib_id "Switch:SW_MEC_5E")
 		(at 66.04 64.77 270)
 		(unit 1)
 		(body_style 1)
@@ -3478,8 +3406,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://nl.farnell.com/en-NL/alcoswitch-te-connectivity/fsmsm/switch-spst-0-05a-24vdc-smd/dp/1703878"
-			(at 66.04 64.77 0)
+		(property "Datasheet" "https://www.apem.com/medias/download/MEC_switches_serie_MULTIMEC5E.pdf"
+			(at 73.66 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3489,7 +3417,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, symbol, four pins"
+		(property "Description" "MEC 5E single pole normally-open tactile switch"
 			(at 66.04 64.77 0)
 			(hide yes)
 			(show_name no)

@@ -2983,6 +2983,16 @@
 		)
 		(uuid "3a612d69-cd23-4013-b709-2e13dedee4f8")
 	)
+	(text "topside connector"
+		(exclude_from_sim no)
+		(at 227.076 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3ccc96da-8390-4451-bf03-c7fe89b963ee")
+	)
 	(text "reset"
 		(exclude_from_sim no)
 		(at 266.954 70.358 0)
@@ -4696,7 +4706,7 @@
 				)
 			)
 		)
-		(property "mouser#" "863-BZX84C12LT1G"
+		(property "mouser#" "306-B2BXHALFSNP"
 			(at 82.55 54.61 90)
 			(hide yes)
 			(show_name no)
@@ -4707,7 +4717,7 @@
 				)
 			)
 		)
-		(property "manf#" "TSM-102-01-T-SV "
+		(property "manf#" "B2B-XH-A (LF)(SN)"
 			(at 82.55 54.61 90)
 			(hide yes)
 			(show_name no)
@@ -4718,7 +4728,7 @@
 				)
 			)
 		)
-		(property "farnell#" "3662696"
+		(property "farnell#" "3287572"
 			(at 82.55 54.61 90)
 			(hide yes)
 			(show_name no)
@@ -5150,7 +5160,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 73.66 74.168 90)
 			(hide yes)
 			(show_name no)
@@ -6006,7 +6016,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FPC-24P-0.5mm"
+		(property "Value" "FH12A-24S-0.5SH"
 			(at 264.16 87.9855 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6050,7 +6060,7 @@
 				)
 			)
 		)
-		(property "manf#" "FH12-24S-0.5SH(55)"
+		(property "manf#" "FH12A-24S-0.5SH"
 			(at 261.62 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -6072,7 +6082,7 @@
 				)
 			)
 		)
-		(property "farnell#" "1324552"
+		(property "farnell#" "1324565"
 			(at 261.62 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -6083,7 +6093,7 @@
 				)
 			)
 		)
-		(property "mouser#" " 798-FH12-24S-0.5SH55"
+		(property "mouser#" "798-FH12A-24S0.5SH55"
 			(at 261.62 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -6106,17 +6116,6 @@
 			)
 		)
 		(property "reference2" "https://www.mpja.com/download/ov2640data%20sheet.pdf"
-			(at 261.62 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "notes" "kan 10 bit uitzenden, maar dat is te veel info"
 			(at 261.62 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -7014,7 +7013,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 153.67 70.612 90)
 			(hide yes)
 			(show_name no)
