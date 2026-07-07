@@ -11499,7 +11499,7 @@
 				)
 			)
 		)
-		(property "manf#" "CC0805JRNPO9BN102"
+		(property "manf#" "C0805JRNPO9BN101"
 			(at 102.87 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -11510,7 +11510,7 @@
 				)
 			)
 		)
-		(property "mouser#" "603-CC805JRNPO9BN102"
+		(property "mouser#" "603-CC805JRNPO9BN101"
 			(at 102.87 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -11521,7 +11521,7 @@
 				)
 			)
 		)
-		(property "farnell#" "718567"
+		(property "farnell#" "3606028"
 			(at 102.87 139.7 0)
 			(hide yes)
 			(show_name no)

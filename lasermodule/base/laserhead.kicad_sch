@@ -1620,6 +1620,16 @@
 		)
 		(uuid "3f43d730-2a73-49fe-9672-32428e7f5b49")
 	)
+	(text "TTL is op 3.3V je moet chip met 3.3V voeden"
+		(exclude_from_sim no)
+		(at 108.458 54.356 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "783e8331-3c38-4148-8ad2-854968e5b7c0")
+	)
 	(text "Laserdiode driver"
 		(exclude_from_sim no)
 		(at 63.5 49.53 0)

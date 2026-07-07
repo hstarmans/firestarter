@@ -2614,7 +2614,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1K"
+		(property "Value" "1.5K"
 			(at 232.41 67.564 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2669,7 +2669,7 @@
 				)
 			)
 		)
-		(property "manf#" "CRCW08055K10FKEA"
+		(property "manf#" "CR0805-JW-152ELF"
 			(at 238.76 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -2680,7 +2680,7 @@
 				)
 			)
 		)
-		(property "mouser#" "-71-CRCW0805-5.1K-E3"
+		(property "mouser#" "652-CR0805JW-152ELF"
 			(at 238.76 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -3515,7 +3515,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1K"
+		(property "Value" "1.5K"
 			(at 241.3 67.564 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3570,7 +3570,7 @@
 				)
 			)
 		)
-		(property "manf#" "CRCW08055K10FKEA"
+		(property "manf#" "CR0805-JW-152ELF"
 			(at 247.65 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -3581,7 +3581,7 @@
 				)
 			)
 		)
-		(property "mouser#" "-71-CRCW0805-5.1K-E3"
+		(property "mouser#" "652-CR0805JW-152ELF"
 			(at 247.65 66.04 0)
 			(hide yes)
 			(show_name no)
