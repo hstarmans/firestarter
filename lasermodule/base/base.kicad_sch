@@ -3445,7 +3445,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "12aab447-2fcb-48f3-aae9-6cbcd0180ef8")
 		(property "Reference" "J2"
 			(at 187.96 60.9599 0)
@@ -3469,7 +3469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "sockets_scanhead:motor_13pin"
+		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x13_P2.00mm_Vertical"
 			(at 185.42 62.23 0)
 			(hide yes)
 			(show_name no)
