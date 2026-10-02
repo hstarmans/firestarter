@@ -1,7 +1,7 @@
 (footprint "mirror_pos2"
-	(version 20240108)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "SMD rectangular pad as test Point, square 2.0mm side length")
 	(tags "test point SMD pad rectangle square")
@@ -9,7 +9,7 @@
 		(at 0 -1.998 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "c28ddd99-5711-44a3-a273-99758422503e")
+		(uuid "4b69d06b-8e3e-4144-8270-1c385168414d")
 		(effects
 			(font
 				(size 1 1)
@@ -20,22 +20,10 @@
 	(property "Value" "mirror_pos2"
 		(at 0 2.05 0)
 		(layer "F.Fab")
-		(uuid "9aa69a93-282f-4dbc-aa50-bc2d2bffe762")
+		(uuid "3bb2c070-818e-4b46-b4a9-8d5b027552f9")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9b3e225c-5ec5-41ed-8814-2fb66daedcc4")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -44,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "aeb79400-ae60-4928-8f8b-5b2dca59b24b")
+		(uuid "4cbf9a51-13a5-4376-8c48-e444d0f0d533")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "025e0192-bfb4-468d-8489-4cc14d9e1b9c")
+		(uuid "e907b875-94f8-458b-b323-12fa04f25403")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -65,6 +53,7 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.5 -1.5)
 		(end -2.5 1.5)
@@ -73,7 +62,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "d0d7b530-c881-455f-8e39-737d742d1e00")
+		(uuid "6d41e6f4-e399-471e-ae86-6dbc91fe9627")
 	)
 	(fp_line
 		(start -2.5 -1.5)
@@ -83,7 +72,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "bbf4bf51-4c66-40e9-add4-4dbab34c228e")
+		(uuid "e1a8e910-b9f6-4e54-9ee7-6f6240c20771")
 	)
 	(fp_line
 		(start 2.5 1.5)
@@ -93,7 +82,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "0fc189fc-7992-4543-87d4-0049300ab7c5")
+		(uuid "765195b9-ccb9-455d-85b9-cd9555aa1080")
 	)
 	(fp_line
 		(start 2.5 1.5)
@@ -103,12 +92,12 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "b515fb22-bc3f-4c69-b4d5-094158607301")
+		(uuid "d0793de6-769c-4cdd-9a3e-887201987a04")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -2 0)
 		(layer "F.Fab")
-		(uuid "4639fd02-057a-4b13-94ac-0df1b7fe9f0a")
+		(uuid "c0e446ba-ee7f-4a2f-a0ef-c3af54dacca0")
 		(effects
 			(font
 				(size 1 1)
@@ -118,8 +107,9 @@
 	)
 	(pad "1" smd rect
 		(at 0 0)
-		(size 8.91 10.5)
+		(size 5.16 10.3)
 		(layers "B.Cu" "B.Mask")
-		(uuid "fe8ce89d-a8a3-4dc0-8bc8-0e7ade183b61")
+		(uuid "6888fac7-2a93-42f9-b64c-4ef2a6db7519")
 	)
+	(embedded_fonts no)
 )
