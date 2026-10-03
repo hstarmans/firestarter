@@ -56,4 +56,9 @@ boms/
 *.svg
 !pictures/*.png
 !pictures/*.svg
+!**/preview.png
 
+
+# Local IDE History
+.history/
+*.history
