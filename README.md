@@ -9,6 +9,7 @@ The design files are organized into two parts:
 ![Laser Module Assembly](pictures/laser_module_overview.png)
 
 PCBs forming the scanhead assembly (see [hexastorm_design](https://github.com/hstarmans/hexastorm_design) for complete CAD):
+
 * **Prism Drive:** PCBs to spin the optical prism using either an external BLDC motor or an experimental PCB stator motor.
 * **Laser Control:** Diode driver and photodiode sync circuit.
 * **Maxwell Dock:** Receiver PCB with kinematic ball mounts and magnet sockets.
@@ -17,7 +18,7 @@ PCBs forming the scanhead assembly (see [hexastorm_design](https://github.com/hs
 
 ![Hexastorm Compute Board](pictures/compute_board.png)
 
-Single-board controller for 3-axis motion and laser timing. Intended for desktop CNC frames (such as the CNC 3018 Pro), though mounting brackets and custom wiring are required (not a direct drop-in replacement):
+Single-board controller for 3-axis motion and laser timing. Intended for desktop CNC frames (such as the CNC 3018 Pro, for which it is a drop-in replacement):
 
 * **MCU:** ESP32-S3 (N32R8V) with 8MB Octal PSRAM for line buffers.
 * **FPGA:** Lattice iCE40 UP5K for laser pulse timing synced to the prism photodiode index.
@@ -30,11 +31,14 @@ Single-board controller for 3-axis motion and laser timing. Intended for desktop
 ---
 
 # Resources & Links
+
 * **Blog & Build Logs:** [Hackaday.io project](https://hackaday.io/project/21933-open-hardware-fast-high-resolution-laser)
 * **BOM & Costing:** Generated with [KiCost](https://github.com/hildogjr/KiCost) (see [developer.md](developer.md))
 * **CAD Files:** [hexastorm_design](https://github.com/hstarmans/hexastorm_design)
 * **Optical Simulation:** [opticaldesign](https://github.com/hstarmans/opticaldesign)
 
 # Status
-Several hardware revisions have been built and tested. A working exposure run is shown in this [video](https://youtu.be/dR09Tev0cPk). 
-The current single-board revision is being tested.
+
+* **Exposure Verification:** High-resolution optical scanning and exposure have been validated in hardware (see [demonstration video](https://youtu.be/dR09Tev0cPk)).
+* **Base Board:** Fabricated, tested, and verified functional (ESP32-S3, iCE40 UP5K FPGA, stepper drivers, and power regulation).
+* **Laser Module:** Scanhead structure, optics, diode driver, and kinematic docking are verified. The integrated PCB stator motor concept is proven, though the latest stator board revision has not yet been tested.
