@@ -1,34 +1,40 @@
 # Hexastorm PCB
 
-KiCad design files for the **Hexastorm**, an open-hardware prism laser direct imager. This project utilizes an ESP32-S3 and an iCE40 UP5K FPGA to achieve high-resolution, high-speed laser exposure.
+KiCad design files for **Hexastorm**, an open-hardware laser direct imager (LDI). An ESP32-S3 handles communication and motion control, while an iCE40 UP5K FPGA generates synchronized laser pulses for the rotating polygon prism.
 
-The design files are organized into two primary categories:
+The design files are organized into two parts:
 
 ## 1. Laser Module
-Contains the PCBs that form the actual laser head as depicted in the [CAD design](https://github.com/hstarmans/hexastorm_design). 
-* **Prism Drive:** Specialized PCBs designed to spin the optical prism using either a standard BLDC motor or an integrated PCB motor.
-* **Laser Control:** Localized circuitry for high-speed modulation of the laser diode.
 
-## 2. Base System
-The Base system has been consolidated into a **single-board architecture**, designed as a drop-in replacement for the [Vevor Pro CNC3018](https://www.vevor.com/s/cnc-3018-pro) controller. It handles high-speed logic, power distribution, and motion control on a single PCB.
+![Laser Module Assembly](pictures/laser_module_overview.png)
 
-* **MCU:** ESP32-S3 (N32R8V) utilizing **8MB Octal PSRAM** for rapid image buffering.
-* **FPGA:** Lattice iCE40 UltraPlus 5k (UP5K) for nanosecond-level laser modulation and real-time synchronization with the prism index pulses.
-* **Vision & Alignment:** Features a dedicated **24-pin FPC camera connector** supporting the **OV2640** sensor for precise laser alignment.
-* **Motion Control:** Headers for **3x Stepper Motor Drivers** (e.g., TMC2209) for X, Y, and Z/Focus axes with sensorless homing.
-* **Laser Support:** Interface for **one laser module**.
-* **Power Management:** * Supports **24V input**.
-    * Integrated DC-DC conversion to **12V** for the laser module and cooling system.
-    * **PWM Fan Control** for active thermal management.
-* **Connectivity:** USB-C for high-speed data transfer and firmware updates.
+PCBs forming the scanhead assembly (see [hexastorm_design](https://github.com/hstarmans/hexastorm_design) for complete CAD):
+* **Prism Drive:** PCBs to spin the optical prism using either an external BLDC motor or an experimental PCB stator motor.
+* **Laser Control:** Diode driver and photodiode sync circuit.
+* **Maxwell Dock:** Receiver PCB with kinematic ball mounts and magnet sockets.
+
+## 2. Base Board
+
+![Hexastorm Compute Board](pictures/compute_board.png)
+
+Single-board controller for 3-axis motion and laser timing. Intended for desktop CNC frames (such as the CNC 3018 Pro), though mounting brackets and custom wiring are required (not a direct drop-in replacement):
+
+* **MCU:** ESP32-S3 (N32R8V) with 8MB Octal PSRAM for line buffers.
+* **FPGA:** Lattice iCE40 UP5K for laser pulse timing synced to the prism photodiode index.
+* **Camera:** 24-pin FPC connector for an OV2640 camera module.
+* **Motion:** Sockets for 3x stepper drivers (TMC2209) for X, Y, and Z axes.
+* **Laser:** Header for one laser scanhead.
+* **Power:** 24V input with onboard 12V buck regulator for the laser module and cooling fan.
+* **USB:** USB-C for data and flashing.
 
 ---
 
 # Resources & Links
-* **Progress Updates:** Follow the development blog on [Hackaday.io](https://hackaday.io/project/21933-open-hardware-fast-high-resolution-laser).
-* **BOM & Costing:** Spreadsheets can be generated using [KiCost](https://github.com/hildogjr/KiCost).
-* **CAD Design:** 3D files for the mechanical assembly are available [here](https://github.com/hstarmans/hexastorm_design).
+* **Blog & Build Logs:** [Hackaday.io project](https://hackaday.io/project/21933-open-hardware-fast-high-resolution-laser)
+* **BOM & Costing:** Generated with [KiCost](https://github.com/hildogjr/KiCost) (see [developer.md](developer.md))
+* **CAD Files:** [hexastorm_design](https://github.com/hstarmans/hexastorm_design)
+* **Optical Simulation:** [opticaldesign](https://github.com/hstarmans/opticaldesign)
 
 # Status
-Several generations of the system have been prototyped. A successful high-resolution exposure can be seen in this [demonstration video](https://youtu.be/dR09Tev0cPk). 
-Latest single-board design is currently in the testing phase.
+Several hardware revisions have been built and tested. A working exposure run is shown in this [video](https://youtu.be/dR09Tev0cPk). 
+The current single-board revision is being tested.

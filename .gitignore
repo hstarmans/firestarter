@@ -54,4 +54,6 @@ boms/
 # Images
 *.png
 *.svg
+!pictures/*.png
+!pictures/*.svg
 
