@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 1.0,
+          "width": 1.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -625,11 +625,22 @@
     "reuse_designators": true,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
-    "top_level_sheets": [],
-    "used_designators": "",
+    "top_level_sheets": [
+      {
+        "filename": "clbase1.kicad_sch",
+        "name": "clbase1",
+        "uuid": "48cc6767-3e73-4568-afc4-2ce973461c0a"
+      }
+    ],
+    "used_designators": "#FLG1,#PWR1,TP1-2",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "48cc6767-3e73-4568-afc4-2ce973461c0a",
+      "clbase1"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {

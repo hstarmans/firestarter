@@ -2748,7 +2748,7 @@
 		(uuid "edbc5f6c-cc96-49e1-805f-0abe38ab6898")
 	)
 	(gr_text "HEXASTORM"
-		(at 154.2145 115.2495 0)
+		(at 154.2145 109.4495 0)
 		(layer "F.Mask")
 		(uuid "26fbbf36-de83-4ec9-86e9-2c6274a79e91")
 		(effects
@@ -2759,7 +2759,7 @@
 		)
 	)
 	(gr_text "HEXASTORM"
-		(at 154.2145 115.2495 0)
+		(at 154.2145 109.4495 0)
 		(layer "B.Mask")
 		(uuid "9efa549b-079b-4747-bbda-5d5b1defcab0")
 		(effects

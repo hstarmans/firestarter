@@ -71,7 +71,7 @@
 			(copper_finish "None")
 			(dielectric_constraints no)
 		)
-		(pad_to_mask_clearance 0.051)
+		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting
 			(front yes)
@@ -87,7 +87,7 @@
 		)
 		(capping no)
 		(filling no)
-		(grid_origin 151 101)
+		(grid_origin 154.1145 103.9495)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_575555ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -130,7 +130,7 @@
 		(uuid "00000000-0000-0000-0000-000060f4e1a5")
 		(at 108.545 99.0195 -90)
 		(property "Reference" "D1"
-			(at -0.125 -4.7 0)
+			(at -0.07 -0.0695 0)
 			(layer "F.SilkS")
 			(uuid "4accf790-43ce-41db-bf55-e8b98b2d38f7")
 			(effects
@@ -568,13 +568,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/library/3dshapes/BPW_34_S_20180209_geometry.STEP"
 			(offset
-				(xyz 0 0 1)
+				(xyz 0.5 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 -90)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
