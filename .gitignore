@@ -1,6 +1,9 @@
 # For PCBs designed using KiCad: http://www.kicad-pcb.org/
 # Format documentation: http://kicad-pcb.org/help/file-formats/
 
+# PCB3D (bledner render)
+*.pcb3d
+
 # Temporary files
 *.zip
 *.xlsx
