@@ -11113,7 +11113,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprints:BarrelJack_CUI_PJ-036AH-SMT_Horizontal"
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_CUI_PJ-079BH_Horizontal"
 			(at 72.39 28.956 0)
 			(hide yes)
 			(show_name no)
@@ -11146,7 +11146,7 @@
 				)
 			)
 		)
-		(property "manf#" "PJ-036BH-SMT-TR"
+		(property "manf#" "PJ-079BH "
 			(at 71.12 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -11157,7 +11157,7 @@
 				)
 			)
 		)
-		(property "mouser#" "490-PJ-036BH-SMT-TR"
+		(property "mouser#" "490-PJ-079BH"
 			(at 71.12 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -11168,7 +11168,7 @@
 				)
 			)
 		)
-		(property "farnell#" "4814432"
+		(property "farnell#" "4814468"
 			(at 71.12 27.94 0)
 			(hide yes)
 			(show_name no)
