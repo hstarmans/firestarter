@@ -360,10 +360,26 @@
 		)
 	)
 	(junction
+		(at 157.48 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6bc5dbdd-6acc-42c0-871f-9b6fd12367bb")
+	)
+	(junction
 		(at 149.86 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "863edfc6-61c0-4a63-9ee6-0452c792567c")
+	)
+	(wire
+		(pts
+			(xy 157.48 104.14) (xy 170.18 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1886c9d3-b155-4058-8eaf-40d2e99e5078")
 	)
 	(wire
 		(pts
@@ -419,7 +435,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "footprints:TestPoint_Pad_D8.0mm"
 			(at 144.78 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -466,6 +482,85 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 170.18 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ba2b1def-63e5-4e52-ae09-5d21742e5c3a")
+		(property "Reference" "TP3"
+			(at 172.72 99.5679 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 168.91 97.282 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:TestPoint_Pad_D8.0mm"
+			(at 175.26 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 170.18 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca870845-4324-4b81-8090-03019f46ce09")
+		)
+		(instances
+			(project "maxwell_dock"
+				(path "/98b9016e-8416-4cda-9c12-90a66aaf6514"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 157.48 104.14 0)
 		(unit 1)
 		(body_style 1)
@@ -498,7 +593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "footprints:TestPoint_Pad_D8.0mm"
 			(at 162.56 104.14 0)
 			(hide yes)
 			(show_name no)

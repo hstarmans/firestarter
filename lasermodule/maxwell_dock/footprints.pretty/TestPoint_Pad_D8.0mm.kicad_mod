@@ -1,0 +1,98 @@
+(footprint "TestPoint_Pad_D8.0mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SMD pad for Neodymium Magnet Ø8.0mm")
+	(tags "magnet pad SMD")
+	(property "Reference" "REF**"
+		(at 0 -2.898 0)
+		(layer "F.SilkS")
+		(uuid "097c986a-2d17-4eac-b385-dd916b7eaefe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Magnet_D8x2mm"
+		(at 0 3.1 0)
+		(layer "F.Fab")
+		(uuid "8020f0f4-8fee-413e-8050-8f49d15daf1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "82d2740f-b6f4-4d98-b240-dba60804e2bf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Neodymium Magnet Ø8x2mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da12cd2c-9907-431b-9cb6-7f3a3c810011")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0 0)
+		(end 4.25 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "18498674-8868-443b-9c5f-0c79136915ed")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.1 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ff3fd197-424c-4611-b033-6ffddb10f526")
+	)
+	(fp_text user ""
+		(at 0 -2.9 0)
+		(layer "F.Fab")
+		(uuid "c3183b24-4512-4c4e-a5c2-a042e18fb686")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 8 8)
+		(layers "F.Cu" "F.Mask")
+		(uuid "6252813c-92a0-4952-b24d-2c65a394ba05")
+	)
+	(embedded_fonts no)
+)
