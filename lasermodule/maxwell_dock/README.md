@@ -3,7 +3,7 @@
 ![Maxwell Kinematic Dock Receiver Plate](preview.png)
 
 Precision kinematic dock receiver PCB interface. Provides high-repeatability magnetic and kinematic mounting for quickly swapping or aligning the laser toolhead.
-The three circular holes are for metal balls which are glued to the board. The four smaller holes are for M2 screw. The two keep out areas are for the axis of the mirror motor and 
+The three circular holes are for metal balls which are glued to the board. The four smaller holes are for M3 screws. The two keep out areas are for the axis of the mirror motor and 
 the connector pins.
 
 ## Key Details
